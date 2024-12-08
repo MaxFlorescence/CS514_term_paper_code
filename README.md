@@ -4,7 +4,7 @@ Author: Nathan Kampbell
 This repository contains the files I used for the Fall 2024 CS514 term paper "Evaluating Different Python Test Generation Techniques, a Case Study using Research Code"
 
 ## Included Repositories
-**BugsInPy**: https://github.com/reproducing-research-projects/BugsInPy_repo
+**BugsInPy**: https://github.com/reproducing-research-projects/BugsInPy
 - Ratnadira Widyasari et al. “BugsInPy_repo: a database of existing bugs in Python programs to
 enable controlled testing and debugging studies” https://doi.org/10.1145/3368089.3417943
 - Faustino Aguilar, Samuel Grayson, and Darko Marinov. “Reproducing and Improving the

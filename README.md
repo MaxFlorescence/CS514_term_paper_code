@@ -13,7 +13,7 @@ BugsInPy_repo Dataset” https://doi.org/10.1109/SCAM59687.2023.00036
 **Summer2023Redistricting**: (private repository)
 - Contributors: Ewan Davies, Ryan Job, Hannah Kim, Hyojin Seo, Nathan Kampbell
 
-## Scripts I Wrote or Edited
+## Scripts I Wrote (or edited, in the case of Dockerfiles)
 - [gather_data.py](gather_data.py)
 - [plot_gathered.py](plot_gathered.py)
 - [BugsInPy_repo/Dockerfile](BugsInPy_repo/Dockerfile)

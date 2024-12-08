@@ -1,0 +1,18 @@
+testing-script PySnooper 1 0 WHOLE_SUITE /home/user/BugsInPy/temp/test_out/1_0.txt /home/user/BugsInPy/temp/tests test_utils.py pysnooper
+Fixing and copying test suite...
+Considering report_0/
+   got test file "test_utils.py"
+   got import path pysnooper.utils
+   added test_utils.py to suite
+
+pytest PySnooper 1 0 WHOLE_SUITE
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/PySnooper
+configfile: tox.ini
+collected 5 items
+
+generated_tests/test_utils.py xx.xx                                      [100%]
+
+========================= 1 passed, 4 xfailed in 0.02s =========================

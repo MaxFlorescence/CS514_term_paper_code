@@ -1,0 +1,372 @@
+# Execute "docker compose down" before a new run
+# To run do "docker compose up --build" or "docker compose up setup <repo> --build"
+services:
+  setup:
+    build: .
+    image: bugsinpy-setup
+    pull_policy: never
+    volumes:
+      - ./temp:/home/user/BugsInPy/temp
+    command:
+      - /bin/bash
+      - -c
+      - |
+        bugsinpy-testall -c
+        echo Cleaning up temp folder ...
+        echo Reproducing bugs please wait ...
+        echo -------------------------
+        echo repo,bugid,version,result
+  pynguin-pysnooper:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command:
+      - /bin/bash
+      - -c
+      - |
+        bugsinpy-checkout -p pysnooper -v 0 -i 3 -w /temp/projects
+        pynguin -v --project-path /temp/projects/pysnooper/pysnooper --output-path /temp/projects/pysnooper-pynguin-out --module-name utils
+    depends_on:
+      - setup
+  pysnooper:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p PySnooper:
+    depends_on:
+      - setup
+  ansible:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p ansible:
+    depends_on:
+      - setup
+  black:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p black:
+    depends_on:
+      - setup
+  cookiecutter:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p cookiecutter:
+    depends_on:
+      - setup
+  fastapi:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p fastapi:
+    depends_on:
+      - setup
+  httpie:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p httpie:
+    depends_on:
+      - setup
+  keras:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p keras:
+    depends_on:
+      - setup
+  luigi:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p luigi:
+    depends_on:
+      - setup
+  matplotlib:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p matplotlib:
+    depends_on:
+      - setup
+  pandas:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p pandas:
+    depends_on:
+      - setup
+  spacy:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p spacy:
+    depends_on:
+      - setup
+  thefuck:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p thefuck:
+    depends_on:
+      - setup
+  youtube-dl:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p youtube-dl:
+    depends_on:
+      - setup
+  sanic:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p sanic:
+    depends_on:
+      - setup
+  scrapy:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p scrapy:
+    depends_on:
+      - setup
+  tornado:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p tornado:
+    depends_on:
+      - setup
+  tqdm:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-testall -p tqdm:
+    depends_on:
+      - setup
+  pysnooper-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p PySnooper:
+    depends_on:
+      - setup
+  ansible-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p ansible:
+    depends_on:
+      - setup
+  black-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p black:
+    depends_on:
+      - setup
+  cookiecutter-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p cookiecutter:
+    depends_on:
+      - setup
+  fastapi-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p fastapi:
+    depends_on:
+      - setup
+  httpie-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p httpie:
+    depends_on:
+      - setup
+  keras-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p keras:
+    depends_on:
+      - setup
+  luigi-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p luigi:
+    depends_on:
+      - setup
+  matplotlib-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p matplotlib:
+    depends_on:
+      - setup
+  pandas-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p pandas:
+    depends_on:
+      - setup
+  spacy-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p spacy:
+    depends_on:
+      - setup
+  thefuck-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p thefuck:
+    depends_on:
+      - setup
+  youtube-dl-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p youtube-dl:
+    depends_on:
+      - setup
+  sanic-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p sanic:
+    depends_on:
+      - setup
+  scrapy-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p scrapy:
+    depends_on:
+      - setup
+  tornado-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p tornado:
+    depends_on:
+      - setup
+  tqdm-dates:
+    pull_policy: never
+    image: bugsinpy-setup
+    volumes:
+      - ./projects:/home/user/BugsInPy/projects
+      - ./temp:/home/user/BugsInPy/temp
+    command: |
+      bugsinpy-dateall -p tqdm:
+    depends_on:
+      - setup

@@ -1,0 +1,28 @@
+testing-script thefuck 5 1 WHOLE_SUITE /home/user/BugsInPy/temp/test_out/5_1.txt /home/user/BugsInPy/temp/tests test_git_push.py thefuck
+Copying test suite...
+
+pytest thefuck 5 1 WHOLE_SUITE
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/thefuck
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+______________ ERROR collecting generated_tests/test_git_push.py _______________
+ImportError while importing test module '/home/user/BugsInPy/temp/projects/thefuck/generated_tests/test_git_push.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/opt/conda/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+generated_tests/test_git_push.py:5: in <module>
+    import thefuck.rules.git_push as module_1
+thefuck/rules/git_push.py:2: in <module>
+    from thefuck.utils import replace_argument
+thefuck/utils.py:7: in <module>
+    from decorator import decorator
+E   ModuleNotFoundError: No module named 'decorator'
+=========================== short test summary info ============================
+ERROR generated_tests/test_git_push.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.09s ===============================

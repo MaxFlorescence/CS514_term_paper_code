@@ -1,0 +1,475 @@
+pynguin log ./utils.py
+[00:14:23] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     Constants found: 4282                       generator.py:221
+           INFO     Setting up runtime collection of constants  generator.py:228
+[00:14:26] ERROR    While getting the types of exceptions in   syntaxtree.py:341
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7f633307a6b0>                         
+           ERROR    While getting the types of exceptions in   syntaxtree.py:341
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7f6332c92620>                         
+[00:14:27] INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:      65                              module.py:1327
+           INFO     Functions:   481                              module.py:1328
+           INFO     Classes:     343                              module.py:1329
+           INFO     Using seed 1733012063024599105              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.DYNAMOSA                                          
+           INFO     Instantiated 411 fitness   generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+[00:14:30] INFO     Initial Population, Coverage: 0.141119  searchobserver.py:77
+[00:14:32] INFO     Iteration:       1, Coverage: 0.148418  searchobserver.py:83
+[00:14:33] INFO     Iteration:       2, Coverage: 0.153285  searchobserver.py:83
+[00:14:35] INFO     Iteration:       3, Coverage: 0.160584  searchobserver.py:83
+[00:14:37] INFO     Iteration:       4, Coverage: 0.163017  searchobserver.py:83
+[00:14:39] INFO     Iteration:       5, Coverage: 0.167883  searchobserver.py:83
+[00:14:40] INFO     Iteration:       6, Coverage: 0.182482  searchobserver.py:83
+[00:14:42] INFO     Iteration:       7, Coverage: 0.187348  searchobserver.py:83
+[00:14:44] INFO     Iteration:       8, Coverage: 0.197080  searchobserver.py:83
+[00:14:45] INFO     Iteration:       9, Coverage: 0.201946  searchobserver.py:83
+[00:14:47] INFO     Iteration:      10, Coverage: 0.204380  searchobserver.py:83
+[00:14:49] INFO     Iteration:      11, Coverage: 0.204380  searchobserver.py:83
+Exception ignored in: <function _TemporaryFileCloser.__del__ at 0x7f633e2fa320>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/tempfile.py", line 466, in __del__
+    self.close()
+  File "/opt/conda/lib/python3.10/tempfile.py", line 459, in close
+    self.file.close()
+AttributeError: 'str' object has no attribute 'close'
+[00:14:51] INFO     Iteration:      12, Coverage: 0.206813  searchobserver.py:83
+[00:14:52] INFO     Iteration:      13, Coverage: 0.214112  searchobserver.py:83
+[00:14:54] INFO     Iteration:      14, Coverage: 0.218978  searchobserver.py:83
+[00:14:56] INFO     Iteration:      15, Coverage: 0.226277  searchobserver.py:83
+[00:14:57] INFO     Iteration:      16, Coverage: 0.226277  searchobserver.py:83
+[00:14:59] INFO     Iteration:      17, Coverage: 0.240876  searchobserver.py:83
+[00:15:01] INFO     Iteration:      18, Coverage: 0.245742  searchobserver.py:83
+[00:15:02] INFO     Iteration:      19, Coverage: 0.245742  searchobserver.py:83
+[00:15:04] INFO     Iteration:      20, Coverage: 0.245742  searchobserver.py:83
+[00:15:06] INFO     Iteration:      21, Coverage: 0.248175  searchobserver.py:83
+[00:15:07] INFO     Iteration:      22, Coverage: 0.250608  searchobserver.py:83
+[00:15:09] INFO     Iteration:      23, Coverage: 0.255474  searchobserver.py:83
+[00:15:10] INFO     Iteration:      24, Coverage: 0.255474  searchobserver.py:83
+[00:15:12] INFO     Iteration:      25, Coverage: 0.257908  searchobserver.py:83
+[00:15:14] INFO     Iteration:      26, Coverage: 0.260341  searchobserver.py:83
+[00:15:15] INFO     Iteration:      27, Coverage: 0.260341  searchobserver.py:83
+[00:15:18] INFO     Iteration:      28, Coverage: 0.260341  searchobserver.py:83
+[00:15:19] INFO     Iteration:      29, Coverage: 0.262774  searchobserver.py:83
+[00:15:21] INFO     Iteration:      30, Coverage: 0.262774  searchobserver.py:83
+[00:15:23] INFO     Iteration:      31, Coverage: 0.262774  searchobserver.py:83
+[00:15:25] INFO     Iteration:      32, Coverage: 0.304136  searchobserver.py:83
+[00:15:27] INFO     Iteration:      33, Coverage: 0.304136  searchobserver.py:83
+[00:15:28] INFO     Iteration:      34, Coverage: 0.306569  searchobserver.py:83
+[00:15:30] INFO     Iteration:      35, Coverage: 0.316302  searchobserver.py:83
+[00:15:32] INFO     Iteration:      36, Coverage: 0.316302  searchobserver.py:83
+[00:15:34] INFO     Iteration:      37, Coverage: 0.321168  searchobserver.py:83
+[00:15:36] INFO     Iteration:      38, Coverage: 0.323601  searchobserver.py:83
+[00:15:38] INFO     Iteration:      39, Coverage: 0.323601  searchobserver.py:83
+[00:15:39] INFO     Iteration:      40, Coverage: 0.326034  searchobserver.py:83
+[00:15:41] INFO     Iteration:      41, Coverage: 0.326034  searchobserver.py:83
+[00:15:43] INFO     Iteration:      42, Coverage: 0.330900  searchobserver.py:83
+[00:15:45] INFO     Iteration:      43, Coverage: 0.333333  searchobserver.py:83
+[00:15:46] INFO     Iteration:      44, Coverage: 0.333333  searchobserver.py:83
+Exception ignored in: <function _TemporaryFileCloser.__del__ at 0x7f633e2fa320>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/tempfile.py", line 466, in __del__
+    self.close()
+  File "/opt/conda/lib/python3.10/tempfile.py", line 459, in close
+    self.file.close()
+AttributeError: 'tuple' object has no attribute 'close'
+[00:15:48] INFO     Iteration:      45, Coverage: 0.333333  searchobserver.py:83
+[00:15:50] INFO     Iteration:      46, Coverage: 0.333333  searchobserver.py:83
+[00:15:52] INFO     Iteration:      47, Coverage: 0.333333  searchobserver.py:83
+[00:15:53] INFO     Iteration:      48, Coverage: 0.333333  searchobserver.py:83
+[00:15:55] INFO     Iteration:      49, Coverage: 0.333333  searchobserver.py:83
+[00:15:57] INFO     Iteration:      50, Coverage: 0.333333  searchobserver.py:83
+[00:15:59] INFO     Iteration:      51, Coverage: 0.333333  searchobserver.py:83
+[00:16:00] INFO     Iteration:      52, Coverage: 0.333333  searchobserver.py:83
+[00:16:02] INFO     Iteration:      53, Coverage: 0.333333  searchobserver.py:83
+[00:16:04] INFO     Iteration:      54, Coverage: 0.343066  searchobserver.py:83
+[00:16:05] INFO     Iteration:      55, Coverage: 0.343066  searchobserver.py:83
+[00:16:07] INFO     Iteration:      56, Coverage: 0.343066  searchobserver.py:83
+[00:16:09] INFO     Iteration:      57, Coverage: 0.343066  searchobserver.py:83
+[00:16:11] INFO     Iteration:      58, Coverage: 0.345499  searchobserver.py:83
+[00:16:12] INFO     Iteration:      59, Coverage: 0.345499  searchobserver.py:83
+[00:16:14] INFO     Iteration:      60, Coverage: 0.350365  searchobserver.py:83
+[00:16:16] INFO     Iteration:      61, Coverage: 0.352798  searchobserver.py:83
+[00:16:18] INFO     Iteration:      62, Coverage: 0.352798  searchobserver.py:83
+[00:16:19] INFO     Iteration:      63, Coverage: 0.352798  searchobserver.py:83
+Exception ignored in: <function _TemporaryFileCloser.__del__ at 0x7f633e2fa320>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/tempfile.py", line 466, in __del__
+    self.close()
+  File "/opt/conda/lib/python3.10/tempfile.py", line 462, in close
+    unlink(self.name)
+TypeError: unlink: path should be string, bytes or os.PathLike, not tuple
+[00:16:21] INFO     Iteration:      64, Coverage: 0.355231  searchobserver.py:83
+[00:16:23] INFO     Iteration:      65, Coverage: 0.355231  searchobserver.py:83
+[00:16:24] INFO     Iteration:      66, Coverage: 0.357664  searchobserver.py:83
+[00:16:26] INFO     Iteration:      67, Coverage: 0.357664  searchobserver.py:83
+[00:16:28] INFO     Iteration:      68, Coverage: 0.357664  searchobserver.py:83
+[00:16:30] INFO     Iteration:      69, Coverage: 0.360097  searchobserver.py:83
+[00:16:31] INFO     Iteration:      70, Coverage: 0.360097  searchobserver.py:83
+[00:16:33] INFO     Iteration:      71, Coverage: 0.360097  searchobserver.py:83
+[00:16:35] INFO     Iteration:      72, Coverage: 0.360097  searchobserver.py:83
+[00:16:37] INFO     Iteration:      73, Coverage: 0.360097  searchobserver.py:83
+[00:16:38] INFO     Iteration:      74, Coverage: 0.360097  searchobserver.py:83
+[00:16:40] INFO     Iteration:      75, Coverage: 0.360097  searchobserver.py:83
+[00:16:42] INFO     Iteration:      76, Coverage: 0.362530  searchobserver.py:83
+[00:16:43] INFO     Iteration:      77, Coverage: 0.362530  searchobserver.py:83
+[00:16:45] INFO     Iteration:      78, Coverage: 0.364964  searchobserver.py:83
+[00:16:47] INFO     Iteration:      79, Coverage: 0.364964  searchobserver.py:83
+[00:16:48] INFO     Iteration:      80, Coverage: 0.369830  searchobserver.py:83
+[00:16:50] INFO     Iteration:      81, Coverage: 0.369830  searchobserver.py:83
+[00:16:52] INFO     Iteration:      82, Coverage: 0.369830  searchobserver.py:83
+[00:16:53] INFO     Iteration:      83, Coverage: 0.369830  searchobserver.py:83
+[00:16:55] INFO     Iteration:      84, Coverage: 0.369830  searchobserver.py:83
+[00:16:56] INFO     Iteration:      85, Coverage: 0.372263  searchobserver.py:83
+[00:16:58] INFO     Iteration:      86, Coverage: 0.372263  searchobserver.py:83
+[00:17:00] INFO     Iteration:      87, Coverage: 0.374696  searchobserver.py:83
+[00:17:02] INFO     Iteration:      88, Coverage: 0.377129  searchobserver.py:83
+[00:17:03] INFO     Iteration:      89, Coverage: 0.377129  searchobserver.py:83
+[00:17:05] INFO     Iteration:      90, Coverage: 0.377129  searchobserver.py:83
+[00:17:07] INFO     Iteration:      91, Coverage: 0.377129  searchobserver.py:83
+[00:17:08] INFO     Iteration:      92, Coverage: 0.377129  searchobserver.py:83
+[00:17:10] INFO     Iteration:      93, Coverage: 0.377129  searchobserver.py:83
+[00:17:12] INFO     Iteration:      94, Coverage: 0.377129  searchobserver.py:83
+[00:17:13] INFO     Iteration:      95, Coverage: 0.377129  searchobserver.py:83
+[00:17:15] INFO     Iteration:      96, Coverage: 0.377129  searchobserver.py:83
+[00:17:17] INFO     Iteration:      97, Coverage: 0.377129  searchobserver.py:83
+[00:17:18] INFO     Iteration:      98, Coverage: 0.377129  searchobserver.py:83
+[00:17:20] INFO     Iteration:      99, Coverage: 0.377129  searchobserver.py:83
+[00:17:22] INFO     Iteration:     100, Coverage: 0.377129  searchobserver.py:83
+[00:17:23] INFO     Iteration:     101, Coverage: 0.377129  searchobserver.py:83
+[00:17:25] INFO     Iteration:     102, Coverage: 0.377129  searchobserver.py:83
+[00:17:27] INFO     Iteration:     103, Coverage: 0.377129  searchobserver.py:83
+[00:17:29] INFO     Iteration:     104, Coverage: 0.377129  searchobserver.py:83
+[00:17:30] INFO     Iteration:     105, Coverage: 0.377129  searchobserver.py:83
+[00:17:32] INFO     Iteration:     106, Coverage: 0.377129  searchobserver.py:83
+[00:17:34] INFO     Iteration:     107, Coverage: 0.377129  searchobserver.py:83
+[00:17:36] INFO     Iteration:     108, Coverage: 0.377129  searchobserver.py:83
+[00:17:38] INFO     Iteration:     109, Coverage: 0.377129  searchobserver.py:83
+[00:17:40] INFO     Iteration:     110, Coverage: 0.377129  searchobserver.py:83
+[00:17:41] INFO     Iteration:     111, Coverage: 0.377129  searchobserver.py:83
+[00:17:43] INFO     Iteration:     112, Coverage: 0.377129  searchobserver.py:83
+[00:17:45] INFO     Iteration:     113, Coverage: 0.377129  searchobserver.py:83
+[00:17:46] INFO     Iteration:     114, Coverage: 0.377129  searchobserver.py:83
+[00:17:48] INFO     Iteration:     115, Coverage: 0.377129  searchobserver.py:83
+[00:17:50] INFO     Iteration:     116, Coverage: 0.377129  searchobserver.py:83
+[00:17:51] INFO     Iteration:     117, Coverage: 0.377129  searchobserver.py:83
+[00:17:53] INFO     Iteration:     118, Coverage: 0.377129  searchobserver.py:83
+[00:17:55] INFO     Iteration:     119, Coverage: 0.377129  searchobserver.py:83
+[00:17:57] INFO     Iteration:     120, Coverage: 0.377129  searchobserver.py:83
+[00:17:58] INFO     Iteration:     121, Coverage: 0.377129  searchobserver.py:83
+[00:18:00] INFO     Iteration:     122, Coverage: 0.377129  searchobserver.py:83
+[00:18:02] INFO     Iteration:     123, Coverage: 0.377129  searchobserver.py:83
+[00:18:04] INFO     Iteration:     124, Coverage: 0.377129  searchobserver.py:83
+[00:18:06] INFO     Iteration:     125, Coverage: 0.377129  searchobserver.py:83
+[00:18:08] INFO     Iteration:     126, Coverage: 0.377129  searchobserver.py:83
+[00:18:09] INFO     Iteration:     127, Coverage: 0.377129  searchobserver.py:83
+[00:18:11] INFO     Iteration:     128, Coverage: 0.377129  searchobserver.py:83
+[00:18:13] INFO     Iteration:     129, Coverage: 0.377129  searchobserver.py:83
+[00:18:15] INFO     Iteration:     130, Coverage: 0.377129  searchobserver.py:83
+[00:18:16] INFO     Iteration:     131, Coverage: 0.377129  searchobserver.py:83
+[00:18:18] INFO     Iteration:     132, Coverage: 0.377129  searchobserver.py:83
+[00:18:20] INFO     Iteration:     133, Coverage: 0.377129  searchobserver.py:83
+[00:18:22] INFO     Iteration:     134, Coverage: 0.377129  searchobserver.py:83
+[00:18:23] INFO     Iteration:     135, Coverage: 0.377129  searchobserver.py:83
+[00:18:25] INFO     Iteration:     136, Coverage: 0.377129  searchobserver.py:83
+[00:18:27] INFO     Iteration:     137, Coverage: 0.377129  searchobserver.py:83
+[00:18:28] INFO     Iteration:     138, Coverage: 0.377129  searchobserver.py:83
+[00:18:30] INFO     Iteration:     139, Coverage: 0.381995  searchobserver.py:83
+[00:18:32] INFO     Iteration:     140, Coverage: 0.381995  searchobserver.py:83
+[00:18:34] INFO     Iteration:     141, Coverage: 0.381995  searchobserver.py:83
+[00:18:36] INFO     Iteration:     142, Coverage: 0.381995  searchobserver.py:83
+[00:18:37] INFO     Iteration:     143, Coverage: 0.381995  searchobserver.py:83
+[00:18:39] INFO     Iteration:     144, Coverage: 0.381995  searchobserver.py:83
+[00:18:41] INFO     Iteration:     145, Coverage: 0.381995  searchobserver.py:83
+[00:18:43] INFO     Iteration:     146, Coverage: 0.381995  searchobserver.py:83
+[00:18:45] INFO     Iteration:     147, Coverage: 0.381995  searchobserver.py:83
+[00:18:46] INFO     Iteration:     148, Coverage: 0.381995  searchobserver.py:83
+[00:18:48] INFO     Iteration:     149, Coverage: 0.381995  searchobserver.py:83
+[00:18:50] INFO     Iteration:     150, Coverage: 0.381995  searchobserver.py:83
+[00:18:52] INFO     Iteration:     151, Coverage: 0.381995  searchobserver.py:83
+[00:18:54] INFO     Iteration:     152, Coverage: 0.381995  searchobserver.py:83
+[00:18:55] INFO     Iteration:     153, Coverage: 0.381995  searchobserver.py:83
+[00:18:57] INFO     Iteration:     154, Coverage: 0.381995  searchobserver.py:83
+[00:18:59] INFO     Iteration:     155, Coverage: 0.381995  searchobserver.py:83
+[00:19:01] INFO     Iteration:     156, Coverage: 0.381995  searchobserver.py:83
+[00:19:02] INFO     Iteration:     157, Coverage: 0.381995  searchobserver.py:83
+[00:19:04] INFO     Iteration:     158, Coverage: 0.381995  searchobserver.py:83
+[00:19:06] INFO     Iteration:     159, Coverage: 0.381995  searchobserver.py:83
+[00:19:08] INFO     Iteration:     160, Coverage: 0.381995  searchobserver.py:83
+[00:19:09] INFO     Iteration:     161, Coverage: 0.381995  searchobserver.py:83
+[00:19:11] INFO     Iteration:     162, Coverage: 0.381995  searchobserver.py:83
+[00:19:13] INFO     Iteration:     163, Coverage: 0.381995  searchobserver.py:83
+[00:19:14] INFO     Iteration:     164, Coverage: 0.381995  searchobserver.py:83
+[00:19:16] INFO     Iteration:     165, Coverage: 0.381995  searchobserver.py:83
+[00:19:18] INFO     Iteration:     166, Coverage: 0.381995  searchobserver.py:83
+[00:19:20] INFO     Iteration:     167, Coverage: 0.381995  searchobserver.py:83
+[00:19:22] INFO     Iteration:     168, Coverage: 0.381995  searchobserver.py:83
+[00:19:23] INFO     Iteration:     169, Coverage: 0.381995  searchobserver.py:83
+[00:19:25] INFO     Iteration:     170, Coverage: 0.381995  searchobserver.py:83
+[00:19:27] INFO     Iteration:     171, Coverage: 0.381995  searchobserver.py:83
+[00:19:28] INFO     Iteration:     172, Coverage: 0.381995  searchobserver.py:83
+           INFO     Stopping condition reached                  generator.py:531
+           INFO     Used search time: 301/300                   generator.py:533
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module utils                         generator.py:640
+           INFO     Build AST for utils                         generator.py:643
+           INFO     Mutate module utils                         generator.py:648
+[00:19:29] INFO     Stop Pynguin Test Generation…               generator.py:119
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /opt/conda/bin/pynguin:8 in <module>                                         │
+│                                                                              │
+│   5 from pynguin.cli import main                                             │
+│   6 if __name__ == '__main__':                                               │
+│   7 │   sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])     │
+│ ❱ 8 │   sys.exit(main())                                                     │
+│   9                                                                          │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/cli.py:193 in main           │
+│                                                                              │
+│   190 │   set_configuration(parsed.config)                                   │
+│   191 │   if console is not None:                                            │
+│   192 │   │   with console.status("Running Pynguin..."):                     │
+│ ❱ 193 │   │   │   return run_pynguin().value                                 │
+│   194 │   else:                                                              │
+│   195 │   │   return run_pynguin().value                                     │
+│   196                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:117 in          │
+│ run_pynguin                                                                  │
+│                                                                              │
+│   114 │   """                                                                │
+│   115 │   try:                                                               │
+│   116 │   │   _LOGGER.info("Start Pynguin Test Generation…")                 │
+│ ❱ 117 │   │   return _run()                                                  │
+│   118 │   finally:                                                           │
+│   119 │   │   _LOGGER.info("Stop Pynguin Test Generation…")                  │
+│   120                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:542 in _run     │
+│                                                                              │
+│   539 │                                                                      │
+│   540 │   _track_search_metrics(algorithm, generation_result, coverage_metri │
+│   541 │   _remove_statements_after_exceptions(generation_result)             │
+│ ❱ 542 │   _generate_assertions(executor, generation_result)                  │
+│   543 │   tracked_metrics = _track_final_metrics(                            │
+│   544 │   │   algorithm, executor, generation_result, constant_provider      │
+│   545 │   )                                                                  │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:667 in          │
+│ _generate_assertions                                                         │
+│                                                                              │
+│   664 │   │   _LOGGER.info("Start generating assertions")                    │
+│   665 │   │   generator: cv.ChromosomeVisitor                                │
+│   666 │   │   if ass_gen == config.AssertionGenerator.MUTATION_ANALYSIS:     │
+│ ❱ 667 │   │   │   generator = _setup_mutation_analysis_assertion_generator(e │
+│   668 │   │   else:                                                          │
+│   669 │   │   │   generator = ag.AssertionGenerator(executor)                │
+│   670 │   │   generation_result.accept(generator)                            │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:657 in          │
+│ _setup_mutation_analysis_assertion_generator                                 │
+│                                                                              │
+│   654 │   │   executor, mutation_controller                                  │
+│   655 │   )                                                                  │
+│   656 │                                                                      │
+│ ❱ 657 │   _LOGGER.info("Generated %d mutants", mutation_controller.mutant_co │
+│   658 │   return assertion_generator                                         │
+│   659                                                                        │
+│   660                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ controller.py:92 in mutant_count                                             │
+│                                                                              │
+│   89 │   │   Returns:                                                        │
+│   90 │   │   │   The number of mutants that can be created.                  │
+│   91 │   │   """                                                             │
+│ ❱ 92 │   │   return sum(                                                     │
+│   93 │   │   │   1 for _ in self._mutant_generator.mutate(self._module_ast,  │
+│   94 │   │   )                                                               │
+│   95                                                                         │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ controller.py:92 in <genexpr>                                                │
+│                                                                              │
+│   89 │   │   Returns:                                                        │
+│   90 │   │   │   The number of mutants that can be created.                  │
+│   91 │   │   """                                                             │
+│ ❱ 92 │   │   return sum(                                                     │
+│   93 │   │   │   1 for _ in self._mutant_generator.mutate(self._module_ast,  │
+│   94 │   │   )                                                               │
+│   95                                                                         │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ mutators.py:69 in mutate                                                     │
+│                                                                              │
+│    66 │   │   module: types.ModuleType,                                      │
+│    67 │   ) -> Generator[tuple[list[Mutation], ast.AST], None, None]:        │
+│    68 │   │   for op in self.operators:                                      │
+│ ❱  69 │   │   │   for mutation, mutant in op.mutate(target_ast, module):     │
+│    70 │   │   │   │   yield [mutation], mutant                               │
+│    71                                                                        │
+│    72                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:157 in mutate                                              │
+│                                                                              │
+│   154 │   │   """                                                            │
+│   155 │   │   operator = cls(module, only_mutation)                          │
+│   156 │   │                                                                  │
+│ ❱ 157 │   │   for (                                                          │
+│   158 │   │   │   current_node,                                              │
+│   159 │   │   │   replacement_node,                                          │
+│   160 │   │   │   mutated_node,                                              │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:220 in visit                                               │
+│                                                                              │
+│   217 │   │   │   │                                                          │
+│   218 │   │   │   │   yield node, mutated_node, mutated_node, visitor.__name │
+│   219 │   │                                                                  │
+│ ❱ 220 │   │   yield from self._generic_visit(node)                           │
+│   221 │                                                                      │
+│   222 │   def _generic_visit(                                                │
+│   223 │   │   self, node: ast.AST                                            │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:234 in _generic_visit                                      │
+│                                                                              │
+│   231 │   │   │   else:                                                      │
+│   232 │   │   │   │   generator = ()                                         │
+│   233 │   │   │                                                              │
+│ ❱ 234 │   │   │   for current_node, replacement_node, visitor_name in genera │
+│   235 │   │   │   │   yield current_node, replacement_node, node, visitor_na │
+│   236 │                                                                      │
+│   237 │   def _generic_visit_list(                                           │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:242 in _generic_visit_list                                 │
+│                                                                              │
+│   239 │   ) -> Generator[tuple[ast.AST, ast.AST, str], None, None]:          │
+│   240 │   │   for position, value in enumerate(old_value.copy()):            │
+│   241 │   │   │   if isinstance(value, ast.AST):                             │
+│ ❱ 242 │   │   │   │   for (                                                  │
+│   243 │   │   │   │   │   current_node,                                      │
+│   244 │   │   │   │   │   replacement_node,                                  │
+│   245 │   │   │   │   │   mutated_node,                                      │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:220 in visit                                               │
+│                                                                              │
+│   217 │   │   │   │                                                          │
+│   218 │   │   │   │   yield node, mutated_node, mutated_node, visitor.__name │
+│   219 │   │                                                                  │
+│ ❱ 220 │   │   yield from self._generic_visit(node)                           │
+│   221 │                                                                      │
+│   222 │   def _generic_visit(                                                │
+│   223 │   │   self, node: ast.AST                                            │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:234 in _generic_visit                                      │
+│                                                                              │
+│   231 │   │   │   else:                                                      │
+│   232 │   │   │   │   generator = ()                                         │
+│   233 │   │   │                                                              │
+│ ❱ 234 │   │   │   for current_node, replacement_node, visitor_name in genera │
+│   235 │   │   │   │   yield current_node, replacement_node, node, visitor_na │
+│   236 │                                                                      │
+│   237 │   def _generic_visit_list(                                           │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:242 in _generic_visit_list                                 │
+│                                                                              │
+│   239 │   ) -> Generator[tuple[ast.AST, ast.AST, str], None, None]:          │
+│   240 │   │   for position, value in enumerate(old_value.copy()):            │
+│   241 │   │   │   if isinstance(value, ast.AST):                             │
+│ ❱ 242 │   │   │   │   for (                                                  │
+│   243 │   │   │   │   │   current_node,                                      │
+│   244 │   │   │   │   │   replacement_node,                                  │
+│   245 │   │   │   │   │   mutated_node,                                      │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:220 in visit                                               │
+│                                                                              │
+│   217 │   │   │   │                                                          │
+│   218 │   │   │   │   yield node, mutated_node, mutated_node, visitor.__name │
+│   219 │   │                                                                  │
+│ ❱ 220 │   │   yield from self._generic_visit(node)                           │
+│   221 │                                                                      │
+│   222 │   def _generic_visit(                                                │
+│   223 │   │   self, node: ast.AST                                            │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:234 in _generic_visit                                      │
+│                                                                              │
+│   231 │   │   │   else:                                                      │
+│   232 │   │   │   │   generator = ()                                         │
+│   233 │   │   │                                                              │
+│ ❱ 234 │   │   │   for current_node, replacement_node, visitor_name in genera │
+│   235 │   │   │   │   yield current_node, replacement_node, node, visitor_na │
+│   236 │                                                                      │
+│   237 │   def _generic_visit_list(                                           │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:242 in _generic_visit_list                                 │
+│                                                                              │
+│   239 │   ) -> Generator[tuple[ast.AST, ast.AST, str], None, None]:          │
+│   240 │   │   for position, value in enumerate(old_value.copy()):            │
+│   241 │   │   │   if isinstance(value, ast.AST):                             │
+│ ❱ 242 │   │   │   │   for (                                                  │
+│   243 │   │   │   │   │   current_node,                                      │
+│   244 │   │   │   │   │   replacement_node,                                  │
+│   245 │   │   │   │   │   mutated_node,                                      │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/base.py:214 in visit                                               │
+│                                                                              │
+│   211 │   │   │   │   │   self.only_mutation.node == node                    │
+│   212 │   │   │   │   │   and self.only_mutation.visitor_name == visitor.__n │
+│   213 │   │   │   │   )                                                      │
+│ ❱ 214 │   │   │   ) and (mutated_node := visitor(node)) is not None:         │
+│   215 │   │   │   │   fix_node_internals(node, mutated_node)                 │
+│   216 │   │   │   │   ast.fix_missing_locations(mutated_node)                │
+│   217                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/inheritance.py:97 in mutate_Assign                                 │
+│                                                                              │
+│    94 │   │   first_expression = node.targets[0]                             │
+│    95 │   │                                                                  │
+│    96 │   │   if isinstance(first_expression, ast.Name):                     │
+│ ❱  97 │   │   │   overridden = self.is_overridden(node, first_expression.id) │
+│    98 │   │   │                                                              │
+│    99 │   │   │   if overridden is None or not overridden:                   │
+│   100 │   │   │   │   return None                                            │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/assertion/mutation_analysis/ │
+│ operators/inheritance.py:64 in is_overridden                                 │
+│                                                                              │
+│    61 │   │                                                                  │
+│    62 │   │   while parent is not None:                                      │
+│    63 │   │   │   if not isinstance(parent, ast.Module):                     │
+│ ❱  64 │   │   │   │   parent_names.append(parent.name)  # type: ignore[attr- │
+│    65 │   │   │   if not isinstance(parent, ast.ClassDef) and not isinstance │
+│    66 │   │   │   │   parent, ast.Module                                     │
+│    67 │   │   │   ):                                                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttributeError: 'If' object has no attribute 'name'

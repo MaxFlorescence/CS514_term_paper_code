@@ -1,0 +1,5 @@
+Module,Coverage,TestCount,GeneratedMutants,SurvivingMutants
+"parse","0.2619047619047619","8","79","0"
+"literals","0.6785714285714286","11","112","0"
+"pytree","0.47368421052631576","83","441","2"
+"token","1.0","50","177","0"

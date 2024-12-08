@@ -1,0 +1,106 @@
+pynguin log ./blib2to3/pgen2/grammar.py
+[09:47:21] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Stop Pynguin Test Generation…               generator.py:119
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /opt/conda/bin/pynguin:8 in <module>                                         │
+│                                                                              │
+│   5 from pynguin.cli import main                                             │
+│   6 if __name__ == '__main__':                                               │
+│   7 │   sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])     │
+│ ❱ 8 │   sys.exit(main())                                                     │
+│   9                                                                          │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/cli.py:193 in main           │
+│                                                                              │
+│   190 │   set_configuration(parsed.config)                                   │
+│   191 │   if console is not None:                                            │
+│   192 │   │   with console.status("Running Pynguin..."):                     │
+│ ❱ 193 │   │   │   return run_pynguin().value                                 │
+│   194 │   else:                                                              │
+│   195 │   │   return run_pynguin().value                                     │
+│   196                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:117 in          │
+│ run_pynguin                                                                  │
+│                                                                              │
+│   114 │   """                                                                │
+│   115 │   try:                                                               │
+│   116 │   │   _LOGGER.info("Start Pynguin Test Generation…")                 │
+│ ❱ 117 │   │   return _run()                                                  │
+│   118 │   finally:                                                           │
+│   119 │   │   _LOGGER.info("Stop Pynguin Test Generation…")                  │
+│   120                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:515 in _run     │
+│                                                                              │
+│   512                                                                        │
+│   513                                                                        │
+│   514 def _run() -> ReturnCode:                                              │
+│ ❱ 515 │   if (setup_result := _setup_and_check()) is None:                   │
+│   516 │   │   return ReturnCode.SETUP_FAILED                                 │
+│   517 │   executor, test_cluster, constant_provider = setup_result           │
+│   518 │   # traces slices for test cases after execution                     │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:259 in          │
+│ _setup_and_check                                                             │
+│                                                                              │
+│   256 │   │   set(config.configuration.statistics_output.coverage_metrics),  │
+│   257 │   │   dynamic_constant_provider,                                     │
+│   258 │   )                                                                  │
+│ ❱ 259 │   if not _load_sut(tracer):                                          │
+│   260 │   │   return None                                                    │
+│   261 │   if not _setup_report_dir():                                        │
+│   262 │   │   return None                                                    │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:172 in          │
+│ _load_sut                                                                    │
+│                                                                              │
+│   169 │   try:                                                               │
+│   170 │   │   # We need to set the current thread ident so the import trace  │
+│   171 │   │   tracer.current_thread_identifier = threading.current_thread(). │
+│ ❱ 172 │   │   importlib.import_module(config.configuration.module_name)      │
+│   173 │   except ImportError as ex:                                          │
+│   174 │   │   # A module could not be imported because some dependencies     │
+│   175 │   │   # are missing or it is malformed                               │
+│                                                                              │
+│ /opt/conda/lib/python3.10/importlib/__init__.py:126 in import_module         │
+│                                                                              │
+│   123 │   │   │   if character != '.':                                       │
+│   124 │   │   │   │   break                                                  │
+│   125 │   │   │   level += 1                                                 │
+│ ❱ 126 │   return _bootstrap._gcd_import(name[level:], package, level)        │
+│   127                                                                        │
+│   128                                                                        │
+│   129 _RELOADING = {}                                                        │
+│ in _gcd_import:1050                                                          │
+│ in _find_and_load:1027                                                       │
+│ in _find_and_load_unlocked:1006                                              │
+│ in _load_unlocked:688                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/instrumentation/machinery.py │
+│ :59 in exec_module                                                           │
+│                                                                              │
+│    56 │                                                                      │
+│    57 │   def exec_module(self, module):  # noqa: D102                       │
+│    58 │   │   self._tracer.reset()                                           │
+│ ❱  59 │   │   super().exec_module(module)                                    │
+│    60 │   │   self._tracer.store_import_trace()                              │
+│    61 │                                                                      │
+│    62 │   def get_code(self, fullname) -> CodeType:                          │
+│ in exec_module:883                                                           │
+│ in _call_with_frames_removed:241                                             │
+│                                                                              │
+│ /home/user/BugsInPy/temp/projects/black/././blib2to3/pgen2/grammar.py:211 in │
+│ <module>                                                                     │
+│                                                                              │
+│   208 for line in opmap_raw.splitlines():                                    │
+│   209 │   if line:                                                           │
+│   210 │   │   op, name = line.split()                                        │
+│ ❱ 211 │   │   opmap[op] = getattr(token, name)                               │
+│   212                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttributeError: module 'token' has no attribute 'BACKQUOTE'

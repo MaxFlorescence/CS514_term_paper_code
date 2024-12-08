@@ -1,0 +1,1 @@
+DYNAMOSA,cookiecutter,4,0,

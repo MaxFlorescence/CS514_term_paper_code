@@ -1,0 +1,34 @@
+testing-script cookiecutter 4 0 DYNAMOSA /home/user/BugsInPy/temp/test_out/4_0.txt /home/user/BugsInPy/temp/tests test_exceptions.py cookiecutter
+Fixing and copying test suite...
+Considering report_0/
+   got test file "test_utils.py"
+Considering report_10/
+   got test file "test_exceptions.py"
+   got import path cookiecutter.exceptions
+   added test_exceptions.py to suite
+Considering report_4/
+   got test file "test_config.py"
+Considering report_8/
+   got test file "test_find.py"
+
+pytest cookiecutter 4 0 DYNAMOSA
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/cookiecutter
+collected 1 item
+
+generated_tests/test_exceptions.py F                                     [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_case_0 __________________________________
+
+    def test_case_0():
+        none_type_0 = None
+>       module_0.UnknownTemplateDirException(*none_type_0)
+E       TypeError: cookiecutter.exceptions.UnknownTemplateDirException() argument after * must be an iterable, not NoneType
+
+generated_tests/test_exceptions.py:8: TypeError
+=========================== short test summary info ============================
+FAILED generated_tests/test_exceptions.py::test_case_0 - TypeError: cookiecut...
+============================== 1 failed in 0.02s ===============================

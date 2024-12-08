@@ -1,0 +1,75 @@
+testing-script thefuck 31 0 MIO /home/user/BugsInPy/temp/test_out/31_0.txt /home/user/BugsInPy/temp/tests test_git_diff_staged.py thefuck
+Fixing and copying test suite...
+Considering report_0/
+   got test file "test_dry.py"
+Considering report_1/
+   got test file "test_django_south_ghost.py"
+Considering report_10/
+   got test file "test_brew_install.py"
+Considering report_13/
+   got test file "test_pip_unknown_command.py"
+Considering report_17/
+   got test file "test_go_run.py"
+Considering report_2/
+   got test file "test_sudo.py"
+Considering report_25/
+   got test file "test_cargo_no_command.py"
+Considering report_26/
+   got test file "test_man.py"
+Considering report_27/
+   got test file "test_whois.py"
+Considering report_28/
+   got test file "test_git_diff_staged.py"
+   got import path thefuck.rules.git_diff_staged
+   added test_git_diff_staged.py to suite
+Considering report_29/
+   got test file "test_man_no_space.py"
+Considering report_31/
+   got test file "test_brew_upgrade.py"
+Considering report_34/
+   got test file "test_cargo.py"
+Considering report_35/
+   got test file "test_git_not_command.py"
+Considering report_36/
+   got test file "test_ls_lah.py"
+Considering report_38/
+   got test file "test_git_push.py"
+Considering report_4/
+   got test file "test_cd_parent.py"
+Considering report_40/
+   got test file "test_cpp11.py"
+Considering report_41/
+   got test file "test_ssh_known_hosts.py"
+Considering report_42/
+   got test file "test_grep_recursive.py"
+Considering report_43/
+   got test file "test_open.py"
+Considering report_44/
+   got test file "test_quotation_marks.py"
+Considering report_45/
+   got test file "test_django_south_merge.py"
+Considering report_46/
+   got test file "test_python_execute.py"
+Considering report_47/
+   got test file "test_brew_unknown_command.py"
+Considering report_48/
+   got test file "test_java.py"
+Considering report_6/
+   got test file "test_javac.py"
+Considering report_7/
+   got test file "test_switch_lang.py"
+Considering report_8/
+   got test file "test_sl_ls.py"
+Considering report_9/
+   got test file "test_composer_not_command.py"
+
+pytest thefuck 31 0 MIO
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/thefuck
+collected 2 items
+
+generated_tests/test_git_diff_staged.py xx                               [100%]
+
+============================== 2 xfailed in 0.03s ==============================

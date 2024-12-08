@@ -1,0 +1,6 @@
+Module,Coverage,TestCount,GeneratedMutants,SurvivingMutants
+"utils","0.8333333333333334","13","64","0"
+"main","0.08333333333333333","1","64","64"
+"redistricting","0.16428571428571428","7","",""
+"spec_kmeans","0.5","10","39","0"
+"spec_recom","0.7333333333333333","7","23","0"

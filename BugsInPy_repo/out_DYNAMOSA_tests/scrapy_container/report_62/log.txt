@@ -1,0 +1,212 @@
+pynguin log ./link.py
+[06:56:13] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     Constants found: 1952                       generator.py:221
+           INFO     Setting up runtime collection of constants  generator.py:228
+[06:56:14] INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     0                              module.py:1328
+           INFO     Classes:      12                              module.py:1329
+           INFO     Using seed 1732949773157434470              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.DYNAMOSA                                          
+           INFO     Instantiated 12 fitness    generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Initial Population, Coverage: 0.750000  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:       5, Coverage: 0.833333  searchobserver.py:83
+[06:56:15] INFO     Iteration:       6, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      10, Coverage: 0.833333  searchobserver.py:83
+[06:56:16] INFO     Iteration:      11, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.833333  searchobserver.py:83
+[06:56:17] INFO     Iteration:      15, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      16, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.833333  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.833333  searchobserver.py:83
+[06:56:18] INFO     Iteration:      20, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      23, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.916667  searchobserver.py:83
+[06:56:19] INFO     Iteration:      25, Coverage: 0.916667  searchobserver.py:83
+[06:56:18] INFO     Iteration:      26, Coverage: 0.916667  searchobserver.py:83
+[06:56:17] INFO     Iteration:      27, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      28, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.916667  searchobserver.py:83
+[06:56:18] INFO     Iteration:      30, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      33, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.916667  searchobserver.py:83
+[06:56:19] INFO     Iteration:      35, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      38, Coverage: 0.916667  searchobserver.py:83
+[06:56:20] INFO     Iteration:      39, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      40, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      41, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.916667  searchobserver.py:83
+[06:56:21] INFO     Iteration:      44, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      45, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      46, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      48, Coverage: 0.916667  searchobserver.py:83
+[06:56:22] INFO     Iteration:      49, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      50, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      51, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      52, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.916667  searchobserver.py:83
+[06:56:23] INFO     Iteration:      54, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      55, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      57, Coverage: 0.916667  searchobserver.py:83
+[06:56:24] INFO     Iteration:      58, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      59, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      60, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      61, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      63, Coverage: 0.916667  searchobserver.py:83
+[06:56:25] INFO     Iteration:      64, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      65, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      66, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      67, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      68, Coverage: 0.916667  searchobserver.py:83
+[06:56:26] INFO     Iteration:      69, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      70, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      71, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      72, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      73, Coverage: 0.916667  searchobserver.py:83
+[06:56:27] INFO     Iteration:      74, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      75, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      76, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      77, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      78, Coverage: 0.916667  searchobserver.py:83
+[06:56:28] INFO     Iteration:      79, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      80, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      81, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      82, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      83, Coverage: 0.916667  searchobserver.py:83
+[06:56:29] INFO     Iteration:      84, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      85, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      86, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      87, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      88, Coverage: 0.916667  searchobserver.py:83
+[06:56:30] INFO     Iteration:      89, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      90, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      91, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      92, Coverage: 0.916667  searchobserver.py:83
+[06:56:31] INFO     Iteration:      93, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      94, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      95, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      96, Coverage: 0.916667  searchobserver.py:83
+           INFO     Iteration:      97, Coverage: 1.000000  searchobserver.py:83
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module link                          generator.py:640
+           INFO     Build AST for link                          generator.py:643
+           INFO     Mutate module link                          generator.py:648
+           INFO     Generated 26 mutants                        generator.py:657
+[06:56:32] INFO     Running tests on mutant   1/26     assertiongenerator.py:346
+           INFO     Running tests on mutant   2/26     assertiongenerator.py:346
+           INFO     Running tests on mutant   3/26     assertiongenerator.py:346
+           INFO     Skipping mutant   4/26 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant   5/26     assertiongenerator.py:346
+           INFO     Skipping mutant   6/26 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant   7/26     assertiongenerator.py:346
+           INFO     Skipping mutant   8/26 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant   9/26     assertiongenerator.py:346
+           INFO     Skipping mutant  10/26 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  11/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  12/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  13/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  14/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  15/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  16/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  17/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  18/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  19/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  20/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  21/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  22/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  23/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  24/26     assertiongenerator.py:346
+           INFO     Running tests on mutant  25/26     assertiongenerator.py:346
+[06:56:33] INFO     Running tests on mutant  26/26     assertiongenerator.py:346
+           INFO     Mutant 0 killed by Test(s): 0, 3,  assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 1 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 2 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 4 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 6 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 8 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 10 killed by Test(s): 0, 1, assertiongenerator.py:423
+                    3, 4, 5, 6                                                  
+           INFO     Mutant 11 killed by Test(s): 0, 1, assertiongenerator.py:423
+                    3, 4, 5, 6                                                  
+           INFO     Mutant 12 killed by Test(s): 0, 4  assertiongenerator.py:423
+           INFO     Mutant 13 killed by Test(s): 0, 4  assertiongenerator.py:423
+           INFO     Mutant 14 killed by Test(s): 0, 4, assertiongenerator.py:423
+                    5, 6                                                        
+           INFO     Mutant 15 killed by Test(s): 0, 4, assertiongenerator.py:423
+                    5, 6                                                        
+           INFO     Mutant 16 killed by Test(s): 0, 3, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 17 killed by Test(s): 0, 3, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 18 killed by Test(s): 0, 4, assertiongenerator.py:423
+                    5, 6                                                        
+           INFO     Mutant 19 killed by Test(s): 0, 1, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 20 killed by Test(s): 0, 1, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 21 killed by Test(s): 0, 1, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 22 killed by Test(s): 0, 2, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 23 killed by Test(s): 0, 2, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 24 killed by Test(s): 0, 2, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Mutant 25 killed by Test(s): 0, 2, assertiongenerator.py:423
+                    4, 5, 6                                                     
+           INFO     Number of Surviving Mutant(s): 4   assertiongenerator.py:435
+                    (Mutants: 3, 5, 7, 9)                                       
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:447
+           INFO     Written 7 test cases to                     generator.py:774
+                    /home/user/BugsInPy/temp/out/suite_62/test_                 
+                    link.py                                                     
+           INFO     Writing statistics                         statistics.py:370
+           INFO     Stop Pynguin Test Generation…               generator.py:119

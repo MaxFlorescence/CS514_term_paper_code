@@ -1,0 +1,1733 @@
+Log file
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... unsuccessful attempt using repodata from current_repodata.json, retrying with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.11.0
+
+
+
+## Package Plan ##
+
+  environment location: /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34
+
+  added / updated specs:
+    - pytest
+    - python=3.7.3
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |             main           3 KB
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    attrs-22.1.0               |   py37h06a4308_0          84 KB
+    certifi-2022.12.7          |   py37h06a4308_0         150 KB
+    flit-core-3.6.0            |     pyhd3eb1b0_0          42 KB
+    importlib-metadata-4.11.3  |   py37h06a4308_0          40 KB
+    importlib_metadata-4.11.3  |       hd3eb1b0_0          12 KB
+    iniconfig-1.1.1            |     pyhd3eb1b0_0           8 KB
+    libedit-3.1.20230828       |       h5eee18b_0         179 KB
+    libffi-3.2.1               |    hf484d3e_1007          48 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.1.1w             |       h7f8727e_0         3.7 MB
+    packaging-22.0             |   py37h06a4308_0          68 KB
+    pip-22.3.1                 |   py37h06a4308_0         2.7 MB
+    pluggy-1.0.0               |   py37h06a4308_1          29 KB
+    py-1.11.0                  |     pyhd3eb1b0_0          76 KB
+    pytest-7.1.2               |   py37h06a4308_0         445 KB
+    python-3.7.3               |       h0371630_0        32.1 MB
+    readline-7.0               |       h7b6447c_5         324 KB
+    setuptools-65.6.3          |   py37h06a4308_0         1.1 MB
+    sqlite-3.33.0              |       h62c20be_0         1.1 MB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    tomli-2.0.1                |   py37h06a4308_0          24 KB
+    typing_extensions-4.4.0    |   py37h06a4308_0          45 KB
+    wheel-0.38.4               |   py37h06a4308_0          63 KB
+    zipp-3.11.0                |   py37h06a4308_0          19 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    ------------------------------------------------------------
+                                           Total:        57.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  attrs              pkgs/main/linux-64::attrs-22.1.0-py37h06a4308_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  certifi            pkgs/main/linux-64::certifi-2022.12.7-py37h06a4308_0 
+  flit-core          pkgs/main/noarch::flit-core-3.6.0-pyhd3eb1b0_0 
+  importlib-metadata pkgs/main/linux-64::importlib-metadata-4.11.3-py37h06a4308_0 
+  importlib_metadata pkgs/main/noarch::importlib_metadata-4.11.3-hd3eb1b0_0 
+  iniconfig          pkgs/main/noarch::iniconfig-1.1.1-pyhd3eb1b0_0 
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0 
+  libffi             pkgs/main/linux-64::libffi-3.2.1-hf484d3e_1007 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.1.1w-h7f8727e_0 
+  packaging          pkgs/main/linux-64::packaging-22.0-py37h06a4308_0 
+  pip                pkgs/main/linux-64::pip-22.3.1-py37h06a4308_0 
+  pluggy             pkgs/main/linux-64::pluggy-1.0.0-py37h06a4308_1 
+  py                 pkgs/main/noarch::py-1.11.0-pyhd3eb1b0_0 
+  pytest             pkgs/main/linux-64::pytest-7.1.2-py37h06a4308_0 
+  python             pkgs/main/linux-64::python-3.7.3-h0371630_0 
+  readline           pkgs/main/linux-64::readline-7.0-h7b6447c_5 
+  setuptools         pkgs/main/linux-64::setuptools-65.6.3-py37h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.33.0-h62c20be_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  tomli              pkgs/main/linux-64::tomli-2.0.1-py37h06a4308_0 
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.4.0-py37h06a4308_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py37h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zipp               pkgs/main/linux-64::zipp-3.11.0-py37h06a4308_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+
+Downloading and Extracting Packages
+py-1.11.0            | 76 KB     |            |   0% 
+_openmp_mutex-5.1    | 21 KB     |            |   0% [A
+
+python-3.7.3         | 32.1 MB   |            |   0% [A[A
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[A
+
+
+
+pip-22.3.1           | 2.7 MB    |            |   0% [A[A[A[A
+
+
+
+
+importlib_metadata-4 | 12 KB     |            |   0% [A[A[A[A[A
+
+
+
+
+
+zipp-3.11.0          | 19 KB     |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+pip-22.3.1           | 2.7 MB    |            |   1% [A[A[A[A
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[Apy-1.11.0            | 76 KB     | ##         |  21% 
+
+
+
+pip-22.3.1           | 2.7 MB    | ########6  |  86% [A[A[A[A
+_openmp_mutex-5.1    | 21 KB     | #######6   |  77% [A
+
+
+
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   |            |   0% [A[A
+
+
+openssl-1.1.1w       | 3.7 MB    | ##7        |  28% [A[A[A
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########4  |  84% [A[A[A[A[A[A
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     | ###9       |  40% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | 8          |   9% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | 2          |   2% [A[A
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     | ###3       |  33% [A[A[A[A[A[A[A[A[A[A
+
+
+openssl-1.1.1w       | 3.7 MB    | ####5      |  46% [A[A[A
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     | ###7       |  38% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | 3          |   3% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ##2        |  23% [A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | 4          |   5% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ##3        |  24% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+openssl-1.1.1w       | 3.7 MB    | ######6    |  66% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     | #8         |  19% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ###5       |  35% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ####4      |  45% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    | 3          |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ######6    |  66% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | 6          |   7% [A[A
+
+
+openssl-1.1.1w       | 3.7 MB    | #########  |  91% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+_openmp_mutex-5.1    | 21 KB     | ########## | 100% [A
+_openmp_mutex-5.1    | 21 KB     | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ######9    |  69% [A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | 9          |   9% [A[Apy-1.11.0            | 76 KB     | ########## | 100% py-1.11.0            | 76 KB     | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | #########1 |  92% [A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | #1         |  12% [A[A
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########## | 100% [A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | #3         |  14% [A[A
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     | ########## | 100% [A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | #6         |  16% [A[A
+
+python-3.7.3         | 32.1 MB   | #9         |  19% [A[A
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | ##1        |  22% [A[A
+
+python-3.7.3         | 32.1 MB   | ##4        |  25% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | ##8        |  29% [A[A
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | ###3       |  34% [A[A
+
+python-3.7.3         | 32.1 MB   | ###7       |  38% [A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | ####2      |  42% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | ####6      |  46% [A[A
+
+python-3.7.3         | 32.1 MB   | #####1     |  51% [A[A
+
+python-3.7.3         | 32.1 MB   | #####5     |  56% [A[A
+
+python-3.7.3         | 32.1 MB   | ######     |  61% [A[A
+
+python-3.7.3         | 32.1 MB   | ######5    |  65% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | #######    |  70% [A[A
+
+python-3.7.3         | 32.1 MB   | #######5   |  75% [A[A
+
+python-3.7.3         | 32.1 MB   | #######9   |  80% [A[A
+
+
+openssl-1.1.1w       | 3.7 MB    | ########## | 100% [A[A[A
+
+python-3.7.3         | 32.1 MB   | ########4  |  84% [A[A
+
+python-3.7.3         | 32.1 MB   | ########9  |  89% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | #########3 |  94% [A[A
+
+python-3.7.3         | 32.1 MB   | #########9 |  99% [A[A
+
+
+
+pip-22.3.1           | 2.7 MB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+python-3.7.3         | 32.1 MB   | ########## | 100% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate d67214fd79125c3eb272eee3600f4a34
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+python setup.py install
+Collecting atomicwrites==1.4.0
+  Downloading atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
+Installing collected packages: atomicwrites
+Successfully installed atomicwrites-1.4.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting attrs==19.3.0
+  Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Installing collected packages: attrs
+  Attempting uninstall: attrs
+    Found existing installation: attrs 22.1.0
+    Uninstalling attrs-22.1.0:
+      Successfully uninstalled attrs-22.1.0
+Successfully installed attrs-19.3.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting blinker==1.4
+  Downloading blinker-1.4.tar.gz (111 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.5/111.5 kB 9.1 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: blinker
+  Building wheel for blinker (setup.py): started
+  Building wheel for blinker (setup.py): finished with status 'done'
+  Created wheel for blinker: filename=blinker-1.4-py3-none-any.whl size=13458 sha256=41247340ca05be784694af19ef467ff06681201566e0477290c8c82fedc35545
+  Stored in directory: /root/.cache/pip/wheels/7b/30/69/51f4f33426aaf6785c6a708c50e328d5a3a4ed0c4524304c0c
+Successfully built blinker
+Installing collected packages: blinker
+Successfully installed blinker-1.4
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting brotlipy==0.7.0
+  Downloading brotlipy-0.7.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (929 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 929.7/929.7 kB 27.0 MB/s eta 0:00:00
+Collecting cffi>=1.0.0
+  Downloading cffi-1.15.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (427 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 427.9/427.9 kB 31.4 MB/s eta 0:00:00
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 kB 12.5 MB/s eta 0:00:00
+Installing collected packages: pycparser, cffi, brotlipy
+Successfully installed brotlipy-0.7.0 cffi-1.15.1 pycparser-2.21
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting certifi==2020.4.5.1
+  Downloading certifi-2020.4.5.1-py2.py3-none-any.whl (157 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.0/157.0 kB 11.5 MB/s eta 0:00:00
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2022.12.7
+    Uninstalling certifi-2022.12.7:
+      Successfully uninstalled certifi-2022.12.7
+Successfully installed certifi-2020.4.5.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting cffi==1.14.0
+  Downloading cffi-1.14.0-cp37-cp37m-manylinux1_x86_64.whl (400 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 400.7/400.7 kB 20.2 MB/s eta 0:00:00
+Requirement already satisfied: pycparser in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from cffi==1.14.0) (2.21)
+Installing collected packages: cffi
+  Attempting uninstall: cffi
+    Found existing installation: cffi 1.15.1
+    Uninstalling cffi-1.15.1:
+      Successfully uninstalled cffi-1.15.1
+Successfully installed cffi-1.14.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting chardet==3.0.4
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.4/133.4 kB 11.6 MB/s eta 0:00:00
+Installing collected packages: chardet
+Successfully installed chardet-3.0.4
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting click==7.1.2
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.8/82.8 kB 8.1 MB/s eta 0:00:00
+Installing collected packages: click
+Successfully installed click-7.1.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting colorama==0.4.3
+  Downloading colorama-0.4.3-py2.py3-none-any.whl (15 kB)
+Installing collected packages: colorama
+Successfully installed colorama-0.4.3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting decorator==4.4.2
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Installing collected packages: decorator
+Successfully installed decorator-4.4.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting Flask==1.1.2
+  Downloading Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.6/94.6 kB 8.8 MB/s eta 0:00:00
+Collecting Jinja2>=2.10.1
+  Using cached jinja2-3.1.4-py3-none-any.whl (133 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 233.6/233.6 kB 20.5 MB/s eta 0:00:00
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Requirement already satisfied: click>=5.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask==1.1.2) (7.1.2)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Installing collected packages: MarkupSafe, itsdangerous, Werkzeug, Jinja2, Flask
+Successfully installed Flask-1.1.2 Jinja2-3.1.4 MarkupSafe-2.1.5 Werkzeug-2.2.3 itsdangerous-2.1.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting httpbin==0.7.0
+  Downloading httpbin-0.7.0-py2.py3-none-any.whl (86 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.9/86.9 kB 7.3 MB/s eta 0:00:00
+Requirement already satisfied: itsdangerous in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (2.1.2)
+Requirement already satisfied: Flask in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (1.1.2)
+Requirement already satisfied: MarkupSafe in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (2.1.5)
+Requirement already satisfied: decorator in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (4.4.2)
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: brotlipy in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (0.7.0)
+Requirement already satisfied: werkzeug>=0.14.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (2.2.3)
+Collecting raven[flask]
+  Downloading raven-6.10.0-py2.py3-none-any.whl (284 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 284.3/284.3 kB 21.2 MB/s eta 0:00:00
+Requirement already satisfied: cffi>=1.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from brotlipy->httpbin==0.7.0) (1.14.0)
+Requirement already satisfied: click>=5.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin==0.7.0) (7.1.2)
+Requirement already satisfied: Jinja2>=2.10.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin==0.7.0) (3.1.4)
+Requirement already satisfied: blinker>=1.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from raven[flask]->httpbin==0.7.0) (1.4)
+Requirement already satisfied: pycparser in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from cffi>=1.0.0->brotlipy->httpbin==0.7.0) (2.21)
+Installing collected packages: raven, six, httpbin
+Successfully installed httpbin-0.7.0 raven-6.10.0 six-1.16.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting idna==2.9
+  Downloading idna-2.9-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.4/58.4 kB 5.9 MB/s eta 0:00:00
+Installing collected packages: idna
+Successfully installed idna-2.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting importlib-metadata==1.6.0
+  Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from importlib-metadata==1.6.0) (3.11.0)
+Installing collected packages: importlib-metadata
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 4.11.3
+    Uninstalling importlib-metadata-4.11.3:
+      Successfully uninstalled importlib-metadata-4.11.3
+Successfully installed importlib-metadata-1.6.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting itsdangerous==1.1.0
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Installing collected packages: itsdangerous
+  Attempting uninstall: itsdangerous
+    Found existing installation: itsdangerous 2.1.2
+    Uninstalling itsdangerous-2.1.2:
+      Successfully uninstalled itsdangerous-2.1.2
+Successfully installed itsdangerous-1.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting Jinja2==2.11.2
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.8/125.8 kB 9.6 MB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Jinja2==2.11.2) (2.1.5)
+Installing collected packages: Jinja2
+  Attempting uninstall: Jinja2
+    Found existing installation: Jinja2 3.1.4
+    Uninstalling Jinja2-3.1.4:
+      Successfully uninstalled Jinja2-3.1.4
+Successfully installed Jinja2-2.11.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting MarkupSafe==1.1.1
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux2010_x86_64.whl (33 kB)
+Installing collected packages: MarkupSafe
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 2.1.5
+    Uninstalling MarkupSafe-2.1.5:
+      Successfully uninstalled MarkupSafe-2.1.5
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+werkzeug 2.2.3 requires MarkupSafe>=2.1.1, but you have markupsafe 1.1.1 which is incompatible.
+Successfully installed MarkupSafe-1.1.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting mock==4.0.2
+  Downloading mock-4.0.2-py3-none-any.whl (28 kB)
+Installing collected packages: mock
+Successfully installed mock-4.0.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting more-itertools==8.3.0
+  Downloading more_itertools-8.3.0-py3-none-any.whl (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.7/44.7 kB 5.1 MB/s eta 0:00:00
+Installing collected packages: more-itertools
+Successfully installed more-itertools-8.3.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting packaging==20.4
+  Downloading packaging-20.4-py2.py3-none-any.whl (37 kB)
+Collecting pyparsing>=2.0.2
+  Downloading pyparsing-3.1.4-py3-none-any.whl (104 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.1/104.1 kB 11.2 MB/s eta 0:00:00
+Requirement already satisfied: six in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from packaging==20.4) (1.16.0)
+Installing collected packages: pyparsing, packaging
+  Attempting uninstall: packaging
+    Found existing installation: packaging 22.0
+    Uninstalling packaging-22.0:
+      Successfully uninstalled packaging-22.0
+Successfully installed packaging-20.4 pyparsing-3.1.4
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pluggy==0.13.1
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pluggy==0.13.1) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy==0.13.1) (3.11.0)
+Installing collected packages: pluggy
+  Attempting uninstall: pluggy
+    Found existing installation: pluggy 1.0.0
+    Uninstalling pluggy-1.0.0:
+      Successfully uninstalled pluggy-1.0.0
+Successfully installed pluggy-0.13.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting py==1.8.1
+  Downloading py-1.8.1-py2.py3-none-any.whl (83 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.8/83.8 kB 7.7 MB/s eta 0:00:00
+Installing collected packages: py
+  Attempting uninstall: py
+    Found existing installation: py 1.11.0
+    Uninstalling py-1.11.0:
+      Successfully uninstalled py-1.11.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+pytest 7.1.2 requires py>=1.8.2, but you have py 1.8.1 which is incompatible.
+Successfully installed py-1.8.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pycparser==2.20
+  Downloading pycparser-2.20-py2.py3-none-any.whl (112 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 112.0/112.0 kB 9.3 MB/s eta 0:00:00
+Installing collected packages: pycparser
+  Attempting uninstall: pycparser
+    Found existing installation: pycparser 2.21
+    Uninstalling pycparser-2.21:
+      Successfully uninstalled pycparser-2.21
+Successfully installed pycparser-2.20
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting Pygments==2.6.1
+  Downloading Pygments-2.6.1-py3-none-any.whl (914 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 914.4/914.4 kB 30.3 MB/s eta 0:00:00
+Installing collected packages: Pygments
+Successfully installed Pygments-2.6.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pyparsing==2.4.7
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.8/67.8 kB 5.9 MB/s eta 0:00:00
+Installing collected packages: pyparsing
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 3.1.4
+    Uninstalling pyparsing-3.1.4:
+      Successfully uninstalled pyparsing-3.1.4
+Successfully installed pyparsing-2.4.7
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest==5.4.2
+  Downloading pytest-5.4.2-py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.4/247.4 kB 15.2 MB/s eta 0:00:00
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (1.8.1)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (19.3.0)
+Collecting wcwidth
+  Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (1.6.0)
+Requirement already satisfied: packaging in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (20.4)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (8.3.0)
+Requirement already satisfied: pluggy<1.0,>=0.12 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (0.13.1)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest==5.4.2) (3.11.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from packaging->pytest==5.4.2) (2.4.7)
+Requirement already satisfied: six in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from packaging->pytest==5.4.2) (1.16.0)
+Installing collected packages: wcwidth, pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 7.1.2
+    Uninstalling pytest-7.1.2:
+      Successfully uninstalled pytest-7.1.2
+Successfully installed pytest-5.4.2 wcwidth-0.2.13
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest-httpbin==1.0.0
+  Downloading pytest_httpbin-1.0.0-py2.py3-none-any.whl (9.8 kB)
+Requirement already satisfied: six in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest-httpbin==1.0.0) (1.16.0)
+Requirement already satisfied: httpbin in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest-httpbin==1.0.0) (0.7.0)
+Requirement already satisfied: itsdangerous in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (1.1.0)
+Requirement already satisfied: raven[flask] in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (6.10.0)
+Requirement already satisfied: Flask in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (1.1.2)
+Requirement already satisfied: decorator in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (4.4.2)
+Requirement already satisfied: MarkupSafe in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (1.1.1)
+Requirement already satisfied: werkzeug>=0.14.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (2.2.3)
+Requirement already satisfied: brotlipy in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (0.7.0)
+Collecting MarkupSafe
+  Using cached MarkupSafe-2.1.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Requirement already satisfied: cffi>=1.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from brotlipy->httpbin->pytest-httpbin==1.0.0) (1.14.0)
+Requirement already satisfied: click>=5.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin->pytest-httpbin==1.0.0) (7.1.2)
+Requirement already satisfied: Jinja2>=2.10.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin->pytest-httpbin==1.0.0) (2.11.2)
+Requirement already satisfied: blinker>=1.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from raven[flask]->httpbin->pytest-httpbin==1.0.0) (1.4)
+Requirement already satisfied: pycparser in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from cffi>=1.0.0->brotlipy->httpbin->pytest-httpbin==1.0.0) (2.20)
+Installing collected packages: MarkupSafe, pytest-httpbin
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 1.1.1
+    Uninstalling MarkupSafe-1.1.1:
+      Successfully uninstalled MarkupSafe-1.1.1
+Successfully installed MarkupSafe-2.1.5 pytest-httpbin-1.0.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: raven==6.10.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (6.10.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting requests==2.0.0
+  Downloading requests-2.0.0-py2.py3-none-any.whl (391 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 391.1/391.1 kB 21.3 MB/s eta 0:00:00
+Installing collected packages: requests
+Successfully installed requests-2.0.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting six==1.15.0
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Installing collected packages: six
+  Attempting uninstall: six
+    Found existing installation: six 1.16.0
+    Uninstalling six-1.16.0:
+      Successfully uninstalled six-1.16.0
+Successfully installed six-1.15.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting urllib3==1.25.9
+  Downloading urllib3-1.25.9-py2.py3-none-any.whl (126 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.7/126.7 kB 8.0 MB/s eta 0:00:00
+Installing collected packages: urllib3
+Successfully installed urllib3-1.25.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting wcwidth==0.1.9
+  Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+Installing collected packages: wcwidth
+  Attempting uninstall: wcwidth
+    Found existing installation: wcwidth 0.2.13
+    Uninstalling wcwidth-0.2.13:
+      Successfully uninstalled wcwidth-0.2.13
+Successfully installed wcwidth-0.1.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting Werkzeug==1.0.1
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.6/298.6 kB 16.6 MB/s eta 0:00:00
+Installing collected packages: Werkzeug
+  Attempting uninstall: Werkzeug
+    Found existing installation: Werkzeug 2.2.3
+    Uninstalling Werkzeug-2.2.3:
+      Successfully uninstalled Werkzeug-2.2.3
+Successfully installed Werkzeug-1.0.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting zipp==3.1.0
+  Downloading zipp-3.1.0-py3-none-any.whl (4.9 kB)
+Installing collected packages: zipp
+  Attempting uninstall: zipp
+    Found existing installation: zipp 3.11.0
+    Uninstalling zipp-3.11.0:
+      Successfully uninstalled zipp-3.11.0
+Successfully installed zipp-3.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+running install
+running bdist_egg
+running egg_info
+creating httpie.egg-info
+writing httpie.egg-info/PKG-INFO
+writing dependency_links to httpie.egg-info/dependency_links.txt
+writing entry points to httpie.egg-info/entry_points.txt
+writing requirements to httpie.egg-info/requires.txt
+writing top-level names to httpie.egg-info/top_level.txt
+writing manifest file 'httpie.egg-info/SOURCES.txt'
+reading manifest file 'httpie.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'httpie.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/httpie
+copying httpie/__main__.py -> build/lib/httpie
+copying httpie/cli.py -> build/lib/httpie
+copying httpie/pygson.py -> build/lib/httpie
+copying httpie/solarized.py -> build/lib/httpie
+copying httpie/__init__.py -> build/lib/httpie
+copying httpie/pretty.py -> build/lib/httpie
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/httpie
+copying build/lib/httpie/__main__.py -> build/bdist.linux-x86_64/egg/httpie
+copying build/lib/httpie/cli.py -> build/bdist.linux-x86_64/egg/httpie
+copying build/lib/httpie/pygson.py -> build/bdist.linux-x86_64/egg/httpie
+copying build/lib/httpie/solarized.py -> build/bdist.linux-x86_64/egg/httpie
+copying build/lib/httpie/__init__.py -> build/bdist.linux-x86_64/egg/httpie
+copying build/lib/httpie/pretty.py -> build/bdist.linux-x86_64/egg/httpie
+byte-compiling build/bdist.linux-x86_64/egg/httpie/__main__.py to __main__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/httpie/cli.py to cli.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/httpie/pygson.py to pygson.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/httpie/solarized.py to solarized.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/httpie/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/httpie/pretty.py to pretty.cpython-37.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying httpie.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying httpie.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying httpie.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying httpie.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying httpie.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying httpie.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+/opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages/setuptools/dist.py:529: UserWarning: Normalizing '0.1.7-dev' to '0.1.7.dev0'
+  warnings.warn(tmpl.format(**locals()))
+/opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+/opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages/setuptools/command/easy_install.py:147: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  EasyInstallDeprecationWarning,
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/httpie-0.1.7.dev0-py3.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing httpie-0.1.7.dev0-py3.7.egg
+Copying httpie-0.1.7.dev0-py3.7.egg to /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages
+Adding httpie 0.1.7.dev0 to easy-install.pth file
+Installing http script to /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/bin
+
+Installed /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages/httpie-0.1.7.dev0-py3.7.egg
+Processing dependencies for httpie==0.1.7.dev0
+Searching for Pygments==2.6.1
+Best match: Pygments 2.6.1
+Adding Pygments 2.6.1 to easy-install.pth file
+Installing pygmentize script to /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/bin
+
+Using /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages
+Searching for requests==2.0.0
+Best match: requests 2.0.0
+Adding requests 2.0.0 to easy-install.pth file
+
+Using /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages
+Finished processing dependencies for httpie==0.1.7.dev0
+Requirement already satisfied: atomicwrites==1.4.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.4.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: attrs==19.3.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (19.3.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: blinker==1.4 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.4)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: brotlipy==0.7.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (0.7.0)
+Requirement already satisfied: cffi>=1.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from brotlipy==0.7.0) (1.14.0)
+Requirement already satisfied: pycparser in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from cffi>=1.0.0->brotlipy==0.7.0) (2.20)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: certifi==2020.4.5.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (2020.4.5.1)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: cffi==1.14.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.14.0)
+Requirement already satisfied: pycparser in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from cffi==1.14.0) (2.20)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: chardet==3.0.4 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (3.0.4)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: click==7.1.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (7.1.2)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: colorama==0.4.3 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (0.4.3)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: decorator==4.4.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (4.4.2)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: Flask==1.1.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.1.2)
+Requirement already satisfied: click>=5.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask==1.1.2) (7.1.2)
+Requirement already satisfied: itsdangerous>=0.24 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask==1.1.2) (1.1.0)
+Requirement already satisfied: Werkzeug>=0.15 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask==1.1.2) (1.0.1)
+Requirement already satisfied: Jinja2>=2.10.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask==1.1.2) (2.11.2)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Jinja2>=2.10.1->Flask==1.1.2) (2.1.5)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: httpbin==0.7.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (0.7.0)
+Requirement already satisfied: decorator in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (4.4.2)
+Requirement already satisfied: Flask in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (1.1.2)
+Requirement already satisfied: werkzeug>=0.14.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (1.0.1)
+Requirement already satisfied: six in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (1.15.0)
+Requirement already satisfied: brotlipy in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (0.7.0)
+Requirement already satisfied: raven[flask] in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (6.10.0)
+Requirement already satisfied: itsdangerous in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (1.1.0)
+Requirement already satisfied: MarkupSafe in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin==0.7.0) (2.1.5)
+Requirement already satisfied: cffi>=1.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from brotlipy->httpbin==0.7.0) (1.14.0)
+Requirement already satisfied: Jinja2>=2.10.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin==0.7.0) (2.11.2)
+Requirement already satisfied: click>=5.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin==0.7.0) (7.1.2)
+Requirement already satisfied: blinker>=1.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from raven[flask]->httpbin==0.7.0) (1.4)
+Requirement already satisfied: pycparser in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from cffi>=1.0.0->brotlipy->httpbin==0.7.0) (2.20)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: idna==2.9 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (2.9)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: importlib-metadata==1.6.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from importlib-metadata==1.6.0) (3.1.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: itsdangerous==1.1.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.1.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: Jinja2==2.11.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (2.11.2)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Jinja2==2.11.2) (2.1.5)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting MarkupSafe==1.1.1
+  Using cached MarkupSafe-1.1.1-cp37-cp37m-manylinux2010_x86_64.whl (33 kB)
+Installing collected packages: MarkupSafe
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 2.1.5
+    Uninstalling MarkupSafe-2.1.5:
+      Successfully uninstalled MarkupSafe-2.1.5
+Successfully installed MarkupSafe-1.1.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: mock==4.0.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (4.0.2)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: more-itertools==8.3.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (8.3.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: packaging==20.4 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (20.4)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from packaging==20.4) (2.4.7)
+Requirement already satisfied: six in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from packaging==20.4) (1.15.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pluggy==0.13.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (0.13.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pluggy==0.13.1) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy==0.13.1) (3.1.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: py==1.8.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.8.1)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pycparser==2.20 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (2.20)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: Pygments==2.6.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (2.6.1)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pyparsing==2.4.7 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (2.4.7)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest==5.4.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (5.4.2)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (19.3.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (1.8.1)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (8.3.0)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (1.6.0)
+Requirement already satisfied: wcwidth in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (0.1.9)
+Requirement already satisfied: pluggy<1.0,>=0.12 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (0.13.1)
+Requirement already satisfied: packaging in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest==5.4.2) (20.4)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest==5.4.2) (3.1.0)
+Requirement already satisfied: six in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from packaging->pytest==5.4.2) (1.15.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from packaging->pytest==5.4.2) (2.4.7)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest-httpbin==1.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.0.0)
+Requirement already satisfied: httpbin in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest-httpbin==1.0.0) (0.7.0)
+Requirement already satisfied: six in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from pytest-httpbin==1.0.0) (1.15.0)
+Requirement already satisfied: raven[flask] in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (6.10.0)
+Requirement already satisfied: decorator in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (4.4.2)
+Requirement already satisfied: itsdangerous in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (1.1.0)
+Requirement already satisfied: MarkupSafe in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (1.1.1)
+Requirement already satisfied: brotlipy in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (0.7.0)
+Requirement already satisfied: werkzeug>=0.14.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (1.0.1)
+Requirement already satisfied: Flask in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from httpbin->pytest-httpbin==1.0.0) (1.1.2)
+Requirement already satisfied: cffi>=1.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from brotlipy->httpbin->pytest-httpbin==1.0.0) (1.14.0)
+Requirement already satisfied: Jinja2>=2.10.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin->pytest-httpbin==1.0.0) (2.11.2)
+Requirement already satisfied: click>=5.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from Flask->httpbin->pytest-httpbin==1.0.0) (7.1.2)
+Requirement already satisfied: blinker>=1.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from raven[flask]->httpbin->pytest-httpbin==1.0.0) (1.4)
+Requirement already satisfied: pycparser in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (from cffi>=1.0.0->brotlipy->httpbin->pytest-httpbin==1.0.0) (2.20)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: raven==6.10.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (6.10.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: requests==2.0.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (2.0.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: six==1.15.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.15.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: urllib3==1.25.9 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.25.9)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: wcwidth==0.1.9 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (0.1.9)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: Werkzeug==1.0.1 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (1.0.1)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: zipp==3.1.0 in /opt/conda/envs/d67214fd79125c3eb272eee3600f4a34/lib/python3.7/site-packages (3.1.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+   Running on module 0 (./setup.py)...
+   Running on module 1 (./httpie/__main__.py)...
+   Running on module 2 (./httpie/cli.py)...
+   Running on module 3 (./httpie/pygson.py)...
+   Running on module 4 (./httpie/solarized.py)...
+   Running on module 5 (./httpie/pretty.py)...
+   Running on module 6 (./build/lib/httpie/__main__.py)...
+   Running on module 7 (./build/lib/httpie/cli.py)...
+   Running on module 8 (./build/lib/httpie/pygson.py)...
+   Running on module 9 (./build/lib/httpie/solarized.py)...
+   Running on module 10 (./build/lib/httpie/pretty.py)...

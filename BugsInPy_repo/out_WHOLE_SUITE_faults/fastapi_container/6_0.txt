@@ -1,0 +1,31 @@
+testing-script fastapi 6 0 WHOLE_SUITE /home/user/BugsInPy/temp/test_out/6_0.txt /home/user/BugsInPy/temp/tests test_utils.py fastapi
+Fixing and copying test suite...
+Considering report_1/
+   got test file "test_utils.py"
+   got import path fastapi.security.utils
+   added test_utils.py to suite
+
+pytest fastapi 6 0 WHOLE_SUITE
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/fastapi
+configfile: pyproject.toml
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+________________ ERROR collecting generated_tests/test_utils.py ________________
+ImportError while importing test module '/home/user/BugsInPy/temp/projects/fastapi/generated_tests/test_utils.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/opt/conda/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+generated_tests/test_utils.py:4: in <module>
+    import fastapi.security.utils as module_0
+fastapi/__init__.py:5: in <module>
+    from starlette.background import BackgroundTasks
+E   ModuleNotFoundError: No module named 'starlette'
+=========================== short test summary info ============================
+ERROR generated_tests/test_utils.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.08s ===============================

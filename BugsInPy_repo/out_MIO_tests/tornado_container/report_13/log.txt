@@ -1,0 +1,54 @@
+pynguin log ./platform/interface.py
+[14:18:31] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     1                              module.py:1328
+           INFO     Classes:      12                              module.py:1329
+           INFO     Using seed 1733321911330032557              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.MIO                                               
+           INFO     Instantiated 8 fitness     generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using MIOArchive           generationalgorithmfactory.py:339
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Iteration:       1, Coverage: 0.375000  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.375000  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.375000  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.375000  searchobserver.py:83
+           INFO     Iteration:       5, Coverage: 0.500000  searchobserver.py:83
+[14:18:30] INFO     Iteration:       6, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      10, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.875000  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 1.000000  searchobserver.py:83
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module interface                     generator.py:640
+           INFO     Build AST for interface                     generator.py:643
+           INFO     Mutate module interface                     generator.py:648
+           INFO     Generated 0 mutants                         generator.py:657
+           INFO     Number of Surviving Mutant(s): 0   assertiongenerator.py:435
+                    (Mutants: )                                                 
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:447
+           INFO     Written 7 test cases to                     generator.py:774
+                    /home/user/BugsInPy/temp/out/suite_13/test_                 
+                    interface.py                                                
+           INFO     Writing statistics                         statistics.py:370
+[14:18:31] INFO     Stop Pynguin Test Generation…               generator.py:119

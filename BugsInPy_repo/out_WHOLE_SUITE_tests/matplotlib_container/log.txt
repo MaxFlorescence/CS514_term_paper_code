@@ -1,0 +1,1677 @@
+Log file
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... unsuccessful attempt using repodata from current_repodata.json, retrying with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.11.0
+
+
+
+## Package Plan ##
+
+  environment location: /opt/conda/envs/96e55cef081ba1a7fa5bef32944f9ae7
+
+  added / updated specs:
+    - pytest
+    - python=3.8.1
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |             main           3 KB
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    exceptiongroup-1.2.0       |   py38h06a4308_0          29 KB
+    iniconfig-1.1.1            |     pyhd3eb1b0_0           8 KB
+    ld_impl_linux-64-2.40      |       h12ee557_0         710 KB
+    libedit-3.1.20230828       |       h5eee18b_0         179 KB
+    libffi-3.2.1               |    hf484d3e_1007          48 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.1.1w             |       h7f8727e_0         3.7 MB
+    packaging-24.1             |   py38h06a4308_0         147 KB
+    pip-24.2                   |   py38h06a4308_0         2.2 MB
+    pluggy-1.0.0               |   py38h06a4308_1          28 KB
+    pytest-7.4.4               |   py38h06a4308_0        1002 KB
+    python-3.8.1               |       h0371630_1        49.5 MB
+    readline-7.0               |       h7b6447c_5         324 KB
+    setuptools-75.1.0          |   py38h06a4308_0         1.7 MB
+    sqlite-3.33.0              |       h62c20be_0         1.1 MB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    tomli-2.0.1                |   py38h06a4308_0          24 KB
+    wheel-0.44.0               |   py38h06a4308_0         108 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    ------------------------------------------------------------
+                                           Total:        75.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  exceptiongroup     pkgs/main/linux-64::exceptiongroup-1.2.0-py38h06a4308_0 
+  iniconfig          pkgs/main/noarch::iniconfig-1.1.1-pyhd3eb1b0_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.40-h12ee557_0 
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0 
+  libffi             pkgs/main/linux-64::libffi-3.2.1-hf484d3e_1007 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.1.1w-h7f8727e_0 
+  packaging          pkgs/main/linux-64::packaging-24.1-py38h06a4308_0 
+  pip                pkgs/main/linux-64::pip-24.2-py38h06a4308_0 
+  pluggy             pkgs/main/linux-64::pluggy-1.0.0-py38h06a4308_1 
+  pytest             pkgs/main/linux-64::pytest-7.4.4-py38h06a4308_0 
+  python             pkgs/main/linux-64::python-3.8.1-h0371630_1 
+  readline           pkgs/main/linux-64::readline-7.0-h7b6447c_5 
+  setuptools         pkgs/main/linux-64::setuptools-75.1.0-py38h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.33.0-h62c20be_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  tomli              pkgs/main/linux-64::tomli-2.0.1-py38h06a4308_0 
+  wheel              pkgs/main/linux-64::wheel-0.44.0-py38h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+
+Downloading and Extracting Packages
+exceptiongroup-1.2.0 | 29 KB     |            |   0% 
+setuptools-75.1.0    | 1.7 MB    |            |   0% [A
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A
+
+
+libffi-3.2.1         | 48 KB     |            |   0% [A[A[A
+
+
+
+libgomp-11.2.0       | 474 KB    |            |   0% [A[A[A[A
+
+
+
+
+wheel-0.44.0         | 108 KB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-24.1       | 147 KB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pip-24.2             | 2.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+_openmp_mutex-5.1    | 21 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+libffi-3.2.1         | 48 KB     | ###3       |  33% [A[A[A
+
+
+libffi-3.2.1         | 48 KB     | ########## | 100% [A[A[Aexceptiongroup-1.2.0 | 29 KB     | #####4     |  55% 
+
+
+
+
+wheel-0.44.0         | 108 KB    | #4         |  15% [A[A[A[A[A
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[A[A[A[A
+setuptools-75.1.0    | 1.7 MB    |            |   1% [A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+libgomp-11.2.0       | 474 KB    | 3          |   3% [A[A[A[Aexceptiongroup-1.2.0 | 29 KB     | ########## | 100% exceptiongroup-1.2.0 | 29 KB     | ########## | 100% 
+
+tk-8.6.14            | 3.4 MB    | #7         |  18% [A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ##         |  21% [A[A[A[A[A[A
+setuptools-75.1.0    | 1.7 MB    | ###        |  31% [A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #1         |  12% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-24.1       | 147 KB    | #          |  11% [A[A[A[A[A[A[A[A
+
+tk-8.6.14            | 3.4 MB    | ####4      |  44% [A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ####7      |  47% [A[A[A[A[A[A
+setuptools-75.1.0    | 1.7 MB    | ########6  |  86% [A
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | 1          |   2% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ##8        |  28% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | #4         |  14% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ######8    |  68% [A[A[A[A[A[A
+
+tk-8.6.14            | 3.4 MB    | ######2    |  62% [A[A
+
+
+
+
+
+
+
+
+
+
+pip-24.2             | 2.2 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | ########7  |  88% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ###9       |  39% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+wheel-0.44.0         | 108 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+wheel-0.44.0         | 108 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | #########2 |  93% [A[A[A[A[A[A
+
+tk-8.6.14            | 3.4 MB    | ########4  |  84% [A[A
+
+
+
+
+
+
+
+
+
+
+pip-24.2             | 2.2 MB    | ####1      |  41% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #####4     |  54% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 1          |   2% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+_openmp_mutex-5.1    | 21 KB     | #######6   |  77% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    | 2          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pip-24.2             | 2.2 MB    | ########1  |  81% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ######8    |  68% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 3          |   4% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########2  |  82% [A[A[A[A[A[A[A
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    | ########5  |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-24.1       | 147 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-24.1       | 147 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #########5 |  96% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 7          |   7% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 9          |   9% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #1         |  12% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #4         |  15% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #7         |  18% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ##         |  21% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ##4        |  24% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ##7        |  28% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ###        |  31% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ###4       |  34% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ###7       |  37% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ####1      |  42% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+_openmp_mutex-5.1    | 21 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+_openmp_mutex-5.1    | 21 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ####5      |  45% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ####8      |  49% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #####2     |  53% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #####5     |  56% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #####9     |  59% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ######2    |  63% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ######6    |  66% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #######2   |  72% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #######6   |  76% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########   |  80% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########3  |  84% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########7  |  87% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #########1 |  91% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #########4 |  95% [A[A[A[A[A[A[A[A[A[A[A[A
+setuptools-75.1.0    | 1.7 MB    | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #########8 |  98% [A[A[A[A[A[A[A[A[A[A[A[A
+
+tk-8.6.14            | 3.4 MB    | ########## | 100% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+pip-24.2             | 2.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate 96e55cef081ba1a7fa5bef32944f9ae7
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+   Running on module 0 (./pylab.py)...
+   Running on module 1 (./matplotlib/sphinxext/mathmpl.py)...
+   Running on module 2 (./matplotlib/sphinxext/plot_directive.py)...
+   Running on module 3 (./matplotlib/container.py)...
+   Running on module 4 (./matplotlib/legend_handler.py)...
+   Running on module 5 (./matplotlib/backend_managers.py)...
+   Running on module 6 (./matplotlib/mlab.py)...
+   Running on module 7 (./matplotlib/pylab.py)...
+   Running on module 8 (./matplotlib/tight_bbox.py)...
+   Running on module 9 (./matplotlib/pyplot.py)...
+   Running on module 10 (./matplotlib/fontconfig_pattern.py)...
+   Running on module 11 (./matplotlib/texmanager.py)...
+   Running on module 12 (./matplotlib/_color_data.py)...
+   Running on module 13 (./matplotlib/colors.py)...
+   Running on module 14 (./matplotlib/patheffects.py)...
+   Running on module 15 (./matplotlib/_cm_listed.py)...
+   Running on module 16 (./matplotlib/animation.py)...
+   Running on module 17 (./matplotlib/rcsetup.py)...
+   Running on module 18 (./matplotlib/compat/subprocess.py)...
+   Running on module 19 (./matplotlib/_version.py)...
+   Running on module 20 (./matplotlib/docstring.py)...
+   Running on module 21 (./matplotlib/quiver.py)...
+   Running on module 22 (./matplotlib/legend.py)...
+   Running on module 23 (./matplotlib/textpath.py)...
+   Running on module 24 (./matplotlib/offsetbox.py)...
+   Running on module 25 (./matplotlib/table.py)...
+   Running on module 26 (./matplotlib/type1font.py)...
+   Running on module 27 (./matplotlib/patches.py)...
+   Running on module 28 (./matplotlib/transforms.py)...
+   Running on module 29 (./matplotlib/_constrained_layout.py)...
+   Running on module 30 (./matplotlib/_pylab_helpers.py)...
+   Running on module 31 (./matplotlib/gridspec.py)...
+   Running on module 32 (./matplotlib/contour.py)...
+   Running on module 33 (./matplotlib/lines.py)...
+   Running on module 34 (./matplotlib/collections.py)...
+   Running on module 35 (./matplotlib/axes/_subplots.py)...
+   Running on module 36 (./matplotlib/axes/_axes.py)...
+   Running on module 37 (./matplotlib/axes/_secondary_axes.py)...
+   Running on module 38 (./matplotlib/axes/_base.py)...
+   Running on module 39 (./matplotlib/stackplot.py)...
+   Running on module 40 (./matplotlib/cm.py)...
+   Running on module 41 (./matplotlib/text.py)...
+   Running on module 42 (./matplotlib/tight_layout.py)...
+   Running on module 43 (./matplotlib/artist.py)...
+   Running on module 44 (./matplotlib/backend_tools.py)...
+   Running on module 45 (./matplotlib/sankey.py)...
+   Running on module 46 (./matplotlib/ticker.py)...
+   Running on module 47 (./matplotlib/bezier.py)...
+   Running on module 48 (./matplotlib/tri/tritools.py)...
+   Running on module 49 (./matplotlib/tri/tricontour.py)...
+   Running on module 50 (./matplotlib/tri/triplot.py)...
+   Running on module 51 (./matplotlib/tri/triangulation.py)...
+   Running on module 52 (./matplotlib/tri/triinterpolate.py)...
+   Running on module 53 (./matplotlib/tri/trifinder.py)...
+   Running on module 54 (./matplotlib/tri/trirefine.py)...
+   Running on module 55 (./matplotlib/tri/tripcolor.py)...
+   Running on module 56 (./matplotlib/category.py)...
+   Running on module 57 (./matplotlib/style/core.py)...
+   Running on module 58 (./matplotlib/backends/backend_wx.py)...
+   Running on module 59 (./matplotlib/backends/backend_nbagg.py)...
+   Running on module 60 (./matplotlib/backends/backend_gtk3cairo.py)...
+   Running on module 61 (./matplotlib/backends/backend_pdf.py)...
+   Running on module 62 (./matplotlib/backends/backend_qt5.py)...
+   Running on module 63 (./matplotlib/backends/backend_cairo.py)...
+   Running on module 64 (./matplotlib/backends/backend_qt5cairo.py)...
+   Running on module 65 (./matplotlib/backends/_backend_tk.py)...
+   Running on module 66 (./matplotlib/backends/backend_qt4.py)...
+   Running on module 67 (./matplotlib/backends/backend_gtk3.py)...
+   Running on module 68 (./matplotlib/backends/_backend_pdf_ps.py)...
+   Running on module 69 (./matplotlib/backends/backend_qt5agg.py)...
+   Running on module 70 (./matplotlib/backends/backend_gtk3agg.py)...
+   Running on module 71 (./matplotlib/backends/backend_ps.py)...
+   Running on module 72 (./matplotlib/backends/windowing.py)...
+   Running on module 73 (./matplotlib/backends/backend_tkcairo.py)...
+   Running on module 74 (./matplotlib/backends/backend_mixed.py)...
+   Running on module 75 (./matplotlib/backends/backend_wxagg.py)...
+   Running on module 76 (./matplotlib/backends/backend_qt4agg.py)...
+   Running on module 77 (./matplotlib/backends/backend_agg.py)...
+   Running on module 78 (./matplotlib/backends/backend_webagg.py)...
+   Running on module 79 (./matplotlib/backends/backend_pgf.py)...
+   Running on module 80 (./matplotlib/backends/backend_qt4cairo.py)...
+   Running on module 81 (./matplotlib/backends/backend_svg.py)...
+   Running on module 82 (./matplotlib/backends/wx_compat.py)...
+   Running on module 83 (./matplotlib/backends/tkagg.py)...
+   Running on module 84 (./matplotlib/backends/backend_tkagg.py)...
+   Running on module 85 (./matplotlib/backends/qt_compat.py)...
+   Running on module 86 (./matplotlib/backends/qt_editor/formlayout.py)...
+   Running on module 87 (./matplotlib/backends/qt_editor/formsubplottool.py)...
+   Running on module 88 (./matplotlib/backends/qt_editor/figureoptions.py)...
+   Running on module 89 (./matplotlib/backends/qt_editor/_formlayout.py)...
+   Running on module 90 (./matplotlib/backends/backend_wxcairo.py)...
+   Running on module 91 (./matplotlib/backends/backend_webagg_core.py)...
+   Running on module 92 (./matplotlib/backends/backend_macosx.py)...
+   Running on module 93 (./matplotlib/backends/backend_template.py)...
+   Running on module 94 (./matplotlib/widgets.py)...
+   Running on module 95 (./matplotlib/_mathtext_data.py)...
+   Running on module 96 (./matplotlib/spines.py)...
+   Running on module 97 (./matplotlib/image.py)...
+   Running on module 98 (./matplotlib/_animation_data.py)...
+   Running on module 99 (./matplotlib/dates.py)...
+   Running on module 100 (./matplotlib/_layoutbox.py)...
+   Running on module 101 (./matplotlib/_cm.py)...
+   Running on module 102 (./matplotlib/units.py)...
+   Running on module 103 (./matplotlib/projections/polar.py)...
+   Running on module 104 (./matplotlib/projections/geo.py)...
+   Running on module 105 (./matplotlib/afm.py)...
+   Running on module 106 (./matplotlib/figure.py)...
+   Running on module 107 (./matplotlib/scale.py)...
+   Running on module 108 (./matplotlib/backend_bases.py)...
+   Running on module 109 (./matplotlib/dviread.py)...
+   Running on module 110 (./matplotlib/colorbar.py)...
+   Running on module 111 (./matplotlib/markers.py)...
+   Running on module 112 (./matplotlib/path.py)...
+   Running on module 113 (./matplotlib/streamplot.py)...
+   Running on module 114 (./matplotlib/mathtext.py)...
+   Running on module 115 (./matplotlib/blocking_input.py)...
+   Running on module 116 (./matplotlib/axis.py)...
+   Running on module 117 (./matplotlib/hatch.py)...
+   Running on module 118 (./matplotlib/font_manager.py)...
+   Running on module 119 (./matplotlib/cbook/deprecation.py)...
+   Running on module 120 (./mpl_toolkits/axes_grid/axes_divider.py)...
+   Running on module 121 (./mpl_toolkits/axes_grid/floating_axes.py)...
+   Running on module 122 (./mpl_toolkits/axes_grid/clip_path.py)...
+   Running on module 123 (./mpl_toolkits/axes_grid/axes_rgb.py)...
+   Running on module 124 (./mpl_toolkits/axes_grid/angle_helper.py)...
+   Running on module 125 (./mpl_toolkits/axes_grid/inset_locator.py)...
+   Running on module 126 (./mpl_toolkits/axes_grid/axisline_style.py)...
+   Running on module 127 (./mpl_toolkits/axes_grid/grid_finder.py)...
+   Running on module 128 (./mpl_toolkits/axes_grid/anchored_artists.py)...
+   Running on module 129 (./mpl_toolkits/axes_grid/axes_grid.py)...
+   Running on module 130 (./mpl_toolkits/axes_grid/axislines.py)...
+   Running on module 131 (./mpl_toolkits/axes_grid/grid_helper_curvelinear.py)...
+   Running on module 132 (./mpl_toolkits/axes_grid/axis_artist.py)...
+   Running on module 133 (./mpl_toolkits/axes_grid/axes_size.py)...
+   Running on module 134 (./mpl_toolkits/axes_grid/colorbar.py)...
+   Running on module 135 (./mpl_toolkits/axes_grid/parasite_axes.py)...
+   Running on module 136 (./mpl_toolkits/mplot3d/axis3d.py)...
+   Running on module 137 (./mpl_toolkits/mplot3d/art3d.py)...
+   Running on module 138 (./mpl_toolkits/mplot3d/proj3d.py)...
+   Running on module 139 (./mpl_toolkits/mplot3d/axes3d.py)...
+   Running on module 140 (./mpl_toolkits/axisartist/axes_divider.py)...
+   Running on module 141 (./mpl_toolkits/axisartist/floating_axes.py)...
+   Running on module 142 (./mpl_toolkits/axisartist/clip_path.py)...
+   Running on module 143 (./mpl_toolkits/axisartist/axes_rgb.py)...
+   Running on module 144 (./mpl_toolkits/axisartist/angle_helper.py)...
+   Running on module 145 (./mpl_toolkits/axisartist/axisline_style.py)...
+   Running on module 146 (./mpl_toolkits/axisartist/grid_finder.py)...
+   Running on module 147 (./mpl_toolkits/axisartist/axes_grid.py)...
+   Running on module 148 (./mpl_toolkits/axisartist/axislines.py)...
+   Running on module 149 (./mpl_toolkits/axisartist/grid_helper_curvelinear.py)...
+   Running on module 150 (./mpl_toolkits/axisartist/axis_artist.py)...
+   Running on module 151 (./mpl_toolkits/axisartist/parasite_axes.py)...
+   Running on module 152 (./mpl_toolkits/axes_grid1/axes_divider.py)...
+   Running on module 153 (./mpl_toolkits/axes_grid1/axes_rgb.py)...
+   Running on module 154 (./mpl_toolkits/axes_grid1/inset_locator.py)...
+   Running on module 155 (./mpl_toolkits/axes_grid1/anchored_artists.py)...
+   Running on module 156 (./mpl_toolkits/axes_grid1/axes_grid.py)...
+   Running on module 157 (./mpl_toolkits/axes_grid1/mpl_axes.py)...
+   Running on module 158 (./mpl_toolkits/axes_grid1/axes_size.py)...
+   Running on module 159 (./mpl_toolkits/axes_grid1/colorbar.py)...
+   Running on module 160 (./mpl_toolkits/axes_grid1/parasite_axes.py)...

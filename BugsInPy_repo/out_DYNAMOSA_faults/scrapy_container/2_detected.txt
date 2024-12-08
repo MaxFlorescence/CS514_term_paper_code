@@ -1,0 +1,1 @@
+DYNAMOSA,scrapy,2,0,

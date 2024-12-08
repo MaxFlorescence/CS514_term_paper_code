@@ -1,0 +1,148 @@
+testing-script thefuck 32 0 RANDOM /home/user/BugsInPy/temp/test_out/32_0.txt /home/user/BugsInPy/temp/tests test_ls_lah.py thefuck
+Fixing and copying test suite...
+Considering report_0/
+   got test file "test_dry.py"
+Considering report_1/
+   got test file "test_django_south_ghost.py"
+Considering report_10/
+   got test file "test_brew_install.py"
+Considering report_13/
+   got test file "test_pip_unknown_command.py"
+Considering report_17/
+   got test file "test_go_run.py"
+Considering report_2/
+   got test file "test_sudo.py"
+Considering report_25/
+   got test file "test_cargo_no_command.py"
+Considering report_26/
+   got test file "test_man.py"
+Considering report_27/
+   got test file "test_whois.py"
+Considering report_28/
+   got test file "test_git_diff_staged.py"
+Considering report_29/
+   got test file "test_man_no_space.py"
+Considering report_31/
+   got test file "test_brew_upgrade.py"
+Considering report_34/
+   got test file "test_cargo.py"
+Considering report_35/
+   got test file "test_git_not_command.py"
+Considering report_36/
+   got test file "test_ls_lah.py"
+   got import path thefuck.rules.ls_lah
+   added test_ls_lah.py to suite
+Considering report_38/
+   got test file "test_git_push.py"
+Considering report_4/
+   got test file "test_cd_parent.py"
+Considering report_40/
+   got test file "test_cpp11.py"
+Considering report_41/
+   got test file "test_ssh_known_hosts.py"
+Considering report_42/
+   got test file "test_grep_recursive.py"
+Considering report_43/
+   got test file "test_open.py"
+Considering report_44/
+   got test file "test_quotation_marks.py"
+Considering report_45/
+   got test file "test_django_south_merge.py"
+Considering report_46/
+   got test file "test_python_execute.py"
+Considering report_6/
+   got test file "test_javac.py"
+Considering report_7/
+   got test file "test_switch_lang.py"
+Considering report_8/
+   got test file "test_sl_ls.py"
+Considering report_9/
+   got test file "test_composer_not_command.py"
+
+pytest thefuck 32 0 RANDOM
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/thefuck
+collected 5583 items
+
+generated_tests/test_ls_lah.py xxxxxxxxxxxxx.xxx.xx.xxxxxxxxxxxxxxxxxxxx [  0%]
+xxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxx [  2%]
+xxx.xxxxxxxxxx.xxx.xxxxxxxxxxxxxxxxx.xxxxxxx.xxxxxxxxxxxxxxxxxxxxxxx.xxx [  3%]
+xxxx.xxxxxxxxxxxxxxx..xxxxxxxxxxxx.xxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxx. [  4%]
+x.xx.xxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxx.xxxxxxxxxxxxxx.x.xxxxxxxxx [  5%]
+xxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx.xxxxxxxxxxxxxxxxxxxxxxxx [  7%]
+xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx.xxxxxxxx [  8%]
+.xxx.xxxxxx.xxxxxxxx.xxxxxxxx.xxxx.xxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxx [  9%]
+xxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx [ 11%]
+xx.xx.xxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx [ 12%]
+xxxxxxxxxx.xxxxxxx.xxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx [ 13%]
+xxxxxxxxx.xx.xxxxxxxxxxxxxxxxxx.xxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 14%]
+xxxxxxxxxxxxx.xxxxxxxx.xx.xxxxxxxxxxxxxxx.xxxxx.xxxxxxxxxxxxxxxxxxxxxxx. [ 16%]
+xxxxxxx.xxxxxxxxxxx.xxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxx [ 17%]
+xxxxxxxxxxxxxxxxxxxxxxxxxx.xx.xxxxxxxxxxxxxxxxxxx.xxxxxxxxxx.xxxxxxxxxxx [ 18%]
+xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 20%]
+xxxxxxxxxxxxxxxxxx.x.xxxx.xxxxxxxx..xxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxx [ 21%]
+xxxxxxxxxxxxxxxxxxxxxxx.xx.xxxxxxxx.xxxxxxxxxxxx.xxxxxxxxxxxx.xxxxxxxxxx [ 22%]
+xxxxxxxxxxxx.xxxxxxxxxxxxxxx..x.xxxxx.xxxxxxxxxx.xxxxxxxx.x.xxxxx.xxxxxx [ 23%]
+xxxxxx.xxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxx [ 25%]
+xxxxxxxxx.xxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 26%]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xx.xxxxxxx.xxxxxxxxxx.xxxxxxxxxxxx.xxxxx [ 27%]
+xxxx.x.xxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx.xxxxxxxxxxxxxx [ 29%]
+xxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x [ 30%]
+xxxxxx.xxxxx.xxx.x.xxxxxxx.xxx.xxxxxxxx.xxxxxxxxxxxxxxxxxxxxx.xxxxx.xxxx [ 31%]
+xxxxxxxxx.xxxxxxxx.xx.xxxxxxxxxxxx.xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx [ 32%]
+xxxxxxx.x.xxxxxxxx.xxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 34%]
+xxxxxxxxxxxxxxxxxxxxxxx.xx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxx.xxxxx. [ 35%]
+xxxxxxxxxxxx.xxx.x.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 36%]
+xxx.x.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxx [ 38%]
+xxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxx.xxxxxxxxx [ 39%]
+.x..xxxxxxxxxx.xxxxxxxxxxxxxxxxx.x.xxx.xxxxxxxx.xxx.xxxxxxxxxxxx.xxxxxxx [ 40%]
+xxxxxx.xxxxxxxxx.xxxxxxxxxxxxx.xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx.x.xxxxxx [ 42%]
+xx.xxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxx.xx [ 43%]
+xxxxxxxxxxxx.xxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxx.x.xxxxxxxxxxx.xx [ 44%]
+xxxxxxxxxxxxxxxxxxxxxxxxx.x.xxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 45%]
+xxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxx [ 47%]
+xxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx [ 48%]
+xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 49%]
+xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx.x.xxxxxxxxxxxxxxxxxxxx [ 51%]
+xxxxxxxxxxxxx.x.xxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxx [ 52%]
+xxxxxxxx.xx.xxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxx [ 53%]
+xxxxx.xxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxx. [ 54%]
+.xxxxxx.xxxxxxxxxxx..xxxxxxxx..xxxxxxxxxxxxx.xxxxxxxxxxxxxx.xxxxxxxxxxxx [ 56%]
+xxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxx.xx.xxxxxxxxx [ 57%]
+.x.xxx.xxx.xxx.xx.xxxxxxxxx.xxxx.xxxxxxxxxxxxxxxx.xxxxx.xxxxxxxxxxxx.xxx [ 58%]
+xxxxxxxxxxxxxxxxxxxxx.x.xx.xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx.xxx.xxxxxxx [ 60%]
+xxxxxxxxxxxxxxxx.xxxxxxxxx.xxxxxxxxxxxxxx..x.x.xx.xxxxxxxxxxxxxxxx.x.x.x [ 61%]
+xxxxxxxx.xx.xxxxxxxxxxxxxxx.xx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. [ 62%]
+xxxxxxxxxxxxx.xxxxxxxx.xxxx.xxx.xxxxxxxx.xxxxxxxxxx.xxxxxxxxxxx.xxxxxxxx [ 63%]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxx [ 65%]
+x.xxxxxxxx.xxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x..xxxxxxx [ 66%]
+xxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxx.xxxxxxxxx [ 67%]
+x.xxxxxxxxxxxx.xxxxxxxxxxxx.xxx.xx.xxx.xxxxxxxxxxx.xxxxxxxxxx.xx.xxx.xxx [ 69%]
+xx..xxxxxxx.x.xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxx.xxxxx.xxxxxxx.xxxxxxxxxxx [ 70%]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxx.xxxxxxxxxxxx.xxxxx [ 71%]
+x.xxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx.xxxxxx.xx [ 72%]
+xx.xxxxxxxxxxxxxxxxxxxxxx.x.xxxxxxxxxxx..xxxxxxx.xxxxxxxxxx.xx.xxxxxxxxx [ 74%]
+xxxxx.xxxxxxxx.xxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxx.xxx.xx.xxxxxxxxxx [ 75%]
+xxxxxxx.x.xxxxxxxxxxxxxxxx.x.xxxxxx.xxxxxxxxx.xxxxxxxxxxxxx.xxxxxxxx.xxx [ 76%]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx.xxxxxxxxx.xxxxxx..xxxxxx [ 78%]
+xxxx.xxx..xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxx.xxxxxxxxxxxx [ 79%]
+xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxx.x.xxxxxxxxxx [ 80%]
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 81%]
+xxxxxxxxxxxxxxxxx.xxxx.xxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxx [ 83%]
+xxxx.xxxxxxx.xxxxxxxxxxxxxxxxxxxxxx.xxxxx.xxxxxxxxxxx.xxxxxxxxxxxxxxxxxx [ 84%]
+xxxxxxxxxxxxxxxxxxxx.xxxxx.xxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx [ 85%]
+xxxxxxxxxxxxxx.xxxxx.xx.xxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx [ 87%]
+.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxx.xxx.xxxxxxxxxxxxxx. [ 88%]
+xxxx.xxxxxxxxxxxxxxxx.xxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 89%]
+xxxxx.x.xxxxxxx.xxxxxxxxxxxxxxxxxx.xx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [ 91%]
+xx.xx.xxxxxx.xxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x.xxxxxxx.xxxxxx.x [ 92%]
+xxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxx.xxxxxx.xxxxxxxxxxxxxxxxxxxxx.xxxxxxxxx [ 93%]
+xx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x.xxxxx.x.xxxxxxxxx.xx.xxxxxx.xxxxxxx [ 94%]
+.xxxxxxxxxxxxxxx.xxxxxxxxxxx.xxxxxxxxxxxx.x.xx.xxxxxxxxxxxxxxxxxxxxxxxxx [ 96%]
+xxx.x.xxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxxxxxx.xxxxx...xxxx.xxxxxxxxxxx [ 97%]
+xxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx.xxxx.xxxxxxxxxxxxxxxxxx.xx [ 98%]
+xxx.xxxxxxxxxx..xx.xxxxxxxxxxxxx.xxxxx.xxxxx.xxxxxxxxxxxxxxxxxxxx.xxxx   [100%]
+
+================ 407 passed, 5176 xfailed in 2756.44s (0:45:56) ================

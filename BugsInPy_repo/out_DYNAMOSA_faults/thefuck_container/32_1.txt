@@ -1,0 +1,13 @@
+testing-script thefuck 32 1 DYNAMOSA /home/user/BugsInPy/temp/test_out/32_1.txt /home/user/BugsInPy/temp/tests test_ls_lah.py thefuck
+Copying test suite...
+
+pytest thefuck 32 1 DYNAMOSA
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/thefuck
+collected 1 item
+
+generated_tests/test_ls_lah.py x                                         [100%]
+
+============================== 1 xfailed in 0.01s ==============================

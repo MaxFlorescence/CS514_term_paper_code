@@ -1,0 +1,1 @@
+WHOLE_SUITE,thefuck,1,0,

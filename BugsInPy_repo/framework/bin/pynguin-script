@@ -1,0 +1,115 @@
+#!/bin/bash
+
+if [ "$#" -ne 4 ]; then
+    echo "Usage: pynguin-script [project] [bug-id] [toplevel-dir] [algorithm]"
+	exit 1
+fi
+
+ALGORITHM="$4"
+BIP_DIR="/home/user/BugsInPy"
+OUT_DIR="$BIP_DIR/temp/out"
+PROJ_DIR="$1"
+BUG_ID="$2"
+TOPLEVEL_DIR="$3"
+
+# ------------------------------------setup out dir------------------------------------
+echo
+echo ===================================Setup out dir...===================================
+mkdir -p $OUT_DIR
+cd $OUT_DIR
+echo "Log file" > log.txt
+echo $(ls)
+
+# ------------------------------------checkout project------------------------------------
+echo
+echo ===================================Checkout project...===================================
+# Make sure requirements.txt always exist even if empty
+BUG_SRC_DIR="$BIP_DIR/projects/$PROJ_DIR/bugs/$BUG_ID"
+touch $BUG_SRC_DIR/requirements.txt
+
+version_id=0
+version="buggy"
+
+bugsinpy-checkout -p $PROJ_DIR -v 0 -i $BUG_ID -w "$BIP_DIR/temp/projects"
+WORK_DIR="$BIP_DIR/temp/projects/$PROJ_DIR"
+bug_info="$WORK_DIR/bugsinpy_bug.info"
+
+if [ ! -d "$WORK_DIR" ]; then
+  echo "bugsinpy-checkout failed."
+  exit 1
+fi
+
+# ------------------------------------fix relative imports------------------------------------
+echo
+echo ===================================Fix relative imports...===================================
+cd "$WORK_DIR"
+for file in $(find -name "*.py"); do
+	sed -Ei 's/from \. //g' $file
+	sed -Ei 's/from \./from /g' $file
+done
+
+# ------------------------------------compile------------------------------------
+echo
+echo ===================================Compiling...===================================
+
+if [ -d "$BUG_SRC_DIR" ]; then
+	cd $WORK_DIR
+
+	# Cleanup requirements.txt from unwanted spaces
+	# dos2unix is required to make sure requirements.txt is always the correct encoding
+	requirements="$WORK_DIR/bugsinpy_requirements.txt"
+	sed -i -e '/^\s*#.*$/d' -e '/^\s*$/d' "$requirements"
+	dos2unix $requirements &>/dev/null
+
+	# Add environment
+	. /opt/conda/etc/profile.d/conda.sh &>> $OUT_DIR/log.txt
+	# Generate unique hash for the current enviroment
+	bug_python_version=$(grep -o "3\..\.." $bug_info)
+	conda_env_name=$(cat <(echo $bug_python_version) "$requirements" | md5sum | cut -d' ' -f 1)
+
+	if ! conda env list | grep -q "$conda_env_name"; then
+	  conda create -n $conda_env_name -y python=$bug_python_version pytest &>> $OUT_DIR/log.txt
+	fi
+
+	bugsinpy-compile &>> $OUT_DIR/log.txt
+else
+	echo "$BUG_SRC_DIR doesn't exist!"
+	exit 1
+fi
+
+# ------------------------------------install pynguin------------------------------------
+echo
+echo ===================================Install pynguin...===================================
+export PYNGUIN_DANGER_AWARE=1
+export PYTHONIOENCODING=utf-8
+echo "base: $(python --version) $(pynguin --version)"
+conda activate $conda_env_name
+echo "env: $(python --version) $(pynguin --version)"
+
+# ------------------------------------run pynguin------------------------------------
+echo
+echo ===================================Run pynguin...===================================
+cd $WORK_DIR/$TOPLEVEL_DIR
+I=0
+for FILE in $(find -name "*.py"); do
+	FILE_DIR="${FILE%/*}"
+	FILE_BASE="${FILE##*/}"
+	FILE_NAME="${FILE_BASE%.py}"
+	if [[ "$FILE_NAME" == "__init__" || "$FILE" == *"test"* || "$FILE" == *"build"* ]]; then
+		continue
+	fi
+	SUITE_DIR="$OUT_DIR/suite_${I}"
+	mkdir -p $SUITE_DIR
+	REPORT_DIR="$OUT_DIR/report_${I}"
+	mkdir -p $REPORT_DIR
+	cd $REPORT_DIR
+	echo "pynguin log $FILE" > log.txt
+	cd $WORK_DIR/$TOPLEVEL_DIR
+	
+	echo "   Running on module $I ($FILE)..."
+	echo "   Running on module $I ($FILE)..." &>> $OUT_DIR/log.txt
+	pynguin -v --algorithm=$ALGORITHM --project-path="$WORK_DIR/$TOPLEVEL_DIR/$FILE_DIR" --module-name=$FILE_NAME --output-path=$SUITE_DIR --report-dir=$REPORT_DIR --maximum_search_time=300 --coverage-metrics=BRANCH &>> $REPORT_DIR/log.txt
+	#echo PYNGUINCOMMAND &>> $REPORT_DIR/log.txt &
+	
+	I=$(($I+1))
+done

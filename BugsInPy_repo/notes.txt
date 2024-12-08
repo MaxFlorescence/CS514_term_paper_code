@@ -1,0 +1,18 @@
+black 23 .									DYNAMOSA
+cookiecutter 4 cookiecutter					DYNAMOSA
+fastapi 16 fastapi							DYNAMOSA
+httpie 5 httpie								DYNAMOSA
+keras 45 keras								DYNAMOSA
+luigi 33 luigi								DYNAMOSA
+matplotlib 30 lib							DYNAMOSA
+PySnooper 3 pysnooper						DYNAMOSA
+scrapy 35 scrapy							DYNAMOSA
+spacy 10 spacy								DYNAMOSA
+thefuck 32 thefuck							DYNAMOSA
+tornado 16 tornado							DYNAMOSA
+tqdm 9 tqdm									DYNAMOSA (had to re-run)
+youtube-dl 43 youtube_dl					DYNAMOSA
+
+pandas 169 pandas							TIMEOUT
+sanic 5 sanic								API ERROR
+ansible 18 lib/ansible (contrib, hacking)	API ERROR

@@ -1,0 +1,53 @@
+pynguin log ./rules/cd_parent.py
+[20:02:26] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     2                              module.py:1328
+           INFO     Classes:      11                              module.py:1329
+           INFO     Using seed 1732996945552110655              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.DYNAMOSA                                          
+           INFO     Instantiated 3 fitness     generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Initial Population, Coverage: 1.000000  searchobserver.py:77
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module cd_parent                     generator.py:640
+           INFO     Build AST for cd_parent                     generator.py:643
+           INFO     Mutate module cd_parent                     generator.py:648
+           INFO     Generated 5 mutants                         generator.py:657
+           INFO     Running tests on mutant   1/5      assertiongenerator.py:346
+           INFO     Running tests on mutant   2/5      assertiongenerator.py:346
+           INFO     Running tests on mutant   3/5      assertiongenerator.py:346
+           INFO     Running tests on mutant   4/5      assertiongenerator.py:346
+           INFO     Running tests on mutant   5/5      assertiongenerator.py:346
+           INFO     Mutant 0 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 1 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 2 killed by Test(s): 0, 1   assertiongenerator.py:423
+           INFO     Mutant 3 killed by Test(s): 0, 1   assertiongenerator.py:423
+           INFO     Mutant 4 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Number of Surviving Mutant(s): 0   assertiongenerator.py:435
+                    (Mutants: )                                                 
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:447
+           INFO     Written 2 test cases to                     generator.py:774
+                    /home/user/BugsInPy/temp/out/suite_4/test_c                 
+                    d_parent.py                                                 
+           INFO     Writing statistics                         statistics.py:370
+           INFO     Stop Pynguin Test Generation…               generator.py:119

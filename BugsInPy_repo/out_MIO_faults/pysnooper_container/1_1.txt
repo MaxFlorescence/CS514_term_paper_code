@@ -1,0 +1,14 @@
+testing-script PySnooper 1 1 MIO /home/user/BugsInPy/temp/test_out/1_1.txt /home/user/BugsInPy/temp/tests test_utils.py pysnooper
+Copying test suite...
+
+pytest PySnooper 1 1 MIO
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/PySnooper
+configfile: tox.ini
+collected 1 item
+
+generated_tests/test_utils.py x                                          [100%]
+
+============================== 1 xfailed in 0.01s ==============================

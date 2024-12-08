@@ -1,0 +1,394 @@
+pynguin log ./proposals/spec_recom.py
+[02:17:00] INFO     Start Pynguin Test Generation…              generator.py:117
+           INFO     Collecting static constants from module     generator.py:212
+                    under test                                                  
+           INFO     No constants found                          generator.py:215
+           INFO     Setting up runtime collection of constants  generator.py:222
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: DeprecationWarning: `_dispatchable._fallback_to_nx` is deprecated and will be removed in NetworkX v3.5. Use `nx.config.fallback_to_nx` instead.
+  value = getattr(object, key)
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\k'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\D'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\#'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\G'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\P'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\z'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\D'
+[02:17:06] WARNING  Unexpectedly had no exception name raised  syntaxtree.py:221
+                    and no exception in context.                                
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+[02:17:07] INFO     C-extension module not found: _fblas          module.py:1329
+           INFO     C-extension module not found: _flapack        module.py:1329
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\.'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\_'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+[02:17:14] INFO     C-extension module not found: _spropack       module.py:1329
+           INFO     C-extension module not found: _dpropack       module.py:1329
+           INFO     C-extension module not found: _cpropack       module.py:1329
+           INFO     C-extension module not found: _zpropack       module.py:1329
+           INFO     C-extension module not found: _arpack         module.py:1329
+[02:17:15] INFO     Analyzed project to create test cluster       module.py:1282
+           INFO     Modules:     600                              module.py:1283
+           INFO     Functions:  3487                              module.py:1284
+           INFO     Classes:     819                              module.py:1285
+           INFO     Using seed 1733624220285710410              generator.py:200
+           INFO     Using strategy:            generationalgorithmfactory.py:287
+                    Algorithm.WHOLE_SUITE                                       
+           INFO     Instantiated 15 fitness    generationalgorithmfactory.py:374
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:329
+           INFO     Using selection function:  generationalgorithmfactory.py:304
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:317
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:337
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:495
+[02:17:26] INFO     Initial Population, Coverage: 0.533333  searchobserver.py:78
+[02:17:27] INFO     Iteration:       1, Coverage: 0.533333  searchobserver.py:84
+           INFO     Iteration:       2, Coverage: 0.600000  searchobserver.py:84
+[02:17:29] INFO     Iteration:       3, Coverage: 0.733333  searchobserver.py:84
+[02:17:31] INFO     Iteration:       4, Coverage: 0.733333  searchobserver.py:84
+[02:17:30] INFO     Iteration:       5, Coverage: 0.733333  searchobserver.py:84
+[02:17:31] INFO     Iteration:       6, Coverage: 0.733333  searchobserver.py:84
+[02:17:32] INFO     Iteration:       7, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:       8, Coverage: 0.733333  searchobserver.py:84
+[02:17:34] INFO     Iteration:       9, Coverage: 0.733333  searchobserver.py:84
+[02:17:35] INFO     Iteration:      10, Coverage: 0.733333  searchobserver.py:84
+[02:17:36] INFO     Iteration:      11, Coverage: 0.733333  searchobserver.py:84
+[02:17:37] INFO     Iteration:      12, Coverage: 0.733333  searchobserver.py:84
+[02:17:38] INFO     Iteration:      13, Coverage: 0.733333  searchobserver.py:84
+[02:17:39] INFO     Iteration:      14, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      15, Coverage: 0.733333  searchobserver.py:84
+[02:17:40] INFO     Iteration:      16, Coverage: 0.733333  searchobserver.py:84
+[02:17:41] INFO     Iteration:      17, Coverage: 0.733333  searchobserver.py:84
+[02:17:42] INFO     Iteration:      18, Coverage: 0.733333  searchobserver.py:84
+[02:17:44] INFO     Iteration:      19, Coverage: 0.733333  searchobserver.py:84
+[02:17:45] INFO     Iteration:      20, Coverage: 0.733333  searchobserver.py:84
+[02:17:46] INFO     Iteration:      21, Coverage: 0.733333  searchobserver.py:84
+[02:17:47] INFO     Iteration:      22, Coverage: 0.733333  searchobserver.py:84
+[02:17:48] INFO     Iteration:      23, Coverage: 0.733333  searchobserver.py:84
+[02:17:49] INFO     Iteration:      24, Coverage: 0.733333  searchobserver.py:84
+[02:17:50] INFO     Iteration:      25, Coverage: 0.733333  searchobserver.py:84
+[02:17:51] INFO     Iteration:      26, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      27, Coverage: 0.733333  searchobserver.py:84
+[02:17:53] INFO     Iteration:      28, Coverage: 0.733333  searchobserver.py:84
+[02:17:54] INFO     Iteration:      29, Coverage: 0.733333  searchobserver.py:84
+[02:17:55] INFO     Iteration:      30, Coverage: 0.733333  searchobserver.py:84
+[02:17:56] INFO     Iteration:      31, Coverage: 0.733333  searchobserver.py:84
+[02:17:57] INFO     Iteration:      32, Coverage: 0.733333  searchobserver.py:84
+[02:17:58] INFO     Iteration:      33, Coverage: 0.733333  searchobserver.py:84
+[02:17:59] INFO     Iteration:      34, Coverage: 0.733333  searchobserver.py:84
+[02:17:58] INFO     Iteration:      35, Coverage: 0.733333  searchobserver.py:84
+[02:17:59] INFO     Iteration:      36, Coverage: 0.733333  searchobserver.py:84
+[02:18:00] INFO     Iteration:      37, Coverage: 0.733333  searchobserver.py:84
+[02:18:01] INFO     Iteration:      38, Coverage: 0.733333  searchobserver.py:84
+[02:18:02] INFO     Iteration:      39, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      40, Coverage: 0.733333  searchobserver.py:84
+[02:18:03] INFO     Iteration:      41, Coverage: 0.733333  searchobserver.py:84
+[02:18:04] INFO     Iteration:      42, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      43, Coverage: 0.733333  searchobserver.py:84
+[02:18:05] INFO     Iteration:      44, Coverage: 0.733333  searchobserver.py:84
+[02:18:06] INFO     Iteration:      45, Coverage: 0.733333  searchobserver.py:84
+[02:18:08] INFO     Iteration:      46, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      47, Coverage: 0.733333  searchobserver.py:84
+[02:18:09] INFO     Iteration:      48, Coverage: 0.733333  searchobserver.py:84
+[02:18:11] INFO     Iteration:      49, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      50, Coverage: 0.733333  searchobserver.py:84
+[02:18:12] INFO     Iteration:      51, Coverage: 0.733333  searchobserver.py:84
+[02:18:13] INFO     Iteration:      52, Coverage: 0.733333  searchobserver.py:84
+[02:18:15] INFO     Iteration:      53, Coverage: 0.733333  searchobserver.py:84
+[02:18:16] INFO     Iteration:      54, Coverage: 0.733333  searchobserver.py:84
+[02:18:17] INFO     Iteration:      55, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      56, Coverage: 0.733333  searchobserver.py:84
+[02:18:18] INFO     Iteration:      57, Coverage: 0.733333  searchobserver.py:84
+[02:18:20] INFO     Iteration:      58, Coverage: 0.733333  searchobserver.py:84
+[02:18:21] INFO     Iteration:      59, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      60, Coverage: 0.733333  searchobserver.py:84
+[02:18:29] INFO     Iteration:      61, Coverage: 0.733333  searchobserver.py:84
+[02:18:30] INFO     Iteration:      62, Coverage: 0.733333  searchobserver.py:84
+[02:18:33] INFO     Iteration:      63, Coverage: 0.733333  searchobserver.py:84
+[02:18:35] INFO     Iteration:      64, Coverage: 0.733333  searchobserver.py:84
+[02:18:37] INFO     Iteration:      65, Coverage: 0.733333  searchobserver.py:84
+[02:18:39] INFO     Iteration:      66, Coverage: 0.733333  searchobserver.py:84
+[02:18:42] INFO     Iteration:      67, Coverage: 0.733333  searchobserver.py:84
+[02:18:45] INFO     Iteration:      68, Coverage: 0.733333  searchobserver.py:84
+[02:18:47] INFO     Iteration:      69, Coverage: 0.733333  searchobserver.py:84
+[02:18:48] INFO     Iteration:      70, Coverage: 0.733333  searchobserver.py:84
+[02:18:52] INFO     Iteration:      71, Coverage: 0.733333  searchobserver.py:84
+[02:18:53] INFO     Iteration:      72, Coverage: 0.733333  searchobserver.py:84
+[02:18:56] INFO     Iteration:      73, Coverage: 0.733333  searchobserver.py:84
+[02:18:58] INFO     Iteration:      74, Coverage: 0.733333  searchobserver.py:84
+[02:18:59] INFO     Iteration:      75, Coverage: 0.733333  searchobserver.py:84
+[02:19:01] INFO     Iteration:      76, Coverage: 0.733333  searchobserver.py:84
+[02:19:03] INFO     Iteration:      77, Coverage: 0.733333  searchobserver.py:84
+[02:19:05] INFO     Iteration:      78, Coverage: 0.733333  searchobserver.py:84
+[02:19:07] INFO     Iteration:      79, Coverage: 0.733333  searchobserver.py:84
+[02:19:08] INFO     Iteration:      80, Coverage: 0.733333  searchobserver.py:84
+[02:19:10] INFO     Iteration:      81, Coverage: 0.733333  searchobserver.py:84
+[02:19:12] INFO     Iteration:      82, Coverage: 0.733333  searchobserver.py:84
+[02:19:14] INFO     Iteration:      83, Coverage: 0.733333  searchobserver.py:84
+[02:19:16] INFO     Iteration:      84, Coverage: 0.733333  searchobserver.py:84
+[02:19:18] INFO     Iteration:      85, Coverage: 0.733333  searchobserver.py:84
+[02:19:19] INFO     Iteration:      86, Coverage: 0.733333  searchobserver.py:84
+[02:19:20] INFO     Iteration:      87, Coverage: 0.733333  searchobserver.py:84
+[02:19:21] INFO     Iteration:      88, Coverage: 0.733333  searchobserver.py:84
+[02:19:23] INFO     Iteration:      89, Coverage: 0.733333  searchobserver.py:84
+[02:19:25] INFO     Iteration:      90, Coverage: 0.733333  searchobserver.py:84
+[02:19:28] INFO     Iteration:      91, Coverage: 0.733333  searchobserver.py:84
+[02:19:30] INFO     Iteration:      92, Coverage: 0.733333  searchobserver.py:84
+[02:19:32] INFO     Iteration:      93, Coverage: 0.733333  searchobserver.py:84
+[02:19:34] INFO     Iteration:      94, Coverage: 0.733333  searchobserver.py:84
+[02:19:42] INFO     Iteration:      95, Coverage: 0.733333  searchobserver.py:84
+[02:19:52] INFO     Iteration:      96, Coverage: 0.733333  searchobserver.py:84
+[02:19:57] INFO     Iteration:      97, Coverage: 0.733333  searchobserver.py:84
+           INFO     Iteration:      98, Coverage: 0.733333  searchobserver.py:84
+[02:20:13] INFO     Iteration:      99, Coverage: 0.733333  searchobserver.py:84
+[02:20:14] ERROR    Exception in Thread: <Thread(Thread-3253   execution.py:2093
+                    (_execute_test_case), started daemon                        
+                    139745021908736)>                                           
+                    ╭── Traceback (most recent call last) ───╮                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/threading.py:1016 in            │                  
+                    │ _bootstrap_inner                       │                  
+                    │                                        │                  
+                    │   1013 │   │   │   │   _sys.setprofile │                  
+                    │   1014 │   │   │                       │                  
+                    │   1015 │   │   │   try:                │                  
+                    │ ❱ 1016 │   │   │   │   self.run()      │                  
+                    │   1017 │   │   │   except:             │                  
+                    │   1018 │   │   │   │   self._invoke_ex │                  
+                    │   1019 │   │   finally:                │                  
+                    │                                        │                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/threading.py:953 in run         │                  
+                    │                                        │                  
+                    │    950 │   │   """                     │                  
+                    │    951 │   │   try:                    │                  
+                    │    952 │   │   │   if self._target is  │                  
+                    │ ❱  953 │   │   │   │   self._target(*s │                  
+                    │    954 │   │   finally:                │                  
+                    │    955 │   │   │   # Avoid a refcycle  │                  
+                    │    956 │   │   │   # an argument that  │                  
+                    │                                        │                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/site-packages/pynguin/testcase/ │                  
+                    │ execution.py:2197 in                   │                  
+                    │ _execute_test_case                     │                  
+                    │                                        │                  
+                    │   2194 │   │   for idx, statement in e │                  
+                    │   2195 │   │   │   ast_node = self._be │                  
+                    │   2196 │   │   │   exception = self.ex │                  
+                    │ ❱ 2197 │   │   │   self._after_stateme │                  
+                    │   2198 │   │   │   if exception is not │                  
+                    │   2199 │   │   │   │   result.report_n │                  
+                    │   2200 │   │   │   │   break           │                  
+                    │                                        │                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/site-packages/pynguin/testcase/ │                  
+                    │ execution.py:2294 in                   │                  
+                    │ _after_statement_execution             │                  
+                    │                                        │                  
+                    │   2291 │   │   # See comments in _befo │                  
+                    │   2292 │   │   if self.tracer.current_ │                  
+                    │   2293 │   │   │   # Kill this thread  │                  
+                    │ ❱ 2294 │   │   │   raise RuntimeError( │                  
+                    │        I kill it.")                    │                  
+                    │   2295 │   │                           │                  
+                    │   2296 │   │   self._tracer.disable()  │                  
+                    │   2297 │   │   try:                    │                  
+                    ╰────────────────────────────────────────╯                  
+                    RuntimeError: The current thread shall not                  
+                    be executed any more, thus I kill it.                       
+[02:20:20] INFO     Iteration:     100, Coverage: 0.733333  searchobserver.py:84
+[02:20:27] INFO     Iteration:     101, Coverage: 0.733333  searchobserver.py:84
+[02:20:35] INFO     Iteration:     102, Coverage: 0.733333  searchobserver.py:84
+[02:20:38] INFO     Iteration:     103, Coverage: 0.733333  searchobserver.py:84
+[02:20:46] INFO     Iteration:     104, Coverage: 0.733333  searchobserver.py:84
+[02:20:53] INFO     Iteration:     105, Coverage: 0.733333  searchobserver.py:84
+[02:20:56] INFO     Iteration:     106, Coverage: 0.733333  searchobserver.py:84
+[02:21:00] INFO     Iteration:     107, Coverage: 0.733333  searchobserver.py:84
+[02:21:05] INFO     Iteration:     108, Coverage: 0.733333  searchobserver.py:84
+[02:21:11] INFO     Iteration:     109, Coverage: 0.733333  searchobserver.py:84
+           ERROR    Exception in Thread: <Thread(Thread-2099   execution.py:2093
+                    (_execute_test_case), started daemon                        
+                    139745997416192)>                                           
+                    ╭── Traceback (most recent call last) ───╮                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/threading.py:1016 in            │                  
+                    │ _bootstrap_inner                       │                  
+                    │                                        │                  
+                    │   1013 │   │   │   │   _sys.setprofile │                  
+                    │   1014 │   │   │                       │                  
+                    │   1015 │   │   │   try:                │                  
+                    │ ❱ 1016 │   │   │   │   self.run()      │                  
+                    │   1017 │   │   │   except:             │                  
+                    │   1018 │   │   │   │   self._invoke_ex │                  
+                    │   1019 │   │   finally:                │                  
+                    │                                        │                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/threading.py:953 in run         │                  
+                    │                                        │                  
+                    │    950 │   │   """                     │                  
+                    │    951 │   │   try:                    │                  
+                    │    952 │   │   │   if self._target is  │                  
+                    │ ❱  953 │   │   │   │   self._target(*s │                  
+                    │    954 │   │   finally:                │                  
+                    │    955 │   │   │   # Avoid a refcycle  │                  
+                    │    956 │   │   │   # an argument that  │                  
+                    │                                        │                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/site-packages/pynguin/testcase/ │                  
+                    │ execution.py:2197 in                   │                  
+                    │ _execute_test_case                     │                  
+                    │                                        │                  
+                    │   2194 │   │   for idx, statement in e │                  
+                    │   2195 │   │   │   ast_node = self._be │                  
+                    │   2196 │   │   │   exception = self.ex │                  
+                    │ ❱ 2197 │   │   │   self._after_stateme │                  
+                    │   2198 │   │   │   if exception is not │                  
+                    │   2199 │   │   │   │   result.report_n │                  
+                    │   2200 │   │   │   │   break           │                  
+                    │                                        │                  
+                    │ /opt/conda/envs/redistricting/lib/pyth │                  
+                    │ on3.10/site-packages/pynguin/testcase/ │                  
+                    │ execution.py:2294 in                   │                  
+                    │ _after_statement_execution             │                  
+                    │                                        │                  
+                    │   2291 │   │   # See comments in _befo │                  
+                    │   2292 │   │   if self.tracer.current_ │                  
+                    │   2293 │   │   │   # Kill this thread  │                  
+                    │ ❱ 2294 │   │   │   raise RuntimeError( │                  
+                    │        I kill it.")                    │                  
+                    │   2295 │   │                           │                  
+                    │   2296 │   │   self._tracer.disable()  │                  
+                    │   2297 │   │   try:                    │                  
+                    ╰────────────────────────────────────────╯                  
+                    RuntimeError: The current thread shall not                  
+                    be executed any more, thus I kill it.                       
+[02:21:15] INFO     Iteration:     110, Coverage: 0.733333  searchobserver.py:84
+[02:21:17] INFO     Iteration:     111, Coverage: 0.733333  searchobserver.py:84
+[02:21:20] INFO     Iteration:     112, Coverage: 0.733333  searchobserver.py:84
+[02:21:23] INFO     Iteration:     113, Coverage: 0.733333  searchobserver.py:84
+[02:21:30] INFO     Iteration:     114, Coverage: 0.733333  searchobserver.py:84
+[02:21:33] INFO     Iteration:     115, Coverage: 0.733333  searchobserver.py:84
+[02:21:42] INFO     Iteration:     116, Coverage: 0.733333  searchobserver.py:84
+[02:21:47] INFO     Iteration:     117, Coverage: 0.733333  searchobserver.py:84
+[02:21:52] INFO     Iteration:     118, Coverage: 0.733333  searchobserver.py:84
+[02:22:20] INFO     Iteration:     119, Coverage: 0.733333  searchobserver.py:84
+           INFO     Stopping condition reached                  generator.py:500
+           INFO     Used search time: 305/300                   generator.py:502
+           INFO     Stop generating test cases                  generator.py:503
+           INFO     Start generating assertions                 generator.py:626
+           INFO     Setup mutation generator                    generator.py:601
+           INFO     Import module spec_recom                    generator.py:604
+           INFO     Build AST for spec_recom                    generator.py:607
+           INFO     Mutate module spec_recom                    generator.py:612
+[02:22:21] INFO     Generated 23 mutants                        generator.py:619
+[02:22:22] INFO     Running tests on mutant   1/23     assertiongenerator.py:328
+[02:22:23] INFO     Running tests on mutant   2/23     assertiongenerator.py:328
+           INFO     Running tests on mutant   3/23     assertiongenerator.py:328
+[02:22:24] INFO     Running tests on mutant   4/23     assertiongenerator.py:328
+[02:22:25] INFO     Running tests on mutant   5/23     assertiongenerator.py:328
+           INFO     Running tests on mutant   6/23     assertiongenerator.py:328
+[02:22:26] INFO     Running tests on mutant   7/23     assertiongenerator.py:328
+           INFO     Running tests on mutant   8/23     assertiongenerator.py:328
+[02:22:27] INFO     Running tests on mutant   9/23     assertiongenerator.py:328
+           INFO     Running tests on mutant  10/23     assertiongenerator.py:328
+[02:22:28] INFO     Running tests on mutant  11/23     assertiongenerator.py:328
+           INFO     Running tests on mutant  12/23     assertiongenerator.py:328
+[02:22:29] INFO     Running tests on mutant  13/23     assertiongenerator.py:328
+           INFO     Running tests on mutant  14/23     assertiongenerator.py:328
+[02:22:30] INFO     Running tests on mutant  15/23     assertiongenerator.py:328
+           INFO     Running tests on mutant  16/23     assertiongenerator.py:328
+[02:22:31] INFO     Running tests on mutant  17/23     assertiongenerator.py:328
+           INFO     Running tests on mutant  18/23     assertiongenerator.py:328
+[02:22:32] INFO     Running tests on mutant  19/23     assertiongenerator.py:328
+[02:22:33] INFO     Running tests on mutant  20/23     assertiongenerator.py:328
+           INFO     Running tests on mutant  21/23     assertiongenerator.py:328
+[02:22:34] INFO     Running tests on mutant  22/23     assertiongenerator.py:328
+           INFO     Running tests on mutant  23/23     assertiongenerator.py:328
+           INFO     Mutant 0 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 1 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+[02:22:35] INFO     Mutant 2 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 3 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 4 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 5 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 6 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 7 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 8 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 9 killed by Test(s): 0, 1,  assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 10 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 11 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 12 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 13 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 14 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 15 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 16 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 17 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 18 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 19 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 20 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 21 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Mutant 22 killed by Test(s): 0, 1, assertiongenerator.py:401
+                    2, 3, 4, 5, 6                                               
+           INFO     Number of Surviving Mutant(s): 0   assertiongenerator.py:413
+                    (Mutants: )                                                 
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:424
+[02:31:47] INFO     Written 7 test cases to                     generator.py:728
+                    /home/user/out_WHOLE_SUITE/suite_3/test_spe                 
+                    c_recom.py                                                  

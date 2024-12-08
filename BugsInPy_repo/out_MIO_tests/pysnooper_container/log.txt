@@ -1,0 +1,1770 @@
+Log file
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... unsuccessful attempt using repodata from current_repodata.json, retrying with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.11.0
+
+
+
+## Package Plan ##
+
+  environment location: /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01
+
+  added / updated specs:
+    - pytest
+    - python=3.8.1
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |             main           3 KB
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    exceptiongroup-1.2.0       |   py38h06a4308_0          29 KB
+    iniconfig-1.1.1            |     pyhd3eb1b0_0           8 KB
+    ld_impl_linux-64-2.40      |       h12ee557_0         710 KB
+    libedit-3.1.20230828       |       h5eee18b_0         179 KB
+    libffi-3.2.1               |    hf484d3e_1007          48 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.1.1w             |       h7f8727e_0         3.7 MB
+    packaging-24.1             |   py38h06a4308_0         147 KB
+    pip-24.2                   |   py38h06a4308_0         2.2 MB
+    pluggy-1.0.0               |   py38h06a4308_1          28 KB
+    pytest-7.4.4               |   py38h06a4308_0        1002 KB
+    python-3.8.1               |       h0371630_1        49.5 MB
+    readline-7.0               |       h7b6447c_5         324 KB
+    setuptools-75.1.0          |   py38h06a4308_0         1.7 MB
+    sqlite-3.33.0              |       h62c20be_0         1.1 MB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    tomli-2.0.1                |   py38h06a4308_0          24 KB
+    wheel-0.44.0               |   py38h06a4308_0         108 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    ------------------------------------------------------------
+                                           Total:        75.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  exceptiongroup     pkgs/main/linux-64::exceptiongroup-1.2.0-py38h06a4308_0 
+  iniconfig          pkgs/main/noarch::iniconfig-1.1.1-pyhd3eb1b0_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.40-h12ee557_0 
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0 
+  libffi             pkgs/main/linux-64::libffi-3.2.1-hf484d3e_1007 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.1.1w-h7f8727e_0 
+  packaging          pkgs/main/linux-64::packaging-24.1-py38h06a4308_0 
+  pip                pkgs/main/linux-64::pip-24.2-py38h06a4308_0 
+  pluggy             pkgs/main/linux-64::pluggy-1.0.0-py38h06a4308_1 
+  pytest             pkgs/main/linux-64::pytest-7.4.4-py38h06a4308_0 
+  python             pkgs/main/linux-64::python-3.8.1-h0371630_1 
+  readline           pkgs/main/linux-64::readline-7.0-h7b6447c_5 
+  setuptools         pkgs/main/linux-64::setuptools-75.1.0-py38h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.33.0-h62c20be_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  tomli              pkgs/main/linux-64::tomli-2.0.1-py38h06a4308_0 
+  wheel              pkgs/main/linux-64::wheel-0.44.0-py38h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+
+Downloading and Extracting Packages
+pip-24.2             | 2.2 MB    |            |   0% 
+ncurses-6.4          | 914 KB    |            |   0% [A
+
+_openmp_mutex-5.1    | 21 KB     |            |   0% [A[A
+
+
+libedit-3.1.20230828 | 179 KB    |            |   0% [A[A[A
+
+
+
+libffi-3.2.1         | 48 KB     |            |   0% [A[A[A[A
+
+
+
+
+pytest-7.4.4         | 1002 KB   |            |   0% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+packaging-24.1       | 147 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+readline-7.0         | 324 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 108 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apip-24.2             | 2.2 MB    |            |   1% pip-24.2             | 2.2 MB    | #######7   |  78% 
+ncurses-6.4          | 914 KB    | 1          |   2% [A
+
+
+
+
+pytest-7.4.4         | 1002 KB   | 1          |   2% [A[A[A[A[A
+
+
+libedit-3.1.20230828 | 179 KB    | 8          |   9% [A[A[A
+
+
+
+libffi-3.2.1         | 48 KB     | ###3       |  33% [A[A[A[A
+ncurses-6.4          | 914 KB    | ####       |  40% [A
+
+_openmp_mutex-5.1    | 21 KB     | #######6   |  77% [A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+packaging-24.1       | 147 KB    | #          |  11% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ######5    |  66% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | 3          |   3% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #8         |  19% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+readline-7.0         | 324 KB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 108 KB    | #4         |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+libffi-3.2.1         | 48 KB     | ########## | 100% [A[A[A[A
+
+
+
+libffi-3.2.1         | 48 KB     | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    | 2          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ###3       |  34% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | #4         |  14% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ###2       |  33% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 1          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ####8      |  49% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+_openmp_mutex-5.1    | 21 KB     | ########## | 100% [A[A
+
+_openmp_mutex-5.1    | 21 KB     | ########## | 100% [A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ####7      |  47% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 3          |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ######3    |  64% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ######4    |  64% [A[A[A[A[A[A[A[A[A[A[A
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #######9   |  80% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #######8   |  79% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 6          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #########5 |  95% [A[A[A[A[A[A
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | 7          |   8% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #########3 |  94% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #          |  10% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #2         |  13% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #9         |  19% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ##3        |  23% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ##9        |  30% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ###2       |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ###5       |  36% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ###8       |  39% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ####2      |  42% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+pytest-7.4.4         | 1002 KB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+pytest-7.4.4         | 1002 KB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ####5      |  45% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ####8      |  48% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #####2     |  53% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+packaging-24.1       | 147 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+packaging-24.1       | 147 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #####9     |  59% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ######2    |  63% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 108 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.44.0         | 108 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ######6    |  66% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 28 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #######2   |  73% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #######6   |  77% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+readline-7.0         | 324 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+readline-7.0         | 324 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[Apip-24.2             | 2.2 MB    | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########   |  81% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########4  |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ld_impl_linux-64-2.4 | 710 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########8  |  88% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #########2 |  92% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #########5 |  96% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | #########9 | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+ncurses-6.4          | 914 KB    | ########## | 100% [A
+ncurses-6.4          | 914 KB    | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.8.1         | 49.5 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate caf489f6e1a32f0726e2a84f524a3d01
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+python setup.py install
+pip install decorator
+Collecting decorator==4.3.0
+  Downloading decorator-4.3.0-py2.py3-none-any.whl.metadata (2.7 kB)
+Downloading decorator-4.3.0-py2.py3-none-any.whl (9.2 kB)
+Installing collected packages: decorator
+Successfully installed decorator-4.3.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Collecting future==0.17.1
+  Downloading future-0.17.1.tar.gz (829 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 829.1/829.1 kB 28.7 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: future
+  Building wheel for future (setup.py): started
+  Building wheel for future (setup.py): finished with status 'done'
+  Created wheel for future: filename=future-0.17.1-py3-none-any.whl size=488726 sha256=653c52a0f452fd60b80aa603fed127658c5513fcfc5b2388d11672dd8bd42fd9
+  Stored in directory: /root/.cache/pip/wheels/1c/1d/db/1834235af1bc2c9ca8e63809ce32edeb56f64f6e3af30cb20b
+Successfully built future
+Installing collected packages: future
+Successfully installed future-0.17.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Collecting six==1.12.0
+  Downloading six-1.12.0-py2.py3-none-any.whl.metadata (1.9 kB)
+Downloading six-1.12.0-py2.py3-none-any.whl (10 kB)
+Installing collected packages: six
+Successfully installed six-1.12.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+running install
+running bdist_egg
+running egg_info
+creating PySnooper.egg-info
+writing PySnooper.egg-info/PKG-INFO
+writing dependency_links to PySnooper.egg-info/dependency_links.txt
+writing requirements to PySnooper.egg-info/requires.txt
+writing top-level names to PySnooper.egg-info/top_level.txt
+writing manifest file 'PySnooper.egg-info/SOURCES.txt'
+reading manifest file 'PySnooper.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'PySnooper.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/lib/pysnooper
+copying pysnooper/utils.py -> build/lib/pysnooper
+copying pysnooper/pycompat.py -> build/lib/pysnooper
+copying pysnooper/pysnooper.py -> build/lib/pysnooper
+copying pysnooper/__init__.py -> build/lib/pysnooper
+copying pysnooper/tracer.py -> build/lib/pysnooper
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pysnooper
+copying build/lib/pysnooper/utils.py -> build/bdist.linux-x86_64/egg/pysnooper
+copying build/lib/pysnooper/pycompat.py -> build/bdist.linux-x86_64/egg/pysnooper
+copying build/lib/pysnooper/pysnooper.py -> build/bdist.linux-x86_64/egg/pysnooper
+copying build/lib/pysnooper/__init__.py -> build/bdist.linux-x86_64/egg/pysnooper
+copying build/lib/pysnooper/tracer.py -> build/bdist.linux-x86_64/egg/pysnooper
+byte-compiling build/bdist.linux-x86_64/egg/pysnooper/utils.py to utils.cpython-38.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysnooper/pycompat.py to pycompat.cpython-38.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysnooper/pysnooper.py to pysnooper.cpython-38.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysnooper/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysnooper/tracer.py to tracer.cpython-38.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying PySnooper.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PySnooper.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PySnooper.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PySnooper.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PySnooper.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+/opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+/opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/PySnooper-0.0.6-py3.8.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing PySnooper-0.0.6-py3.8.egg
+Copying PySnooper-0.0.6-py3.8.egg to /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages
+Adding PySnooper 0.0.6 to easy-install.pth file
+
+Installed /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages/PySnooper-0.0.6-py3.8.egg
+Processing dependencies for PySnooper==0.0.6
+Searching for six==1.12.0
+Best match: six 1.12.0
+Adding six 1.12.0 to easy-install.pth file
+detected new path './PySnooper-0.0.6-py3.8.egg'
+
+Using /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages
+Searching for future==0.17.1
+Best match: future 0.17.1
+Adding future 0.17.1 to easy-install.pth file
+Installing futurize script to /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/bin
+Installing pasteurize script to /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/bin
+
+Using /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages
+Searching for decorator==4.3.0
+Best match: decorator 4.3.0
+Adding decorator 4.3.0 to easy-install.pth file
+
+Using /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages
+Finished processing dependencies for PySnooper==0.0.6
+Requirement already satisfied: decorator in /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages (4.3.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Requirement already satisfied: decorator==4.3.0 in /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages (4.3.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Requirement already satisfied: future==0.17.1 in /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages (0.17.1)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Requirement already satisfied: six==1.12.0 in /opt/conda/envs/caf489f6e1a32f0726e2a84f524a3d01/lib/python3.8/site-packages (1.12.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+   Running on module 0 (./utils.py)...
+   Running on module 1 (./pycompat.py)...
+   Running on module 2 (./pysnooper.py)...
+   Running on module 3 (./tracer.py)...

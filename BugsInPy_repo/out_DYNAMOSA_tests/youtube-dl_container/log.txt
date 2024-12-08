@@ -1,0 +1,1649 @@
+Log file
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... unsuccessful attempt using repodata from current_repodata.json, retrying with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.11.0
+
+
+
+## Package Plan ##
+
+  environment location: /opt/conda/envs/7c82e6e79bef089fa6b92454d0dfbaa4
+
+  added / updated specs:
+    - pytest
+    - python=3.7.4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |             main           3 KB
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    attrs-22.1.0               |   py37h06a4308_0          84 KB
+    certifi-2022.12.7          |   py37h06a4308_0         150 KB
+    flit-core-3.6.0            |     pyhd3eb1b0_0          42 KB
+    importlib-metadata-4.11.3  |   py37h06a4308_0          40 KB
+    importlib_metadata-4.11.3  |       hd3eb1b0_0          12 KB
+    iniconfig-1.1.1            |     pyhd3eb1b0_0           8 KB
+    libedit-3.1.20230828       |       h5eee18b_0         179 KB
+    libffi-3.2.1               |    hf484d3e_1007          48 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.1.1w             |       h7f8727e_0         3.7 MB
+    packaging-22.0             |   py37h06a4308_0          68 KB
+    pip-22.3.1                 |   py37h06a4308_0         2.7 MB
+    pluggy-1.0.0               |   py37h06a4308_1          29 KB
+    py-1.11.0                  |     pyhd3eb1b0_0          76 KB
+    pytest-7.1.2               |   py37h06a4308_0         445 KB
+    python-3.7.4               |       h265db76_1        32.1 MB
+    readline-7.0               |       h7b6447c_5         324 KB
+    setuptools-65.6.3          |   py37h06a4308_0         1.1 MB
+    sqlite-3.33.0              |       h62c20be_0         1.1 MB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    tomli-2.0.1                |   py37h06a4308_0          24 KB
+    typing_extensions-4.4.0    |   py37h06a4308_0          45 KB
+    wheel-0.38.4               |   py37h06a4308_0          63 KB
+    zipp-3.11.0                |   py37h06a4308_0          19 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    ------------------------------------------------------------
+                                           Total:        57.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  attrs              pkgs/main/linux-64::attrs-22.1.0-py37h06a4308_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  certifi            pkgs/main/linux-64::certifi-2022.12.7-py37h06a4308_0 
+  flit-core          pkgs/main/noarch::flit-core-3.6.0-pyhd3eb1b0_0 
+  importlib-metadata pkgs/main/linux-64::importlib-metadata-4.11.3-py37h06a4308_0 
+  importlib_metadata pkgs/main/noarch::importlib_metadata-4.11.3-hd3eb1b0_0 
+  iniconfig          pkgs/main/noarch::iniconfig-1.1.1-pyhd3eb1b0_0 
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0 
+  libffi             pkgs/main/linux-64::libffi-3.2.1-hf484d3e_1007 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.1.1w-h7f8727e_0 
+  packaging          pkgs/main/linux-64::packaging-22.0-py37h06a4308_0 
+  pip                pkgs/main/linux-64::pip-22.3.1-py37h06a4308_0 
+  pluggy             pkgs/main/linux-64::pluggy-1.0.0-py37h06a4308_1 
+  py                 pkgs/main/noarch::py-1.11.0-pyhd3eb1b0_0 
+  pytest             pkgs/main/linux-64::pytest-7.1.2-py37h06a4308_0 
+  python             pkgs/main/linux-64::python-3.7.4-h265db76_1 
+  readline           pkgs/main/linux-64::readline-7.0-h7b6447c_5 
+  setuptools         pkgs/main/linux-64::setuptools-65.6.3-py37h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.33.0-h62c20be_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  tomli              pkgs/main/linux-64::tomli-2.0.1-py37h06a4308_0 
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.4.0-py37h06a4308_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py37h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zipp               pkgs/main/linux-64::zipp-3.11.0-py37h06a4308_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+
+Downloading and Extracting Packages
+sqlite-3.33.0        | 1.1 MB    |            |   0% 
+readline-7.0         | 324 KB    |            |   0% [A
+
+wheel-0.38.4         | 63 KB     |            |   0% [A[A
+
+
+importlib-metadata-4 | 40 KB     |            |   0% [A[A[A
+
+
+
+tomli-2.0.1          | 24 KB     |            |   0% [A[A[A[A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+importlib_metadata-4 | 12 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Asqlite-3.33.0        | 1.1 MB    | 1          |   1% 
+
+
+
+tomli-2.0.1          | 24 KB     | ######6    |  66% [A[A[A[A
+
+
+
+tomli-2.0.1          | 24 KB     | ########## | 100% [A[A[A[A
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A[A[A[A[A
+readline-7.0         | 324 KB    | 4          |   5% [A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[A[A[A
+
+wheel-0.38.4         | 63 KB     | ##5        |  25% [A[A
+
+
+importlib-metadata-4 | 40 KB     | ###9       |  40% [A[A[Asqlite-3.33.0        | 1.1 MB    | ########## | 100% sqlite-3.33.0        | 1.1 MB    | ########## | 100% 
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ####4      |  45% [A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ##3        |  24% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | #4         |  14% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | #9         |  20% [A[A[A[A[A
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | #######6   |  76% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #3         |  14% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | 1          |   2% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ###7       |  37% [A[A[A[A[A
+
+
+importlib-metadata-4 | 40 KB     | ########## | 100% [A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ##6        |  27% [A[A[A[A[A[A[A
+
+
+importlib-metadata-4 | 40 KB     | ########## | 100% [A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | 3          |   4% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | 8          |   9% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #4         |  15% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | #####3     |  53% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    | 3          |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ###9       |  40% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | 6          |   6% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ##9        |  29% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ######9    |  70% [A[A[A[A[A
+
+wheel-0.38.4         | 63 KB     | ########## | 100% [A[A
+
+wheel-0.38.4         | 63 KB     | ########## | 100% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     | ###3       |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #####3     |  54% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | 8          |   8% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ###5       |  35% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+readline-7.0         | 324 KB    | ########## | 100% [A
+readline-7.0         | 324 KB    | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ####1      |  42% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ########5  |  86% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ######6    |  67% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | 9          |  10% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ########   |  81% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #1         |  12% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    | #######9   |  80% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ######9    |  70% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #########6 |  97% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #4         |  14% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########4  |  85% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #6         |  17% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #########8 |  98% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #9         |  19% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ##3        |  23% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libffi-3.2.1         | 48 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ##7        |  27% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ###1       |  31% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+pytest-7.1.2         | 445 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ###5       |  36% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ####       |  40% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ####4      |  44% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ####8      |  48% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #####2     |  53% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #####7     |  57% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ######1    |  62% [A[A[A[A[A[A[A[A[A
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ######6    |  66% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #######    |  71% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #######4   |  75% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #######9   |  79% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ########3  |  84% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ########7  |  88% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #########2 |  93% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | #########7 |  98% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+python-3.7.4         | 32.1 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate 7c82e6e79bef089fa6b92454d0dfbaa4
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+   Running on module 0 (./version.py)...
+   Running on module 1 (./utils.py)...
+   Running on module 2 (./YoutubeDL.py)...
+   Running on module 3 (./__main__.py)...
+   Running on module 4 (./update.py)...
+   Running on module 5 (./PostProcessor.py)...
+   Running on module 6 (./FileDownloader.py)...
+   Running on module 7 (./extractor/cspan.py)...
+   Running on module 8 (./extractor/depositfiles.py)...
+   Running on module 9 (./extractor/mofosex.py)...
+   Running on module 10 (./extractor/gametrailers.py)...
+   Running on module 11 (./extractor/arte.py)...
+   Running on module 12 (./extractor/mdr.py)...
+   Running on module 13 (./extractor/metacritic.py)...
+   Running on module 14 (./extractor/mit.py)...
+   Running on module 15 (./extractor/ustream.py)...
+   Running on module 16 (./extractor/spankwire.py)...
+   Running on module 17 (./extractor/tube8.py)...
+   Running on module 18 (./extractor/toutv.py)...
+   Running on module 19 (./extractor/addanime.py)...
+   Running on module 20 (./extractor/kickstarter.py)...
+   Running on module 21 (./extractor/ign.py)...
+   Running on module 22 (./extractor/cbs.py)...
+   Running on module 23 (./extractor/subtitles.py)...
+   Running on module 24 (./extractor/pornhd.py)...
+   Running on module 25 (./extractor/zdf.py)...
+   Running on module 26 (./extractor/daum.py)...
+   Running on module 27 (./extractor/howcast.py)...
+   Running on module 28 (./extractor/xhamster.py)...
+   Running on module 29 (./extractor/clipfish.py)...
+   Running on module 30 (./extractor/nowvideo.py)...
+   Running on module 31 (./extractor/keezmovies.py)...
+   Running on module 32 (./extractor/bandcamp.py)...
+   Running on module 33 (./extractor/veoh.py)...
+   Running on module 34 (./extractor/wat.py)...
+   Running on module 35 (./extractor/veehd.py)...
+   Running on module 36 (./extractor/youporn.py)...
+   Running on module 37 (./extractor/internetvideoarchive.py)...
+   Running on module 38 (./extractor/ted.py)...
+   Running on module 39 (./extractor/d8.py)...
+   Running on module 40 (./extractor/tf1.py)...
+   Running on module 41 (./extractor/steam.py)...
+   Running on module 42 (./extractor/soundcloud.py)...
+   Running on module 43 (./extractor/tvp.py)...
+   Running on module 44 (./extractor/dreisat.py)...
+   Running on module 45 (./extractor/thisav.py)...
+   Running on module 46 (./extractor/myvideo.py)...
+   Running on module 47 (./extractor/breakcom.py)...
+   Running on module 48 (./extractor/xvideos.py)...
+   Running on module 49 (./extractor/naver.py)...
+   Running on module 50 (./extractor/pornhub.py)...
+   Running on module 51 (./extractor/keek.py)...
+   Running on module 52 (./extractor/ninegag.py)...
+   Running on module 53 (./extractor/rutube.py)...
+   Running on module 54 (./extractor/slideshare.py)...
+   Running on module 55 (./extractor/trilulilu.py)...
+   Running on module 56 (./extractor/niconico.py)...
+   Running on module 57 (./extractor/jeuxvideo.py)...
+   Running on module 58 (./extractor/bambuser.py)...
+   Running on module 59 (./extractor/sztvhu.py)...
+   Running on module 60 (./extractor/gamespot.py)...
+   Running on module 61 (./extractor/brightcove.py)...
+   Running on module 62 (./extractor/newgrounds.py)...
+   Running on module 63 (./extractor/ard.py)...
+   Running on module 64 (./extractor/generic.py)...
+   Running on module 65 (./extractor/hark.py)...
+   Running on module 66 (./extractor/googleplus.py)...
+   Running on module 67 (./extractor/podomatic.py)...
+   Running on module 68 (./extractor/wimp.py)...
+   Running on module 69 (./extractor/viddler.py)...
+   Running on module 70 (./extractor/statigram.py)...
+   Running on module 71 (./extractor/googlesearch.py)...
+   Running on module 72 (./extractor/myspace.py)...
+   Running on module 73 (./extractor/stanfordoc.py)...
+   Running on module 74 (./extractor/funnyordie.py)...
+   Running on module 75 (./extractor/hotnewhiphop.py)...
+   Running on module 76 (./extractor/infoq.py)...
+   Running on module 77 (./extractor/xtube.py)...
+   Running on module 78 (./extractor/worldstarhiphop.py)...
+   Running on module 79 (./extractor/videofyme.py)...
+   Running on module 80 (./extractor/vevo.py)...
+   Running on module 81 (./extractor/rbmaradio.py)...
+   Running on module 82 (./extractor/eighttracks.py)...
+   Running on module 83 (./extractor/imdb.py)...
+   Running on module 84 (./extractor/exfm.py)...
+   Running on module 85 (./extractor/myspass.py)...
+   Running on module 86 (./extractor/freesound.py)...
+   Running on module 87 (./extractor/vk.py)...
+   Running on module 88 (./extractor/photobucket.py)...
+   Running on module 89 (./extractor/liveleak.py)...
+   Running on module 90 (./extractor/dotsub.py)...
+   Running on module 91 (./extractor/vimeo.py)...
+   Running on module 92 (./extractor/videodetective.py)...
+   Running on module 93 (./extractor/common.py)...
+   Running on module 94 (./extractor/jukebox.py)...
+   Running on module 95 (./extractor/archiveorg.py)...
+   Running on module 96 (./extractor/vbox7.py)...
+   Running on module 97 (./extractor/youjizz.py)...
+   Running on module 98 (./extractor/nhl.py)...
+   Running on module 99 (./extractor/mixcloud.py)...
+   Running on module 100 (./extractor/academicearth.py)...
+   Running on module 101 (./extractor/channel9.py)...
+   Running on module 102 (./extractor/cnn.py)...
+   Running on module 103 (./extractor/justintv.py)...
+   Running on module 104 (./extractor/nba.py)...
+   Running on module 105 (./extractor/c56.py)...
+   Running on module 106 (./extractor/videopremium.py)...
+   Running on module 107 (./extractor/space.py)...
+   Running on module 108 (./extractor/kankan.py)...
+   Running on module 109 (./extractor/livestream.py)...
+   Running on module 110 (./extractor/escapist.py)...
+   Running on module 111 (./extractor/pornotube.py)...
+   Running on module 112 (./extractor/blinkx.py)...
+   Running on module 113 (./extractor/sohu.py)...
+   Running on module 114 (./extractor/dailymotion.py)...
+   Running on module 115 (./extractor/wistia.py)...
+   Running on module 116 (./extractor/smotri.py)...
+   Running on module 117 (./extractor/hypem.py)...
+   Running on module 118 (./extractor/muzu.py)...
+   Running on module 119 (./extractor/cinemassacre.py)...
+   Running on module 120 (./extractor/flickr.py)...
+   Running on module 121 (./extractor/criterion.py)...
+   Running on module 122 (./extractor/viki.py)...
+   Running on module 123 (./extractor/rtlnow.py)...
+   Running on module 124 (./extractor/ro220.py)...
+   Running on module 125 (./extractor/appletrailers.py)...
+   Running on module 126 (./extractor/pbs.py)...
+   Running on module 127 (./extractor/radiofrance.py)...
+   Running on module 128 (./extractor/canalc2.py)...
+   Running on module 129 (./extractor/auengine.py)...
+   Running on module 130 (./extractor/mtv.py)...
+   Running on module 131 (./extractor/nbc.py)...
+   Running on module 132 (./extractor/extremetube.py)...
+   Running on module 133 (./extractor/pyvideo.py)...
+   Running on module 134 (./extractor/francetv.py)...
+   Running on module 135 (./extractor/defense.py)...
+   Running on module 136 (./extractor/condenast.py)...
+   Running on module 137 (./extractor/ina.py)...
+   Running on module 138 (./extractor/teamcoco.py)...
+   Running on module 139 (./extractor/anitube.py)...
+   Running on module 140 (./extractor/vice.py)...
+   Running on module 141 (./extractor/ndtv.py)...
+   Running on module 142 (./extractor/eitb.py)...
+   Running on module 143 (./extractor/vine.py)...
+   Running on module 144 (./extractor/traileraddict.py)...
+   Running on module 145 (./extractor/instagram.py)...
+   Running on module 146 (./extractor/youtube.py)...
+   Running on module 147 (./extractor/ringtv.py)...
+   Running on module 148 (./extractor/xnxx.py)...
+   Running on module 149 (./extractor/gamekings.py)...
+   Running on module 150 (./extractor/ooyala.py)...
+   Running on module 151 (./extractor/streamcloud.py)...
+   Running on module 152 (./extractor/rottentomatoes.py)...
+   Running on module 153 (./extractor/theplatform.py)...
+   Running on module 154 (./extractor/collegehumor.py)...
+   Running on module 155 (./extractor/yahoo.py)...
+   Running on module 156 (./extractor/clipsyndicate.py)...
+   Running on module 157 (./extractor/comedycentral.py)...
+   Running on module 158 (./extractor/faz.py)...
+   Running on module 159 (./extractor/fktv.py)...
+   Running on module 160 (./extractor/sina.py)...
+   Running on module 161 (./extractor/weibo.py)...
+   Running on module 162 (./extractor/tumblr.py)...
+   Running on module 163 (./extractor/techtalks.py)...
+   Running on module 164 (./extractor/ehow.py)...
+   Running on module 165 (./extractor/bloomberg.py)...
+   Running on module 166 (./extractor/unistra.py)...
+   Running on module 167 (./extractor/tutv.py)...
+   Running on module 168 (./extractor/orf.py)...
+   Running on module 169 (./extractor/tudou.py)...
+   Running on module 170 (./extractor/redtube.py)...
+   Running on module 171 (./extractor/websurg.py)...
+   Running on module 172 (./extractor/metacafe.py)...
+   Running on module 173 (./extractor/slashdot.py)...
+   Running on module 174 (./extractor/canalplus.py)...
+   Running on module 175 (./extractor/roxwel.py)...
+   Running on module 176 (./extractor/spiegel.py)...
+   Running on module 177 (./extractor/bliptv.py)...
+   Running on module 178 (./extractor/facebook.py)...
+   Running on module 179 (./extractor/youku.py)...
+   Running on module 180 (./extractor/ebaumsworld.py)...
+   Running on module 181 (./extractor/southparkstudios.py)...
+   Running on module 182 (./InfoExtractors.py)...
+   Running on module 183 (./aes.py)...

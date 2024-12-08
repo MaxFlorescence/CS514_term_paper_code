@@ -1,0 +1,7 @@
+Module,Coverage,TestCount,GeneratedMutants,SurvivingMutants
+"format","0.4430379746835443","2367","95","3"
+"deprecate_kwarg","0.2857142857142857","1278","6","0"
+"mrrunner","0.2692307692307692","4979","49","3"
+"lock","0.75","1693","38","0"
+"configuration","0.7931034482758621","2677","40","4"
+"event","1.0","1","16","0"

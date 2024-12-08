@@ -1,0 +1,5 @@
+Module,Coverage,TestCount,GeneratedMutants,SurvivingMutants
+"main","0.08333333333333333","4","64","2"
+"spec_recom","0.733333","7","23","0"
+"metrics","0.45652173913043476","15","",""
+"redistricting","0.21428571428571427","11","493","0"

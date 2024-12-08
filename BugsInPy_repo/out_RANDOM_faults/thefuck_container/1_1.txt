@@ -1,0 +1,28 @@
+testing-script thefuck 1 1 RANDOM /home/user/BugsInPy/temp/test_out/1_1.txt /home/user/BugsInPy/temp/tests test_pip_unknown_command.py thefuck
+Copying test suite...
+
+pytest thefuck 1 1 RANDOM
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/thefuck
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_________ ERROR collecting generated_tests/test_pip_unknown_command.py _________
+ImportError while importing test module '/home/user/BugsInPy/temp/projects/thefuck/generated_tests/test_pip_unknown_command.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/opt/conda/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+generated_tests/test_pip_unknown_command.py:5: in <module>
+    import thefuck.rules.pip_unknown_command as module_1
+thefuck/rules/pip_unknown_command.py:2: in <module>
+    from thefuck.utils import replace_argument, for_app
+thefuck/utils.py:8: in <module>
+    from decorator import decorator
+E   ModuleNotFoundError: No module named 'decorator'
+=========================== short test summary info ============================
+ERROR generated_tests/test_pip_unknown_command.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.79s ===============================

@@ -1,0 +1,43 @@
+pynguin log ./xlib/pydispatch/errors.py
+[11:59:32] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     0                              module.py:1328
+           INFO     Classes:      19                              module.py:1329
+           INFO     Using seed 1733313571957462432              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.MIO                                               
+           INFO     Instantiated 4 fitness     generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using MIOArchive           generationalgorithmfactory.py:339
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Iteration:       1, Coverage: 1.000000  searchobserver.py:83
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module errors                        generator.py:640
+           INFO     Build AST for errors                        generator.py:643
+           INFO     Mutate module errors                        generator.py:648
+           INFO     Generated 0 mutants                         generator.py:657
+           INFO     Number of Surviving Mutant(s): 0   assertiongenerator.py:435
+                    (Mutants: )                                                 
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:447
+           INFO     Written 1 test cases to                     generator.py:774
+                    /home/user/BugsInPy/temp/out/suite_139/test                 
+                    _errors.py                                                  
+           INFO     Writing statistics                         statistics.py:370
+           INFO     Stop Pynguin Test Generation…               generator.py:119

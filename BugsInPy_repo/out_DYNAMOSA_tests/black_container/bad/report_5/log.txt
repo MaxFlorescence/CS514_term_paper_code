@@ -1,0 +1,283 @@
+pynguin log ./blib2to3/pgen2/tokenize.py
+[04:35:33] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+[04:35:34] INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       5                              module.py:1327
+           INFO     Functions:    40                              module.py:1328
+           INFO     Classes:      62                              module.py:1329
+           INFO     Using seed 1732941333402320866              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.DYNAMOSA                                          
+           INFO     Instantiated 0 fitness     generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Initial Population, Coverage: 1.000000  searchobserver.py:77
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module tokenize                      generator.py:640
+           INFO     Build AST for tokenize                      generator.py:643
+           INFO     Mutate module tokenize                      generator.py:648
+[04:35:36] INFO     Generated 730 mutants                       generator.py:657
+[04:35:37] INFO     Running tests on mutant   1/730    assertiongenerator.py:346
+[04:35:38] INFO     Running tests on mutant   2/730    assertiongenerator.py:346
+[04:35:39] INFO     Running tests on mutant   3/730    assertiongenerator.py:346
+           INFO     Running tests on mutant   4/730    assertiongenerator.py:346
+[04:35:40] INFO     Running tests on mutant   5/730    assertiongenerator.py:346
+[04:35:41] INFO     Running tests on mutant   6/730    assertiongenerator.py:346
+           INFO     Running tests on mutant   7/730    assertiongenerator.py:346
+[04:35:42] INFO     Running tests on mutant   8/730    assertiongenerator.py:346
+           INFO     Running tests on mutant   9/730    assertiongenerator.py:346
+[04:35:43] INFO     Skipping mutant  10/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  11/730    assertiongenerator.py:346
+[04:35:44] INFO     Running tests on mutant  12/730    assertiongenerator.py:346
+[04:35:45] INFO     Skipping mutant  13/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  14/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  15/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  16/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:46] INFO     Skipping mutant  17/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  18/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  19/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:47] INFO     Skipping mutant  20/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  21/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  22/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  23/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:48] INFO     Skipping mutant  24/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  25/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  26/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:49] INFO     Skipping mutant  27/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  28/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  29/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  30/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:50] INFO     Skipping mutant  31/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  32/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  33/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:51] INFO     Skipping mutant  34/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  35/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  36/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  37/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:52] INFO     Skipping mutant  38/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  39/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Skipping mutant  40/730 because it assertiongenerator.py:336
+                    created an invalid module                                   
+[04:35:53] INFO     Running tests on mutant  41/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  42/730    assertiongenerator.py:346
+[04:35:54] INFO     Running tests on mutant  43/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  44/730    assertiongenerator.py:346
+[04:35:55] INFO     Running tests on mutant  45/730    assertiongenerator.py:346
+[04:35:56] INFO     Running tests on mutant  46/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  47/730    assertiongenerator.py:346
+[04:35:57] INFO     Running tests on mutant  48/730    assertiongenerator.py:346
+[04:35:58] INFO     Running tests on mutant  49/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  50/730    assertiongenerator.py:346
+[04:35:59] INFO     Running tests on mutant  51/730    assertiongenerator.py:346
+[04:36:00] INFO     Running tests on mutant  52/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  53/730    assertiongenerator.py:346
+[04:36:01] INFO     Running tests on mutant  54/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  55/730    assertiongenerator.py:346
+[04:36:02] INFO     Running tests on mutant  56/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  57/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  58/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  59/730    assertiongenerator.py:346
+[04:36:03] INFO     Running tests on mutant  60/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  61/730    assertiongenerator.py:346
+[04:36:04] INFO     Running tests on mutant  62/730    assertiongenerator.py:346
+[04:36:05] INFO     Running tests on mutant  63/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  64/730    assertiongenerator.py:346
+[04:36:06] INFO     Running tests on mutant  65/730    assertiongenerator.py:346
+[04:36:07] INFO     Running tests on mutant  66/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  67/730    assertiongenerator.py:346
+[04:36:08] INFO     Running tests on mutant  68/730    assertiongenerator.py:346
+[04:36:09] INFO     Running tests on mutant  69/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  70/730    assertiongenerator.py:346
+[04:36:10] INFO     Running tests on mutant  71/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  72/730    assertiongenerator.py:346
+[04:36:11] INFO     Running tests on mutant  73/730    assertiongenerator.py:346
+[04:36:12] INFO     Running tests on mutant  74/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  75/730    assertiongenerator.py:346
+[04:36:13] INFO     Running tests on mutant  76/730    assertiongenerator.py:346
+[04:36:14] INFO     Running tests on mutant  77/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  78/730    assertiongenerator.py:346
+[04:36:15] INFO     Running tests on mutant  79/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  80/730    assertiongenerator.py:346
+[04:36:16] INFO     Running tests on mutant  81/730    assertiongenerator.py:346
+[04:36:17] INFO     Running tests on mutant  82/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  83/730    assertiongenerator.py:346
+[04:36:18] INFO     Running tests on mutant  84/730    assertiongenerator.py:346
+[04:36:19] INFO     Running tests on mutant  85/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  86/730    assertiongenerator.py:346
+[04:36:20] INFO     Running tests on mutant  87/730    assertiongenerator.py:346
+[04:36:21] INFO     Running tests on mutant  88/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  89/730    assertiongenerator.py:346
+[04:36:22] INFO     Running tests on mutant  90/730    assertiongenerator.py:346
+[04:36:23] INFO     Running tests on mutant  91/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  92/730    assertiongenerator.py:346
+[04:36:24] INFO     Running tests on mutant  93/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  94/730    assertiongenerator.py:346
+[04:36:25] INFO     Running tests on mutant  95/730    assertiongenerator.py:346
+[04:36:26] INFO     Running tests on mutant  96/730    assertiongenerator.py:346
+[04:36:27] INFO     Running tests on mutant  97/730    assertiongenerator.py:346
+           INFO     Running tests on mutant  98/730    assertiongenerator.py:346
+[04:36:28] INFO     Running tests on mutant  99/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 100/730    assertiongenerator.py:346
+[04:36:29] INFO     Running tests on mutant 101/730    assertiongenerator.py:346
+[04:36:30] INFO     Running tests on mutant 102/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 103/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 104/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 105/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 106/730    assertiongenerator.py:346
+[04:36:31] INFO     Running tests on mutant 107/730    assertiongenerator.py:346
+[04:36:32] INFO     Running tests on mutant 108/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 109/730    assertiongenerator.py:346
+[04:36:33] INFO     Running tests on mutant 110/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 111/730    assertiongenerator.py:346
+[04:36:34] INFO     Running tests on mutant 112/730    assertiongenerator.py:346
+[04:36:35] INFO     Running tests on mutant 113/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 114/730    assertiongenerator.py:346
+[04:36:36] INFO     Running tests on mutant 115/730    assertiongenerator.py:346
+[04:36:37] INFO     Running tests on mutant 116/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 117/730    assertiongenerator.py:346
+[04:36:38] INFO     Running tests on mutant 118/730    assertiongenerator.py:346
+[04:36:39] INFO     Running tests on mutant 119/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 120/730    assertiongenerator.py:346
+[04:36:40] INFO     Running tests on mutant 121/730    assertiongenerator.py:346
+[04:36:41] INFO     Running tests on mutant 122/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 123/730    assertiongenerator.py:346
+[04:36:42] INFO     Running tests on mutant 124/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 125/730    assertiongenerator.py:346
+[04:36:43] INFO     Running tests on mutant 126/730    assertiongenerator.py:346
+[04:36:44] INFO     Running tests on mutant 127/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 128/730    assertiongenerator.py:346
+[04:36:45] INFO     Running tests on mutant 129/730    assertiongenerator.py:346
+[04:36:46] INFO     Running tests on mutant 130/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 131/730    assertiongenerator.py:346
+[04:36:47] INFO     Running tests on mutant 132/730    assertiongenerator.py:346
+[04:36:48] INFO     Running tests on mutant 133/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 134/730    assertiongenerator.py:346
+[04:36:49] INFO     Running tests on mutant 135/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 136/730    assertiongenerator.py:346
+[04:36:50] INFO     Running tests on mutant 137/730    assertiongenerator.py:346
+[04:36:51] INFO     Running tests on mutant 138/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 139/730    assertiongenerator.py:346
+[04:36:52] INFO     Running tests on mutant 140/730    assertiongenerator.py:346
+[04:36:53] INFO     Running tests on mutant 141/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 142/730    assertiongenerator.py:346
+[04:36:54] INFO     Running tests on mutant 143/730    assertiongenerator.py:346
+[04:36:55] INFO     Running tests on mutant 144/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 145/730    assertiongenerator.py:346
+[04:36:56] INFO     Running tests on mutant 146/730    assertiongenerator.py:346
+[04:36:57] INFO     Running tests on mutant 147/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 148/730    assertiongenerator.py:346
+[04:36:58] INFO     Running tests on mutant 149/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 150/730    assertiongenerator.py:346
+[04:36:59] INFO     Running tests on mutant 151/730    assertiongenerator.py:346
+[04:36:58] INFO     Running tests on mutant 152/730    assertiongenerator.py:346
+[04:36:59] INFO     Running tests on mutant 153/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 154/730    assertiongenerator.py:346
+[04:37:00] INFO     Running tests on mutant 155/730    assertiongenerator.py:346
+[04:37:01] INFO     Running tests on mutant 156/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 157/730    assertiongenerator.py:346
+[04:37:02] INFO     Running tests on mutant 158/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 159/730    assertiongenerator.py:346
+[04:37:03] INFO     Running tests on mutant 160/730    assertiongenerator.py:346
+[04:37:04] INFO     Running tests on mutant 161/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 162/730    assertiongenerator.py:346
+[04:37:05] INFO     Running tests on mutant 163/730    assertiongenerator.py:346
+[04:37:06] INFO     Running tests on mutant 164/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 165/730    assertiongenerator.py:346
+[04:37:07] INFO     Running tests on mutant 166/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 167/730    assertiongenerator.py:346
+[04:37:08] INFO     Running tests on mutant 168/730    assertiongenerator.py:346
+[04:37:09] INFO     Running tests on mutant 169/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 170/730    assertiongenerator.py:346
+[04:37:10] INFO     Running tests on mutant 171/730    assertiongenerator.py:346
+[04:37:11] INFO     Running tests on mutant 172/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 173/730    assertiongenerator.py:346
+[04:37:12] INFO     Running tests on mutant 174/730    assertiongenerator.py:346
+[04:37:13] INFO     Running tests on mutant 175/730    assertiongenerator.py:346
+[04:37:14] INFO     Running tests on mutant 176/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 177/730    assertiongenerator.py:346
+[04:37:15] INFO     Running tests on mutant 178/730    assertiongenerator.py:346
+[04:37:16] INFO     Running tests on mutant 179/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 180/730    assertiongenerator.py:346
+[04:37:17] INFO     Running tests on mutant 181/730    assertiongenerator.py:346
+[04:37:18] INFO     Running tests on mutant 182/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 183/730    assertiongenerator.py:346
+[04:37:19] INFO     Running tests on mutant 184/730    assertiongenerator.py:346
+[04:37:20] INFO     Running tests on mutant 185/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 186/730    assertiongenerator.py:346
+[04:37:21] INFO     Running tests on mutant 187/730    assertiongenerator.py:346
+[04:37:22] INFO     Running tests on mutant 188/730    assertiongenerator.py:346
+[04:37:23] INFO     Running tests on mutant 189/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 190/730    assertiongenerator.py:346
+[04:37:24] INFO     Running tests on mutant 191/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 192/730    assertiongenerator.py:346
+[04:37:25] INFO     Running tests on mutant 193/730    assertiongenerator.py:346
+[04:37:26] INFO     Running tests on mutant 194/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 195/730    assertiongenerator.py:346
+[04:37:27] INFO     Running tests on mutant 196/730    assertiongenerator.py:346
+[04:37:26] INFO     Running tests on mutant 197/730    assertiongenerator.py:346
+[04:37:27] INFO     Running tests on mutant 198/730    assertiongenerator.py:346
+[04:37:28] INFO     Running tests on mutant 199/730    assertiongenerator.py:346
+[04:37:29] INFO     Running tests on mutant 200/730    assertiongenerator.py:346
+[04:37:30] INFO     Running tests on mutant 201/730    assertiongenerator.py:346
+[04:37:31] INFO     Running tests on mutant 202/730    assertiongenerator.py:346
+[04:37:32] INFO     Running tests on mutant 203/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 204/730    assertiongenerator.py:346
+[04:37:33] INFO     Running tests on mutant 205/730    assertiongenerator.py:346
+[04:37:34] INFO     Running tests on mutant 206/730    assertiongenerator.py:346
+[04:37:35] INFO     Running tests on mutant 207/730    assertiongenerator.py:346
+[04:37:36] INFO     Running tests on mutant 208/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 209/730    assertiongenerator.py:346
+[04:37:37] INFO     Running tests on mutant 210/730    assertiongenerator.py:346
+[04:37:38] INFO     Running tests on mutant 211/730    assertiongenerator.py:346
+[04:37:39] INFO     Running tests on mutant 212/730    assertiongenerator.py:346
+           INFO     Running tests on mutant 213/730    assertiongenerator.py:346
+[04:37:40] INFO     Running tests on mutant 214/730    assertiongenerator.py:346
+[04:37:41] INFO     Running tests on mutant 215/730    assertiongenerator.py:346
+[04:37:42] INFO     Running tests on mutant 216/730    assertiongenerator.py:346
+usage: python -m tokenize [-h] [-e] [filename.py]
+python -m tokenize: error: unrecognized arguments: -v --project-path=/home/user/BugsInPy/temp/projects/black/././blib2to3/pgen2 --module-name=tokenize --output-path=/home/user/BugsInPy/temp/out/suite_5 --report-dir=/home/user/BugsInPy/temp/out/report_5 --maximum_search_time=300 --coverage-metrics=BRANCH
+[04:37:43] INFO     Stop Pynguin Test Generation…               generator.py:119

@@ -1,0 +1,355 @@
+pynguin log ./blib2to3/pgen2/tokenize.py
+[23:56:19] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+[23:56:20] INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       5                              module.py:1327
+           INFO     Functions:    40                              module.py:1328
+           INFO     Classes:      62                              module.py:1329
+           INFO     Using seed 1733270179102193901              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.WHOLE_SUITE                                       
+           INFO     Instantiated 0 fitness     generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 527, in _run
+    generation_result = algorithm.generate_tests()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/ga/algorithms/wholesuitealgorithm.py", line 49, in generate_tests
+    self.before_first_search_iteration(suite)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/ga/algorithms/generationalgorithm.py", line 302, in before_first_search_iteration
+    obs.before_first_search_iteration(initial)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/ga/searchobserver.py", line 77, in before_first_search_iteration
+    self._logger.info("Initial Population, Coverage: %5f", initial.get_coverage())
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Initial Population, Coverage: %5f'
+Arguments: (1.0,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 529, in _run
+    _LOGGER.info("Algorithm stopped before using all resources.")
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Algorithm stopped before using all resources.'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 534, in _run
+    _LOGGER.info("Stop generating test cases")
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Stop generating test cases'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 542, in _run
+    _generate_assertions(executor, generation_result)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 664, in _generate_assertions
+    _LOGGER.info("Start generating assertions")
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Start generating assertions'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 542, in _run
+    _generate_assertions(executor, generation_result)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 667, in _generate_assertions
+    generator = _setup_mutation_analysis_assertion_generator(executor)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 637, in _setup_mutation_analysis_assertion_generator
+    _LOGGER.info("Setup mutation generator")
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Setup mutation generator'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 542, in _run
+    _generate_assertions(executor, generation_result)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 667, in _generate_assertions
+    generator = _setup_mutation_analysis_assertion_generator(executor)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 640, in _setup_mutation_analysis_assertion_generator
+    _LOGGER.info("Import module %s", config.configuration.module_name)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Import module %s'
+Arguments: ('tokenize',)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 542, in _run
+    _generate_assertions(executor, generation_result)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 667, in _generate_assertions
+    generator = _setup_mutation_analysis_assertion_generator(executor)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 643, in _setup_mutation_analysis_assertion_generator
+    _LOGGER.info("Build AST for %s", module.__name__)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Build AST for %s'
+Arguments: ('tokenize',)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 178, in emit
+    self.console.print(log_renderable)
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 1678, in print
+    with self:
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 822, in _exit_buffer
+    self._check_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2019, in _check_buffer
+    self._write_buffer()
+  File "/opt/conda/lib/python3.10/site-packages/rich/console.py", line 2093, in _write_buffer
+    self.file.flush()
+OSError: [Errno 9] Bad file descriptor
+Call stack:
+  File "/opt/conda/bin/pynguin", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/cli.py", line 193, in main
+    return run_pynguin().value
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 117, in run_pynguin
+    return _run()
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 542, in _run
+    _generate_assertions(executor, generation_result)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 667, in _generate_assertions
+    generator = _setup_mutation_analysis_assertion_generator(executor)
+  File "/opt/conda/lib/python3.10/site-packages/pynguin/generator.py", line 648, in _setup_mutation_analysis_assertion_generator
+    _LOGGER.info("Mutate module %s", module.__name__)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/conda/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/opt/conda/lib/python3.10/site-packages/rich/logging.py", line 180, in emit
+    self.handleError(record)
+Message: 'Mutate module %s'
+Arguments: ('tokenize',)
+usage: python -m tokenize [-h] [-e] [filename.py]
+python -m tokenize: error: unrecognized arguments: -v --algorithm=WHOLE_SUITE --project-path=/home/user/BugsInPy/temp/projects/black/././blib2to3/pgen2 --module-name=tokenize --output-path=/home/user/BugsInPy/temp/out/suite_5 --report-dir=/home/user/BugsInPy/temp/out/report_5 --maximum_search_time=300 --coverage-metrics=BRANCH

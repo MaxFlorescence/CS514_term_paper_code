@@ -1,0 +1,41 @@
+#!/bin/bash
+
+if [ "$#" -ne 5 ]; then
+    echo "Usage: testing-script [project] [base-bug-id] [algorithm] [top] [test-to-run]"
+	exit 1
+else
+	read -r PROJECT BASE_BUG_ID ALGORITHM TOP TEST_TO_RUN <<< $@
+	TEST_TO_RUN="$(echo -e "${TEST_TO_RUN}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+fi
+
+BIP_DIR="/home/user/BugsInPy"
+OUT_DIR="$BIP_DIR/temp/out"
+WORK_DIR="$BIP_DIR/temp/projects/$PROJECT"
+GEN_TEST_DIR="$BIP_DIR/temp/tests"
+PARENT_PYTEST_OUT_DIR="$BIP_DIR/temp/test_out"
+
+# ------------------------------------setup out dir------------------------------------
+echo
+echo ===================================Setup out dir...===================================
+mkdir -p $OUT_DIR
+cd $OUT_DIR
+echo "Log file" > log.txt
+echo $(ls)
+
+# ------------------------------------run tests------------------------------------
+echo
+echo ===================================Running test on all versions...===================================
+PASSED_COUNT=0
+for version in 0 1; do
+	testing-script $PROJECT $BASE_BUG_ID $version $ALGORITHM "$PARENT_PYTEST_OUT_DIR/${BASE_BUG_ID}_$version.txt" $GEN_TEST_DIR $TEST_TO_RUN $TOP
+	
+	if [[ "$(grep '1 passed' log.txt)" != "" ]]; then
+		PASSED_COUNT=$((PASSED_COUNT + 1))
+	fi
+done
+
+if [ $PASSED_COUNT -ne 1 ]; then
+	PASSED_COUNT=0
+fi
+
+echo "$ALGORITHM,$PROJECT,$BASE_BUG_ID,$PASSED_COUNT," > "$PARENT_PYTEST_OUT_DIR/${BASE_BUG_ID}_detected.txt"

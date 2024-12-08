@@ -1,0 +1,385 @@
+testing-script tqdm 8 1 DYNAMOSA /home/user/BugsInPy/temp/test_out/8_1.txt /home/user/BugsInPy/temp/tests test__tqdm.py tqdm
+Copying test suite...
+
+pytest tqdm 8 1 DYNAMOSA
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/tqdm
+collected 38 items
+
+generated_tests/test__tqdm.py FxFFxFFxFxFxFFException ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+FxFFException ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+xFFxFException ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 736, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+xxxxxException ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+xxxxxException ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+Exception ignored in: <function tqdm.__del__ at 0x7f8aec586200>
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 520, in __del__
+    self.close()
+  File "/home/user/BugsInPy/temp/projects/tqdm/tqdm/_tqdm.py", line 743, in close
+    pos = self.pos
+AttributeError: 'tqdm' object has no attribute 'pos'
+xxxxx     [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_case_0 __________________________________
+
+    def test_case_0():
+        bool_0 = True
+>       var_0 = module_0.format_sizeof(bool_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_sizeof'
+
+generated_tests/test__tqdm.py:10: AttributeError
+_________________________________ test_case_2 __________________________________
+
+    def test_case_2():
+        bool_0 = True
+>       var_0 = module_0.format_meter(bool_0, bool_0, bool_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_meter'
+
+generated_tests/test__tqdm.py:24: AttributeError
+_________________________________ test_case_3 __________________________________
+
+    def test_case_3():
+        none_type_0 = None
+        tqdm_0 = module_0.tqdm(total=none_type_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:31: AssertionError
+----------------------------- Captured stderr call -----------------------------
+0it [00:00, ?it/s]
+_________________________________ test_case_5 __________________________________
+
+    def test_case_5():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(mininterval=bool_0, miniters=bool_0, unit_scale=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:71: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+0.00it [00:00, ?it/s][A[A
+_________________________________ test_case_6 __________________________________
+
+    def test_case_6():
+        none_type_0 = None
+        tqdm_0 = module_0.tqdm(total=none_type_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:101: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+0it [00:00, ?it/s][A[A[A
+_________________________________ test_case_8 __________________________________
+
+    def test_case_8():
+        none_type_0 = None
+>       var_0 = module_0.StatusPrinter(none_type_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'StatusPrinter'
+
+generated_tests/test__tqdm.py:133: AttributeError
+--------------------------- Captured stderr teardown ---------------------------
+
+
+[A
+
+[A[A
+
+
+[A[A[A
+_________________________________ test_case_10 _________________________________
+
+    def test_case_10():
+        int_0 = 540
+        tqdm_0 = module_0.tqdm(gui=int_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:145: AssertionError
+_________________________________ test_case_12 _________________________________
+
+    def test_case_12():
+        dict_0 = {}
+>       tqdm_0 = module_0.tqdm(total=dict_0, ascii=dict_0, gui=dict_0)
+
+generated_tests/test__tqdm.py:184: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:493: in __init__
+    self.pos = self._get_free_pos(self) if position is None else position
+tqdm/_tqdm.py:281: in _get_free_pos
+    return max(inst.pos for inst in cls._instances
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <generator object WeakSet.__iter__ at 0x7f8aeb543220>
+
+>   return max(inst.pos for inst in cls._instances
+               if inst is not instance) + 1
+E   AttributeError: 'tqdm' object has no attribute 'pos'
+
+tqdm/_tqdm.py:281: AttributeError
+_________________________________ test_case_13 _________________________________
+
+    def test_case_13():
+        object_0 = module_1.object()
+>       tqdm_0 = module_0.tqdm(leave=object_0, disable=object_0, unit=object_0)
+
+generated_tests/test__tqdm.py:211: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:414: in __init__
+    self.pos = self._get_free_pos(self)
+tqdm/_tqdm.py:281: in _get_free_pos
+    return max(inst.pos for inst in cls._instances
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <generator object WeakSet.__iter__ at 0x7f8aeb542420>
+
+>   return max(inst.pos for inst in cls._instances
+               if inst is not instance) + 1
+E   AttributeError: 'tqdm' object has no attribute 'pos'
+
+tqdm/_tqdm.py:281: AttributeError
+_________________________________ test_case_14 _________________________________
+
+    def test_case_14():
+        str_0 = "6L[M7\x0c{uJWZ2ySx_\rA"
+>       tqdm_0 = module_0.tqdm(str_0, total=str_0, disable=str_0)
+
+generated_tests/test__tqdm.py:247: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:414: in __init__
+    self.pos = self._get_free_pos(self)
+tqdm/_tqdm.py:281: in _get_free_pos
+    return max(inst.pos for inst in cls._instances
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <generator object WeakSet.__iter__ at 0x7f8aeb541460>
+
+>   return max(inst.pos for inst in cls._instances
+               if inst is not instance) + 1
+E   AttributeError: 'tqdm' object has no attribute 'pos'
+
+tqdm/_tqdm.py:281: AttributeError
+_________________________________ test_case_16 _________________________________
+
+    def test_case_16():
+        str_0 = "'dQHP"
+>       tqdm_0 = module_0.tqdm(desc=str_0, mininterval=str_0)
+
+generated_tests/test__tqdm.py:293: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:493: in __init__
+    self.pos = self._get_free_pos(self) if position is None else position
+tqdm/_tqdm.py:281: in _get_free_pos
+    return max(inst.pos for inst in cls._instances
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <generator object WeakSet.__iter__ at 0x7f8aeb543ae0>
+
+>   return max(inst.pos for inst in cls._instances
+               if inst is not instance) + 1
+E   AttributeError: 'tqdm' object has no attribute 'pos'
+
+tqdm/_tqdm.py:281: AttributeError
+_________________________________ test_case_17 _________________________________
+
+    def test_case_17():
+        int_0 = 540
+>       tqdm_0 = module_0.format_sizeof(int_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_sizeof'
+
+generated_tests/test__tqdm.py:320: AttributeError
+_________________________________ test_case_19 _________________________________
+
+    def test_case_19():
+        str_0 = "%hX?"
+>       tqdm_0 = module_0.tqdm(str_0, unit=str_0, unit_scale=str_0)
+
+generated_tests/test__tqdm.py:357: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:493: in __init__
+    self.pos = self._get_free_pos(self) if position is None else position
+tqdm/_tqdm.py:281: in _get_free_pos
+    return max(inst.pos for inst in cls._instances
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <generator object WeakSet.__iter__ at 0x7f8aeb543e60>
+
+>   return max(inst.pos for inst in cls._instances
+               if inst is not instance) + 1
+E   AttributeError: 'tqdm' object has no attribute 'pos'
+
+tqdm/_tqdm.py:281: AttributeError
+_________________________________ test_case_20 _________________________________
+
+    def test_case_20():
+        bool_0 = True
+>       tqdm_0 = module_0.tqdm(mininterval=bool_0, miniters=bool_0, unit_scale=bool_0)
+
+generated_tests/test__tqdm.py:364: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:493: in __init__
+    self.pos = self._get_free_pos(self) if position is None else position
+tqdm/_tqdm.py:281: in _get_free_pos
+    return max(inst.pos for inst in cls._instances
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <generator object WeakSet.__iter__ at 0x7f8aeb5426c0>
+
+>   return max(inst.pos for inst in cls._instances
+               if inst is not instance) + 1
+E   AttributeError: 'tqdm' object has no attribute 'pos'
+
+tqdm/_tqdm.py:281: AttributeError
+_________________________________ test_case_22 _________________________________
+
+    def test_case_22():
+        str_0 = "'dQHP"
+>       tqdm_0 = module_0.tqdm(str_0, str_0, mininterval=str_0, gui=str_0)
+
+generated_tests/test__tqdm.py:424: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:493: in __init__
+    self.pos = self._get_free_pos(self) if position is None else position
+tqdm/_tqdm.py:281: in _get_free_pos
+    return max(inst.pos for inst in cls._instances
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <generator object WeakSet.__iter__ at 0x7f8aeb4bb4c0>
+
+>   return max(inst.pos for inst in cls._instances
+               if inst is not instance) + 1
+E   AttributeError: 'tqdm' object has no attribute 'pos'
+
+tqdm/_tqdm.py:281: AttributeError
+=============================== warnings summary ===============================
+tqdm/_main.py:59
+  /home/user/BugsInPy/temp/projects/tqdm/tqdm/_main.py:59: DeprecationWarning: invalid escape sequence '\s'
+    argv = re.split('\s*(--\S+)[=\s]*', ' '.join(sys.argv[1:]))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED generated_tests/test__tqdm.py::test_case_0 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_2 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_3 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_5 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_6 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_8 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_10 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_12 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_13 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_14 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_16 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_17 - AttributeError: module '...
+FAILED generated_tests/test__tqdm.py::test_case_19 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_20 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_22 - AttributeError: 'tqdm' o...
+================== 15 failed, 23 xfailed, 1 warning in 1.31s ===================

@@ -1,0 +1,12 @@
+pynguin log ./lang/fi/examples.py
+[23:31:12] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     0                              module.py:1328
+           INFO     Classes:      11                              module.py:1329
+           ERROR    SUT contains nothing we can test.           generator.py:128
+           INFO     Stop Pynguin Test Generation…               generator.py:119

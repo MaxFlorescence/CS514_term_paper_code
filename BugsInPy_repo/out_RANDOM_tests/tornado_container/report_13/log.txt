@@ -1,0 +1,88 @@
+pynguin log ./platform/interface.py
+[08:10:01] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+[08:10:02] INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     1                              module.py:1328
+           INFO     Classes:      12                              module.py:1329
+           INFO     Using seed 1733213401435642107              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.RANDOM                                            
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Initial Population, Coverage: 0.000000  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.375000  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.375000  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.375000  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:       5, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:      10, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      15, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      16, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.625000  searchobserver.py:83
+           INFO     Iteration:      20, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      23, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      25, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      26, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      28, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      30, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      33, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      35, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      38, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      40, Coverage: 0.750000  searchobserver.py:83
+           INFO     Iteration:      41, Coverage: 0.875000  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.875000  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.875000  searchobserver.py:83
+           INFO     Iteration:      44, Coverage: 0.875000  searchobserver.py:83
+           INFO     Iteration:      45, Coverage: 0.875000  searchobserver.py:83
+           INFO     Iteration:      46, Coverage: 0.875000  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 1.000000  searchobserver.py:83
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module interface                     generator.py:640
+           INFO     Build AST for interface                     generator.py:643
+           INFO     Mutate module interface                     generator.py:648
+           INFO     Generated 0 mutants                         generator.py:657
+           INFO     Number of Surviving Mutant(s): 0   assertiongenerator.py:435
+                    (Mutants: )                                                 
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:447
+           INFO     Written 37 test cases to                    generator.py:774
+                    /home/user/BugsInPy/temp/out/suite_13/test_                 
+                    interface.py                                                
+           INFO     Writing statistics                         statistics.py:370
+           INFO     Stop Pynguin Test Generation…               generator.py:119

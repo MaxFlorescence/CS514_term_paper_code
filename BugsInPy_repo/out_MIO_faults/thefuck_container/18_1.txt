@@ -1,0 +1,13 @@
+testing-script thefuck 18 1 MIO /home/user/BugsInPy/temp/test_out/18_1.txt /home/user/BugsInPy/temp/tests test_sudo.py thefuck
+Copying test suite...
+
+pytest thefuck 18 1 MIO
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/thefuck
+collected 2 items
+
+generated_tests/test_sudo.py xx                                          [100%]
+
+============================== 2 xfailed in 0.02s ==============================

@@ -1,0 +1,66 @@
+pynguin log ./platform/twisted.py
+[04:29:37] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           ERROR    Failed to load SUT: No module named         generator.py:176
+                    'twisted.internet'; 'twisted' is not a                      
+                    package                                                     
+                    ╭─── Traceback (most recent call last) ───╮                 
+                    │ /opt/conda/lib/python3.10/site-packages │                 
+                    │ /pynguin/generator.py:172 in _load_sut  │                 
+                    │                                         │                 
+                    │   169 │   try:                          │                 
+                    │   170 │   │   # We need to set the curr │                 
+                    │   171 │   │   tracer.current_thread_ide │                 
+                    │ ❱ 172 │   │   importlib.import_module(c │                 
+                    │   173 │   except ImportError as ex:     │                 
+                    │   174 │   │   # A module could not be i │                 
+                    │   175 │   │   # are missing or it is ma │                 
+                    │                                         │                 
+                    │ /opt/conda/lib/python3.10/importlib/__i │                 
+                    │ nit__.py:126 in import_module           │                 
+                    │                                         │                 
+                    │   123 │   │   │   if character != '.':  │                 
+                    │   124 │   │   │   │   break             │                 
+                    │   125 │   │   │   level += 1            │                 
+                    │ ❱ 126 │   return _bootstrap._gcd_import │                 
+                    │   127                                   │                 
+                    │   128                                   │                 
+                    │   129 _RELOADING = {}                   │                 
+                    │ in _gcd_import:1050                     │                 
+                    │ in _find_and_load:1027                  │                 
+                    │ in _find_and_load_unlocked:1006         │                 
+                    │ in _load_unlocked:688                   │                 
+                    │                                         │                 
+                    │ /opt/conda/lib/python3.10/site-packages │                 
+                    │ /pynguin/instrumentation/machinery.py:5 │                 
+                    │ 9 in exec_module                        │                 
+                    │                                         │                 
+                    │    56 │                                 │                 
+                    │    57 │   def exec_module(self, module) │                 
+                    │    58 │   │   self._tracer.reset()      │                 
+                    │ ❱  59 │   │   super().exec_module(modul │                 
+                    │    60 │   │   self._tracer.store_import │                 
+                    │    61 │                                 │                 
+                    │    62 │   def get_code(self, fullname)  │                 
+                    │ in exec_module:883                      │                 
+                    │ in _call_with_frames_removed:241        │                 
+                    │                                         │                 
+                    │ /home/user/BugsInPy/temp/projects/torna │                 
+                    │ do/tornado/./platform/twisted.py:75 in  │                 
+                    │ <module>                                │                 
+                    │                                         │                 
+                    │    72 import socket                     │                 
+                    │    73 import sys                        │                 
+                    │    74                                   │                 
+                    │ ❱  75 import twisted.internet.abstract  │                 
+                    │    76 from twisted.internet.defer impor │                 
+                    │    77 from twisted.internet.posixbase i │                 
+                    │    78 from twisted.internet.interfaces  │                 
+                    ╰─────────────────────────────────────────╯                 
+                    ModuleNotFoundError: No module named                        
+                    'twisted.internet'; 'twisted' is not a                      
+                    package                                                     
+           INFO     Stop Pynguin Test Generation…               generator.py:119

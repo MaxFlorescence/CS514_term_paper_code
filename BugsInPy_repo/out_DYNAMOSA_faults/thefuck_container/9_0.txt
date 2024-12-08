@@ -1,0 +1,96 @@
+testing-script thefuck 9 0 DYNAMOSA /home/user/BugsInPy/temp/test_out/9_0.txt /home/user/BugsInPy/temp/tests test_git_push.py thefuck
+Fixing and copying test suite...
+Considering report_0/
+   got test file "test_dry.py"
+Considering report_1/
+   got test file "test_django_south_ghost.py"
+Considering report_10/
+   got test file "test_brew_install.py"
+Considering report_13/
+   got test file "test_pip_unknown_command.py"
+Considering report_17/
+   got test file "test_go_run.py"
+Considering report_2/
+   got test file "test_sudo.py"
+Considering report_25/
+   got test file "test_cargo_no_command.py"
+Considering report_26/
+   got test file "test_man.py"
+Considering report_27/
+   got test file "test_whois.py"
+Considering report_28/
+   got test file "test_git_diff_staged.py"
+Considering report_29/
+   got test file "test_man_no_space.py"
+Considering report_31/
+   got test file "test_brew_upgrade.py"
+Considering report_34/
+   got test file "test_cargo.py"
+Considering report_35/
+   got test file "test_git_not_command.py"
+Considering report_36/
+   got test file "test_ls_lah.py"
+Considering report_38/
+   got test file "test_git_push.py"
+   got import path thefuck.rules.git_push
+   added test_git_push.py to suite
+Considering report_4/
+   got test file "test_cd_parent.py"
+Considering report_40/
+   got test file "test_cpp11.py"
+Considering report_41/
+   got test file "test_ssh_known_hosts.py"
+Considering report_42/
+   got test file "test_grep_recursive.py"
+Considering report_43/
+   got test file "test_open.py"
+Considering report_44/
+   got test file "test_quotation_marks.py"
+Considering report_45/
+   got test file "test_django_south_merge.py"
+Considering report_46/
+   got test file "test_python_execute.py"
+Considering report_47/
+   got test file "test_brew_unknown_command.py"
+Considering report_48/
+   got test file "test_java.py"
+Considering report_6/
+   got test file "test_javac.py"
+Considering report_7/
+   got test file "test_switch_lang.py"
+Considering report_8/
+   got test file "test_sl_ls.py"
+Considering report_9/
+   got test file "test_composer_not_command.py"
+
+pytest thefuck 9 0 DYNAMOSA
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/thefuck
+collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+______________ ERROR collecting generated_tests/test_git_push.py _______________
+ImportError while importing test module '/home/user/BugsInPy/temp/projects/thefuck/generated_tests/test_git_push.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/opt/conda/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+generated_tests/test_git_push.py:5: in <module>
+    import thefuck.rules.git_push as module_1
+thefuck/rules/git_push.py:1: in <module>
+    from thefuck.utils import replace_argument
+thefuck/utils.py:8: in <module>
+    from decorator import decorator
+E   ModuleNotFoundError: No module named 'decorator'
+=============================== warnings summary ===============================
+thefuck/rules/git_push.py:25
+  /home/user/BugsInPy/temp/projects/thefuck/thefuck/rules/git_push.py:25: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+    if upstream_option_index is not -1:
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR generated_tests/test_git_push.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+========================= 1 warning, 1 error in 0.17s ==========================

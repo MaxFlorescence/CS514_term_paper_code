@@ -1,0 +1,1835 @@
+Log file
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... unsuccessful attempt using repodata from current_repodata.json, retrying with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.11.0
+
+
+
+## Package Plan ##
+
+  environment location: /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861
+
+  added / updated specs:
+    - pytest
+    - python=3.5.6
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |             main           3 KB
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    atomicwrites-1.4.0         |             py_0          11 KB
+    attrs-21.4.0               |     pyhd3eb1b0_0          51 KB
+    certifi-2020.6.20          |     pyhd3eb1b0_3         155 KB
+    importlib-metadata-2.0.0   |             py_1          35 KB
+    importlib_metadata-2.0.0   |                1          11 KB
+    libffi-3.3                 |       he6710b0_2          50 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    more-itertools-8.12.0      |     pyhd3eb1b0_0          49 KB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.1.1w             |       h7f8727e_0         3.7 MB
+    pathlib2-2.3.2             |           py35_0          33 KB
+    pip-10.0.1                 |           py35_0         1.6 MB
+    pluggy-0.12.0              |             py_0          22 KB
+    py-1.11.0                  |     pyhd3eb1b0_0          76 KB
+    pytest-3.8.1               |           py35_0         320 KB
+    python-3.5.6               |       h12debd9_1        24.9 MB
+    readline-8.2               |       h5eee18b_0         357 KB
+    setuptools-40.2.0          |           py35_0         490 KB
+    six-1.16.0                 |     pyhd3eb1b0_1          18 KB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    wheel-0.37.1               |     pyhd3eb1b0_0          33 KB
+    zipp-0.6.0                 |             py_0           9 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    ------------------------------------------------------------
+                                           Total:        46.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  atomicwrites       pkgs/main/noarch::atomicwrites-1.4.0-py_0 
+  attrs              pkgs/main/noarch::attrs-21.4.0-pyhd3eb1b0_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  certifi            pkgs/main/noarch::certifi-2020.6.20-pyhd3eb1b0_3 
+  importlib-metadata pkgs/main/noarch::importlib-metadata-2.0.0-py_1 
+  importlib_metadata pkgs/main/noarch::importlib_metadata-2.0.0-1 
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  more-itertools     pkgs/main/noarch::more-itertools-8.12.0-pyhd3eb1b0_0 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.1.1w-h7f8727e_0 
+  pathlib2           pkgs/main/linux-64::pathlib2-2.3.2-py35_0 
+  pip                pkgs/main/linux-64::pip-10.0.1-py35_0 
+  pluggy             pkgs/main/noarch::pluggy-0.12.0-py_0 
+  py                 pkgs/main/noarch::py-1.11.0-pyhd3eb1b0_0 
+  pytest             pkgs/main/linux-64::pytest-3.8.1-py35_0 
+  python             pkgs/main/linux-64::python-3.5.6-h12debd9_1 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-40.2.0-py35_0 
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 
+  sqlite             pkgs/main/linux-64::sqlite-3.45.3-h5eee18b_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zipp               pkgs/main/noarch::zipp-0.6.0-py_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+
+Downloading and Extracting Packages
+tk-8.6.14            | 3.4 MB    |            |   0% 
+_openmp_mutex-5.1    | 21 KB     |            |   0% [A
+
+more-itertools-8.12. | 49 KB     |            |   0% [A[A
+
+
+pluggy-0.12.0        | 22 KB     |            |   0% [A[A[A
+
+
+
+pathlib2-2.3.2       | 33 KB     |            |   0% [A[A[A[A
+
+
+
+
+ncurses-6.4          | 914 KB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libffi-3.3           | 50 KB     |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pytest-3.8.1         | 320 KB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+zipp-0.6.0           | 9 KB      |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+atomicwrites-1.4.0   | 11 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+importlib_metadata-2 | 11 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+setuptools-40.2.0    | 490 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-21.4.0         | 51 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+six-1.16.0           | 18 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2020.6.20    | 155 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+_openmp_mutex-5.1    | 21 KB     | #######6   |  77% [A
+_openmp_mutex-5.1    | 21 KB     | ########## | 100% [A
+
+
+
+
+ncurses-6.4          | 914 KB    | 1          |   2% [A[A[A[A[A
+
+more-itertools-8.12. | 49 KB     | ###2       |  33% [A[Atk-8.6.14            | 3.4 MB    |            |   0% 
+
+more-itertools-8.12. | 49 KB     | ########## | 100% [A[A
+
+
+pluggy-0.12.0        | 22 KB     | #######3   |  74% [A[A[A
+
+
+
+pathlib2-2.3.2       | 33 KB     | ####8      |  48% [A[A[A[A
+
+
+
+
+ncurses-6.4          | 914 KB    | ########7  |  88% [A[A[A[A[A
+
+
+
+
+
+
+libffi-3.3           | 50 KB     | ###1       |  32% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+atomicwrites-1.4.0   | 11 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | ###        |  31% 
+
+
+
+
+
+
+
+pytest-3.8.1         | 320 KB    | 5          |   5% [A[A[A[A[A[A[A[A
+
+
+
+pathlib2-2.3.2       | 33 KB     | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+
+
+zipp-0.6.0           | 9 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+pluggy-0.12.0        | 22 KB     | ########## | 100% [A[A[A
+
+
+pluggy-0.12.0        | 22 KB     | ########## | 100% [A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+importlib_metadata-2 | 11 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | ######     |  61% 
+
+
+
+
+
+
+
+
+
+
+
+setuptools-40.2.0    | 490 KB    | 3          |   3% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+atomicwrites-1.4.0   | 11 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | 1          |   1% [A[A[A[A[A[A
+
+
+
+
+
+
+libffi-3.3           | 50 KB     | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #7         |  17% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libffi-3.3           | 50 KB     | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+six-1.16.0           | 18 KB     | ########6  |  87% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-21.4.0         | 51 KB     | ###1       |  32% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | ########2  |  82% 
+
+
+
+
+
+
+
+
+zipp-0.6.0           | 9 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | 4          |   5% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | 3          |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ###7       |  38% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2020.6.20    | 155 KB    | #          |  10% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+importlib_metadata-2 | 11 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | 7          |   7% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #####2     |  53% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #          |  10% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #######1   |  71% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #2         |  13% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ########9  |  89% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #5         |  16% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #9         |  19% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ##2        |  23% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ##6        |  27% [A[A[A[A[A[A
+
+
+
+
+
+
+
+pytest-3.8.1         | 320 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pytest-3.8.1         | 320 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ###2       |  33% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+six-1.16.0           | 18 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ###7       |  38% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-21.4.0         | 51 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+attrs-21.4.0         | 51 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ####3      |  44% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ####9      |  49% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+setuptools-40.2.0    | 490 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+setuptools-40.2.0    | 490 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2020.6.20    | 155 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2020.6.20    | 155 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #####5     |  55% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ######     |  61% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ######6    |  67% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #######2   |  72% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #######8   |  79% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ########4  |  85% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #########  |  91% [A[A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | #########6 |  96% [A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+ncurses-6.4          | 914 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+python-3.5.6         | 24.9 MB   | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate 4fa9f60527e8c6c12d69596cfb090861
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+python setup.py develop
+pip install tox==3.15.2
+Collecting appdirs==1.4.4
+  Downloading https://files.pythonhosted.org/packages/3b/00/2344469e2084fb287c2e0b57b72910309874c3245463acd6cf5e3db69324/appdirs-1.4.4-py2.py3-none-any.whl
+Installing collected packages: appdirs
+Successfully installed appdirs-1.4.4
+Cache entry deserialization failed, entry ignored
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting arrow==0.15.6
+  Downloading https://files.pythonhosted.org/packages/99/b5/1f1c5ef3156f7b514c58613fe56e5670dc56374ab744bd1eb653c95e16b5/arrow-0.15.6-py2.py3-none-any.whl (47kB)
+Collecting python-dateutil (from arrow==0.15.6)
+  Downloading https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229kB)
+Requirement already satisfied: six>=1.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from python-dateutil->arrow==0.15.6) (1.16.0)
+Installing collected packages: python-dateutil, arrow
+Successfully installed arrow-0.15.6 python-dateutil-2.9.0.post0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting binaryornot==0.4.4
+  Downloading https://files.pythonhosted.org/packages/24/7e/f7b6f453e6481d1e233540262ccbfcf89adcd43606f44a028d7f5fae5eb2/binaryornot-0.4.4-py2.py3-none-any.whl
+Collecting chardet>=3.0.2 (from binaryornot==0.4.4)
+  Downloading https://files.pythonhosted.org/packages/19/c7/fa589626997dd07bd87d9269342ccb74b1720384a4d739a1872bd84fbe68/chardet-4.0.0-py2.py3-none-any.whl (178kB)
+Installing collected packages: chardet, binaryornot
+Successfully installed binaryornot-0.4.4 chardet-4.0.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting certifi==2020.4.5.2
+  Downloading https://files.pythonhosted.org/packages/98/99/def511020aa8f663d4a2cfaa38467539e864799289ff354569e339e375b1/certifi-2020.4.5.2-py2.py3-none-any.whl (157kB)
+Installing collected packages: certifi
+  Found existing installation: certifi 2020.6.20
+    Uninstalling certifi-2020.6.20:
+      Successfully uninstalled certifi-2020.6.20
+Successfully installed certifi-2020.4.5.2
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting chardet==3.0.4
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+Installing collected packages: chardet
+  Found existing installation: chardet 4.0.0
+    Uninstalling chardet-4.0.0:
+      Successfully uninstalled chardet-4.0.0
+Successfully installed chardet-3.0.4
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting click==7.1.2
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82kB)
+Installing collected packages: click
+Successfully installed click-7.1.2
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+For --editable= git+https://github.com/cookiecutter/cookiecutter@9568ab6ecd2d6836646006c59473c4a4ac0dee04#egg=cookiecutter only hg+URL, git+URL, bzr+URL, svn+URL is currently supported
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting distlib==0.3.0
+  Downloading https://files.pythonhosted.org/packages/7d/29/694a3a4d7c0e1aef76092e9167fbe372e0f7da055f5dcf4e1313ec21d96a/distlib-0.3.0.zip (571kB)
+Building wheels for collected packages: distlib
+  Running setup.py bdist_wheel for distlib: started
+  Running setup.py bdist_wheel for distlib: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/6e/e8/db/c73dae4867666e89ba3cfbc4b5c092446f0e584eda6f409cbb
+Successfully built distlib
+Installing collected packages: distlib
+Successfully installed distlib-0.3.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting filelock==3.0.12
+  Downloading https://files.pythonhosted.org/packages/93/83/71a2ee6158bb9f39a90c0dea1637f81d5eef866e188e1971a1b1ab01a35a/filelock-3.0.12-py3-none-any.whl
+Installing collected packages: filelock
+Successfully installed filelock-3.0.12
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting idna==2.9
+  Downloading https://files.pythonhosted.org/packages/89/e3/afebe61c546d18fb1709a61bee788254b40e736cff7271c7de5de2dc4128/idna-2.9-py2.py3-none-any.whl (58kB)
+Installing collected packages: idna
+Successfully installed idna-2.9
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting importlib-metadata==1.6.1
+  Downloading https://files.pythonhosted.org/packages/98/13/a1d703ec396ade42c1d33df0e1cb691a28b7c08b336a5683912c87e04cd7/importlib_metadata-1.6.1-py2.py3-none-any.whl
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata==1.6.1) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata==1.6.1) (8.12.0)
+Installing collected packages: importlib-metadata
+  Found existing installation: importlib-metadata 2.0.0
+    Uninstalling importlib-metadata-2.0.0:
+      Successfully uninstalled importlib-metadata-2.0.0
+Successfully installed importlib-metadata-1.6.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting importlib-resources==2.0.1
+  Downloading https://files.pythonhosted.org/packages/ce/06/94cb4028cbcb834c3a6a0c239ab37e76e293c75bed51a9cee2cb8337b47e/importlib_resources-2.0.1-py2.py3-none-any.whl
+Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-resources==2.0.1) (0.6.0)
+Requirement already satisfied: importlib-metadata; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-resources==2.0.1) (1.6.1)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.4; python_version < "3.8"->importlib-resources==2.0.1) (8.12.0)
+Installing collected packages: importlib-resources
+Successfully installed importlib-resources-2.0.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting Jinja2==2.11.2
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/30/9e/f663a2aa66a09d838042ae1a2c5659828bb9b41ea3a6efa20a20fd92b121/Jinja2-2.11.2-py2.py3-none-any.whl (125kB)
+Collecting MarkupSafe>=0.23 (from Jinja2==2.11.2)
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/6e/57/d40124076756c19ff2269678de7ae25a14ebbb3f6314eb5ce9477f191350/MarkupSafe-1.1.1-cp35-cp35m-manylinux1_x86_64.whl
+Installing collected packages: MarkupSafe, Jinja2
+Successfully installed Jinja2-2.11.2 MarkupSafe-1.1.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting jinja2-time==0.2.0
+  Downloading https://files.pythonhosted.org/packages/6a/a1/d44fa38306ffa34a7e1af09632b158e13ec89670ce491f8a15af3ebcb4e4/jinja2_time-0.2.0-py2.py3-none-any.whl
+Requirement already satisfied: arrow in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from jinja2-time==0.2.0) (0.15.6)
+Requirement already satisfied: jinja2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from jinja2-time==0.2.0) (2.11.2)
+Requirement already satisfied: python-dateutil in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from arrow->jinja2-time==0.2.0) (2.9.0.post0)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from jinja2->jinja2-time==0.2.0) (1.1.1)
+Requirement already satisfied: six>=1.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from python-dateutil->arrow->jinja2-time==0.2.0) (1.16.0)
+Installing collected packages: jinja2-time
+Successfully installed jinja2-time-0.2.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: MarkupSafe==1.1.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.1.1)
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting packaging==20.4
+  Downloading https://files.pythonhosted.org/packages/46/19/c5ab91b1b05cfe63cccd5cfc971db9214c6dd6ced54e33c30d5af1d2bc43/packaging-20.4-py2.py3-none-any.whl
+Requirement already satisfied: six in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from packaging==20.4) (1.16.0)
+Collecting pyparsing>=2.0.2 (from packaging==20.4)
+  Downloading https://files.pythonhosted.org/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67kB)
+Installing collected packages: pyparsing, packaging
+Successfully installed packaging-20.4 pyparsing-2.4.7
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pkg-resources==0.0.0
+  Could not find a version that satisfies the requirement pkg-resources==0.0.0 (from versions: )
+No matching distribution found for pkg-resources==0.0.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pluggy==0.13.1
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl
+Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from pluggy==0.13.1) (1.6.1)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pluggy==0.13.1) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata>=0.12; python_version < "3.8"->pluggy==0.13.1) (8.12.0)
+Installing collected packages: pluggy
+  Found existing installation: pluggy 0.12.0
+    Uninstalling pluggy-0.12.0:
+      Successfully uninstalled pluggy-0.12.0
+Successfully installed pluggy-0.13.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting poyo==0.5.0
+  Downloading https://files.pythonhosted.org/packages/42/50/0b0820601bde2eda403f47b9a4a1f270098ed0dd4c00c443d883164bdccc/poyo-0.5.0-py2.py3-none-any.whl
+Installing collected packages: poyo
+Successfully installed poyo-0.5.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting py==1.8.1
+  Downloading https://files.pythonhosted.org/packages/99/8d/21e1767c009211a62a8e3067280bfce76e89c9f876180308515942304d2d/py-1.8.1-py2.py3-none-any.whl (83kB)
+Installing collected packages: py
+  Found existing installation: py 1.11.0
+    Uninstalling py-1.11.0:
+      Successfully uninstalled py-1.11.0
+Successfully installed py-1.8.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: pyparsing==2.4.7 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2.4.7)
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting python-dateutil==2.8.1
+  Downloading https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227kB)
+Requirement already satisfied: six>=1.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from python-dateutil==2.8.1) (1.16.0)
+Installing collected packages: python-dateutil
+  Found existing installation: python-dateutil 2.9.0.post0
+    Uninstalling python-dateutil-2.9.0.post0:
+      Successfully uninstalled python-dateutil-2.9.0.post0
+Successfully installed python-dateutil-2.8.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting python-slugify==4.0.0
+  Downloading https://files.pythonhosted.org/packages/92/5f/7b84a0bba8a0fdd50c046f8b57dcf179dc16237ad33446079b7c484de04c/python-slugify-4.0.0.tar.gz
+Collecting text-unidecode>=1.3 (from python-slugify==4.0.0)
+  Downloading https://files.pythonhosted.org/packages/a6/a5/c0b6468d3824fe3fde30dbb5e1f687b291608f9473681bbf7dabbf5a87d7/text_unidecode-1.3-py2.py3-none-any.whl (78kB)
+Building wheels for collected packages: python-slugify
+  Running setup.py bdist_wheel for python-slugify: started
+  Running setup.py bdist_wheel for python-slugify: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/11/94/81/312969455540cb0e6a773e5d68a73c14128bfdfd4a7969bb4f
+Successfully built python-slugify
+Installing collected packages: text-unidecode, python-slugify
+Successfully installed python-slugify-4.0.0 text-unidecode-1.3
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting requests==2.23.0
+  Downloading https://files.pythonhosted.org/packages/1a/70/1935c770cb3be6e3a8b78ced23d7e0f3b187f5cbfab4749523ed65d7c9b1/requests-2.23.0-py2.py3-none-any.whl (58kB)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from requests==2.23.0) (2020.4.5.2)
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 (from requests==2.23.0)
+  Downloading https://files.pythonhosted.org/packages/56/aa/4ef5aa67a9a62505db124a5cb5262332d1d4153462eb8fd89c9fa41e5d92/urllib3-1.25.11-py2.py3-none-any.whl (127kB)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from requests==2.23.0) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from requests==2.23.0) (2.9)
+Installing collected packages: urllib3, requests
+Successfully installed requests-2.23.0 urllib3-1.25.11
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting six==1.15.0
+  Downloading https://files.pythonhosted.org/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl
+Installing collected packages: six
+  Found existing installation: six 1.16.0
+    Uninstalling six-1.16.0:
+      Successfully uninstalled six-1.16.0
+Successfully installed six-1.15.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: text-unidecode==1.3 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.3)
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting toml==0.10.1
+  Downloading https://files.pythonhosted.org/packages/9f/e1/1b40b80f2e1663a6b9f497123c11d7d988c0919abbf3c3f2688e448c5363/toml-0.10.1-py2.py3-none-any.whl
+Installing collected packages: toml
+Successfully installed toml-0.10.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting tox==3.15.2
+  Downloading https://files.pythonhosted.org/packages/c6/36/b0e6016724ae598ba30168618a91d3ee2d7510c20cb05deb8cdc3f7d53b3/tox-3.15.2-py2.py3-none-any.whl (137kB)
+Requirement already satisfied: py>=1.4.17 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.8.1)
+Requirement already satisfied: six>=1.14.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.15.0)
+Requirement already satisfied: filelock>=3.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (3.0.12)
+Requirement already satisfied: pluggy>=0.12.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (0.13.1)
+Collecting virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0 (from tox==3.15.2)
+  Downloading https://files.pythonhosted.org/packages/6f/43/df7c7b1b7a5ac4e41fac24c3682c1cc32f2c1d683d308bba2500338d1e3e/virtualenv-20.15.1-py2.py3-none-any.whl (10.1MB)
+Requirement already satisfied: toml>=0.9.4 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (0.10.1)
+Requirement already satisfied: importlib-metadata<2,>=0.12; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.6.1)
+Requirement already satisfied: packaging>=14 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (20.4)
+Collecting platformdirs<3,>=2 (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2)
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/12/57/f4e6d433fba8bde239baa65f626a31fc6d0556a2065fcc81aaa0f4f1507b/platformdirs-2.0.2-py2.py3-none-any.whl
+Requirement already satisfied: importlib-resources>=1.0; python_version < "3.7" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2) (2.0.1)
+Collecting distlib<1,>=0.3.1 (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2)
+  Downloading https://files.pythonhosted.org/packages/91/a1/cf2472db20f7ce4a6be1253a81cfdf85ad9c7885ffbed7047fb72c24cf87/distlib-0.3.9-py2.py3-none-any.whl (468kB)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata<2,>=0.12; python_version < "3.8"->tox==3.15.2) (0.6.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from packaging>=14->tox==3.15.2) (2.4.7)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata<2,>=0.12; python_version < "3.8"->tox==3.15.2) (8.12.0)
+virtualenv 20.15.1 has requirement filelock<4,>=3.2, but you'll have filelock 3.0.12 which is incompatible.
+Installing collected packages: platformdirs, distlib, virtualenv, tox
+  Found existing installation: distlib 0.3.0
+    Uninstalling distlib-0.3.0:
+      Successfully uninstalled distlib-0.3.0
+Successfully installed distlib-0.3.9 platformdirs-2.0.2 tox-3.15.2 virtualenv-20.15.1
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting urllib3==1.25.9
+  Downloading https://files.pythonhosted.org/packages/e1/e5/df302e8017440f111c11cc41a6b432838672f5a70aa29227bf58149dc72f/urllib3-1.25.9-py2.py3-none-any.whl (126kB)
+virtualenv 20.15.1 has requirement filelock<4,>=3.2, but you'll have filelock 3.0.12 which is incompatible.
+Installing collected packages: urllib3
+  Found existing installation: urllib3 1.25.11
+    Uninstalling urllib3-1.25.11:
+      Successfully uninstalled urllib3-1.25.11
+Successfully installed urllib3-1.25.9
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting virtualenv==20.0.23
+  Downloading https://files.pythonhosted.org/packages/f0/55/f0de23cb61f2e90db3f8362f0e685a0bc04d0c4cb159b7a96cb7c4817d63/virtualenv-20.0.23-py2.py3-none-any.whl (4.7MB)
+Requirement already satisfied: six<2,>=1.9.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (1.15.0)
+Requirement already satisfied: importlib-metadata<2,>=0.12; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (1.6.1)
+Requirement already satisfied: importlib-resources>=1.0; python_version < "3.7" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (2.0.1)
+Requirement already satisfied: filelock<4,>=3.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (3.0.12)
+Requirement already satisfied: distlib<1,>=0.3.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (0.3.9)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (1.4.4)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata<2,>=0.12; python_version < "3.8"->virtualenv==20.0.23) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata<2,>=0.12; python_version < "3.8"->virtualenv==20.0.23) (8.12.0)
+Installing collected packages: virtualenv
+  Found existing installation: virtualenv 20.15.1
+    Uninstalling virtualenv-20.15.1:
+      Successfully uninstalled virtualenv-20.15.1
+Successfully installed virtualenv-20.0.23
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting zipp==3.1.0
+  Could not find a version that satisfies the requirement zipp==3.1.0 (from versions: 0.1.0, 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.4.0, 0.5.0, 0.5.1, 0.5.2, 0.6.0, 1.0.0, 1.1.0, 1.1.1, 1.2.0)
+No matching distribution found for zipp==3.1.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+running develop
+running egg_info
+creating cookiecutter.egg-info
+writing entry points to cookiecutter.egg-info/entry_points.txt
+writing top-level names to cookiecutter.egg-info/top_level.txt
+writing requirements to cookiecutter.egg-info/requires.txt
+writing dependency_links to cookiecutter.egg-info/dependency_links.txt
+writing cookiecutter.egg-info/PKG-INFO
+writing manifest file 'cookiecutter.egg-info/SOURCES.txt'
+reading manifest file 'cookiecutter.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+writing manifest file 'cookiecutter.egg-info/SOURCES.txt'
+running build_ext
+Creating /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages/cookiecutter.egg-link (link to .)
+Adding cookiecutter 1.2.1 to easy-install.pth file
+Installing cookiecutter script to /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/bin
+
+Installed /home/user/BugsInPy/temp/projects/cookiecutter
+Processing dependencies for cookiecutter==1.2.1
+Searching for ruamel.yaml>=0.10.12
+Reading https://pypi.org/simple/ruamel.yaml/
+Downloading https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl#sha256=57b53ba33def16c4f3d807c0ccbc00f8a6081827e81ba2491691b76882d0c636
+Best match: ruamel.yaml 0.18.6
+Processing ruamel.yaml-0.18.6-py3-none-any.whl
+Installing ruamel.yaml-0.18.6-py3-none-any.whl to /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages
+writing requirements to /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages/ruamel.yaml-0.18.6-py3.5.egg/EGG-INFO/requires.txt
+Adding ruamel.yaml 0.18.6 to easy-install.pth file
+
+Installed /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages/ruamel.yaml-0.18.6-py3.5.egg
+Searching for whichcraft>=0.1.1
+Reading https://pypi.org/simple/whichcraft/
+Downloading https://files.pythonhosted.org/packages/b5/a2/81887a0dae2e4d2adc70d9a3557fdda969f863ced51cd3c47b587d25bce5/whichcraft-0.6.1-py2.py3-none-any.whl#sha256=deda9266fbb22b8c64fd3ee45c050d61139cd87419765f588e37c8d23e236dd9
+Best match: whichcraft 0.6.1
+Processing whichcraft-0.6.1-py2.py3-none-any.whl
+Installing whichcraft-0.6.1-py2.py3-none-any.whl to /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages
+Adding whichcraft 0.6.1 to easy-install.pth file
+
+Installed /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages/whichcraft-0.6.1-py3.5.egg
+Searching for future>=0.15.2
+Reading https://pypi.org/simple/future/
+Downloading https://files.pythonhosted.org/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl#sha256=929292d34f5872e70396626ef385ec22355a1fae8ad29e1a734c3e43f9fbc216
+Best match: future 1.0.0
+Processing future-1.0.0-py3-none-any.whl
+Installing future-1.0.0-py3-none-any.whl to /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages
+Adding future 1.0.0 to easy-install.pth file
+Installing futurize script to /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/bin
+Installing pasteurize script to /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/bin
+
+Installed /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages/future-1.0.0-py3.5.egg
+Searching for ruamel.yaml.clib>=0.2.7
+Reading https://pypi.org/simple/ruamel.yaml.clib/
+Downloading https://files.pythonhosted.org/packages/20/84/80203abff8ea4993a87d823a5f632e4d92831ef75d404c9fc78d0176d2b5/ruamel.yaml.clib-0.2.12.tar.gz#sha256=6c8fbb13ec503f99a91901ab46e0b07ae7941cd527393187039aec586fdfd36f
+Best match: ruamel.yaml.clib 0.2.12
+Processing ruamel.yaml.clib-0.2.12.tar.gz
+Writing /tmp/easy_install-jr4l8ckb/ruamel.yaml.clib-0.2.12/setup.cfg
+Running ruamel.yaml.clib-0.2.12/setup.py -q bdist_egg --dist-dir /tmp/easy_install-jr4l8ckb/ruamel.yaml.clib-0.2.12/egg-dist-tmp-fwr0cuo6
+minimum python version(s): [(3, 9)]
+error: Setup script exited with 1
+Requirement already satisfied: tox==3.15.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (3.15.2)
+Requirement already satisfied: filelock>=3.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (3.0.12)
+Requirement already satisfied: toml>=0.9.4 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (0.10.1)
+Requirement already satisfied: packaging>=14 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (20.4)
+Requirement already satisfied: six>=1.14.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.15.0)
+Requirement already satisfied: pluggy>=0.12.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (0.13.1)
+Requirement already satisfied: py>=1.4.17 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.8.1)
+Requirement already satisfied: virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (20.0.23)
+Requirement already satisfied: importlib-metadata<2,>=0.12; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.6.1)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from packaging>=14->tox==3.15.2) (2.4.7)
+Requirement already satisfied: distlib<1,>=0.3.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2) (0.3.9)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2) (1.4.4)
+Requirement already satisfied: importlib-resources>=1.0; python_version < "3.7" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2) (2.0.1)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata<2,>=0.12; python_version < "3.8"->tox==3.15.2) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata<2,>=0.12; python_version < "3.8"->tox==3.15.2) (8.12.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: appdirs==1.4.4 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.4.4)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: arrow==0.15.6 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (0.15.6)
+Requirement already satisfied: python-dateutil in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from arrow==0.15.6) (2.8.1)
+Requirement already satisfied: six>=1.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from python-dateutil->arrow==0.15.6) (1.15.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: binaryornot==0.4.4 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (0.4.4)
+Requirement already satisfied: chardet>=3.0.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from binaryornot==0.4.4) (3.0.4)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: certifi==2020.4.5.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2020.4.5.2)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: chardet==3.0.4 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (3.0.4)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: click==7.1.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (7.1.2)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+For --editable= git+https://github.com/cookiecutter/cookiecutter@9568ab6ecd2d6836646006c59473c4a4ac0dee04#egg=cookiecutter only svn+URL, git+URL, hg+URL, bzr+URL is currently supported
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting distlib==0.3.0
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+Installing collected packages: distlib
+  Found existing installation: distlib 0.3.9
+    Uninstalling distlib-0.3.9:
+      Successfully uninstalled distlib-0.3.9
+Successfully installed distlib-0.3.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: filelock==3.0.12 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (3.0.12)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: idna==2.9 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2.9)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: importlib-metadata==1.6.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.6.1)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata==1.6.1) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata==1.6.1) (8.12.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: importlib-resources==2.0.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2.0.1)
+Requirement already satisfied: importlib-metadata; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-resources==2.0.1) (1.6.1)
+Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-resources==2.0.1) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.4; python_version < "3.8"->importlib-resources==2.0.1) (8.12.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: Jinja2==2.11.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2.11.2)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from Jinja2==2.11.2) (1.1.1)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: jinja2-time==0.2.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (0.2.0)
+Requirement already satisfied: arrow in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from jinja2-time==0.2.0) (0.15.6)
+Requirement already satisfied: jinja2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from jinja2-time==0.2.0) (2.11.2)
+Requirement already satisfied: python-dateutil in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from arrow->jinja2-time==0.2.0) (2.8.1)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from jinja2->jinja2-time==0.2.0) (1.1.1)
+Requirement already satisfied: six>=1.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from python-dateutil->arrow->jinja2-time==0.2.0) (1.15.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: MarkupSafe==1.1.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.1.1)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: packaging==20.4 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (20.4)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from packaging==20.4) (2.4.7)
+Requirement already satisfied: six in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from packaging==20.4) (1.15.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pkg-resources==0.0.0
+  Could not find a version that satisfies the requirement pkg-resources==0.0.0 (from versions: )
+No matching distribution found for pkg-resources==0.0.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: pluggy==0.13.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (0.13.1)
+Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from pluggy==0.13.1) (1.6.1)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pluggy==0.13.1) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata>=0.12; python_version < "3.8"->pluggy==0.13.1) (8.12.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: poyo==0.5.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (0.5.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: py==1.8.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.8.1)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: pyparsing==2.4.7 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2.4.7)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: python-dateutil==2.8.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2.8.1)
+Requirement already satisfied: six>=1.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from python-dateutil==2.8.1) (1.15.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: python-slugify==4.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (4.0.0)
+Requirement already satisfied: text-unidecode>=1.3 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from python-slugify==4.0.0) (1.3)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: requests==2.23.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (2.23.0)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from requests==2.23.0) (1.25.9)
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from requests==2.23.0) (2.9)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from requests==2.23.0) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from requests==2.23.0) (2020.4.5.2)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: six==1.15.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.15.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: text-unidecode==1.3 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.3)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: toml==0.10.1 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (0.10.1)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: tox==3.15.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (3.15.2)
+Requirement already satisfied: virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (20.0.23)
+Requirement already satisfied: toml>=0.9.4 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (0.10.1)
+Requirement already satisfied: filelock>=3.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (3.0.12)
+Requirement already satisfied: packaging>=14 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (20.4)
+Requirement already satisfied: importlib-metadata<2,>=0.12; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.6.1)
+Requirement already satisfied: py>=1.4.17 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.8.1)
+Requirement already satisfied: six>=1.14.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (1.15.0)
+Requirement already satisfied: pluggy>=0.12.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from tox==3.15.2) (0.13.1)
+Requirement already satisfied: importlib-resources>=1.0; python_version < "3.7" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2) (2.0.1)
+Requirement already satisfied: distlib<1,>=0.3.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2) (0.3.0)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox==3.15.2) (1.4.4)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from packaging>=14->tox==3.15.2) (2.4.7)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-metadata<2,>=0.12; python_version < "3.8"->tox==3.15.2) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.5->importlib-metadata<2,>=0.12; python_version < "3.8"->tox==3.15.2) (8.12.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: urllib3==1.25.9 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (1.25.9)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied: virtualenv==20.0.23 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (20.0.23)
+Requirement already satisfied: importlib-resources>=1.0; python_version < "3.7" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (2.0.1)
+Requirement already satisfied: filelock<4,>=3.0.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (3.0.12)
+Requirement already satisfied: distlib<1,>=0.3.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (0.3.0)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (1.4.4)
+Requirement already satisfied: six<2,>=1.9.0 in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (1.15.0)
+Requirement already satisfied: importlib-metadata<2,>=0.12; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from virtualenv==20.0.23) (1.6.1)
+Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from importlib-resources>=1.0; python_version < "3.7"->virtualenv==20.0.23) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/conda/envs/4fa9f60527e8c6c12d69596cfb090861/lib/python3.5/site-packages (from zipp>=0.4; python_version < "3.8"->importlib-resources>=1.0; python_version < "3.7"->virtualenv==20.0.23) (8.12.0)
+ruamel-yaml 0.18.6 requires ruamel.yaml.clib>=0.2.7, which is not installed.
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting zipp==3.1.0
+  Could not find a version that satisfies the requirement zipp==3.1.0 (from versions: 0.1.0, 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.4.0, 0.5.0, 0.5.1, 0.5.2, 0.6.0, 1.0.0, 1.1.0, 1.1.1, 1.2.0)
+No matching distribution found for zipp==3.1.0
+You are using pip version 10.0.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+   Running on module 0 (./utils.py)...
+   Running on module 1 (./replay.py)...
+   Running on module 2 (./main.py)...
+   Running on module 3 (./cli.py)...
+   Running on module 4 (./config.py)...
+   Running on module 5 (./hooks.py)...
+   Running on module 6 (./generate.py)...
+   Running on module 7 (./vcs.py)...
+   Running on module 8 (./find.py)...
+   Running on module 9 (./prompt.py)...
+   Running on module 10 (./exceptions.py)...

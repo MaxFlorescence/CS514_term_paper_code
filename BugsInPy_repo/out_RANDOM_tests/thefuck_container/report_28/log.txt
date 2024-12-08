@@ -1,0 +1,63 @@
+pynguin log ./rules/git_diff_staged.py
+[06:26:55] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Instrumented startswith function     instrumentation.py:1903
+           INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     2                              module.py:1328
+           INFO     Classes:      11                              module.py:1329
+           INFO     Using seed 1733207215072369656              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.RANDOM                                            
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Initial Population, Coverage: 0.000000  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.666667  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.666667  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.666667  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 1.000000  searchobserver.py:83
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module git_diff_staged               generator.py:640
+           INFO     Build AST for git_diff_staged               generator.py:643
+           INFO     Mutate module git_diff_staged               generator.py:648
+           INFO     Generated 4 mutants                         generator.py:657
+           INFO     Instrumented startswith function     instrumentation.py:1903
+           INFO     Running tests on mutant   1/4      assertiongenerator.py:346
+           INFO     Instrumented startswith function     instrumentation.py:1903
+           INFO     Running tests on mutant   2/4      assertiongenerator.py:346
+           INFO     Instrumented startswith function     instrumentation.py:1903
+           INFO     Running tests on mutant   3/4      assertiongenerator.py:346
+           INFO     Instrumented startswith function     instrumentation.py:1903
+           INFO     Running tests on mutant   4/4      assertiongenerator.py:346
+           INFO     Mutant 0 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3                                                        
+           INFO     Mutant 1 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3                                                        
+           INFO     Mutant 2 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3                                                        
+           INFO     Mutant 3 killed by Test(s): 0, 1,  assertiongenerator.py:423
+                    2, 3                                                        
+           INFO     Number of Surviving Mutant(s): 0   assertiongenerator.py:435
+                    (Mutants: )                                                 
+           INFO     Instrumented startswith function     instrumentation.py:1903
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:447
+           INFO     Written 4 test cases to                     generator.py:774
+                    /home/user/BugsInPy/temp/out/suite_28/test_                 
+                    git_diff_staged.py                                          
+           INFO     Writing statistics                         statistics.py:370
+           INFO     Stop Pynguin Test Generation…               generator.py:119

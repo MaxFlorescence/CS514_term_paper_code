@@ -1,0 +1,165 @@
+pynguin log ./proposals/spec_kmeans.py
+[02:15:50] INFO     Start Pynguin Test Generation…              generator.py:117
+           INFO     Collecting static constants from module     generator.py:212
+                    under test                                                  
+           INFO     No constants found                          generator.py:215
+           INFO     Setting up runtime collection of constants  generator.py:222
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: DeprecationWarning: `_dispatchable._fallback_to_nx` is deprecated and will be removed in NetworkX v3.5. Use `nx.config.fallback_to_nx` instead.
+  value = getattr(object, key)
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\k'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\D'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\#'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\G'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\P'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\z'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\D'
+[02:15:59] WARNING  Unexpectedly had no exception name raised  syntaxtree.py:221
+                    and no exception in context.                                
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\.'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+[02:16:02] INFO     C-extension module not found: _fblas          module.py:1329
+           INFO     C-extension module not found: _flapack        module.py:1329
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+           INFO     C-extension module not found: _interpolative  module.py:1329
+<unknown>:3: DeprecationWarning: invalid escape sequence '\_'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\G'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\L'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\z'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\D'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\e'
+[02:16:07] WARNING  Unexpectedly had no exception name raised  syntaxtree.py:221
+                    and no exception in context.                                
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\h'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\,'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\k'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\h'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\,'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+[02:16:11] INFO     C-extension module not found: uarray          module.py:1329
+           INFO     C-extension module not found: uarray          module.py:1329
+           INFO     C-extension module not found: uarray          module.py:1329
+           INFO     C-extension module not found: uarray          module.py:1329
+           INFO     C-extension module not found: uarray          module.py:1329
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+[02:16:12] INFO     C-extension module not found: _lbfgsb         module.py:1329
+           INFO     C-extension module not found: _cobyla         module.py:1329
+           INFO     C-extension module not found: _slsqp          module.py:1329
+           INFO     C-extension module not found: _minpack        module.py:1329
+           INFO     C-extension module not found: _odepack        module.py:1329
+           INFO     C-extension module not found: _quadpack       module.py:1329
+           INFO     C-extension module not found: _vode           module.py:1329
+           INFO     C-extension module not found: _dop            module.py:1329
+           INFO     C-extension module not found: _lsoda          module.py:1329
+           INFO     C-extension module not found: _fitpack        module.py:1329
+           INFO     C-extension module not found: _dfitpack       module.py:1329
+           WARNING  Unexpectedly had no exception name raised  syntaxtree.py:221
+                    and no exception in context.                                
+           WARNING  Unexpectedly had no exception name raised  syntaxtree.py:221
+                    and no exception in context.                                
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\c'
+[02:16:13] INFO     C-extension module not found: _mvn            module.py:1329
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+[02:16:14] INFO     C-extension module not found: _spropack       module.py:1329
+           INFO     C-extension module not found: _dpropack       module.py:1329
+           INFO     C-extension module not found: _cpropack       module.py:1329
+           INFO     C-extension module not found: _zpropack       module.py:1329
+[02:16:15] ERROR    While getting the types of exceptions in   syntaxtree.py:339
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7f51ce9826b0>                         
+           ERROR    While getting the types of exceptions in   syntaxtree.py:339
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7f51ceca75e0>                         
+           INFO     C-extension module not found: _arpack         module.py:1329
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+[02:16:17] INFO     Analyzed project to create test cluster       module.py:1282
+           INFO     Modules:     948                              module.py:1283
+           INFO     Functions:  5458                              module.py:1284
+           INFO     Classes:    1621                              module.py:1285
+           INFO     Using seed 1733624150239678560              generator.py:200
+           INFO     Using strategy:            generationalgorithmfactory.py:287
+                    Algorithm.WHOLE_SUITE                                       
+           INFO     Instantiated 26 fitness    generationalgorithmfactory.py:374
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:329
+           INFO     Using selection function:  generationalgorithmfactory.py:304
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:317
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:337
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:495

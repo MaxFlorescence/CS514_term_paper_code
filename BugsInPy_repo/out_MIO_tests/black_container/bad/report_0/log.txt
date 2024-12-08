@@ -1,0 +1,13 @@
+pynguin log ./setup.py
+[09:38:39] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     Constants found: 384                        generator.py:221
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Stop Pynguin Test Generation…               generator.py:119
+usage: pynguin [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: pynguin --help [cmd1 cmd2 ...]
+   or: pynguin --help-commands
+   or: pynguin cmd --help
+
+error: option --algorithm not recognized

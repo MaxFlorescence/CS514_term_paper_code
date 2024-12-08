@@ -1,0 +1,9 @@
+testing-script scrapy 11 1 MIO /home/user/BugsInPy/temp/test_out/11_1.txt /home/user/BugsInPy/temp/tests test_gz.py scrapy
+Copying test suite...
+
+pytest scrapy 11 1 MIO
+
+ImportError while loading conftest '/home/user/BugsInPy/temp/projects/scrapy/conftest.py'.
+conftest.py:4: in <module>
+    from twisted import version as twisted_version
+E   ModuleNotFoundError: No module named 'twisted'

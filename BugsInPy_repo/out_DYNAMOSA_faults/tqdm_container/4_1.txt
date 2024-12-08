@@ -1,0 +1,357 @@
+testing-script tqdm 4 1 DYNAMOSA /home/user/BugsInPy/temp/test_out/4_1.txt /home/user/BugsInPy/temp/tests test__tqdm.py tqdm
+Copying test suite...
+
+pytest tqdm 4 1 DYNAMOSA
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/tqdm
+collected 38 items
+
+generated_tests/test__tqdm.py FxFFxFFxFxFxFFFxFFxFFxFxxxxxxxxxxxxxxx     [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_case_0 __________________________________
+
+    def test_case_0():
+        bool_0 = True
+>       var_0 = module_0.format_sizeof(bool_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_sizeof'
+
+generated_tests/test__tqdm.py:10: AttributeError
+_________________________________ test_case_2 __________________________________
+
+    def test_case_2():
+        bool_0 = True
+>       var_0 = module_0.format_meter(bool_0, bool_0, bool_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_meter'
+
+generated_tests/test__tqdm.py:24: AttributeError
+_________________________________ test_case_3 __________________________________
+
+    def test_case_3():
+        none_type_0 = None
+        tqdm_0 = module_0.tqdm(total=none_type_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:31: AssertionError
+----------------------------- Captured stderr call -----------------------------
+0it [00:00, ?it/s]
+_________________________________ test_case_5 __________________________________
+
+    def test_case_5():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(mininterval=bool_0, miniters=bool_0, unit_scale=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:71: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+0.00it [00:00, ?it/s][A[A
+_________________________________ test_case_6 __________________________________
+
+    def test_case_6():
+        none_type_0 = None
+        tqdm_0 = module_0.tqdm(total=none_type_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:101: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+0it [00:00, ?it/s][A[A[A
+_________________________________ test_case_8 __________________________________
+
+    def test_case_8():
+        none_type_0 = None
+>       var_0 = module_0.StatusPrinter(none_type_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'StatusPrinter'
+
+generated_tests/test__tqdm.py:133: AttributeError
+--------------------------- Captured stderr teardown ---------------------------
+
+_________________________________ test_case_10 _________________________________
+
+    def test_case_10():
+        int_0 = 540
+        tqdm_0 = module_0.tqdm(gui=int_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:145: AssertionError
+_________________________________ test_case_12 _________________________________
+
+    def test_case_12():
+        dict_0 = {}
+        tqdm_0 = module_0.tqdm(total=dict_0, ascii=dict_0, gui=dict_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:185: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+0it [00:00, ?it/s][A[A
+_________________________________ test_case_13 _________________________________
+
+    def test_case_13():
+        object_0 = module_1.object()
+        tqdm_0 = module_0.tqdm(leave=object_0, disable=object_0, unit=object_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:212: AssertionError
+_________________________________ test_case_14 _________________________________
+
+    def test_case_14():
+        str_0 = "6L[M7\x0c{uJWZ2ySx_\rA"
+        tqdm_0 = module_0.tqdm(str_0, total=str_0, disable=str_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:248: AssertionError
+_________________________________ test_case_16 _________________________________
+
+    def test_case_16():
+        str_0 = "'dQHP"
+        tqdm_0 = module_0.tqdm(desc=str_0, mininterval=str_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:294: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+'dQHP: 0it [00:00, ?it/s][A
+_________________________________ test_case_17 _________________________________
+
+    def test_case_17():
+        int_0 = 540
+>       tqdm_0 = module_0.format_sizeof(int_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_sizeof'
+
+generated_tests/test__tqdm.py:320: AttributeError
+_________________________________ test_case_19 _________________________________
+
+    def test_case_19():
+        str_0 = "%hX?"
+>       tqdm_0 = module_0.tqdm(str_0, unit=str_0, unit_scale=str_0)
+
+generated_tests/test__tqdm.py:357: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tqdm/_tqdm.py:928: in __init__
+    self.display()
+tqdm/_tqdm.py:1298: in display
+    self.sp(self.__repr__() if msg is None else msg)
+tqdm/_tqdm.py:967: in __repr__
+    return self.format_meter(**self.format_dict)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = '', total = '%hX?%hX?%hX?%hX?', elapsed = 0, ncols = None, prefix = ''
+ascii = False, unit = '%hX?', unit_scale = False, rate = None, bar_format = None
+postfix = '', unit_divisor = 1000, extra_kwargs = {}
+format_interval = <function tqdm.format_interval at 0x7fdb54b43400>
+elapsed_str = '00:00', inv_rate = None
+format_sizeof = <function tqdm.format_sizeof at 0x7fdb54b43370>
+rate_noinv_fmt = '?%hX?/s', rate_inv_fmt = '?s/%hX?', rate_fmt = '?%hX?/s'
+
+    @staticmethod
+    def format_meter(n, total, elapsed, ncols=None, prefix='', ascii=False,
+                     unit='it', unit_scale=False, rate=None, bar_format=None,
+                     postfix=None, unit_divisor=1000, **extra_kwargs):
+        """
+        Return a string-based progress bar given some parameters
+    
+        Parameters
+        ----------
+        n  : int
+            Number of finished iterations.
+        total  : int
+            The expected total number of iterations. If meaningless (), only
+            basic progress statistics are displayed (no ETA).
+        elapsed  : float
+            Number of seconds passed since start.
+        ncols  : int, optional
+            The width of the entire output message. If specified,
+            dynamically resizes the progress meter to stay within this bound
+            [default: None]. The fallback meter width is 10 for the progress
+            bar + no limit for the iterations counter and statistics. If 0,
+            will not print any meter (only stats).
+        prefix  : str, optional
+            Prefix message (included in total width) [default: ''].
+            Use as {desc} in bar_format string.
+        ascii  : bool, optional
+            If not set, use unicode (smooth blocks) to fill the meter
+            [default: False]. The fallback is to use ASCII characters
+            (1-9 #).
+        unit  : str, optional
+            The iteration unit [default: 'it'].
+        unit_scale  : bool or int or float, optional
+            If 1 or True, the number of iterations will be printed with an
+            appropriate SI metric prefix (k = 10^3, M = 10^6, etc.)
+            [default: False]. If any other non-zero number, will scale
+            `total` and `n`.
+        rate  : float, optional
+            Manual override for iteration rate.
+            If [default: None], uses n/elapsed.
+        bar_format  : str, optional
+            Specify a custom bar string formatting. May impact performance.
+            [default: '{l_bar}{bar}{r_bar}'], where
+            l_bar='{desc}: {percentage:3.0f}%|' and
+            r_bar='| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, '
+              '{rate_fmt}{postfix}]'
+            Possible vars: l_bar, bar, r_bar, n, n_fmt, total, total_fmt,
+              percentage, rate, rate_fmt, rate_noinv, rate_noinv_fmt,
+              rate_inv, rate_inv_fmt, elapsed, elapsed_s,
+              remaining, remaining_s, desc, postfix, unit.
+            Note that a trailing ": " is automatically removed after {desc}
+            if the latter is empty.
+        postfix  : *, optional
+            Similar to `prefix`, but placed at the end
+            (e.g. for additional stats).
+            Note: postfix is usually a string (not a dict) for this method,
+            and will if possible be set to postfix = ', ' + postfix.
+            However other types are supported (#382).
+        unit_divisor  : float, optional
+            [default: 1000], ignored unless `unit_scale` is True.
+    
+        Returns
+        -------
+        out  : Formatted meter and stats, ready to display.
+        """
+    
+        # sanity check: total
+        if total and n > total:
+            total = None
+    
+        # apply custom scale if necessary
+        if unit_scale and unit_scale not in (True, 1):
+            if total:
+                total *= unit_scale
+            n *= unit_scale
+            if rate:
+                rate *= unit_scale  # by default rate = 1 / self.avg_time
+            unit_scale = False
+    
+        format_interval = tqdm.format_interval
+        elapsed_str = format_interval(elapsed)
+    
+        # if unspecified, attempt to use rate = average speed
+        # (we allow manual override since predicting time is an arcane art)
+        if rate is None and elapsed:
+            rate = n / elapsed
+        inv_rate = 1 / rate if rate else None
+        format_sizeof = tqdm.format_sizeof
+        rate_noinv_fmt = ((format_sizeof(rate) if unit_scale else
+                           '{0:5.2f}'.format(rate))
+                          if rate else '?') + unit + '/s'
+        rate_inv_fmt = ((format_sizeof(inv_rate) if unit_scale else
+                         '{0:5.2f}'.format(inv_rate))
+                        if inv_rate else '?') + 's/' + unit
+        rate_fmt = rate_inv_fmt if inv_rate and inv_rate > 1 else rate_noinv_fmt
+    
+        if unit_scale:
+            n_fmt = format_sizeof(n, divisor=unit_divisor)
+            total_fmt = format_sizeof(total, divisor=unit_divisor) \
+                if total else None
+        else:
+            n_fmt = str(n)
+            total_fmt = str(total)
+    
+        try:
+            postfix = ', ' + postfix if postfix else ''
+        except TypeError:
+            pass
+    
+        # total is known: we can predict some stats
+        if total:
+            # fractional and percentage progress
+>           frac = n / total
+E           TypeError: unsupported operand type(s) for /: 'str' and 'str'
+
+tqdm/_tqdm.py:363: TypeError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+_________________________________ test_case_20 _________________________________
+
+    def test_case_20():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(mininterval=bool_0, miniters=bool_0, unit_scale=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:365: AssertionError
+----------------------------- Captured stderr call -----------------------------
+0.00it [00:00, ?it/s]
+_________________________________ test_case_22 _________________________________
+
+    def test_case_22():
+        str_0 = "'dQHP"
+        tqdm_0 = module_0.tqdm(str_0, str_0, mininterval=str_0, gui=str_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:425: AssertionError
+=========================== short test summary info ============================
+FAILED generated_tests/test__tqdm.py::test_case_0 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_2 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_3 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_5 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_6 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_8 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_10 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_12 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_13 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_14 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_16 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_17 - AttributeError: module '...
+FAILED generated_tests/test__tqdm.py::test_case_19 - TypeError: unsupported o...
+FAILED generated_tests/test__tqdm.py::test_case_20 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_22 - AssertionError: assert '...
+======================== 15 failed, 23 xfailed in 1.16s ========================

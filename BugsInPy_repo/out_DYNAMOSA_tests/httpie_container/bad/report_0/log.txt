@@ -1,0 +1,15 @@
+pynguin log ./setup.py
+[03:45:14] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     Constants found: 163                        generator.py:221
+           INFO     Setting up runtime collection of constants  generator.py:228
+/opt/conda/lib/python3.10/site-packages/setuptools/dist.py:529: UserWarning: Normalizing '0.1.7-dev' to '0.1.7.dev0'
+  warnings.warn(tmpl.format(**locals()))
+           INFO     Stop Pynguin Test Generation…               generator.py:119
+usage: pynguin [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: pynguin --help [cmd1 cmd2 ...]
+   or: pynguin --help-commands
+   or: pynguin cmd --help
+
+error: option --project-path not recognized

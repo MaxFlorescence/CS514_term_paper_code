@@ -1,0 +1,146 @@
+pynguin log ./platform/posix.py
+[14:18:28] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     0                              module.py:1328
+           INFO     Classes:      16                              module.py:1329
+           INFO     Using seed 1733321907930014423              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.MIO                                               
+           INFO     Instantiated 0 fitness     generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using MIOArchive           generationalgorithmfactory.py:339
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module posix                         generator.py:640
+           INFO     Build AST for posix                         generator.py:643
+           INFO     Stop Pynguin Test Generation…               generator.py:119
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /opt/conda/bin/pynguin:8 in <module>                                         │
+│                                                                              │
+│   5 from pynguin.cli import main                                             │
+│   6 if __name__ == '__main__':                                               │
+│   7 │   sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])     │
+│ ❱ 8 │   sys.exit(main())                                                     │
+│   9                                                                          │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/cli.py:193 in main           │
+│                                                                              │
+│   190 │   set_configuration(parsed.config)                                   │
+│   191 │   if console is not None:                                            │
+│   192 │   │   with console.status("Running Pynguin..."):                     │
+│ ❱ 193 │   │   │   return run_pynguin().value                                 │
+│   194 │   else:                                                              │
+│   195 │   │   return run_pynguin().value                                     │
+│   196                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:117 in          │
+│ run_pynguin                                                                  │
+│                                                                              │
+│   114 │   """                                                                │
+│   115 │   try:                                                               │
+│   116 │   │   _LOGGER.info("Start Pynguin Test Generation…")                 │
+│ ❱ 117 │   │   return _run()                                                  │
+│   118 │   finally:                                                           │
+│   119 │   │   _LOGGER.info("Stop Pynguin Test Generation…")                  │
+│   120                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:542 in _run     │
+│                                                                              │
+│   539 │                                                                      │
+│   540 │   _track_search_metrics(algorithm, generation_result, coverage_metri │
+│   541 │   _remove_statements_after_exceptions(generation_result)             │
+│ ❱ 542 │   _generate_assertions(executor, generation_result)                  │
+│   543 │   tracked_metrics = _track_final_metrics(                            │
+│   544 │   │   algorithm, executor, generation_result, constant_provider      │
+│   545 │   )                                                                  │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:667 in          │
+│ _generate_assertions                                                         │
+│                                                                              │
+│   664 │   │   _LOGGER.info("Start generating assertions")                    │
+│   665 │   │   generator: cv.ChromosomeVisitor                                │
+│   666 │   │   if ass_gen == config.AssertionGenerator.MUTATION_ANALYSIS:     │
+│ ❱ 667 │   │   │   generator = _setup_mutation_analysis_assertion_generator(e │
+│   668 │   │   else:                                                          │
+│   669 │   │   │   generator = ag.AssertionGenerator(executor)                │
+│   670 │   │   generation_result.accept(generator)                            │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:645 in          │
+│ _setup_mutation_analysis_assertion_generator                                 │
+│                                                                              │
+│   642 │                                                                      │
+│   643 │   _LOGGER.info("Build AST for %s", module.__name__)                  │
+│   644 │   executor.tracer.current_thread_identifier = threading.current_thre │
+│ ❱ 645 │   module_source_code = inspect.getsource(module)                     │
+│   646 │   module_ast = ParentNodeTransformer.create_ast(module_source_code)  │
+│   647 │                                                                      │
+│   648 │   _LOGGER.info("Mutate module %s", module.__name__)                  │
+│                                                                              │
+│ /opt/conda/lib/python3.10/inspect.py:1139 in getsource                       │
+│                                                                              │
+│   1136 │   The argument may be a module, class, method, function, traceback, │
+│   1137 │   or code object.  The source code is returned as a single string.  │
+│   1138 │   OSError is raised if the source code cannot be retrieved."""      │
+│ ❱ 1139 │   lines, lnum = getsourcelines(object)                              │
+│   1140 │   return ''.join(lines)                                             │
+│   1141                                                                       │
+│   1142 # --------------------------------------------------- class tree extr │
+│                                                                              │
+│ /opt/conda/lib/python3.10/inspect.py:1121 in getsourcelines                  │
+│                                                                              │
+│   1118 │   original source file the first line of code was found.  An OSErro │
+│   1119 │   raised if the source code cannot be retrieved."""                 │
+│   1120 │   object = unwrap(object)                                           │
+│ ❱ 1121 │   lines, lnum = findsource(object)                                  │
+│   1122 │                                                                     │
+│   1123 │   if istraceback(object):                                           │
+│   1124 │   │   object = object.tb_frame                                      │
+│                                                                              │
+│ /opt/conda/lib/python3.10/inspect.py:940 in findsource                       │
+│                                                                              │
+│    937 │   in the file and the line number indexes a line in that list.  An  │
+│    938 │   is raised if the source code cannot be retrieved."""              │
+│    939 │                                                                     │
+│ ❱  940 │   file = getsourcefile(object)                                      │
+│    941 │   if file:                                                          │
+│    942 │   │   # Invalidate cache if needed.                                 │
+│    943 │   │   linecache.checkcache(file)                                    │
+│                                                                              │
+│ /opt/conda/lib/python3.10/inspect.py:817 in getsourcefile                    │
+│                                                                              │
+│    814 │   """Return the filename that can be used to locate an object's sou │
+│    815 │   Return None if no way can be identified to get the source.        │
+│    816 │   """                                                               │
+│ ❱  817 │   filename = getfile(object)                                        │
+│    818 │   all_bytecode_suffixes = importlib.machinery.DEBUG_BYTECODE_SUFFIX │
+│    819 │   all_bytecode_suffixes += importlib.machinery.OPTIMIZED_BYTECODE_S │
+│    820 │   if any(filename.endswith(s) for s in all_bytecode_suffixes):      │
+│                                                                              │
+│ /opt/conda/lib/python3.10/inspect.py:778 in getfile                          │
+│                                                                              │
+│    775 │   if ismodule(object):                                              │
+│    776 │   │   if getattr(object, '__file__', None):                         │
+│    777 │   │   │   return object.__file__                                    │
+│ ❱  778 │   │   raise TypeError('{!r} is a built-in module'.format(object))   │
+│    779 │   if isclass(object):                                               │
+│    780 │   │   if hasattr(object, '__module__'):                             │
+│    781 │   │   │   module = sys.modules.get(object.__module__)               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+TypeError: <module 'posix' (built-in)> is a built-in module

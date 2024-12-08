@@ -1,0 +1,127 @@
+#!/bin/bash
+
+if [ "$#" -ne 8 ]; then
+    echo "Usage: testing-script [project] [bug-id] [version] [algorithm] [save-to] [gen-test-dir] [test] [top]"
+	exit 1
+else
+	read -r PROJ_DIR BUG_ID VERSION_ID ALGORITHM SAVE_TO GEN_TEST_DIR TEST TOP <<< $@
+fi
+
+BIP_DIR="/home/user/BugsInPy"
+OUT_DIR="$BIP_DIR/temp/out"
+mkdir -p ${SAVE_TO%/*}
+echo "testing-script $@" > "$SAVE_TO"
+WORK_DIR="$BIP_DIR/temp/projects/$PROJ_DIR"
+TEST_DIR="$WORK_DIR/generated_tests"
+
+# ------------------------------------checkout project------------------------------------
+echo
+echo ===================================Checkout project...===================================
+# Make sure requirements.txt always exist even if empty
+BUG_SRC_DIR="$BIP_DIR/projects/$PROJ_DIR/bugs/$BUG_ID"
+touch $BUG_SRC_DIR/requirements.txt
+
+bugsinpy-checkout -p $PROJ_DIR -v $VERSION_ID -i $BUG_ID -w "$BIP_DIR/temp/projects"
+bug_info="$WORK_DIR/bugsinpy_bug.info"
+
+if [ ! -d "$WORK_DIR" ]; then
+  echo "bugsinpy-checkout failed."
+  exit 1
+fi
+
+# ------------------------------------fix relative imports------------------------------------
+#echo
+#echo ===================================Fix relative imports...===================================
+#cd "$WORK_DIR"
+#for file in $(find -name "*.py"); do
+#	sed -Ei 's/from \. //g' $file
+#	sed -Ei 's/from \./from /g' $file
+#done
+
+# ------------------------------------compile------------------------------------
+echo
+echo ===================================Compiling...===================================
+
+if [ -d "$BUG_SRC_DIR" ]; then
+	cd $WORK_DIR
+
+	# Cleanup requirements.txt from unwanted spaces
+	# dos2unix is required to make sure requirements.txt is always the correct encoding
+	requirements="$WORK_DIR/bugsinpy_requirements.txt"
+	sed -i -e '/^\s*#.*$/d' -e '/^\s*$/d' "$requirements"
+	dos2unix $requirements &>/dev/null
+
+	# Add environment
+	. /opt/conda/etc/profile.d/conda.sh &>> $OUT_DIR/log.txt
+	# Generate unique hash for the current enviroment
+	bug_python_version=$(grep -o "3\..\.." $bug_info)
+	conda_env_name=$(cat <(echo $bug_python_version) "$requirements" | md5sum | cut -d' ' -f 1)
+
+	if ! conda env list | grep -q "$conda_env_name"; then
+	  conda create -n $conda_env_name -y python=$bug_python_version pytest &>> $OUT_DIR/log.txt
+	fi
+
+	bugsinpy-compile &>> $OUT_DIR/log.txt
+else
+	echo "$BUG_SRC_DIR doesn't exist!"
+	exit 1
+fi
+
+if ! conda env list | grep -q "$conda_env_name"; then
+  echo "bugsinpy-compile failed."
+  exit 1
+fi
+
+# ------------------------------------copy tests------------------------------------
+echo
+echo ===================================Copying tests...===================================
+mkdir -p $GEN_TEST_DIR
+if [ $(ls $GEN_TEST_DIR | wc -l) -eq 0 ]; then
+	echo "Fixing and copying test suite..." >> "$SAVE_TO"
+	echo "" > "$GEN_TEST_DIR/__init__.py"
+
+	PROJ_CONT_DIR="$BIP_DIR/out_$ALGORITHM/${PROJ_DIR,,}_container"
+	cd $PROJ_CONT_DIR
+	for R in $(ls -d report_*/); do
+		echo "Considering $R" &>> "$SAVE_TO"
+		
+		REPORT=${R%%/}
+		SUITE=$(echo $REPORT | sed -nE 's/report_(.+)/suite_\1/p')
+		FILE=$(ls $REPORT/$SUITE/*.py | sed -nE 's|.+/(.+\.py)|\1|p')
+		echo "   got test file \"$FILE\"" &>> "$SAVE_TO"
+		
+		if [[ "$FILE" != "$TEST" ]]; then continue; fi
+		
+		TEST_FILE="$REPORT/$SUITE/$FILE"
+		FILENAME=${FILE%.py}
+		MODNAME=${FILENAME#test_}
+		
+		TARGET=$(head $REPORT/log.txt -n 1 | sed -nE "s|pynguin log (.+)\.py|\1|p")
+		THEPATH=$(echo "$TOP/$TARGET" | sed -nE "s|/|.|g;s/\.\.\././p")
+		echo "   got import path $THEPATH" &>> "$SAVE_TO"
+		
+		sed -E "s/import $MODNAME as module_(.)/import $THEPATH as module_\1/" "$TEST_FILE" > "$GEN_TEST_DIR/$FILE"
+		echo "   added $FILE to suite" &>> "$SAVE_TO"
+	done
+else
+	echo "Copying test suite..." >> "$SAVE_TO"
+fi
+
+cp -r $GEN_TEST_DIR $TEST_DIR
+
+# ------------------------------------run tests------------------------------------
+echo
+echo ===================================Running tests...===================================
+cd $WORK_DIR
+res_first=$(pytest generated_tests/ 2>&1)
+echo "$res_first"
+echo >> "$SAVE_TO"
+echo "pytest $PROJ_DIR $BUG_ID $VERSION_ID $ALGORITHM" &>> "$SAVE_TO"
+echo >> "$SAVE_TO"
+echo "$res_first" &>>"$SAVE_TO"
+
+# ------------------------------------remove repo------------------------------------
+echo
+echo ===================================Removing repo...===================================
+cd "$WORK_DIR/.."
+rm -rf "$PROJ_DIR"

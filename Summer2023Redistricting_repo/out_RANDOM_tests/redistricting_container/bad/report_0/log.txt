@@ -1,0 +1,228 @@
+pynguin log ./proposals/spec_kmeans.py
+[07:33:32] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: DeprecationWarning: `_dispatchable._fallback_to_nx` is deprecated and will be removed in NetworkX v3.5. Use `nx.config.fallback_to_nx` instead.
+  value = getattr(object, key)
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\k'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\D'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\#'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\G'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\P'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\z'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\D'
+[07:33:39] WARNING  Unexpectedly had no exception name raised  syntaxtree.py:223
+                    and no exception in context.                                
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\.'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+[07:33:42] INFO     C-extension module not found: _fblas          module.py:1372
+           INFO     C-extension module not found: _flapack        module.py:1372
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+           INFO     C-extension module not found: _interpolative  module.py:1372
+<unknown>:3: DeprecationWarning: invalid escape sequence '\_'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\G'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\L'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\z'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\D'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\e'
+[07:33:49] WARNING  Unexpectedly had no exception name raised  syntaxtree.py:223
+                    and no exception in context.                                
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\h'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\,'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\k'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\h'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\,'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+[07:33:52] INFO     C-extension module not found: uarray          module.py:1372
+           INFO     C-extension module not found: uarray          module.py:1372
+           INFO     C-extension module not found: uarray          module.py:1372
+           INFO     C-extension module not found: uarray          module.py:1372
+           INFO     C-extension module not found: uarray          module.py:1372
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+[07:33:53] INFO     C-extension module not found: _lbfgsb         module.py:1372
+           INFO     C-extension module not found: _cobyla         module.py:1372
+           INFO     C-extension module not found: _slsqp          module.py:1372
+           INFO     C-extension module not found: _minpack        module.py:1372
+[07:33:54] INFO     C-extension module not found: _odepack        module.py:1372
+           INFO     C-extension module not found: _quadpack       module.py:1372
+           INFO     C-extension module not found: _vode           module.py:1372
+           INFO     C-extension module not found: _dop            module.py:1372
+           INFO     C-extension module not found: _lsoda          module.py:1372
+           INFO     C-extension module not found: _fitpack        module.py:1372
+           INFO     C-extension module not found: _dfitpack       module.py:1372
+           WARNING  Unexpectedly had no exception name raised  syntaxtree.py:223
+                    and no exception in context.                                
+           WARNING  Unexpectedly had no exception name raised  syntaxtree.py:223
+                    and no exception in context.                                
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\c'
+           INFO     C-extension module not found: _mvn            module.py:1372
+<unknown>:3: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+[07:33:56] INFO     C-extension module not found: _spropack       module.py:1372
+           INFO     C-extension module not found: _dpropack       module.py:1372
+           INFO     C-extension module not found: _cpropack       module.py:1372
+           INFO     C-extension module not found: _zpropack       module.py:1372
+           ERROR    While getting the types of exceptions in   syntaxtree.py:341
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7fd5b22af130>                         
+           ERROR    While getting the types of exceptions in   syntaxtree.py:341
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7fd5b2032f20>                         
+           INFO     C-extension module not found: _arpack         module.py:1372
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+[07:33:58] INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:     948                              module.py:1327
+           INFO     Functions:  5458                              module.py:1328
+           INFO     Classes:    1621                              module.py:1329
+           INFO     Using seed 1733384012278136205              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.RANDOM                                            
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Initial Population, Coverage: 0.000000  searchobserver.py:77
+           INFO     Iteration:       1, Coverage: 0.038462  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:       4, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:       5, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:       7, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:       9, Coverage: 0.115385  searchobserver.py:83
+[07:33:59] INFO     Iteration:      10, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      12, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      14, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      15, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      16, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      17, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      18, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      19, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      20, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      21, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      22, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      23, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      24, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      25, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      26, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      27, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      28, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      29, Coverage: 0.115385  searchobserver.py:83
+[07:34:00] INFO     Iteration:      30, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      31, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      32, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      33, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      34, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      35, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      36, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      37, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      38, Coverage: 0.115385  searchobserver.py:83
+           INFO     Iteration:      39, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      40, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      41, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      42, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      43, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      44, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      45, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      46, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      47, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      48, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      49, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      50, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      51, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      52, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      53, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      54, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      55, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      56, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      57, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      58, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      59, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      60, Coverage: 0.230769  searchobserver.py:83
+           INFO     Iteration:      61, Coverage: 0.269231  searchobserver.py:83
+           INFO     Iteration:      62, Coverage: 0.269231  searchobserver.py:83
+           INFO     Iteration:      63, Coverage: 0.269231  searchobserver.py:83
+           INFO     Iteration:      64, Coverage: 0.269231  searchobserver.py:83

@@ -1,0 +1,456 @@
+testing-script tqdm 8 0 MIO /home/user/BugsInPy/temp/test_out/8_0.txt /home/user/BugsInPy/temp/tests test__tqdm.py tqdm
+Fixing and copying test suite...
+Considering report_1/
+   got test file "test__tqdm.py"
+   got import path tqdm._tqdm
+   added test__tqdm.py to suite
+
+pytest tqdm 8 0 MIO
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/user/BugsInPy/temp/projects/tqdm
+collected 36 items
+
+generated_tests/test__tqdm.py FFxFxFFxxFFxFFFxFFxxFFFxxxFFFFxFFxFx       [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_case_0 __________________________________
+
+    def test_case_0():
+        bool_0 = True
+>       var_0 = module_0.format_sizeof(bool_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_sizeof'
+
+generated_tests/test__tqdm.py:10: AttributeError
+_________________________________ test_case_1 __________________________________
+
+    def test_case_1():
+        float_0 = 1013.1365237818533
+>       var_0 = module_0.format_meter(
+            float_0, float_0, float_0, float_0, ascii=float_0, unit_scale=float_0
+        )
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_meter'
+
+generated_tests/test__tqdm.py:16: AttributeError
+_________________________________ test_case_3 __________________________________
+
+    def test_case_3():
+        int_0 = -165
+>       var_0 = module_0.format_sizeof(int_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_sizeof'
+
+generated_tests/test__tqdm.py:36: AttributeError
+_________________________________ test_case_5 __________________________________
+
+    def test_case_5():
+        float_0 = 1013.1365237818533
+        tqdm_0 = module_0.tqdm(miniters=float_0, unit_scale=float_0, gui=float_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:51: AssertionError
+_________________________________ test_case_6 __________________________________
+
+    def test_case_6():
+        bool_0 = True
+        bool_1 = False
+>       var_0 = module_0.format_meter(bool_0, bool_0, bool_0, bool_1)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_meter'
+
+generated_tests/test__tqdm.py:78: AttributeError
+_________________________________ test_case_9 __________________________________
+
+    def test_case_9():
+        object_0 = module_1.object()
+        none_type_0 = None
+        tqdm_0 = module_0.tqdm(total=none_type_0, ascii=none_type_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:125: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+0it [00:00, ?it/s][A[A
+_________________________________ test_case_10 _________________________________
+
+    def test_case_10():
+        bool_0 = True
+>       var_0 = module_0.format_meter(bool_0, bool_0, bool_0, bool_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_meter'
+
+generated_tests/test__tqdm.py:152: AttributeError
+_________________________________ test_case_12 _________________________________
+
+    def test_case_12():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(bool_0, total=bool_0, leave=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:170: AssertionError
+----------------------------- Captured stderr call -----------------------------
+  0%|          | 0/True [00:00<?, ?it/s]
+_________________________________ test_case_13 _________________________________
+
+    def test_case_13():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(total=bool_0, miniters=bool_0, ascii=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:197: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+  0%|          | 0/True [00:00<?, ?it/s][A
+_________________________________ test_case_14 _________________________________
+
+    def test_case_14():
+        none_type_0 = None
+        tqdm_0 = module_0.tqdm(ncols=none_type_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:230: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+0it [00:00, ?it/s][A[A
+_________________________________ test_case_16 _________________________________
+
+    def test_case_16():
+        bool_0 = False
+        tqdm_0 = module_0.tqdm(total=bool_0, miniters=bool_0, ascii=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:294: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+
+0it [00:00, ?it/s][A[A[A[A
+_________________________________ test_case_17 _________________________________
+
+    def test_case_17():
+        float_0 = 1997.49
+>       var_0 = module_0.format_meter(
+            float_0, float_0, float_0, ascii=float_0, unit_scale=float_0
+        )
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'format_meter'
+
+generated_tests/test__tqdm.py:323: AttributeError
+_________________________________ test_case_20 _________________________________
+
+    def test_case_20():
+        bytes_0 = b"\xbd-Pv\xbe]xH\x8d\xa8\xdc\xd5p"
+        tqdm_0 = module_0.tqdm(
+            leave=bytes_0,
+            ncols=bytes_0,
+            mininterval=bytes_0,
+            disable=bytes_0,
+            unit_scale=bytes_0,
+        )
+>       assert tqdm_0.desc == ""
+E       AttributeError: 'tqdm' object has no attribute 'desc'
+
+generated_tests/test__tqdm.py:374: AttributeError
+_________________________________ test_case_21 _________________________________
+
+    def test_case_21():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:388: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+
+
+
+
+0it [00:00, ?it/s][A[A[A[A[A[A[A
+_________________________________ test_case_22 _________________________________
+
+    def test_case_22():
+        bool_0 = False
+        tqdm_0 = module_0.tqdm(total=bool_0, miniters=bool_0, ascii=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:415: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+
+
+
+
+
+0it [00:00, ?it/s][A[A[A[A[A[A[A[A
+_________________________________ test_case_26 _________________________________
+
+    def test_case_26():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(total=bool_0, disable=bool_0, unit_scale=bool_0)
+>       assert tqdm_0.desc == ""
+E       AttributeError: 'tqdm' object has no attribute 'desc'
+
+generated_tests/test__tqdm.py:553: AttributeError
+_________________________________ test_case_27 _________________________________
+
+    def test_case_27():
+        bool_0 = False
+        tqdm_0 = module_0.tqdm(total=bool_0, miniters=bool_0, ascii=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:568: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+
+
+
+
+
+
+
+
+0it [00:00, ?it/s][A[A[A[A[A[A[A[A[A[A[A
+_________________________________ test_case_28 _________________________________
+
+    def test_case_28():
+        float_0 = 1009.303
+        tqdm_0 = module_0.tqdm(
+            leave=float_0,
+            mininterval=float_0,
+            miniters=float_0,
+            unit_scale=float_0,
+            gui=float_0,
+        )
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:604: AssertionError
+_________________________________ test_case_29 _________________________________
+
+    def test_case_29():
+        none_type_0 = None
+        tqdm_0 = module_0.tqdm(total=none_type_0, ascii=none_type_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:644: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+0it [00:00, ?it/s][A[A[A[A[A[A[A[A[A[A[A[A[A
+--------------------------- Captured stderr teardown ---------------------------
+
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+_________________________________ test_case_31 _________________________________
+
+    def test_case_31():
+        bool_0 = True
+        tqdm_0 = module_0.tqdm(total=bool_0, miniters=bool_0, ascii=bool_0)
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:706: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  0%|          | 0/True [00:00<?, ?it/s][A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+_________________________________ test_case_32 _________________________________
+
+    def test_case_32():
+        none_type_0 = None
+        set_0 = {none_type_0}
+        tqdm_0 = module_0.tqdm(
+            total=none_type_0, leave=set_0, ncols=none_type_0, mininterval=none_type_0
+        )
+>       assert f"{type(tqdm_0).__module__}.{type(tqdm_0).__qualname__}" == "_tqdm.tqdm"
+E       AssertionError: assert 'tqdm._tqdm.tqdm' == '_tqdm.tqdm'
+E         
+E         - _tqdm.tqdm
+E         + tqdm._tqdm.tqdm
+E         ? +++++
+
+generated_tests/test__tqdm.py:737: AssertionError
+----------------------------- Captured stderr call -----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0it [00:00, ?it/s][A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+_________________________________ test_case_34 _________________________________
+
+    def test_case_34():
+        none_type_0 = None
+>       var_0 = module_0.StatusPrinter(none_type_0)
+E       AttributeError: module 'tqdm._tqdm' has no attribute 'StatusPrinter'
+
+generated_tests/test__tqdm.py:792: AttributeError
+=============================== warnings summary ===============================
+tqdm/_main.py:59
+  /home/user/BugsInPy/temp/projects/tqdm/tqdm/_main.py:59: DeprecationWarning: invalid escape sequence '\s'
+    argv = re.split('\s*(--\S+)[=\s]*', ' '.join(sys.argv[1:]))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED generated_tests/test__tqdm.py::test_case_0 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_1 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_3 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_5 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_6 - AttributeError: module 't...
+FAILED generated_tests/test__tqdm.py::test_case_9 - AssertionError: assert 't...
+FAILED generated_tests/test__tqdm.py::test_case_10 - AttributeError: module '...
+FAILED generated_tests/test__tqdm.py::test_case_12 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_13 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_14 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_16 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_17 - AttributeError: module '...
+FAILED generated_tests/test__tqdm.py::test_case_20 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_21 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_22 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_26 - AttributeError: 'tqdm' o...
+FAILED generated_tests/test__tqdm.py::test_case_27 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_28 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_29 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_31 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_32 - AssertionError: assert '...
+FAILED generated_tests/test__tqdm.py::test_case_34 - AttributeError: module '...
+================== 22 failed, 14 xfailed, 1 warning in 0.68s ===================

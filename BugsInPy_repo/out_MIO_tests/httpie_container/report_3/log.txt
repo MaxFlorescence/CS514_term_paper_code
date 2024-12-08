@@ -1,0 +1,120 @@
+pynguin log ./solarized.py
+[08:13:20] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:       1                              module.py:1327
+           INFO     Functions:     0                              module.py:1328
+           INFO     Classes:      13                              module.py:1329
+           INFO     Using seed 1733300000346624550              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.MIO                                               
+           INFO     Instantiated 2 fitness     generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using MIOArchive           generationalgorithmfactory.py:339
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+           INFO     Iteration:       1, Coverage: 1.000000  searchobserver.py:83
+           INFO     Algorithm stopped before using all          generator.py:529
+                    resources.                                                  
+           INFO     Stop generating test cases                  generator.py:534
+           INFO     Start generating assertions                 generator.py:664
+           INFO     Setup mutation generator                    generator.py:637
+           INFO     Import module solarized                     generator.py:640
+           INFO     Build AST for solarized                     generator.py:643
+           INFO     Mutate module solarized                     generator.py:648
+[08:13:21] INFO     Generated 38 mutants                        generator.py:657
+           INFO     Running tests on mutant   1/38     assertiongenerator.py:346
+           INFO     Running tests on mutant   2/38     assertiongenerator.py:346
+           INFO     Running tests on mutant   3/38     assertiongenerator.py:346
+           INFO     Running tests on mutant   4/38     assertiongenerator.py:346
+           INFO     Skipping mutant   5/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant   6/38     assertiongenerator.py:346
+           INFO     Running tests on mutant   7/38     assertiongenerator.py:346
+           INFO     Running tests on mutant   8/38     assertiongenerator.py:346
+           INFO     Running tests on mutant   9/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  10/38     assertiongenerator.py:346
+           INFO     Skipping mutant  11/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  12/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  13/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  14/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  15/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  16/38     assertiongenerator.py:346
+           INFO     Skipping mutant  17/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  18/38     assertiongenerator.py:346
+           INFO     Skipping mutant  19/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  20/38     assertiongenerator.py:346
+           INFO     Skipping mutant  21/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  22/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  23/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  24/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  25/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  26/38     assertiongenerator.py:346
+           INFO     Skipping mutant  27/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  28/38     assertiongenerator.py:346
+           INFO     Skipping mutant  29/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  30/38     assertiongenerator.py:346
+           INFO     Skipping mutant  31/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  32/38     assertiongenerator.py:346
+           INFO     Skipping mutant  33/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  34/38     assertiongenerator.py:346
+           INFO     Skipping mutant  35/38 because it  assertiongenerator.py:336
+                    created an invalid module                                   
+           INFO     Running tests on mutant  36/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  37/38     assertiongenerator.py:346
+           INFO     Running tests on mutant  38/38     assertiongenerator.py:346
+           INFO     Mutant 0 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 1 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 2 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 3 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 5 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 6 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 7 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 8 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 9 killed by Test(s): 0      assertiongenerator.py:423
+           INFO     Mutant 11 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 12 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 13 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 14 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 15 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 17 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 19 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 21 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 22 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 23 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 24 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 25 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 27 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 29 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 31 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 33 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 35 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 36 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Mutant 37 killed by Test(s): 0     assertiongenerator.py:423
+           INFO     Number of Surviving Mutant(s): 10  assertiongenerator.py:435
+                    (Mutants: 4, 10, 16, 18, 20, 26,                            
+                    28, 30, 32, 34)                                             
+           INFO     Calculating resulting FinalBranchCoverage   generator.py:447
+           INFO     Written 1 test cases to                     generator.py:774
+                    /home/user/BugsInPy/temp/out/suite_3/test_s                 
+                    olarized.py                                                 
+           INFO     Writing statistics                         statistics.py:370
+           INFO     Stop Pynguin Test Generation…               generator.py:119

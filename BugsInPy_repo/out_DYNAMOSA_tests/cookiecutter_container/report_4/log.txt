@@ -1,0 +1,41 @@
+pynguin log ./config.py
+[04:57:23] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+[04:57:27] INFO     Analyzed project to create test cluster       module.py:1326
+           INFO     Modules:      43                              module.py:1327
+           INFO     Functions:   233                              module.py:1328
+           INFO     Classes:     400                              module.py:1329
+           INFO     Using seed 1732942642726044084              generator.py:202
+           INFO     Using strategy:            generationalgorithmfactory.py:302
+                    Algorithm.DYNAMOSA                                          
+           INFO     Instantiated 10 fitness    generationalgorithmfactory.py:393
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:346
+           INFO     Using selection function:  generationalgorithmfactory.py:321
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:334
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:354
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:526
+[04:57:28] INFO     Initial Population, Coverage: 0.100000  searchobserver.py:77
+[04:57:29] INFO     Iteration:       1, Coverage: 0.200000  searchobserver.py:83
+           INFO     Iteration:       2, Coverage: 0.200000  searchobserver.py:83
+           INFO     Iteration:       3, Coverage: 0.200000  searchobserver.py:83
+[04:57:30] INFO     Iteration:       4, Coverage: 0.500000  searchobserver.py:83
+[04:57:31] INFO     Iteration:       5, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:       6, Coverage: 0.500000  searchobserver.py:83
+[04:57:32] INFO     Iteration:       7, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:       8, Coverage: 0.500000  searchobserver.py:83
+[04:57:33] INFO     Iteration:       9, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:      10, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:      11, Coverage: 0.500000  searchobserver.py:83
+[04:57:34] INFO     Iteration:      12, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:      13, Coverage: 0.500000  searchobserver.py:83
+[04:57:35] INFO     Iteration:      14, Coverage: 0.500000  searchobserver.py:83
+           INFO     Iteration:      15, Coverage: 0.500000  searchobserver.py:83

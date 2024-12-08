@@ -1,0 +1,2068 @@
+Log file
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... unsuccessful attempt using repodata from current_repodata.json, retrying with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.11.0
+
+
+
+## Package Plan ##
+
+  environment location: /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7
+
+  added / updated specs:
+    - pytest
+    - python=3.7.0
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |             main           3 KB
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    attrs-22.1.0               |   py37h06a4308_0          84 KB
+    certifi-2022.12.7          |   py37h06a4308_0         150 KB
+    flit-core-3.6.0            |     pyhd3eb1b0_0          42 KB
+    importlib-metadata-4.11.3  |   py37h06a4308_0          40 KB
+    importlib_metadata-4.11.3  |       hd3eb1b0_0          12 KB
+    iniconfig-1.1.1            |     pyhd3eb1b0_0           8 KB
+    libedit-3.1.20230828       |       h5eee18b_0         179 KB
+    libffi-3.2.1               |    hf484d3e_1007          48 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.0.2u             |       h7b6447c_0         2.2 MB
+    packaging-22.0             |   py37h06a4308_0          68 KB
+    pip-22.3.1                 |   py37h06a4308_0         2.7 MB
+    pluggy-1.0.0               |   py37h06a4308_1          29 KB
+    py-1.11.0                  |     pyhd3eb1b0_0          76 KB
+    pytest-7.1.2               |   py37h06a4308_0         445 KB
+    python-3.7.0               |       h6e4f718_3        27.2 MB
+    readline-7.0               |       h7b6447c_5         324 KB
+    setuptools-65.6.3          |   py37h06a4308_0         1.1 MB
+    sqlite-3.33.0              |       h62c20be_0         1.1 MB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    tomli-2.0.1                |   py37h06a4308_0          24 KB
+    typing_extensions-4.4.0    |   py37h06a4308_0          45 KB
+    wheel-0.38.4               |   py37h06a4308_0          63 KB
+    zipp-3.11.0                |   py37h06a4308_0          19 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    ------------------------------------------------------------
+                                           Total:        50.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  attrs              pkgs/main/linux-64::attrs-22.1.0-py37h06a4308_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  certifi            pkgs/main/linux-64::certifi-2022.12.7-py37h06a4308_0 
+  flit-core          pkgs/main/noarch::flit-core-3.6.0-pyhd3eb1b0_0 
+  importlib-metadata pkgs/main/linux-64::importlib-metadata-4.11.3-py37h06a4308_0 
+  importlib_metadata pkgs/main/noarch::importlib_metadata-4.11.3-hd3eb1b0_0 
+  iniconfig          pkgs/main/noarch::iniconfig-1.1.1-pyhd3eb1b0_0 
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0 
+  libffi             pkgs/main/linux-64::libffi-3.2.1-hf484d3e_1007 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.0.2u-h7b6447c_0 
+  packaging          pkgs/main/linux-64::packaging-22.0-py37h06a4308_0 
+  pip                pkgs/main/linux-64::pip-22.3.1-py37h06a4308_0 
+  pluggy             pkgs/main/linux-64::pluggy-1.0.0-py37h06a4308_1 
+  py                 pkgs/main/noarch::py-1.11.0-pyhd3eb1b0_0 
+  pytest             pkgs/main/linux-64::pytest-7.1.2-py37h06a4308_0 
+  python             pkgs/main/linux-64::python-3.7.0-h6e4f718_3 
+  readline           pkgs/main/linux-64::readline-7.0-h7b6447c_5 
+  setuptools         pkgs/main/linux-64::setuptools-65.6.3-py37h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.33.0-h62c20be_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  tomli              pkgs/main/linux-64::tomli-2.0.1-py37h06a4308_0 
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.4.0-py37h06a4308_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py37h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zipp               pkgs/main/linux-64::zipp-3.11.0-py37h06a4308_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+
+Downloading and Extracting Packages
+typing_extensions-4. | 45 KB     |            |   0% 
+libgomp-11.2.0       | 474 KB    |            |   0% [A
+
+importlib_metadata-4 | 12 KB     |            |   0% [A[A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A
+
+
+
+pip-22.3.1           | 2.7 MB    |            |   0% [A[A[A[A
+
+
+
+
+libedit-3.1.20230828 | 179 KB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+tomli-2.0.1          | 24 KB     |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+py-1.11.0            | 76 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 150 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 63 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+pip-22.3.1           | 2.7 MB    |            |   1% [A[A[A[Atyping_extensions-4. | 45 KB     | ###5       |  35% 
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A
+
+
+
+pip-22.3.1           | 2.7 MB    | #######    |  70% [A[A[A[A
+libgomp-11.2.0       | 474 KB    | 3          |   3% [A
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | 8          |   9% [A[A[A[A[A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    |            |   0% [A[A[A
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ######6    |  66% [A[A[A[A[A[A
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     | #8         |  19% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    |            |   0% [A[A[A[A[A[A[A[Atyping_extensions-4. | 45 KB     | ########## | 100% typing_extensions-4. | 45 KB     | ########## | 100% 
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #1         |  12% [A[A[A
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | #9         |  19% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | #6         |  17% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    | ######5    |  66% [A[A[A[A[A[A[A[A[A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ##8        |  28% [A[A[A
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+tomli-2.0.1          | 24 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    | #######7   |  77% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ###9       |  40% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+py-1.11.0            | 76 KB     | ##         |  21% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ###2       |  33% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ##3        |  24% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ####2      |  43% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | #4         |  14% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 150 KB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ######2    |  62% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 63 KB     | ##5        |  25% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ####9      |  50% [A[A[A[A[A[A[A[A
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | 1          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+libedit-3.1.20230828 | 179 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########4  |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ######     |  61% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ########6  |  86% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ######5    |  66% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | #########9 | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #######7   |  78% [A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########2  |  82% [A[A[A[A[A[A[A[A
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | #########4 |  95% [A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+attrs-22.1.0         | 84 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+sqlite-3.33.0        | 1.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+py-1.11.0            | 76 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+py-1.11.0            | 76 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+packaging-22.0       | 68 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 63 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wheel-0.38.4         | 63 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 150 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 150 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+setuptools-65.6.3    | 1.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+pip-22.3.1           | 2.7 MB    | ########## | 100% [A[A[A[A
+
+
+
+pip-22.3.1           | 2.7 MB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+tk-8.6.14            | 3.4 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+libstdcxx-ng-11.2.0  | 4.7 MB    | ########## | 100% [A[A[A
+
+
+
+
+
+
+
+libgcc-ng-11.2.0     | 5.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate acf43fbc29c47f6bdbb00bde6a4e5dc7
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Collecting atomicwrites==1.4.0
+  Downloading atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
+Installing collected packages: atomicwrites
+Successfully installed atomicwrites-1.4.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting attrs==19.3.0
+  Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Installing collected packages: attrs
+  Attempting uninstall: attrs
+    Found existing installation: attrs 22.1.0
+    Uninstalling attrs-22.1.0:
+      Successfully uninstalled attrs-22.1.0
+Successfully installed attrs-19.3.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting bleach==3.1.5
+  Downloading bleach-3.1.5-py2.py3-none-any.whl (151 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.6/151.6 kB 12.8 MB/s eta 0:00:00
+Collecting six>=1.9.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: packaging in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach==3.1.5) (22.0)
+Installing collected packages: webencodings, six, bleach
+Successfully installed bleach-3.1.5 six-1.16.0 webencodings-0.5.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting certifi==2020.4.5.1
+  Downloading certifi-2020.4.5.1-py2.py3-none-any.whl (157 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.0/157.0 kB 14.0 MB/s eta 0:00:00
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2022.12.7
+    Uninstalling certifi-2022.12.7:
+      Successfully uninstalled certifi-2022.12.7
+Successfully installed certifi-2020.4.5.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting chardet==3.0.4
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.4/133.4 kB 12.0 MB/s eta 0:00:00
+Installing collected packages: chardet
+Successfully installed chardet-3.0.4
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting colorama==0.4.3
+  Downloading colorama-0.4.3-py2.py3-none-any.whl (15 kB)
+Installing collected packages: colorama
+Successfully installed colorama-0.4.3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting decorator==4.4.2
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Installing collected packages: decorator
+Successfully installed decorator-4.4.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting docutils==0.16
+  Downloading docutils-0.16-py2.py3-none-any.whl (548 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 548.2/548.2 kB 29.0 MB/s eta 0:00:00
+Installing collected packages: docutils
+Successfully installed docutils-0.16
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting flake8==3.8.2
+  Downloading flake8-3.8.2-py2.py3-none-any.whl (72 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.7/72.7 kB 7.9 MB/s eta 0:00:00
+Collecting mccabe<0.7.0,>=0.6.0
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pycodestyle<2.7.0,>=2.6.0a1
+  Downloading pycodestyle-2.6.0-py2.py3-none-any.whl (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.4/41.4 kB 5.4 MB/s eta 0:00:00
+Collecting pyflakes<2.3.0,>=2.2.0
+  Downloading pyflakes-2.2.0-py2.py3-none-any.whl (66 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.0/67.0 kB 9.8 MB/s eta 0:00:00
+Requirement already satisfied: importlib-metadata in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from flake8==3.8.2) (4.11.3)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata->flake8==3.8.2) (3.11.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata->flake8==3.8.2) (4.4.0)
+Installing collected packages: mccabe, pyflakes, pycodestyle, flake8
+Successfully installed flake8-3.8.2 mccabe-0.6.1 pycodestyle-2.6.0 pyflakes-2.2.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting idna==2.9
+  Downloading idna-2.9-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.4/58.4 kB 7.2 MB/s eta 0:00:00
+Installing collected packages: idna
+Successfully installed idna-2.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting importlib-metadata==1.6.0
+  Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata==1.6.0) (3.11.0)
+Installing collected packages: importlib-metadata
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 4.11.3
+    Uninstalling importlib-metadata-4.11.3:
+      Successfully uninstalled importlib-metadata-4.11.3
+Successfully installed importlib-metadata-1.6.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting keyring==21.2.1
+  Downloading keyring-21.2.1-py3-none-any.whl (31 kB)
+Requirement already satisfied: importlib-metadata in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring==21.2.1) (1.6.0)
+Collecting jeepney>=0.4.2
+  Downloading jeepney-0.8.0-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.4/48.4 kB 6.6 MB/s eta 0:00:00
+Collecting SecretStorage>=3
+  Downloading SecretStorage-3.3.3-py3-none-any.whl (15 kB)
+Collecting cryptography>=2.0
+  Downloading cryptography-44.0.0-cp37-abi3-manylinux_2_28_x86_64.whl (4.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 50.6 MB/s eta 0:00:00
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata->keyring==21.2.1) (3.11.0)
+Collecting cffi>=1.12
+  Downloading cffi-1.15.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (427 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 427.9/427.9 kB 34.1 MB/s eta 0:00:00
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 kB 17.9 MB/s eta 0:00:00
+Installing collected packages: pycparser, jeepney, cffi, cryptography, SecretStorage, keyring
+Successfully installed SecretStorage-3.3.3 cffi-1.15.1 cryptography-44.0.0 jeepney-0.8.0 keyring-21.2.1 pycparser-2.21
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: mccabe==0.6.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.6.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting mock==4.0.2
+  Downloading mock-4.0.2-py3-none-any.whl (28 kB)
+Installing collected packages: mock
+Successfully installed mock-4.0.2
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting more-itertools==8.3.0
+  Downloading more_itertools-8.3.0-py3-none-any.whl (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.7/44.7 kB 5.1 MB/s eta 0:00:00
+Installing collected packages: more-itertools
+Successfully installed more-itertools-8.3.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting packaging==20.4
+  Downloading packaging-20.4-py2.py3-none-any.whl (37 kB)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging==20.4) (1.16.0)
+Collecting pyparsing>=2.0.2
+  Downloading pyparsing-3.1.4-py3-none-any.whl (104 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.1/104.1 kB 8.2 MB/s eta 0:00:00
+Installing collected packages: pyparsing, packaging
+  Attempting uninstall: packaging
+    Found existing installation: packaging 22.0
+    Uninstalling packaging-22.0:
+      Successfully uninstalled packaging-22.0
+Successfully installed packaging-20.4 pyparsing-3.1.4
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pexpect==4.8.0
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 6.5 MB/s eta 0:00:00
+Collecting ptyprocess>=0.5
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Installing collected packages: ptyprocess, pexpect
+Successfully installed pexpect-4.8.0 ptyprocess-0.7.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pkginfo==1.5.0.1
+  Downloading pkginfo-1.5.0.1-py2.py3-none-any.whl (25 kB)
+Installing collected packages: pkginfo
+Successfully installed pkginfo-1.5.0.1
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pluggy==0.13.1
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy==0.13.1) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy==0.13.1) (3.11.0)
+Installing collected packages: pluggy
+  Attempting uninstall: pluggy
+    Found existing installation: pluggy 1.0.0
+    Uninstalling pluggy-1.0.0:
+      Successfully uninstalled pluggy-1.0.0
+Successfully installed pluggy-0.13.1
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting psutil==5.7.0
+  Downloading psutil-5.7.0.tar.gz (449 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 449.6/449.6 kB 24.7 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: psutil
+  Building wheel for psutil (setup.py): started
+  Building wheel for psutil (setup.py): finished with status 'done'
+  Created wheel for psutil: filename=psutil-5.7.0-cp37-cp37m-linux_x86_64.whl size=264200 sha256=548db3d9a317214ad1b5341fa8d315b3bc6c8b20d533a4261bef10e32a18d319
+  Stored in directory: /root/.cache/pip/wheels/df/58/5b/78f7f6460a1d46df7d160bb8782f3eaf8c5fdccdf90d562968
+Successfully built psutil
+Installing collected packages: psutil
+Successfully installed psutil-5.7.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting ptyprocess==0.6.0
+  Downloading ptyprocess-0.6.0-py2.py3-none-any.whl (39 kB)
+Installing collected packages: ptyprocess
+  Attempting uninstall: ptyprocess
+    Found existing installation: ptyprocess 0.7.0
+    Uninstalling ptyprocess-0.7.0:
+      Successfully uninstalled ptyprocess-0.7.0
+Successfully installed ptyprocess-0.6.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting py==1.8.1
+  Downloading py-1.8.1-py2.py3-none-any.whl (83 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.8/83.8 kB 9.0 MB/s eta 0:00:00
+Installing collected packages: py
+  Attempting uninstall: py
+    Found existing installation: py 1.11.0
+    Uninstalling py-1.11.0:
+      Successfully uninstalled py-1.11.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+pytest 7.1.2 requires py>=1.8.2, but you have py 1.8.1 which is incompatible.
+Successfully installed py-1.8.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting py-cpuinfo==5.0.0
+  Downloading py-cpuinfo-5.0.0.tar.gz (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 kB 10.4 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: py-cpuinfo
+  Building wheel for py-cpuinfo (setup.py): started
+  Building wheel for py-cpuinfo (setup.py): finished with status 'done'
+  Created wheel for py-cpuinfo: filename=py_cpuinfo-5.0.0-py3-none-any.whl size=18678 sha256=624a10ac23a05fe6ae92ac23f996117a64633f13f781849094b7627d8ec24d4e
+  Stored in directory: /root/.cache/pip/wheels/44/f8/0b/67cf5f46ce760c46b54d01a96d6b73b51c74d189ee8d28e84f
+Successfully built py-cpuinfo
+Installing collected packages: py-cpuinfo
+Successfully installed py-cpuinfo-5.0.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pycodestyle==2.6.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.6.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pyflakes==2.2.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.2.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting Pygments==2.6.1
+  Downloading Pygments-2.6.1-py3-none-any.whl (914 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 914.4/914.4 kB 35.9 MB/s eta 0:00:00
+Installing collected packages: Pygments
+Successfully installed Pygments-2.6.1
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pypandoc==1.5
+  Downloading pypandoc-1.5.tar.gz (26 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pypandoc==1.5) (65.6.3)
+Requirement already satisfied: pip>=8.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pypandoc==1.5) (22.3.1)
+Requirement already satisfied: wheel>=0.25.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pypandoc==1.5) (0.38.4)
+Building wheels for collected packages: pypandoc
+  Building wheel for pypandoc (setup.py): started
+  Building wheel for pypandoc (setup.py): finished with status 'done'
+  Created wheel for pypandoc: filename=pypandoc-1.5-py3-none-any.whl size=17033 sha256=974024248bcbc737ec8c0c500ae28a5a167ad9d43dd20318b2f1d65424cb3aad
+  Stored in directory: /root/.cache/pip/wheels/9c/fa/5c/a12f1fcf19826d490c2a87cde617ae811ea82a0f9279249c8f
+Successfully built pypandoc
+Installing collected packages: pypandoc
+Successfully installed pypandoc-1.5
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pyparsing==2.4.7
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.8/67.8 kB 7.2 MB/s eta 0:00:00
+Installing collected packages: pyparsing
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 3.1.4
+    Uninstalling pyparsing-3.1.4:
+      Successfully uninstalled pyparsing-3.1.4
+Successfully installed pyparsing-2.4.7
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pyte==0.8.0
+  Downloading pyte-0.8.0-py2.py3-none-any.whl (31 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Installing collected packages: wcwidth, pyte
+Successfully installed pyte-0.8.0 wcwidth-0.2.13
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest==3.10.1
+  Downloading pytest-3.10.1-py2.py3-none-any.whl (216 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.9/216.9 kB 17.1 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (65.6.3)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (1.16.0)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (1.4.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (8.3.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (19.3.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (0.13.1)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (1.8.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest==3.10.1) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest==3.10.1) (3.11.0)
+Installing collected packages: pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 7.1.2
+    Uninstalling pytest-7.1.2:
+      Successfully uninstalled pytest-7.1.2
+Successfully installed pytest-3.10.1
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest-benchmark==3.2.3
+  Downloading pytest_benchmark-3.2.3-py2.py3-none-any.whl (49 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.1/49.1 kB 5.7 MB/s eta 0:00:00
+Requirement already satisfied: pytest>=3.8 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-benchmark==3.2.3) (3.10.1)
+Requirement already satisfied: py-cpuinfo in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-benchmark==3.2.3) (5.0.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (8.3.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (19.3.0)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (1.16.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (65.6.3)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (1.4.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (1.8.1)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (0.13.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest>=3.8->pytest-benchmark==3.2.3) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=3.8->pytest-benchmark==3.2.3) (3.11.0)
+Installing collected packages: pytest-benchmark
+Successfully installed pytest-benchmark-3.2.3
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest-docker-pexpect==0.9
+  Downloading pytest_docker_pexpect-0.9-py3-none-any.whl (3.8 kB)
+Requirement already satisfied: pytest in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-docker-pexpect==0.9) (3.10.1)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-docker-pexpect==0.9) (1.16.0)
+Requirement already satisfied: pexpect in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-docker-pexpect==0.9) (4.8.0)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pexpect->pytest-docker-pexpect==0.9) (0.6.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (65.6.3)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (19.3.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (0.13.1)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (1.4.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (8.3.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (1.8.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest->pytest-docker-pexpect==0.9) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest->pytest-docker-pexpect==0.9) (3.11.0)
+Installing collected packages: pytest-docker-pexpect
+Successfully installed pytest-docker-pexpect-0.9
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest-mock==3.1.0
+  Downloading pytest_mock-3.1.0-py2.py3-none-any.whl (10 kB)
+Requirement already satisfied: pytest>=2.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-mock==3.1.0) (3.10.1)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (65.6.3)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (1.8.1)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (1.4.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (8.3.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (19.3.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (0.13.1)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (1.16.0)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest>=2.7->pytest-mock==3.1.0) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=2.7->pytest-mock==3.1.0) (3.11.0)
+Installing collected packages: pytest-mock
+Successfully installed pytest-mock-3.1.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pywin32-ctypes==0.2.0
+  Downloading pywin32_ctypes-0.2.0-py2.py3-none-any.whl (28 kB)
+Installing collected packages: pywin32-ctypes
+Successfully installed pywin32-ctypes-0.2.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting readme-renderer==26.0
+  Downloading readme_renderer-26.0-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (1.16.0)
+Requirement already satisfied: Pygments>=2.5.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (2.6.1)
+Requirement already satisfied: bleach>=2.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (3.1.5)
+Requirement already satisfied: docutils>=0.13.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (0.16)
+Requirement already satisfied: webencodings in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer==26.0) (0.5.1)
+Requirement already satisfied: packaging in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer==26.0) (20.4)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging->bleach>=2.1.0->readme-renderer==26.0) (2.4.7)
+Installing collected packages: readme-renderer
+Successfully installed readme-renderer-26.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting requests==2.23.0
+  Downloading requests-2.23.0-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.4/58.4 kB 5.5 MB/s eta 0:00:00
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests==2.23.0) (2.9)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests==2.23.0) (2020.4.5.1)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests==2.23.0) (3.0.4)
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1
+  Downloading urllib3-1.25.11-py2.py3-none-any.whl (127 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.0/128.0 kB 16.0 MB/s eta 0:00:00
+Installing collected packages: urllib3, requests
+Successfully installed requests-2.23.0 urllib3-1.25.11
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting requests-toolbelt==0.9.1
+  Downloading requests_toolbelt-0.9.1-py2.py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.3/54.3 kB 6.1 MB/s eta 0:00:00
+Requirement already satisfied: requests<3.0.0,>=2.0.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests-toolbelt==0.9.1) (2.23.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (2020.4.5.1)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (1.25.11)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (2.9)
+Installing collected packages: requests-toolbelt
+Successfully installed requests-toolbelt-0.9.1
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting six==1.15.0
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Installing collected packages: six
+  Attempting uninstall: six
+    Found existing installation: six 1.16.0
+    Uninstalling six-1.16.0:
+      Successfully uninstalled six-1.16.0
+Successfully installed six-1.15.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+ERROR:  git+https://github.com/nvbn/thefuck@cb33c912e5f2f4c2da6b70d708ff0437bfcd3b94#egg=thefuck is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+Collecting tqdm==4.46.0
+  Downloading tqdm-4.46.0-py2.py3-none-any.whl (63 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.6/63.6 kB 4.3 MB/s eta 0:00:00
+Installing collected packages: tqdm
+Successfully installed tqdm-4.46.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting twine==3.1.1
+  Downloading twine-3.1.1-py3-none-any.whl (36 kB)
+Requirement already satisfied: requests-toolbelt!=0.9.0,>=0.8.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (0.9.1)
+Requirement already satisfied: setuptools>=0.7.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (65.6.3)
+Requirement already satisfied: importlib-metadata in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (1.6.0)
+Requirement already satisfied: keyring>=15.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (21.2.1)
+Requirement already satisfied: requests>=2.20 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (2.23.0)
+Requirement already satisfied: pkginfo>=1.4.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (1.5.0.1)
+Requirement already satisfied: tqdm>=4.14 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (4.46.0)
+Requirement already satisfied: readme-renderer>=21.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (26.0)
+Requirement already satisfied: SecretStorage>=3 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring>=15.1->twine==3.1.1) (3.3.3)
+Requirement already satisfied: jeepney>=0.4.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring>=15.1->twine==3.1.1) (0.8.0)
+Requirement already satisfied: bleach>=2.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (3.1.5)
+Requirement already satisfied: Pygments>=2.5.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (2.6.1)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (1.15.0)
+Requirement already satisfied: docutils>=0.13.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (0.16)
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (2.9)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (1.25.11)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (2020.4.5.1)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (3.0.4)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata->twine==3.1.1) (3.11.0)
+Requirement already satisfied: packaging in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer>=21.0->twine==3.1.1) (20.4)
+Requirement already satisfied: webencodings in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer>=21.0->twine==3.1.1) (0.5.1)
+Requirement already satisfied: cryptography>=2.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from SecretStorage>=3->keyring>=15.1->twine==3.1.1) (44.0.0)
+Requirement already satisfied: cffi>=1.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from cryptography>=2.0->SecretStorage>=3->keyring>=15.1->twine==3.1.1) (1.15.1)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging->bleach>=2.1.0->readme-renderer>=21.0->twine==3.1.1) (2.4.7)
+Requirement already satisfied: pycparser in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from cffi>=1.12->cryptography>=2.0->SecretStorage>=3->keyring>=15.1->twine==3.1.1) (2.21)
+Installing collected packages: twine
+Successfully installed twine-3.1.1
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting urllib3==1.25.9
+  Downloading urllib3-1.25.9-py2.py3-none-any.whl (126 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.7/126.7 kB 12.0 MB/s eta 0:00:00
+Installing collected packages: urllib3
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 1.25.11
+    Uninstalling urllib3-1.25.11:
+      Successfully uninstalled urllib3-1.25.11
+Successfully installed urllib3-1.25.9
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting wcwidth==0.1.9
+  Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+Installing collected packages: wcwidth
+  Attempting uninstall: wcwidth
+    Found existing installation: wcwidth 0.2.13
+    Uninstalling wcwidth-0.2.13:
+      Successfully uninstalled wcwidth-0.2.13
+Successfully installed wcwidth-0.1.9
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: webencodings==0.5.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.5.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting win-unicode-console==0.5
+  Downloading win_unicode_console-0.5.zip (31 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: win-unicode-console
+  Building wheel for win-unicode-console (setup.py): started
+  Building wheel for win-unicode-console (setup.py): finished with status 'done'
+  Created wheel for win-unicode-console: filename=win_unicode_console-0.5-py3-none-any.whl size=20172 sha256=216aa5b362d0a2c12167f65793d634665be6286e1f399d743b147a06e81097a2
+  Stored in directory: /root/.cache/pip/wheels/65/3f/75/06b5a47afe9f31fcebf2c99de94ddb93ec18f79862de557555
+Successfully built win-unicode-console
+Installing collected packages: win-unicode-console
+Successfully installed win-unicode-console-0.5
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting zipp==3.1.0
+  Downloading zipp-3.1.0-py3-none-any.whl (4.9 kB)
+Installing collected packages: zipp
+  Attempting uninstall: zipp
+    Found existing installation: zipp 3.11.0
+    Uninstalling zipp-3.11.0:
+      Successfully uninstalled zipp-3.11.0
+Successfully installed zipp-3.1.0
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: atomicwrites==1.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (1.4.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: attrs==19.3.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (19.3.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: bleach==3.1.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.1.5)
+Requirement already satisfied: packaging in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach==3.1.5) (20.4)
+Requirement already satisfied: six>=1.9.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach==3.1.5) (1.15.0)
+Requirement already satisfied: webencodings in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach==3.1.5) (0.5.1)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging->bleach==3.1.5) (2.4.7)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: certifi==2020.4.5.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2020.4.5.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: chardet==3.0.4 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.0.4)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: colorama==0.4.3 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.4.3)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: decorator==4.4.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (4.4.2)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: docutils==0.16 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.16)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: flake8==3.8.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.8.2)
+Requirement already satisfied: pyflakes<2.3.0,>=2.2.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from flake8==3.8.2) (2.2.0)
+Requirement already satisfied: pycodestyle<2.7.0,>=2.6.0a1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from flake8==3.8.2) (2.6.0)
+Requirement already satisfied: mccabe<0.7.0,>=0.6.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from flake8==3.8.2) (0.6.1)
+Requirement already satisfied: importlib-metadata in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from flake8==3.8.2) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata->flake8==3.8.2) (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: idna==2.9 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.9)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: importlib-metadata==1.6.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata==1.6.0) (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: keyring==21.2.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (21.2.1)
+Requirement already satisfied: importlib-metadata in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring==21.2.1) (1.6.0)
+Requirement already satisfied: SecretStorage>=3 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring==21.2.1) (3.3.3)
+Requirement already satisfied: jeepney>=0.4.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring==21.2.1) (0.8.0)
+Requirement already satisfied: cryptography>=2.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from SecretStorage>=3->keyring==21.2.1) (44.0.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata->keyring==21.2.1) (3.1.0)
+Requirement already satisfied: cffi>=1.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from cryptography>=2.0->SecretStorage>=3->keyring==21.2.1) (1.15.1)
+Requirement already satisfied: pycparser in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from cffi>=1.12->cryptography>=2.0->SecretStorage>=3->keyring==21.2.1) (2.21)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: mccabe==0.6.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.6.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: mock==4.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (4.0.2)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: more-itertools==8.3.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (8.3.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: packaging==20.4 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (20.4)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging==20.4) (1.15.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging==20.4) (2.4.7)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pexpect==4.8.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (4.8.0)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pexpect==4.8.0) (0.6.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pkginfo==1.5.0.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (1.5.0.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pluggy==0.13.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.13.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy==0.13.1) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy==0.13.1) (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: psutil==5.7.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (5.7.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: ptyprocess==0.6.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.6.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: py==1.8.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (1.8.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: py-cpuinfo==5.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (5.0.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pycodestyle==2.6.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.6.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pyflakes==2.2.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.2.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: Pygments==2.6.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.6.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pypandoc==1.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (1.5)
+Requirement already satisfied: pip>=8.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pypandoc==1.5) (22.3.1)
+Requirement already satisfied: wheel>=0.25.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pypandoc==1.5) (0.38.4)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pypandoc==1.5) (65.6.3)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pyparsing==2.4.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.4.7)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pyte==0.8.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.8.0)
+Requirement already satisfied: wcwidth in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pyte==0.8.0) (0.1.9)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest==3.10.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.10.1)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (1.8.1)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (1.15.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (65.6.3)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (1.4.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (8.3.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (0.13.1)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest==3.10.1) (19.3.0)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest==3.10.1) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest==3.10.1) (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest-benchmark==3.2.3 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.2.3)
+Requirement already satisfied: py-cpuinfo in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-benchmark==3.2.3) (5.0.0)
+Requirement already satisfied: pytest>=3.8 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-benchmark==3.2.3) (3.10.1)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (8.3.0)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (1.4.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (0.13.1)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (65.6.3)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (1.15.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (19.3.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=3.8->pytest-benchmark==3.2.3) (1.8.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest>=3.8->pytest-benchmark==3.2.3) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=3.8->pytest-benchmark==3.2.3) (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest-docker-pexpect==0.9 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.9)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-docker-pexpect==0.9) (1.15.0)
+Requirement already satisfied: pytest in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-docker-pexpect==0.9) (3.10.1)
+Requirement already satisfied: pexpect in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-docker-pexpect==0.9) (4.8.0)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pexpect->pytest-docker-pexpect==0.9) (0.6.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (1.8.1)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (19.3.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (0.13.1)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (1.4.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (8.3.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest->pytest-docker-pexpect==0.9) (65.6.3)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest->pytest-docker-pexpect==0.9) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest->pytest-docker-pexpect==0.9) (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest-mock==3.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.1.0)
+Requirement already satisfied: pytest>=2.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest-mock==3.1.0) (3.10.1)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (1.15.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (8.3.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (65.6.3)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (1.4.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (19.3.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (1.8.1)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pytest>=2.7->pytest-mock==3.1.0) (0.13.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from pluggy>=0.7->pytest>=2.7->pytest-mock==3.1.0) (1.6.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=2.7->pytest-mock==3.1.0) (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pywin32-ctypes==0.2.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.2.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: readme-renderer==26.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (26.0)
+Requirement already satisfied: docutils>=0.13.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (0.16)
+Requirement already satisfied: Pygments>=2.5.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (2.6.1)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (1.15.0)
+Requirement already satisfied: bleach>=2.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer==26.0) (3.1.5)
+Requirement already satisfied: packaging in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer==26.0) (20.4)
+Requirement already satisfied: webencodings in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer==26.0) (0.5.1)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging->bleach>=2.1.0->readme-renderer==26.0) (2.4.7)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: requests==2.23.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (2.23.0)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests==2.23.0) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests==2.23.0) (1.25.9)
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests==2.23.0) (2.9)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests==2.23.0) (2020.4.5.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: requests-toolbelt==0.9.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.9.1)
+Requirement already satisfied: requests<3.0.0,>=2.0.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests-toolbelt==0.9.1) (2.23.0)
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (2.9)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (1.25.9)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests<3.0.0,>=2.0.1->requests-toolbelt==0.9.1) (2020.4.5.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: six==1.15.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (1.15.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+ERROR:  git+https://github.com/nvbn/thefuck@cb33c912e5f2f4c2da6b70d708ff0437bfcd3b94#egg=thefuck is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+Requirement already satisfied: tqdm==4.46.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (4.46.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: twine==3.1.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.1.1)
+Requirement already satisfied: readme-renderer>=21.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (26.0)
+Requirement already satisfied: requests>=2.20 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (2.23.0)
+Requirement already satisfied: requests-toolbelt!=0.9.0,>=0.8.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (0.9.1)
+Requirement already satisfied: tqdm>=4.14 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (4.46.0)
+Requirement already satisfied: importlib-metadata in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (1.6.0)
+Requirement already satisfied: keyring>=15.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (21.2.1)
+Requirement already satisfied: setuptools>=0.7.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (65.6.3)
+Requirement already satisfied: pkginfo>=1.4.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from twine==3.1.1) (1.5.0.1)
+Requirement already satisfied: SecretStorage>=3 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring>=15.1->twine==3.1.1) (3.3.3)
+Requirement already satisfied: jeepney>=0.4.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from keyring>=15.1->twine==3.1.1) (0.8.0)
+Requirement already satisfied: six in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (1.15.0)
+Requirement already satisfied: Pygments>=2.5.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (2.6.1)
+Requirement already satisfied: docutils>=0.13.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (0.16)
+Requirement already satisfied: bleach>=2.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from readme-renderer>=21.0->twine==3.1.1) (3.1.5)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (2020.4.5.1)
+Requirement already satisfied: idna<3,>=2.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (2.9)
+Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from requests>=2.20->twine==3.1.1) (1.25.9)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from importlib-metadata->twine==3.1.1) (3.1.0)
+Requirement already satisfied: webencodings in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer>=21.0->twine==3.1.1) (0.5.1)
+Requirement already satisfied: packaging in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer>=21.0->twine==3.1.1) (20.4)
+Requirement already satisfied: cryptography>=2.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from SecretStorage>=3->keyring>=15.1->twine==3.1.1) (44.0.0)
+Requirement already satisfied: cffi>=1.12 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from cryptography>=2.0->SecretStorage>=3->keyring>=15.1->twine==3.1.1) (1.15.1)
+Requirement already satisfied: pyparsing>=2.0.2 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from packaging->bleach>=2.1.0->readme-renderer>=21.0->twine==3.1.1) (2.4.7)
+Requirement already satisfied: pycparser in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (from cffi>=1.12->cryptography>=2.0->SecretStorage>=3->keyring>=15.1->twine==3.1.1) (2.21)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: urllib3==1.25.9 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (1.25.9)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: wcwidth==0.1.9 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.1.9)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: webencodings==0.5.1 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.5.1)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: win-unicode-console==0.5 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (0.5)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: zipp==3.1.0 in /opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages (3.1.0)
+/opt/conda/envs/acf43fbc29c47f6bdbb00bde6a4e5dc7/lib/python3.7/site-packages/secretstorage/util.py:23: CryptographyDeprecationWarning: Python 3.7 is no longer supported by the Python core team and support for it is deprecated in cryptography. A future release of cryptography will remove support for Python 3.7.
+  from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+   Running on module 0 (./rules/dry.py)...
+   Running on module 1 (./rules/django_south_ghost.py)...
+   Running on module 2 (./rules/sudo.py)...
+   Running on module 3 (./rules/git_stash.py)...
+   Running on module 4 (./rules/cd_parent.py)...
+   Running on module 5 (./rules/git_pull.py)...
+   Running on module 6 (./rules/javac.py)...
+   Running on module 7 (./rules/switch_lang.py)...
+   Running on module 8 (./rules/sl_ls.py)...
+   Running on module 9 (./rules/composer_not_command.py)...
+   Running on module 10 (./rules/brew_install.py)...
+   Running on module 11 (./rules/pacman.py)...
+   Running on module 12 (./rules/systemctl.py)...
+   Running on module 13 (./rules/pip_unknown_command.py)...
+   Running on module 14 (./rules/cp_omitting_directory.py)...
+   Running on module 15 (./rules/git_add.py)...
+   Running on module 16 (./rules/git_checkout.py)...
+   Running on module 17 (./rules/go_run.py)...
+   Running on module 18 (./rules/cd_mkdir.py)...
+   Running on module 19 (./rules/fix_alt_space.py)...
+   Running on module 20 (./rules/no_such_file.py)...
+   Running on module 21 (./rules/rm_root.py)...
+   Running on module 22 (./rules/git_branch_list.py)...
+   Running on module 23 (./rules/no_command.py)...
+   Running on module 24 (./rules/cd_correction.py)...
+   Running on module 25 (./rules/cargo_no_command.py)...
+   Running on module 26 (./rules/man.py)...
+   Running on module 27 (./rules/whois.py)...
+   Running on module 28 (./rules/git_diff_staged.py)...
+   Running on module 29 (./rules/man_no_space.py)...
+   Running on module 30 (./rules/rm_dir.py)...
+   Running on module 31 (./rules/brew_upgrade.py)...
+   Running on module 32 (./rules/mkdir_p.py)...
+   Running on module 33 (./rules/python_command.py)...
+   Running on module 34 (./rules/cargo.py)...
+   Running on module 35 (./rules/git_not_command.py)...
+   Running on module 36 (./rules/ls_lah.py)...
+   Running on module 37 (./rules/has_exists_script.py)...
+   Running on module 38 (./rules/git_push.py)...
+   Running on module 39 (./rules/lein_not_task.py)...
+   Running on module 40 (./rules/cpp11.py)...
+   Running on module 41 (./rules/ssh_known_hosts.py)...
+   Running on module 42 (./rules/grep_recursive.py)...
+   Running on module 43 (./rules/open.py)...
+   Running on module 44 (./rules/quotation_marks.py)...
+   Running on module 45 (./rules/django_south_merge.py)...
+   Running on module 46 (./rules/python_execute.py)...
+   Running on module 47 (./rules/brew_unknown_command.py)...
+   Running on module 48 (./rules/java.py)...
+   Running on module 49 (./rules/apt_get.py)...
+   Running on module 50 (./conf.py)...
+   Running on module 51 (./utils.py)...
+   Running on module 52 (./logs.py)...
+   Running on module 53 (./types.py)...
+   Running on module 54 (./shells.py)...
+   Running on module 55 (./main.py)...

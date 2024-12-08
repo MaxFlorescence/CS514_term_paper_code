@@ -1,0 +1,614 @@
+pynguin log ./utils/iterators.py
+[01:18:59] INFO     Start Pynguin Test Generation…              generator.py:116
+           INFO     Collecting static constants from module     generator.py:216
+                    under test                                                  
+           INFO     No constants found                          generator.py:219
+           INFO     Setting up runtime collection of constants  generator.py:228
+           INFO     Stop Pynguin Test Generation…               generator.py:119
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /opt/conda/bin/pynguin:8 in <module>                                         │
+│                                                                              │
+│   5 from pynguin.cli import main                                             │
+│   6 if __name__ == '__main__':                                               │
+│   7 │   sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])     │
+│ ❱ 8 │   sys.exit(main())                                                     │
+│   9                                                                          │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/cli.py:193 in main           │
+│                                                                              │
+│   190 │   set_configuration(parsed.config)                                   │
+│   191 │   if console is not None:                                            │
+│   192 │   │   with console.status("Running Pynguin..."):                     │
+│ ❱ 193 │   │   │   return run_pynguin().value                                 │
+│   194 │   else:                                                              │
+│   195 │   │   return run_pynguin().value                                     │
+│   196                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:117 in          │
+│ run_pynguin                                                                  │
+│                                                                              │
+│   114 │   """                                                                │
+│   115 │   try:                                                               │
+│   116 │   │   _LOGGER.info("Start Pynguin Test Generation…")                 │
+│ ❱ 117 │   │   return _run()                                                  │
+│   118 │   finally:                                                           │
+│   119 │   │   _LOGGER.info("Stop Pynguin Test Generation…")                  │
+│   120                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:515 in _run     │
+│                                                                              │
+│   512                                                                        │
+│   513                                                                        │
+│   514 def _run() -> ReturnCode:                                              │
+│ ❱ 515 │   if (setup_result := _setup_and_check()) is None:                   │
+│   516 │   │   return ReturnCode.SETUP_FAILED                                 │
+│   517 │   executor, test_cluster, constant_provider = setup_result           │
+│   518 │   # traces slices for test cases after execution                     │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:259 in          │
+│ _setup_and_check                                                             │
+│                                                                              │
+│   256 │   │   set(config.configuration.statistics_output.coverage_metrics),  │
+│   257 │   │   dynamic_constant_provider,                                     │
+│   258 │   )                                                                  │
+│ ❱ 259 │   if not _load_sut(tracer):                                          │
+│   260 │   │   return None                                                    │
+│   261 │   if not _setup_report_dir():                                        │
+│   262 │   │   return None                                                    │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/generator.py:172 in          │
+│ _load_sut                                                                    │
+│                                                                              │
+│   169 │   try:                                                               │
+│   170 │   │   # We need to set the current thread ident so the import trace  │
+│   171 │   │   tracer.current_thread_identifier = threading.current_thread(). │
+│ ❱ 172 │   │   importlib.import_module(config.configuration.module_name)      │
+│   173 │   except ImportError as ex:                                          │
+│   174 │   │   # A module could not be imported because some dependencies     │
+│   175 │   │   # are missing or it is malformed                               │
+│                                                                              │
+│ /opt/conda/lib/python3.10/importlib/__init__.py:126 in import_module         │
+│                                                                              │
+│   123 │   │   │   if character != '.':                                       │
+│   124 │   │   │   │   break                                                  │
+│   125 │   │   │   level += 1                                                 │
+│ ❱ 126 │   return _bootstrap._gcd_import(name[level:], package, level)        │
+│   127                                                                        │
+│   128                                                                        │
+│   129 _RELOADING = {}                                                        │
+│ in _gcd_import:1050                                                          │
+│ in _find_and_load:1027                                                       │
+│ in _find_and_load_unlocked:1006                                              │
+│ in _load_unlocked:688                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/instrumentation/machinery.py │
+│ :59 in exec_module                                                           │
+│                                                                              │
+│    56 │                                                                      │
+│    57 │   def exec_module(self, module):  # noqa: D102                       │
+│    58 │   │   self._tracer.reset()                                           │
+│ ❱  59 │   │   super().exec_module(module)                                    │
+│    60 │   │   self._tracer.store_import_trace()                              │
+│    61 │                                                                      │
+│    62 │   def get_code(self, fullname) -> CodeType:                          │
+│ in exec_module:879                                                           │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/instrumentation/machinery.py │
+│ :75 in get_code                                                              │
+│                                                                              │
+│    72 │   │   """                                                            │
+│    73 │   │   to_instrument = cast(CodeType, super().get_code(fullname))     │
+│    74 │   │   assert to_instrument is not None, "Failed to get code object o │
+│ ❱  75 │   │   return self._transformer.instrument_module(to_instrument)      │
+│    76                                                                        │
+│    77                                                                        │
+│    78 def build_transformer(                                                 │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/instrumentation/instrumentat │
+│ ion.py:240 in instrument_module                                              │
+│                                                                              │
+│    237 │   │   │   │   # Abort instrumentation, since we have already        │
+│    238 │   │   │   │   # instrumented this code object.                      │
+│    239 │   │   │   │   raise AssertionError("Tried to instrument already ins │
+│ ❱  240 │   │   return self._instrument_code_recursive(module_code)           │
+│    241 │                                                                     │
+│    242 │   def _instrument_code_recursive(                                   │
+│    243 │   │   self,                                                         │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/instrumentation/instrumentat │
+│ ion.py:279 in _instrument_code_recursive                                     │
+│                                                                              │
+│    276 │   │   for adapter in self._instrumentation_adapters:                │
+│    277 │   │   │   adapter.visit_entry_node(real_entry_node.basic_block, cod │
+│    278 │   │   self._instrument_cfg(cfg, code_object_id)                     │
+│ ❱  279 │   │   return self._instrument_inner_code_objects(                   │
+│    280 │   │   │   cfg.bytecode_cfg().to_code(), code_object_id              │
+│    281 │   │   )                                                             │
+│    282                                                                       │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/instrumentation/instrumentat │
+│ ion.py:300 in _instrument_inner_code_objects                                 │
+│                                                                              │
+│    297 │   │   │   if isinstance(const, CodeType):                           │
+│    298 │   │   │   │   # The const is an inner code object                   │
+│    299 │   │   │   │   new_consts.append(                                    │
+│ ❱  300 │   │   │   │   │   self._instrument_code_recursive(                  │
+│    301 │   │   │   │   │   │   const, parent_code_object_id=parent_code_obje │
+│    302 │   │   │   │   │   )                                                 │
+│    303 │   │   │   │   )                                                     │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/instrumentation/instrumentat │
+│ ion.py:257 in _instrument_code_recursive                                     │
+│                                                                              │
+│    254 │   │   │   The instrumented code object                              │
+│    255 │   │   """                                                           │
+│    256 │   │   self._logger.debug("Instrumenting Code Object for %s", code.c │
+│ ❱  257 │   │   cfg = CFG.from_bytecode(Bytecode.from_code(code))             │
+│    258 │   │   original_cfg = CFG.from_bytecode(Bytecode.from_code(code))    │
+│    259 │   │   cdg = ControlDependenceGraph.compute(cfg)                     │
+│    260 │   │   code_object_id = self._tracer.register_code_object(           │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/analyses/controlflow.py:395  │
+│ in from_bytecode                                                             │
+│                                                                              │
+│   392 │   │   cfg = filter_dead_code_nodes(cfg)                              │
+│   393 │   │                                                                  │
+│   394 │   │   # Insert dummy exit and entry nodes                            │
+│ ❱ 395 │   │   cfg = CFG._insert_dummy_exit_node(cfg)                         │
+│   396 │   │   cfg = CFG._insert_dummy_entry_node(cfg)                        │
+│   397 │   │   return cfg  # noqa: RET504                                     │
+│   398                                                                        │
+│                                                                              │
+│ /opt/conda/lib/python3.10/site-packages/pynguin/analyses/controlflow.py:558  │
+│ in _insert_dummy_exit_node                                                   │
+│                                                                              │
+│   555 │   def _insert_dummy_exit_node(cfg: CFG) -> CFG:                      │
+│   556 │   │   dummy_exit_node = ProgramGraphNode(index=sys.maxsize, is_artif │
+│   557 │   │   exit_nodes = cfg.exit_nodes                                    │
+│ ❱ 558 │   │   assert exit_nodes, (                                           │
+│   559 │   │   │   "Control flow must have at least one exit node. Offending  │
+│   560 │   │   )                                                              │
+│   561 │   │   cfg.add_node(dummy_exit_node)                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AssertionError: Control flow must have at least one exit node. Offending CFG: 
+strict digraph  {
+"ProgramGraphNode(0)
+GEN_START 0
+LOAD_GLOBAL 'isinstance'
+LOAD_FAST 'obj'
+LOAD_GLOBAL 'TextResponse'
+CALL_FUNCTION 2
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(1)
+LOAD_FAST 'obj'
+LOAD_ATTR 'encoding'
+JUMP_FORWARD ProgramGraphNode";
+"ProgramGraphNode(2)
+LOAD_DEREF <CellVar 'encoding'>
+JUMP_IF_TRUE_OR_POP ProgramGraphNode";
+"ProgramGraphNode(3)
+LOAD_CONST 'utf-8'";
+"ProgramGraphNode(4)
+STORE_DEREF <CellVar 'encoding'>
+LOAD_CLOSURE <CellVar 'encoding'>
+BUILD_TUPLE 1
+LOAD_CONST <code object _getrow at 0x7f10461f47c0, file 
+"/home/user/BugsInPy/temp/projects/scrapy/scrapy/./utils/iterators.py", line 95>
+LOAD_CONST 'csviter.<locals>._getrow'
+MAKE_FUNCTION 8
+STORE_FAST '_getrow'
+LOAD_GLOBAL 'BytesIO'
+LOAD_GLOBAL '_body_or_str'
+LOAD_FAST 'obj'
+LOAD_CONST False
+LOAD_CONST ('unicode',)
+CALL_FUNCTION_KW 2
+CALL_FUNCTION 1
+STORE_FAST 'lines'
+BUILD_MAP 0
+STORE_FAST 'kwargs'
+LOAD_FAST 'delimiter'
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(5)
+LOAD_FAST 'delimiter'
+LOAD_FAST 'kwargs'
+LOAD_CONST 'delimiter'
+STORE_SUBSCR";
+"ProgramGraphNode(6)
+LOAD_FAST 'quotechar'
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(7)
+LOAD_FAST 'quotechar'
+LOAD_FAST 'kwargs'
+LOAD_CONST 'quotechar'
+STORE_SUBSCR";
+"ProgramGraphNode(8)
+LOAD_GLOBAL 'csv'
+LOAD_ATTR 'reader'
+LOAD_FAST 'lines'
+BUILD_TUPLE 1
+BUILD_MAP 0
+LOAD_FAST 'kwargs'
+DICT_MERGE 1
+CALL_FUNCTION_EX 1
+STORE_FAST 'csv_r'
+LOAD_FAST 'headers'
+POP_JUMP_IF_TRUE ProgramGraphNode";
+"ProgramGraphNode(9)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'headers'";
+"ProgramGraphNode(10)
+NOP";
+"ProgramGraphNode(11)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'row'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+COMPARE_OP NE
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(12)
+LOAD_GLOBAL 'log'
+LOAD_ATTR 'msg'
+LOAD_CONST 'ignoring row %(csvlnum)d (length: %(csvrow)d, should be: 
+%(csvheader)d)'
+LOAD_GLOBAL 'log'
+LOAD_ATTR 'WARNING'
+LOAD_FAST 'csv_r'
+LOAD_ATTR 'line_num'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+LOAD_CONST ('format', 'level', 'csvlnum', 'csvrow', 'csvheader')
+CALL_FUNCTION_KW 5
+POP_TOP
+JUMP_ABSOLUTE ProgramGraphNode";
+"ProgramGraphNode(13)
+LOAD_GLOBAL 'dict'
+LOAD_GLOBAL 'zip'
+LOAD_FAST 'headers'
+LOAD_FAST 'row'
+CALL_FUNCTION 2
+CALL_FUNCTION 1
+YIELD_VALUE
+POP_TOP
+JUMP_ABSOLUTE ProgramGraphNode";
+"ProgramGraphNode(0)
+GEN_START 0
+LOAD_GLOBAL 'isinstance'
+LOAD_FAST 'obj'
+LOAD_GLOBAL 'TextResponse'
+CALL_FUNCTION 2
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(1)
+LOAD_FAST 'obj'
+LOAD_ATTR 'encoding'
+JUMP_FORWARD ProgramGraphNode"  [branch_value=True, label=True];
+"ProgramGraphNode(0)
+GEN_START 0
+LOAD_GLOBAL 'isinstance'
+LOAD_FAST 'obj'
+LOAD_GLOBAL 'TextResponse'
+CALL_FUNCTION 2
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(2)
+LOAD_DEREF <CellVar 'encoding'>
+JUMP_IF_TRUE_OR_POP ProgramGraphNode"  [branch_value=False, label=False];
+"ProgramGraphNode(1)
+LOAD_FAST 'obj'
+LOAD_ATTR 'encoding'
+JUMP_FORWARD ProgramGraphNode" -> "ProgramGraphNode(4)
+STORE_DEREF <CellVar 'encoding'>
+LOAD_CLOSURE <CellVar 'encoding'>
+BUILD_TUPLE 1
+LOAD_CONST <code object _getrow at 0x7f10461f47c0, file 
+"/home/user/BugsInPy/temp/projects/scrapy/scrapy/./utils/iterators.py", line 95>
+LOAD_CONST 'csviter.<locals>._getrow'
+MAKE_FUNCTION 8
+STORE_FAST '_getrow'
+LOAD_GLOBAL 'BytesIO'
+LOAD_GLOBAL '_body_or_str'
+LOAD_FAST 'obj'
+LOAD_CONST False
+LOAD_CONST ('unicode',)
+CALL_FUNCTION_KW 2
+CALL_FUNCTION 1
+STORE_FAST 'lines'
+BUILD_MAP 0
+STORE_FAST 'kwargs'
+LOAD_FAST 'delimiter'
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(2)
+LOAD_DEREF <CellVar 'encoding'>
+JUMP_IF_TRUE_OR_POP ProgramGraphNode" -> "ProgramGraphNode(4)
+STORE_DEREF <CellVar 'encoding'>
+LOAD_CLOSURE <CellVar 'encoding'>
+BUILD_TUPLE 1
+LOAD_CONST <code object _getrow at 0x7f10461f47c0, file 
+"/home/user/BugsInPy/temp/projects/scrapy/scrapy/./utils/iterators.py", line 95>
+LOAD_CONST 'csviter.<locals>._getrow'
+MAKE_FUNCTION 8
+STORE_FAST '_getrow'
+LOAD_GLOBAL 'BytesIO'
+LOAD_GLOBAL '_body_or_str'
+LOAD_FAST 'obj'
+LOAD_CONST False
+LOAD_CONST ('unicode',)
+CALL_FUNCTION_KW 2
+CALL_FUNCTION 1
+STORE_FAST 'lines'
+BUILD_MAP 0
+STORE_FAST 'kwargs'
+LOAD_FAST 'delimiter'
+POP_JUMP_IF_FALSE ProgramGraphNode"  [branch_value=True, label=True];
+"ProgramGraphNode(2)
+LOAD_DEREF <CellVar 'encoding'>
+JUMP_IF_TRUE_OR_POP ProgramGraphNode" -> "ProgramGraphNode(3)
+LOAD_CONST 'utf-8'"  [branch_value=False, label=False];
+"ProgramGraphNode(3)
+LOAD_CONST 'utf-8'" -> "ProgramGraphNode(4)
+STORE_DEREF <CellVar 'encoding'>
+LOAD_CLOSURE <CellVar 'encoding'>
+BUILD_TUPLE 1
+LOAD_CONST <code object _getrow at 0x7f10461f47c0, file 
+"/home/user/BugsInPy/temp/projects/scrapy/scrapy/./utils/iterators.py", line 95>
+LOAD_CONST 'csviter.<locals>._getrow'
+MAKE_FUNCTION 8
+STORE_FAST '_getrow'
+LOAD_GLOBAL 'BytesIO'
+LOAD_GLOBAL '_body_or_str'
+LOAD_FAST 'obj'
+LOAD_CONST False
+LOAD_CONST ('unicode',)
+CALL_FUNCTION_KW 2
+CALL_FUNCTION 1
+STORE_FAST 'lines'
+BUILD_MAP 0
+STORE_FAST 'kwargs'
+LOAD_FAST 'delimiter'
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(4)
+STORE_DEREF <CellVar 'encoding'>
+LOAD_CLOSURE <CellVar 'encoding'>
+BUILD_TUPLE 1
+LOAD_CONST <code object _getrow at 0x7f10461f47c0, file 
+"/home/user/BugsInPy/temp/projects/scrapy/scrapy/./utils/iterators.py", line 95>
+LOAD_CONST 'csviter.<locals>._getrow'
+MAKE_FUNCTION 8
+STORE_FAST '_getrow'
+LOAD_GLOBAL 'BytesIO'
+LOAD_GLOBAL '_body_or_str'
+LOAD_FAST 'obj'
+LOAD_CONST False
+LOAD_CONST ('unicode',)
+CALL_FUNCTION_KW 2
+CALL_FUNCTION 1
+STORE_FAST 'lines'
+BUILD_MAP 0
+STORE_FAST 'kwargs'
+LOAD_FAST 'delimiter'
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(5)
+LOAD_FAST 'delimiter'
+LOAD_FAST 'kwargs'
+LOAD_CONST 'delimiter'
+STORE_SUBSCR"  [branch_value=True, label=True];
+"ProgramGraphNode(4)
+STORE_DEREF <CellVar 'encoding'>
+LOAD_CLOSURE <CellVar 'encoding'>
+BUILD_TUPLE 1
+LOAD_CONST <code object _getrow at 0x7f10461f47c0, file 
+"/home/user/BugsInPy/temp/projects/scrapy/scrapy/./utils/iterators.py", line 95>
+LOAD_CONST 'csviter.<locals>._getrow'
+MAKE_FUNCTION 8
+STORE_FAST '_getrow'
+LOAD_GLOBAL 'BytesIO'
+LOAD_GLOBAL '_body_or_str'
+LOAD_FAST 'obj'
+LOAD_CONST False
+LOAD_CONST ('unicode',)
+CALL_FUNCTION_KW 2
+CALL_FUNCTION 1
+STORE_FAST 'lines'
+BUILD_MAP 0
+STORE_FAST 'kwargs'
+LOAD_FAST 'delimiter'
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(6)
+LOAD_FAST 'quotechar'
+POP_JUMP_IF_FALSE ProgramGraphNode"  [branch_value=False, label=False];
+"ProgramGraphNode(5)
+LOAD_FAST 'delimiter'
+LOAD_FAST 'kwargs'
+LOAD_CONST 'delimiter'
+STORE_SUBSCR" -> "ProgramGraphNode(6)
+LOAD_FAST 'quotechar'
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(6)
+LOAD_FAST 'quotechar'
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(7)
+LOAD_FAST 'quotechar'
+LOAD_FAST 'kwargs'
+LOAD_CONST 'quotechar'
+STORE_SUBSCR"  [branch_value=True, label=True];
+"ProgramGraphNode(6)
+LOAD_FAST 'quotechar'
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(8)
+LOAD_GLOBAL 'csv'
+LOAD_ATTR 'reader'
+LOAD_FAST 'lines'
+BUILD_TUPLE 1
+BUILD_MAP 0
+LOAD_FAST 'kwargs'
+DICT_MERGE 1
+CALL_FUNCTION_EX 1
+STORE_FAST 'csv_r'
+LOAD_FAST 'headers'
+POP_JUMP_IF_TRUE ProgramGraphNode"  [branch_value=False, label=False];
+"ProgramGraphNode(7)
+LOAD_FAST 'quotechar'
+LOAD_FAST 'kwargs'
+LOAD_CONST 'quotechar'
+STORE_SUBSCR" -> "ProgramGraphNode(8)
+LOAD_GLOBAL 'csv'
+LOAD_ATTR 'reader'
+LOAD_FAST 'lines'
+BUILD_TUPLE 1
+BUILD_MAP 0
+LOAD_FAST 'kwargs'
+DICT_MERGE 1
+CALL_FUNCTION_EX 1
+STORE_FAST 'csv_r'
+LOAD_FAST 'headers'
+POP_JUMP_IF_TRUE ProgramGraphNode";
+"ProgramGraphNode(8)
+LOAD_GLOBAL 'csv'
+LOAD_ATTR 'reader'
+LOAD_FAST 'lines'
+BUILD_TUPLE 1
+BUILD_MAP 0
+LOAD_FAST 'kwargs'
+DICT_MERGE 1
+CALL_FUNCTION_EX 1
+STORE_FAST 'csv_r'
+LOAD_FAST 'headers'
+POP_JUMP_IF_TRUE ProgramGraphNode" -> "ProgramGraphNode(10)
+NOP"  [branch_value=True, label=True];
+"ProgramGraphNode(8)
+LOAD_GLOBAL 'csv'
+LOAD_ATTR 'reader'
+LOAD_FAST 'lines'
+BUILD_TUPLE 1
+BUILD_MAP 0
+LOAD_FAST 'kwargs'
+DICT_MERGE 1
+CALL_FUNCTION_EX 1
+STORE_FAST 'csv_r'
+LOAD_FAST 'headers'
+POP_JUMP_IF_TRUE ProgramGraphNode" -> "ProgramGraphNode(9)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'headers'"  [branch_value=False, label=False];
+"ProgramGraphNode(9)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'headers'" -> "ProgramGraphNode(10)
+NOP";
+"ProgramGraphNode(10)
+NOP" -> "ProgramGraphNode(11)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'row'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+COMPARE_OP NE
+POP_JUMP_IF_FALSE ProgramGraphNode";
+"ProgramGraphNode(11)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'row'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+COMPARE_OP NE
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(12)
+LOAD_GLOBAL 'log'
+LOAD_ATTR 'msg'
+LOAD_CONST 'ignoring row %(csvlnum)d (length: %(csvrow)d, should be: 
+%(csvheader)d)'
+LOAD_GLOBAL 'log'
+LOAD_ATTR 'WARNING'
+LOAD_FAST 'csv_r'
+LOAD_ATTR 'line_num'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+LOAD_CONST ('format', 'level', 'csvlnum', 'csvrow', 'csvheader')
+CALL_FUNCTION_KW 5
+POP_TOP
+JUMP_ABSOLUTE ProgramGraphNode"  [branch_value=True, label=True];
+"ProgramGraphNode(11)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'row'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+COMPARE_OP NE
+POP_JUMP_IF_FALSE ProgramGraphNode" -> "ProgramGraphNode(13)
+LOAD_GLOBAL 'dict'
+LOAD_GLOBAL 'zip'
+LOAD_FAST 'headers'
+LOAD_FAST 'row'
+CALL_FUNCTION 2
+CALL_FUNCTION 1
+YIELD_VALUE
+POP_TOP
+JUMP_ABSOLUTE ProgramGraphNode"  [branch_value=False, label=False];
+"ProgramGraphNode(12)
+LOAD_GLOBAL 'log'
+LOAD_ATTR 'msg'
+LOAD_CONST 'ignoring row %(csvlnum)d (length: %(csvrow)d, should be: 
+%(csvheader)d)'
+LOAD_GLOBAL 'log'
+LOAD_ATTR 'WARNING'
+LOAD_FAST 'csv_r'
+LOAD_ATTR 'line_num'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+LOAD_CONST ('format', 'level', 'csvlnum', 'csvrow', 'csvheader')
+CALL_FUNCTION_KW 5
+POP_TOP
+JUMP_ABSOLUTE ProgramGraphNode" -> "ProgramGraphNode(10)
+NOP";
+"ProgramGraphNode(13)
+LOAD_GLOBAL 'dict'
+LOAD_GLOBAL 'zip'
+LOAD_FAST 'headers'
+LOAD_FAST 'row'
+CALL_FUNCTION 2
+CALL_FUNCTION 1
+YIELD_VALUE
+POP_TOP
+JUMP_ABSOLUTE ProgramGraphNode" -> "ProgramGraphNode(11)
+LOAD_FAST '_getrow'
+LOAD_FAST 'csv_r'
+CALL_FUNCTION 1
+STORE_FAST 'row'
+LOAD_GLOBAL 'len'
+LOAD_FAST 'row'
+CALL_FUNCTION 1
+LOAD_GLOBAL 'len'
+LOAD_FAST 'headers'
+CALL_FUNCTION 1
+COMPARE_OP NE
+POP_JUMP_IF_FALSE ProgramGraphNode";
+}

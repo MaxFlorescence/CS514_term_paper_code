@@ -1,0 +1,246 @@
+pynguin log ./utils.py
+[02:06:54] INFO     Start Pynguin Test Generation…              generator.py:117
+           INFO     Collecting static constants from module     generator.py:212
+                    under test                                                  
+           INFO     No constants found                          generator.py:215
+           INFO     Setting up runtime collection of constants  generator.py:222
+[02:06:55] INFO     generated new fontManager               font_manager.py:1584
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: DeprecationWarning: `_dispatchable._fallback_to_nx` is deprecated and will be removed in NetworkX v3.5. Use `nx.config.fallback_to_nx` instead.
+  value = getattr(object, key)
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\k'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\D'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\#'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\G'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\P'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\|'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\p'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:4: DeprecationWarning: invalid escape sequence '\z'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\g'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\D'
+[02:07:06] WARNING  Unexpectedly had no exception name raised  syntaxtree.py:221
+                    and no exception in context.                                
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\l'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:5: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:4: DeprecationWarning: invalid escape sequence '\{'
+<unknown>:6: DeprecationWarning: invalid escape sequence '\i'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\m'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The INVALID attribute was deprecated in Matplotlib 3.8 and will be removed in 3.10.
+  value = getattr(object, key)
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The INVALID_AFFINE attribute was deprecated in Matplotlib 3.8 and will be removed in 3.10.
+  value = getattr(object, key)
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The INVALID_NON_AFFINE attribute was deprecated in Matplotlib 3.8 and will be removed in 3.10.
+  value = getattr(object, key)
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The is_bbox attribute was deprecated in Matplotlib 3.9 and will be removed in 3.11.
+  value = getattr(object, key)
+<unknown>:3: DeprecationWarning: invalid escape sequence '\o'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\e'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\w'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\S'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\d'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\c'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\g'
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The lastevent attribute was deprecated in Matplotlib 3.8 and will be removed in 3.10.
+  value = getattr(object, key)
+[02:07:11] INFO     C-extension module not found:                 module.py:1329
+                    pybind11_builtins                                           
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\s'
+[02:07:14] WARNING  Unexpectedly had no exception name raised  syntaxtree.py:221
+                    and no exception in context.                                
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The INVALID attribute was deprecated in Matplotlib 3.8 and will be removed in 3.10.
+  value = getattr(object, key)
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The INVALID_AFFINE attribute was deprecated in Matplotlib 3.8 and will be removed in 3.10.
+  value = getattr(object, key)
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The INVALID_NON_AFFINE attribute was deprecated in Matplotlib 3.8 and will be removed in 3.10.
+  value = getattr(object, key)
+/opt/conda/envs/redistricting/lib/python3.10/inspect.py:469: MatplotlibDeprecationWarning: The is_bbox attribute was deprecated in Matplotlib 3.9 and will be removed in 3.11.
+  value = getattr(object, key)
+           ERROR    While getting the types of exceptions in   syntaxtree.py:339
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7f07b446f670>                         
+           ERROR    While getting the types of exceptions in   syntaxtree.py:339
+                    the handler, expected to find an ast.Name,                  
+                    ast.Tuple, or ast.Attribute,but got                         
+                    <ast.Call object at 0x7f07b45676a0>                         
+<unknown>:3: DeprecationWarning: invalid escape sequence '\*'
+<unknown>:3: DeprecationWarning: invalid escape sequence '\ '
+[02:07:16] INFO     Analyzed project to create test cluster       module.py:1282
+           INFO     Modules:     570                              module.py:1283
+           INFO     Functions:  3341                              module.py:1284
+           INFO     Classes:    1486                              module.py:1285
+           INFO     Using seed 1733623614364638526              generator.py:200
+           INFO     Using strategy:            generationalgorithmfactory.py:287
+                    Algorithm.WHOLE_SUITE                                       
+           INFO     Instantiated 24 fitness    generationalgorithmfactory.py:374
+                    functions                                                   
+           INFO     Using CoverageArchive      generationalgorithmfactory.py:329
+           INFO     Using selection function:  generationalgorithmfactory.py:304
+                    Selection.TOURNAMENT_SELEC                                  
+                    TION                                                        
+           INFO     Using crossover function:  generationalgorithmfactory.py:317
+                    SinglePointRelativeCrossOv                                  
+                    er                                                          
+           INFO     Using ranking function:    generationalgorithmfactory.py:337
+                    RankBasedPreferenceSorting                                  
+           INFO     Start generating test cases                 generator.py:495
+[02:07:38] INFO     Initial Population, Coverage: 0.500000  searchobserver.py:78
+[02:07:39] INFO     Iteration:       1, Coverage: 0.500000  searchobserver.py:84
+[02:07:42] INFO     Iteration:       2, Coverage: 0.500000  searchobserver.py:84
+[02:07:43] INFO     Iteration:       3, Coverage: 0.541667  searchobserver.py:84
+[02:07:44] INFO     Iteration:       4, Coverage: 0.541667  searchobserver.py:84
+[02:07:46] INFO     Iteration:       5, Coverage: 0.541667  searchobserver.py:84
+[02:07:47] INFO     Iteration:       6, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:       7, Coverage: 0.541667  searchobserver.py:84
+[02:07:49] INFO     Iteration:       8, Coverage: 0.541667  searchobserver.py:84
+[02:07:52] INFO     Iteration:       9, Coverage: 0.541667  searchobserver.py:84
+[02:07:53] INFO     Iteration:      10, Coverage: 0.541667  searchobserver.py:84
+[02:07:54] INFO     Iteration:      11, Coverage: 0.541667  searchobserver.py:84
+[02:07:55] INFO     Iteration:      12, Coverage: 0.541667  searchobserver.py:84
+[02:07:56] INFO     Iteration:      13, Coverage: 0.541667  searchobserver.py:84
+[02:07:58] INFO     Iteration:      14, Coverage: 0.541667  searchobserver.py:84
+[02:07:59] INFO     Iteration:      15, Coverage: 0.541667  searchobserver.py:84
+[02:08:00] INFO     Iteration:      16, Coverage: 0.541667  searchobserver.py:84
+[02:08:01] INFO     Iteration:      17, Coverage: 0.541667  searchobserver.py:84
+[02:08:03] INFO     Iteration:      18, Coverage: 0.541667  searchobserver.py:84
+[02:08:04] INFO     Iteration:      19, Coverage: 0.541667  searchobserver.py:84
+[02:08:05] INFO     Iteration:      20, Coverage: 0.541667  searchobserver.py:84
+[02:08:04] INFO     Iteration:      21, Coverage: 0.541667  searchobserver.py:84
+[02:08:07] INFO     Iteration:      22, Coverage: 0.541667  searchobserver.py:84
+[02:08:08] INFO     Iteration:      23, Coverage: 0.541667  searchobserver.py:84
+[02:08:09] INFO     Iteration:      24, Coverage: 0.541667  searchobserver.py:84
+[02:08:10] INFO     Iteration:      25, Coverage: 0.541667  searchobserver.py:84
+[02:08:11] INFO     Iteration:      26, Coverage: 0.541667  searchobserver.py:84
+[02:08:13] INFO     Iteration:      27, Coverage: 0.541667  searchobserver.py:84
+[02:08:14] INFO     Iteration:      28, Coverage: 0.541667  searchobserver.py:84
+[02:08:16] INFO     Iteration:      29, Coverage: 0.541667  searchobserver.py:84
+[02:08:18] INFO     Iteration:      30, Coverage: 0.541667  searchobserver.py:84
+[02:08:20] INFO     Iteration:      31, Coverage: 0.541667  searchobserver.py:84
+[02:08:21] INFO     Iteration:      32, Coverage: 0.541667  searchobserver.py:84
+[02:08:23] INFO     Iteration:      33, Coverage: 0.541667  searchobserver.py:84
+[02:08:24] INFO     Iteration:      34, Coverage: 0.541667  searchobserver.py:84
+[02:08:26] INFO     Iteration:      35, Coverage: 0.541667  searchobserver.py:84
+[02:08:27] INFO     Iteration:      36, Coverage: 0.541667  searchobserver.py:84
+[02:08:28] INFO     Iteration:      37, Coverage: 0.541667  searchobserver.py:84
+[02:08:29] INFO     Iteration:      38, Coverage: 0.541667  searchobserver.py:84
+[02:08:30] INFO     Iteration:      39, Coverage: 0.541667  searchobserver.py:84
+[02:08:32] INFO     Iteration:      40, Coverage: 0.541667  searchobserver.py:84
+[02:08:33] INFO     Iteration:      41, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:      42, Coverage: 0.541667  searchobserver.py:84
+[02:08:36] INFO     Iteration:      43, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:      44, Coverage: 0.541667  searchobserver.py:84
+[02:08:38] INFO     Iteration:      45, Coverage: 0.541667  searchobserver.py:84
+[02:08:39] INFO     Iteration:      46, Coverage: 0.541667  searchobserver.py:84
+[02:08:41] INFO     Iteration:      47, Coverage: 0.541667  searchobserver.py:84
+[02:08:42] INFO     Iteration:      48, Coverage: 0.541667  searchobserver.py:84
+[02:08:44] INFO     Iteration:      49, Coverage: 0.541667  searchobserver.py:84
+[02:08:45] INFO     Iteration:      50, Coverage: 0.541667  searchobserver.py:84
+[02:08:47] INFO     Iteration:      51, Coverage: 0.541667  searchobserver.py:84
+[02:08:49] INFO     Iteration:      52, Coverage: 0.541667  searchobserver.py:84
+[02:08:50] INFO     Iteration:      53, Coverage: 0.541667  searchobserver.py:84
+[02:08:51] INFO     Iteration:      54, Coverage: 0.541667  searchobserver.py:84
+[02:08:53] INFO     Iteration:      55, Coverage: 0.541667  searchobserver.py:84
+[02:08:55] INFO     Iteration:      56, Coverage: 0.541667  searchobserver.py:84
+[02:08:56] INFO     Iteration:      57, Coverage: 0.541667  searchobserver.py:84
+[02:08:57] INFO     Iteration:      58, Coverage: 0.541667  searchobserver.py:84
+[02:08:58] INFO     Iteration:      59, Coverage: 0.541667  searchobserver.py:84
+[02:09:00] INFO     Iteration:      60, Coverage: 0.541667  searchobserver.py:84
+[02:09:01] INFO     Iteration:      61, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:      62, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:      63, Coverage: 0.541667  searchobserver.py:84
+[02:09:03] INFO     Iteration:      64, Coverage: 0.541667  searchobserver.py:84
+[02:09:04] INFO     Iteration:      65, Coverage: 0.541667  searchobserver.py:84
+[02:09:06] INFO     Iteration:      66, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:      67, Coverage: 0.541667  searchobserver.py:84
+[02:09:09] INFO     Iteration:      68, Coverage: 0.541667  searchobserver.py:84
+[02:09:10] INFO     Iteration:      69, Coverage: 0.541667  searchobserver.py:84
+[02:09:11] INFO     Iteration:      70, Coverage: 0.541667  searchobserver.py:84
+[02:09:12] INFO     Iteration:      71, Coverage: 0.541667  searchobserver.py:84
+[02:09:15] INFO     Iteration:      72, Coverage: 0.541667  searchobserver.py:84
+[02:09:16] INFO     Iteration:      73, Coverage: 0.541667  searchobserver.py:84
+[02:09:17] INFO     Iteration:      74, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:      75, Coverage: 0.541667  searchobserver.py:84
+[02:09:18] INFO     Iteration:      76, Coverage: 0.541667  searchobserver.py:84
+[02:09:20] INFO     Iteration:      77, Coverage: 0.541667  searchobserver.py:84
+[02:09:21] INFO     Iteration:      78, Coverage: 0.541667  searchobserver.py:84
+[02:09:22] INFO     Iteration:      79, Coverage: 0.541667  searchobserver.py:84
+[02:09:24] INFO     Iteration:      80, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:      81, Coverage: 0.541667  searchobserver.py:84
+[02:09:27] INFO     Iteration:      82, Coverage: 0.541667  searchobserver.py:84
+[02:09:28] INFO     Iteration:      83, Coverage: 0.541667  searchobserver.py:84
+[02:09:29] INFO     Iteration:      84, Coverage: 0.541667  searchobserver.py:84
+[02:09:30] INFO     Iteration:      85, Coverage: 0.541667  searchobserver.py:84
+[02:09:31] INFO     Iteration:      86, Coverage: 0.541667  searchobserver.py:84
+[02:09:33] INFO     Iteration:      87, Coverage: 0.541667  searchobserver.py:84
+[02:09:34] INFO     Iteration:      88, Coverage: 0.541667  searchobserver.py:84
+[02:09:35] INFO     Iteration:      89, Coverage: 0.541667  searchobserver.py:84
+[02:09:38] INFO     Iteration:      90, Coverage: 0.541667  searchobserver.py:84
+[02:09:40] INFO     Iteration:      91, Coverage: 0.541667  searchobserver.py:84
+[02:09:41] INFO     Iteration:      92, Coverage: 0.541667  searchobserver.py:84
+[02:09:42] INFO     Iteration:      93, Coverage: 0.541667  searchobserver.py:84
+[02:09:44] INFO     Iteration:      94, Coverage: 0.541667  searchobserver.py:84
+[02:09:46] INFO     Iteration:      95, Coverage: 0.541667  searchobserver.py:84
+[02:09:47] INFO     Iteration:      96, Coverage: 0.541667  searchobserver.py:84
+[02:09:49] INFO     Iteration:      97, Coverage: 0.541667  searchobserver.py:84
+[02:09:50] INFO     Iteration:      98, Coverage: 0.541667  searchobserver.py:84
+[02:09:52] INFO     Iteration:      99, Coverage: 0.541667  searchobserver.py:84
+[02:09:53] INFO     Iteration:     100, Coverage: 0.541667  searchobserver.py:84
+[02:09:54] INFO     Iteration:     101, Coverage: 0.541667  searchobserver.py:84
+[02:09:56] INFO     Iteration:     102, Coverage: 0.541667  searchobserver.py:84
+[02:09:57] INFO     Iteration:     103, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:     104, Coverage: 0.541667  searchobserver.py:84
+[02:09:59] INFO     Iteration:     105, Coverage: 0.541667  searchobserver.py:84
+[02:10:01] INFO     Iteration:     106, Coverage: 0.541667  searchobserver.py:84
+[02:10:03] INFO     Iteration:     107, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:     108, Coverage: 0.541667  searchobserver.py:84
+[02:10:05] INFO     Iteration:     109, Coverage: 0.541667  searchobserver.py:84
+[02:10:07] INFO     Iteration:     110, Coverage: 0.541667  searchobserver.py:84
+[02:10:08] INFO     Iteration:     111, Coverage: 0.541667  searchobserver.py:84
+[02:10:10] INFO     Iteration:     112, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:     113, Coverage: 0.541667  searchobserver.py:84
+[02:10:12] INFO     Iteration:     114, Coverage: 0.541667  searchobserver.py:84
+[02:10:14] INFO     Iteration:     115, Coverage: 0.541667  searchobserver.py:84
+[02:10:15] INFO     Iteration:     116, Coverage: 0.541667  searchobserver.py:84
+[02:10:16] INFO     Iteration:     117, Coverage: 0.541667  searchobserver.py:84
+[02:10:17] INFO     Iteration:     118, Coverage: 0.541667  searchobserver.py:84
+[02:10:20] INFO     Iteration:     119, Coverage: 0.541667  searchobserver.py:84
+[02:10:21] INFO     Iteration:     120, Coverage: 0.541667  searchobserver.py:84
+[02:10:22] INFO     Iteration:     121, Coverage: 0.541667  searchobserver.py:84
+[02:10:23] INFO     Iteration:     122, Coverage: 0.541667  searchobserver.py:84
+[02:10:26] INFO     Iteration:     123, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:     124, Coverage: 0.541667  searchobserver.py:84
+[02:10:27] INFO     Iteration:     125, Coverage: 0.541667  searchobserver.py:84
+[02:10:28] INFO     Iteration:     126, Coverage: 0.541667  searchobserver.py:84
+           INFO     Iteration:     127, Coverage: 0.541667  searchobserver.py:84
+[02:10:30] INFO     Iteration:     128, Coverage: 0.541667  searchobserver.py:84
+[02:10:32] INFO     Iteration:     129, Coverage: 0.541667  searchobserver.py:84
+[02:10:33] INFO     Iteration:     130, Coverage: 0.541667  searchobserver.py:84

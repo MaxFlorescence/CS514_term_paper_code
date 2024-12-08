@@ -1,0 +1,51 @@
+testing-script scrapy 11 0 DYNAMOSA /home/user/BugsInPy/temp/test_out/11_0.txt /home/user/BugsInPy/temp/tests test_gz.py scrapy
+Fixing and copying test suite...
+Considering report_100/
+   got test file "test_ftp.py"
+Considering report_101/
+   got test file "test_display.py"
+Considering report_102/
+   got test file "test_console.py"
+Considering report_111/
+   got test file "test_common.py"
+Considering report_138/
+   got test file "test_lsprofcalltree.py"
+Considering report_139/
+   got test file "test_errors.py"
+Considering report_142/
+   got test file "test_saferef.py"
+Considering report_143/
+   got test file "test_robustapply.py"
+Considering report_15/
+   got test file "test_defaultheaders.py"
+Considering report_159/
+   got test file "test_exceptions.py"
+Considering report_62/
+   got test file "test_link.py"
+Considering report_71/
+   got test file "test_conf.py"
+Considering report_72/
+   got test file "test_engine.py"
+Considering report_75/
+   got test file "test_python.py"
+Considering report_84/
+   got test file "test_gz.py"
+   got import path scrapy.utils.gz
+   added test_gz.py to suite
+Considering report_87/
+   got test file "test_template.py"
+Considering report_88/
+   got test file "test_trackref.py"
+Considering report_95/
+   got test file "test_datatypes.py"
+Considering report_96/
+   got test file "test_job.py"
+Considering report_97/
+   got test file "test_httpobj.py"
+
+pytest scrapy 11 0 DYNAMOSA
+
+ImportError while loading conftest '/home/user/BugsInPy/temp/projects/scrapy/conftest.py'.
+conftest.py:4: in <module>
+    from twisted import version as twisted_version
+E   ModuleNotFoundError: No module named 'twisted'

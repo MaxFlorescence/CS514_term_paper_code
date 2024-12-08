@@ -1,0 +1,2144 @@
+Log file
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... unsuccessful attempt using repodata from current_repodata.json, retrying with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.11.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.11.0
+
+
+
+## Package Plan ##
+
+  environment location: /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316
+
+  added / updated specs:
+    - pytest
+    - python=3.7.7
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |             main           3 KB
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    attrs-22.1.0               |   py37h06a4308_0          84 KB
+    certifi-2022.12.7          |   py37h06a4308_0         150 KB
+    flit-core-3.6.0            |     pyhd3eb1b0_0          42 KB
+    importlib-metadata-4.11.3  |   py37h06a4308_0          40 KB
+    importlib_metadata-4.11.3  |       hd3eb1b0_0          12 KB
+    iniconfig-1.1.1            |     pyhd3eb1b0_0           8 KB
+    ld_impl_linux-64-2.40      |       h12ee557_0         710 KB
+    libffi-3.3                 |       he6710b0_2          50 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    ncurses-6.4                |       h6a678d5_0         914 KB
+    openssl-1.1.1w             |       h7f8727e_0         3.7 MB
+    packaging-22.0             |   py37h06a4308_0          68 KB
+    pip-22.3.1                 |   py37h06a4308_0         2.7 MB
+    pluggy-1.0.0               |   py37h06a4308_1          29 KB
+    py-1.11.0                  |     pyhd3eb1b0_0          76 KB
+    pytest-7.1.2               |   py37h06a4308_0         445 KB
+    python-3.7.7               |       hcff3b4d_5        45.1 MB
+    readline-8.2               |       h5eee18b_0         357 KB
+    setuptools-65.6.3          |   py37h06a4308_0         1.1 MB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    tomli-2.0.1                |   py37h06a4308_0          24 KB
+    typing_extensions-4.4.0    |   py37h06a4308_0          45 KB
+    wheel-0.38.4               |   py37h06a4308_0          63 KB
+    zipp-3.11.0                |   py37h06a4308_0          19 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    ------------------------------------------------------------
+                                           Total:        69.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  attrs              pkgs/main/linux-64::attrs-22.1.0-py37h06a4308_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.11.26-h06a4308_0 
+  certifi            pkgs/main/linux-64::certifi-2022.12.7-py37h06a4308_0 
+  flit-core          pkgs/main/noarch::flit-core-3.6.0-pyhd3eb1b0_0 
+  importlib-metadata pkgs/main/linux-64::importlib-metadata-4.11.3-py37h06a4308_0 
+  importlib_metadata pkgs/main/noarch::importlib_metadata-4.11.3-hd3eb1b0_0 
+  iniconfig          pkgs/main/noarch::iniconfig-1.1.1-pyhd3eb1b0_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.40-h12ee557_0 
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-1.1.1w-h7f8727e_0 
+  packaging          pkgs/main/linux-64::packaging-22.0-py37h06a4308_0 
+  pip                pkgs/main/linux-64::pip-22.3.1-py37h06a4308_0 
+  pluggy             pkgs/main/linux-64::pluggy-1.0.0-py37h06a4308_1 
+  py                 pkgs/main/noarch::py-1.11.0-pyhd3eb1b0_0 
+  pytest             pkgs/main/linux-64::pytest-7.1.2-py37h06a4308_0 
+  python             pkgs/main/linux-64::python-3.7.7-hcff3b4d_5 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-65.6.3-py37h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.45.3-h5eee18b_0 
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0 
+  tomli              pkgs/main/linux-64::tomli-2.0.1-py37h06a4308_0 
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.4.0-py37h06a4308_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py37h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1 
+  zipp               pkgs/main/linux-64::zipp-3.11.0-py37h06a4308_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1 
+
+
+
+Downloading and Extracting Packages
+tk-8.6.14            | 3.4 MB    |            |   0% 
+attrs-22.1.0         | 84 KB     |            |   0% [A
+
+setuptools-65.6.3    | 1.1 MB    |            |   0% [A[A
+
+
+py-1.11.0            | 76 KB     |            |   0% [A[A[A
+
+
+
+pytest-7.1.2         | 445 KB    |            |   0% [A[A[A[A
+
+
+
+
+iniconfig-1.1.1      | 8 KB      |            |   0% [A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+importlib_metadata-4 | 12 KB     |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+readline-8.2         | 357 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 29 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+pytest-7.1.2         | 445 KB    | 3          |   4% [A[A[A[A
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    |            |   0% [A[A[A[A[A[A
+attrs-22.1.0         | 84 KB     | #8         |  19% [A
+
+
+
+
+iniconfig-1.1.1      | 8 KB      | ########## | 100% [A[A[A[A[A
+
+setuptools-65.6.3    | 1.1 MB    | 1          |   1% [A[A
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | 1          |   2% [A[A[A[A[A[A[A
+
+
+py-1.11.0            | 76 KB     | ##         |  21% [A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ##9        |  30% [A[A[A[A[A[Atk-8.6.14            | 3.4 MB    |            |   0% 
+
+
+
+
+
+
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+setuptools-65.6.3    | 1.1 MB    | #####4     |  55% [A[A
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | #######1   |  72% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ###5       |  35% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | #####3     |  54% [A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | #8         |  18% 
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | #4         |  14% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     | ###9       |  40% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+readline-8.2         | 357 KB    | 4          |   4% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ########1  |  81% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 29 KB     | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | ####5      |  45% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | 3          |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | 2          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+attrs-22.1.0         | 84 KB     | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########4  |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     | ###7       |  38% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+attrs-22.1.0         | 84 KB     | ########## | 100% [Atk-8.6.14            | 3.4 MB    | #######1   |  71% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+importlib_metadata-4 | 12 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | #########9 | 100% 
+
+
+py-1.11.0            | 76 KB     | ########## | 100% [A[A[A
+
+
+py-1.11.0            | 76 KB     | ########## | 100% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | 6          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+typing_extensions-4. | 45 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+pytest-7.1.2         | 445 KB    | ########## | 100% [A[A[A[A
+
+
+
+pytest-7.1.2         | 445 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | 8          |   8% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+importlib-metadata-4 | 40 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #3         |  13% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+zlib-1.2.13          | 111 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #9         |  19% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 29 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+pluggy-1.0.0         | 29 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ##3        |  23% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+readline-8.2         | 357 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+readline-8.2         | 357 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ###        |  30% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ###3       |  34% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ###7       |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ####       |  41% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ####4      |  44% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ####8      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #####2     |  52% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ######     |  60% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+openssl-1.1.1w       | 3.7 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zipp-3.11.0          | 19 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+setuptools-65.6.3    | 1.1 MB    | ########## | 100% [A[A
+
+setuptools-65.6.3    | 1.1 MB    | ########## | 100% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ######4    |  64% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ######7    |  68% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #######1   |  71% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgomp-11.2.0       | 474 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flit-core-3.6.0      | 42 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #######8   |  78% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ########2  |  83% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ########6  |  87% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #########  |  91% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | #########4 |  95% [A[A[A[A[A[A[A[A[A[A[A[A[A[Atk-8.6.14            | 3.4 MB    | ########## | 100% 
+
+
+
+
+
+
+ncurses-6.4          | 914 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python-3.7.7         | 45.1 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate 2a711b5b8e08a3b9f0f7bb934c80a316
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+pip3 install -r requirements.txt
+python setup.py build_ext --inplace
+pip install attrs==19.1.0
+Collecting cymem<2.1.0,>=2.0.2
+  Downloading cymem-2.0.10.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: cymem
+  Building wheel for cymem (pyproject.toml): started
+  Building wheel for cymem (pyproject.toml): finished with status 'done'
+  Created wheel for cymem: filename=cymem-2.0.10-cp37-cp37m-linux_x86_64.whl size=191293 sha256=f6278b9aca493a59ed3cec3bf4acec45a1a61e75803cd9fd0d7584b56df1de3c
+  Stored in directory: /root/.cache/pip/wheels/00/a4/ab/5f6a120da4c04af5311917c6f97657c4554051baea80137636
+Successfully built cymem
+Installing collected packages: cymem
+Successfully installed cymem-2.0.10
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting preshed<3.1.0,>=3.0.2
+  Downloading preshed-3.0.9-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (151 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.3/151.3 kB 13.0 MB/s eta 0:00:00
+Collecting murmurhash<1.1.0,>=0.28.0
+  Downloading murmurhash-1.0.11.tar.gz (13 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from preshed<3.1.0,>=3.0.2) (2.0.10)
+Building wheels for collected packages: murmurhash
+  Building wheel for murmurhash (pyproject.toml): started
+  Building wheel for murmurhash (pyproject.toml): finished with status 'done'
+  Created wheel for murmurhash: filename=murmurhash-1.0.11-cp37-cp37m-linux_x86_64.whl size=118140 sha256=d4f840898c3421e25724578a4c7cdd951c87e17eebf582de3c488f3bf93f43a0
+  Stored in directory: /root/.cache/pip/wheels/9e/05/f5/9cf526461beb97e00d85f3b0b4c6c6000c5e442c2a06cdc845
+Successfully built murmurhash
+Installing collected packages: murmurhash, preshed
+Successfully installed murmurhash-1.0.11 preshed-3.0.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting thinc<7.2.0,>=7.1.1
+  Downloading thinc-7.1.1-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 24.9 MB/s eta 0:00:00
+Collecting srsly<1.1.0,>=0.0.6
+  Downloading srsly-1.0.7-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (367 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 368.0/368.0 kB 33.1 MB/s eta 0:00:00
+Collecting blis<0.5.0,>=0.4.0
+  Downloading blis-0.4.1-cp37-cp37m-manylinux1_x86_64.whl (3.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 25.6 MB/s eta 0:00:00
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (1.0.11)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (2.0.10)
+Requirement already satisfied: preshed<3.1.0,>=1.0.1 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (3.0.9)
+Collecting plac<1.0.0,>=0.9.6
+  Downloading plac-0.9.6-py2.py3-none-any.whl (20 kB)
+Collecting numpy>=1.7.0
+  Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.7/15.7 MB 58.1 MB/s eta 0:00:00
+Collecting wasabi<1.1.0,>=0.0.9
+  Downloading wasabi-0.10.1-py3-none-any.whl (26 kB)
+Collecting tqdm<5.0.0,>=4.10.0
+  Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 12.2 MB/s eta 0:00:00
+Installing collected packages: wasabi, plac, tqdm, srsly, numpy, blis, thinc
+Successfully installed blis-0.4.1 numpy-1.21.6 plac-0.9.6 srsly-1.0.7 thinc-7.1.1 tqdm-4.67.1 wasabi-0.10.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (0.4.1)
+Requirement already satisfied: numpy>=1.15.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from blis<0.5.0,>=0.4.0) (1.21.6)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (1.0.11)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: wasabi<1.1.0,>=0.2.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (0.10.1)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: srsly<1.1.0,>=0.1.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (1.0.7)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: numpy>=1.15.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (1.21.6)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting requests<3.0.0,>=2.13.0
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 7.2 MB/s eta 0:00:00
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0) (2022.12.7)
+Collecting idna<4,>=2.5
+  Downloading idna-3.10-py3-none-any.whl (70 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 10.7 MB/s eta 0:00:00
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (138 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 138.3/138.3 kB 20.5 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.0.7-py3-none-any.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 kB 18.7 MB/s eta 0:00:00
+Installing collected packages: urllib3, idna, charset-normalizer, requests
+Successfully installed charset-normalizer-3.4.0 idna-3.10 requests-2.31.0 urllib3-2.0.7
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: plac<1.0.0,>=0.9.6 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (0.9.6)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py", line 278, in __init__
+    self._markers = _coerce_parse_result(MARKER.parseString(marker))
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 1141, in parse_string
+    raise exc.with_traceback(None)
+pip._vendor.pyparsing.exceptions.ParseException: Expected {Group:({'implementation_version' | 'platform_python_implementation' | 'implementation_name' | 'python_full_version' | 'platform_release' | 'platform_version' | 'platform_machine' | 'platform_system' | 'python_version' | 'sys_platform' | 'os_name' | 'os.name' | 'sys.platform' | 'platform.version' | 'platform.machine' | 'platform.python_implementation' | 'python_implementation' | 'extra'} | {string enclosed in "'" | string enclosed in '"'}} {'===' | '==' | '>=' | '<=' | '!=' | '~=' | '>' | '<' | 'not in' | 'in'} {{'implementation_version' | 'platform_python_implementation' | 'implementation_name' | 'python_full_version' | 'platform_release' | 'platform_version' | 'platform_machine' | 'platform_system' | 'python_version' | 'sys_platform' | 'os_name' | 'os.name' | 'sys.platform' | 'platform.version' | 'platform.machine' | 'platform.python_implementation' | 'python_implementation' | 'extra'} | {string enclosed in "'" | string enclosed in '"'}) | Group:({{Suppress:('(') : ...} Suppress:(')')})}, found '3'  (at char 17), (line:1, col:18)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/cli/req_command.py", line 247, in wrapper
+    return func(self, options, args)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/commands/install.py", line 344, in run
+    reqs = self.get_requirements(args, options, finder, session)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/cli/req_command.py", line 417, in get_requirements
+    config_settings=getattr(options, "config_settings", None),
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/req/constructors.py", line 393, in install_req_from_line
+    parts = parse_req_from_line(name, line_source)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/req/constructors.py", line 297, in parse_req_from_line
+    markers = Marker(markers_as_string)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py", line 281, in __init__
+    f"Invalid marker: {marker!r}, parse error at "
+pip._vendor.packaging.markers.InvalidMarker: Invalid marker: 'python_version < 3.4', parse error at '3.4'
+Collecting jsonschema<3.1.0,>=2.6.0
+  Downloading jsonschema-3.0.2-py2.py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.7/54.7 kB 6.5 MB/s eta 0:00:00
+Collecting pyrsistent>=0.14.0
+  Downloading pyrsistent-0.19.3-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 kB 8.6 MB/s eta 0:00:00
+Collecting six>=1.11.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0) (22.1.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0) (65.6.3)
+Installing collected packages: six, pyrsistent, jsonschema
+Successfully installed jsonschema-3.0.2 pyrsistent-0.19.3 six-1.16.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting cython>=0.25
+  Using cached Cython-3.0.11-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+Installing collected packages: cython
+Successfully installed cython-3.0.11
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest<4.1.0,>=4.0.0
+  Downloading pytest-4.0.2-py2.py3-none-any.whl (217 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 217.8/217.8 kB 17.1 MB/s eta 0:00:00
+Collecting more-itertools>=4.0.0
+  Downloading more_itertools-9.1.0-py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.2/54.2 kB 5.7 MB/s eta 0:00:00
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (1.16.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (22.1.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (1.0.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (65.6.3)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (1.11.0)
+Collecting atomicwrites>=1.0
+  Downloading atomicwrites-1.4.1.tar.gz (14 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pluggy>=0.7->pytest<4.1.0,>=4.0.0) (4.11.3)
+Requirement already satisfied: typing-extensions>=3.6.4 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest<4.1.0,>=4.0.0) (4.4.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest<4.1.0,>=4.0.0) (3.11.0)
+Building wheels for collected packages: atomicwrites
+  Building wheel for atomicwrites (setup.py): started
+  Building wheel for atomicwrites (setup.py): finished with status 'done'
+  Created wheel for atomicwrites: filename=atomicwrites-1.4.1-py2.py3-none-any.whl size=6942 sha256=29f01e61200dc4c8241914bdc50558d7de3887825dc37aaa627ed7eee3538d67
+  Stored in directory: /root/.cache/pip/wheels/12/42/58/cc91a56354647caab28bacc4e6aeb736ef5c0b65e1d39b0166
+Successfully built atomicwrites
+Installing collected packages: more-itertools, atomicwrites, pytest
+  Attempting uninstall: pytest
+    Found existing installation: pytest 7.1.2
+    Uninstalling pytest-7.1.2:
+      Successfully uninstalled pytest-7.1.2
+Successfully installed atomicwrites-1.4.1 more-itertools-9.1.0 pytest-4.0.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting pytest-timeout<2.0.0,>=1.3.0
+  Downloading pytest_timeout-1.4.2-py2.py3-none-any.whl (10 kB)
+Requirement already satisfied: pytest>=3.6.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest-timeout<2.0.0,>=1.3.0) (4.0.2)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.0.0)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.16.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (65.6.3)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (9.1.0)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.4.1)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (22.1.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.11.0)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pluggy>=0.7->pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (4.11.3)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (3.11.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (4.4.0)
+Installing collected packages: pytest-timeout
+Successfully installed pytest-timeout-1.4.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting mock<3.0.0,>=2.0.0
+  Downloading mock-2.0.0-py2.py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.8/56.8 kB 6.9 MB/s eta 0:00:00
+Requirement already satisfied: six>=1.9 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from mock<3.0.0,>=2.0.0) (1.16.0)
+Collecting pbr>=0.11
+  Downloading pbr-6.1.0-py2.py3-none-any.whl (108 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.5/108.5 kB 13.0 MB/s eta 0:00:00
+Installing collected packages: pbr, mock
+Successfully installed mock-2.0.0 pbr-6.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Collecting flake8<3.6.0,>=3.5.0
+  Downloading flake8-3.5.0-py2.py3-none-any.whl (69 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.9/69.9 kB 7.0 MB/s eta 0:00:00
+Collecting pyflakes<1.7.0,>=1.5.0
+  Downloading pyflakes-1.6.0-py2.py3-none-any.whl (227 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.4/227.4 kB 19.4 MB/s eta 0:00:00
+Collecting mccabe<0.7.0,>=0.6.0
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pycodestyle<2.4.0,>=2.0.0
+  Downloading pycodestyle-2.3.1-py2.py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.2/45.2 kB 6.2 MB/s eta 0:00:00
+Installing collected packages: pyflakes, pycodestyle, mccabe, flake8
+Successfully installed flake8-3.5.0 mccabe-0.6.1 pycodestyle-2.3.1 pyflakes-1.6.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Ignoring pathlib: markers 'python_version < "3.4"' don't match your environment
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (2.0.10)
+Requirement already satisfied: preshed<3.1.0,>=3.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (3.0.9)
+Requirement already satisfied: thinc<7.2.0,>=7.1.1 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (7.1.1)
+Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 5)) (0.4.1)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 6)) (1.0.11)
+Requirement already satisfied: wasabi<1.1.0,>=0.2.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 7)) (0.10.1)
+Requirement already satisfied: srsly<1.1.0,>=0.1.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 8)) (1.0.7)
+Requirement already satisfied: numpy>=1.15.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 10)) (1.21.6)
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 11)) (2.31.0)
+Requirement already satisfied: plac<1.0.0,>=0.9.6 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 12)) (0.9.6)
+Requirement already satisfied: jsonschema<3.1.0,>=2.6.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 15)) (3.0.2)
+Requirement already satisfied: cython>=0.25 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 17)) (3.0.11)
+Requirement already satisfied: pytest<4.1.0,>=4.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 18)) (4.0.2)
+Requirement already satisfied: pytest-timeout<2.0.0,>=1.3.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 19)) (1.4.2)
+Requirement already satisfied: mock<3.0.0,>=2.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 20)) (2.0.0)
+Requirement already satisfied: flake8<3.6.0,>=3.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from -r requirements.txt (line 21)) (3.5.0)
+Requirement already satisfied: tqdm<5.0.0,>=4.10.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1->-r requirements.txt (line 4)) (4.67.1)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->-r requirements.txt (line 11)) (2.0.7)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->-r requirements.txt (line 11)) (3.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->-r requirements.txt (line 11)) (2022.12.7)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->-r requirements.txt (line 11)) (3.10)
+Requirement already satisfied: six>=1.11.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0->-r requirements.txt (line 15)) (1.16.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0->-r requirements.txt (line 15)) (22.1.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0->-r requirements.txt (line 15)) (0.19.3)
+Requirement already satisfied: setuptools in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0->-r requirements.txt (line 15)) (65.6.3)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0->-r requirements.txt (line 18)) (1.4.1)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0->-r requirements.txt (line 18)) (1.0.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0->-r requirements.txt (line 18)) (9.1.0)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0->-r requirements.txt (line 18)) (1.11.0)
+Requirement already satisfied: pbr>=0.11 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from mock<3.0.0,>=2.0.0->-r requirements.txt (line 20)) (6.1.0)
+Requirement already satisfied: pycodestyle<2.4.0,>=2.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from flake8<3.6.0,>=3.5.0->-r requirements.txt (line 21)) (2.3.1)
+Requirement already satisfied: mccabe<0.7.0,>=0.6.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from flake8<3.6.0,>=3.5.0->-r requirements.txt (line 21)) (0.6.1)
+Requirement already satisfied: pyflakes<1.7.0,>=1.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from flake8<3.6.0,>=3.5.0->-r requirements.txt (line 21)) (1.6.0)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pluggy>=0.7->pytest<4.1.0,>=4.0.0->-r requirements.txt (line 18)) (4.11.3)
+Requirement already satisfied: typing-extensions>=3.6.4 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest<4.1.0,>=4.0.0->-r requirements.txt (line 18)) (4.4.0)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest<4.1.0,>=4.0.0->-r requirements.txt (line 18)) (3.11.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+Error compiling Cython file:
+------------------------------------------------------------
+...
+    int length
+
+
+cdef class Vocab:
+    cdef Pool mem
+    cpdef readonly StringStore strings
+          ^
+------------------------------------------------------------
+
+vocab.pxd:29:10: Variables cannot be declared with 'cpdef'. Use 'cdef' instead.
+/home/user/BugsInPy/temp/projects/spacy/bin/cythonize.py:47: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(cython_version) < LooseVersion("0.19"):
+Processing morphology.pyx
+Traceback (most recent call last):
+  File "/home/user/BugsInPy/temp/projects/spacy/bin/cythonize.py", line 169, in <module>
+    run(args.root)
+  File "/home/user/BugsInPy/temp/projects/spacy/bin/cythonize.py", line 158, in run
+    process(base, filename, db)
+  File "/home/user/BugsInPy/temp/projects/spacy/bin/cythonize.py", line 124, in process
+    preserve_cwd(base, process_pyx, root + ".pyx", root + ".cpp")
+  File "/home/user/BugsInPy/temp/projects/spacy/bin/cythonize.py", line 87, in preserve_cwd
+    func(*args)
+  File "/home/user/BugsInPy/temp/projects/spacy/bin/cythonize.py", line 63, in process_pyx
+    raise Exception("Cython failed")
+Exception: Cython failed
+Cythonizing sources
+Traceback (most recent call last):
+  File "setup.py", line 296, in <module>
+    setup_package()
+  File "setup.py", line 228, in setup_package
+    generate_cython(root, "spacy")
+  File "setup.py", line 134, in generate_cython
+    raise RuntimeError("Running cythonize failed")
+RuntimeError: Running cythonize failed
+Collecting attrs==19.1.0
+  Downloading attrs-19.1.0-py2.py3-none-any.whl (35 kB)
+Installing collected packages: attrs
+  Attempting uninstall: attrs
+    Found existing installation: attrs 22.1.0
+    Uninstalling attrs-22.1.0:
+      Successfully uninstalled attrs-22.1.0
+Successfully installed attrs-19.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (2.0.10)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (3.0.9)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from preshed<3.1.0,>=3.0.2) (1.0.11)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from preshed<3.1.0,>=3.0.2) (2.0.10)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: thinc<7.2.0,>=7.1.1 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (7.1.1)
+Requirement already satisfied: srsly<1.1.0,>=0.0.6 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (1.0.7)
+Requirement already satisfied: plac<1.0.0,>=0.9.6 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (0.9.6)
+Requirement already satisfied: preshed<3.1.0,>=1.0.1 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (3.0.9)
+Requirement already satisfied: tqdm<5.0.0,>=4.10.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (4.67.1)
+Requirement already satisfied: wasabi<1.1.0,>=0.0.9 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (0.10.1)
+Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (0.4.1)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (1.0.11)
+Requirement already satisfied: numpy>=1.7.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (1.21.6)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from thinc<7.2.0,>=7.1.1) (2.0.10)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: blis<0.5.0,>=0.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (0.4.1)
+Requirement already satisfied: numpy>=1.15.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from blis<0.5.0,>=0.4.0) (1.21.6)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (1.0.11)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: wasabi<1.1.0,>=0.2.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (0.10.1)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: srsly<1.1.0,>=0.1.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (1.0.7)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: numpy>=1.15.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (1.21.6)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (2.31.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0) (3.4.0)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0) (3.10)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0) (2022.12.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0) (2.0.7)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: plac<1.0.0,>=0.9.6 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (0.9.6)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py", line 278, in __init__
+    self._markers = _coerce_parse_result(MARKER.parseString(marker))
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 1141, in parse_string
+    raise exc.with_traceback(None)
+pip._vendor.pyparsing.exceptions.ParseException: Expected {Group:({'implementation_version' | 'platform_python_implementation' | 'implementation_name' | 'python_full_version' | 'platform_release' | 'platform_version' | 'platform_machine' | 'platform_system' | 'python_version' | 'sys_platform' | 'os_name' | 'os.name' | 'sys.platform' | 'platform.version' | 'platform.machine' | 'platform.python_implementation' | 'python_implementation' | 'extra'} | {string enclosed in "'" | string enclosed in '"'}} {'===' | '==' | '>=' | '<=' | '!=' | '~=' | '>' | '<' | 'not in' | 'in'} {{'implementation_version' | 'platform_python_implementation' | 'implementation_name' | 'python_full_version' | 'platform_release' | 'platform_version' | 'platform_machine' | 'platform_system' | 'python_version' | 'sys_platform' | 'os_name' | 'os.name' | 'sys.platform' | 'platform.version' | 'platform.machine' | 'platform.python_implementation' | 'python_implementation' | 'extra'} | {string enclosed in "'" | string enclosed in '"'}) | Group:({{Suppress:('(') : ...} Suppress:(')')})}, found '3'  (at char 17), (line:1, col:18)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/cli/req_command.py", line 247, in wrapper
+    return func(self, options, args)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/commands/install.py", line 344, in run
+    reqs = self.get_requirements(args, options, finder, session)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/cli/req_command.py", line 417, in get_requirements
+    config_settings=getattr(options, "config_settings", None),
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/req/constructors.py", line 393, in install_req_from_line
+    parts = parse_req_from_line(name, line_source)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_internal/req/constructors.py", line 297, in parse_req_from_line
+    markers = Marker(markers_as_string)
+  File "/opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py", line 281, in __init__
+    f"Invalid marker: {marker!r}, parse error at "
+pip._vendor.packaging.markers.InvalidMarker: Invalid marker: 'python_version < 3.4', parse error at '3.4'
+Requirement already satisfied: jsonschema<3.1.0,>=2.6.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (3.0.2)
+Requirement already satisfied: pyrsistent>=0.14.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0) (0.19.3)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0) (19.1.0)
+Requirement already satisfied: six>=1.11.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0) (1.16.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from jsonschema<3.1.0,>=2.6.0) (65.6.3)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: cython>=0.25 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (3.0.11)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest<4.1.0,>=4.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (4.0.2)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (1.4.1)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (1.16.0)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (1.0.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (19.1.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (9.1.0)
+Requirement already satisfied: setuptools in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (65.6.3)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest<4.1.0,>=4.0.0) (1.11.0)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pluggy>=0.7->pytest<4.1.0,>=4.0.0) (4.11.3)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest<4.1.0,>=4.0.0) (3.11.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest<4.1.0,>=4.0.0) (4.4.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: pytest-timeout<2.0.0,>=1.3.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (1.4.2)
+Requirement already satisfied: pytest>=3.6.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest-timeout<2.0.0,>=1.3.0) (4.0.2)
+Requirement already satisfied: setuptools in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (65.6.3)
+Requirement already satisfied: pluggy>=0.7 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.0.0)
+Requirement already satisfied: six>=1.10.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.16.0)
+Requirement already satisfied: more-itertools>=4.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (9.1.0)
+Requirement already satisfied: atomicwrites>=1.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.4.1)
+Requirement already satisfied: py>=1.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (1.11.0)
+Requirement already satisfied: attrs>=17.4.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (19.1.0)
+Requirement already satisfied: importlib-metadata>=0.12 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from pluggy>=0.7->pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (4.11.3)
+Requirement already satisfied: zipp>=0.5 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (3.11.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from importlib-metadata>=0.12->pluggy>=0.7->pytest>=3.6.0->pytest-timeout<2.0.0,>=1.3.0) (4.4.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: mock<3.0.0,>=2.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (2.0.0)
+Requirement already satisfied: pbr>=0.11 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from mock<3.0.0,>=2.0.0) (6.1.0)
+Requirement already satisfied: six>=1.9 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from mock<3.0.0,>=2.0.0) (1.16.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Requirement already satisfied: flake8<3.6.0,>=3.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (3.5.0)
+Requirement already satisfied: mccabe<0.7.0,>=0.6.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from flake8<3.6.0,>=3.5.0) (0.6.1)
+Requirement already satisfied: pycodestyle<2.4.0,>=2.0.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from flake8<3.6.0,>=3.5.0) (2.3.1)
+Requirement already satisfied: pyflakes<1.7.0,>=1.5.0 in /opt/conda/envs/2a711b5b8e08a3b9f0f7bb934c80a316/lib/python3.7/site-packages (from flake8<3.6.0,>=3.5.0) (1.6.0)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+   Running on module 0 (./errors.py)...
+   Running on module 1 (./cli/debug_data.py)...
+   Running on module 2 (./cli/validate.py)...
+   Running on module 3 (./cli/info.py)...
+   Running on module 4 (./cli/link.py)...
+   Running on module 5 (./cli/convert.py)...
+   Running on module 6 (./cli/download.py)...
+   Running on module 7 (./cli/pretrain.py)...
+   Running on module 8 (./cli/_schemas.py)...
+   Running on module 9 (./cli/train.py)...
+   Running on module 10 (./cli/profile.py)...
+   Running on module 11 (./cli/evaluate.py)...
+   Running on module 12 (./cli/package.py)...
+   Running on module 13 (./cli/converters/conll_ner2json.py)...
+   Running on module 14 (./cli/converters/jsonl2json.py)...
+   Running on module 15 (./cli/converters/conllu2json.py)...
+   Running on module 16 (./cli/converters/iob2json.py)...
+   Running on module 17 (./cli/init_model.py)...
+   Running on module 18 (./language.py)...
+   Running on module 19 (./__main__.py)...
+   Running on module 20 (./displacy/render.py)...
+   Running on module 21 (./displacy/templates.py)...
+   Running on module 22 (./tokens/underscore.py)...
+   Running on module 23 (./tokens/_serialize.py)...
+   Running on module 24 (./lang/ko/stop_words.py)...
+   Running on module 25 (./lang/ko/tag_map.py)...
+   Running on module 26 (./lang/ko/examples.py)...
+   Running on module 27 (./lang/ro/stop_words.py)...
+   Running on module 28 (./lang/ro/tokenizer_exceptions.py)...
+   Running on module 29 (./lang/ro/tag_map.py)...
+   Running on module 30 (./lang/ro/examples.py)...
+   Running on module 31 (./lang/ro/lex_attrs.py)...
+   Running on module 32 (./lang/he/stop_words.py)...
+   Running on module 33 (./lang/he/examples.py)...
+   Running on module 34 (./lang/is/stop_words.py)...
+   Running on module 35 (./lang/hr/stop_words.py)...
+   Running on module 36 (./lang/hr/examples.py)...
+   Running on module 37 (./lang/punctuation.py)...
+   Running on module 38 (./lang/si/stop_words.py)...
+   Running on module 39 (./lang/si/examples.py)...
+   Running on module 40 (./lang/si/lex_attrs.py)...
+   Running on module 41 (./lang/el/stop_words.py)...
+   Running on module 42 (./lang/el/punctuation.py)...
+   Running on module 43 (./lang/el/tag_map_general.py)...
+   Running on module 44 (./lang/el/tokenizer_exceptions.py)...
+   Running on module 45 (./lang/el/tag_map.py)...
+   Running on module 46 (./lang/el/syntax_iterators.py)...
+   Running on module 47 (./lang/el/examples.py)...
+   Running on module 48 (./lang/el/norm_exceptions.py)...
+   Running on module 49 (./lang/el/lex_attrs.py)...
+   Running on module 50 (./lang/el/lemmatizer/get_pos_from_wiktionary.py)...
+   Running on module 51 (./lang/kn/stop_words.py)...
+   Running on module 52 (./lang/sk/stop_words.py)...
+   Running on module 53 (./lang/bn/stop_words.py)...
+   Running on module 54 (./lang/bn/punctuation.py)...
+   Running on module 55 (./lang/bn/tokenizer_exceptions.py)...
+   Running on module 56 (./lang/bn/tag_map.py)...
+   Running on module 57 (./lang/bn/examples.py)...
+   Running on module 58 (./lang/bn/morph_rules.py)...
+   Running on module 59 (./lang/tokenizer_exceptions.py)...
+   Running on module 60 (./lang/ur/stop_words.py)...
+   Running on module 61 (./lang/ur/punctuation.py)...
+   Running on module 62 (./lang/ur/tag_map.py)...
+   Running on module 63 (./lang/ur/examples.py)...
+   Running on module 64 (./lang/ur/lex_attrs.py)...
+   Running on module 65 (./lang/fi/stop_words.py)...
+   Running on module 66 (./lang/fi/tokenizer_exceptions.py)...
+   Running on module 67 (./lang/fi/examples.py)...
+   Running on module 68 (./lang/fi/lex_attrs.py)...
+   Running on module 69 (./lang/sl/stop_words.py)...
+   Running on module 70 (./lang/lv/stop_words.py)...
+   Running on module 71 (./lang/tr/stop_words.py)...
+   Running on module 72 (./lang/tr/tokenizer_exceptions.py)...
+   Running on module 73 (./lang/tr/examples.py)...
+   Running on module 74 (./lang/tr/lex_attrs.py)...
+   Running on module 75 (./lang/bg/stop_words.py)...
+   Running on module 76 (./lang/bg/examples.py)...
+   Running on module 77 (./lang/tag_map.py)...
+   Running on module 78 (./lang/hu/stop_words.py)...
+   Running on module 79 (./lang/hu/punctuation.py)...
+   Running on module 80 (./lang/hu/tokenizer_exceptions.py)...
+   Running on module 81 (./lang/hu/examples.py)...
+   Running on module 82 (./lang/lt/stop_words.py)...
+   Running on module 83 (./lang/lt/tokenizer_exceptions.py)...
+   Running on module 84 (./lang/lt/tag_map.py)...
+   Running on module 85 (./lang/lt/examples.py)...
+   Running on module 86 (./lang/lt/lex_attrs.py)...
+   Running on module 87 (./lang/lt/morph_rules.py)...
+   Running on module 88 (./lang/it/stop_words.py)...
+   Running on module 89 (./lang/it/punctuation.py)...
+   Running on module 90 (./lang/it/tokenizer_exceptions.py)...
+   Running on module 91 (./lang/it/tag_map.py)...
+   Running on module 92 (./lang/it/examples.py)...
+   Running on module 93 (./lang/nb/stop_words.py)...
+   Running on module 94 (./lang/nb/punctuation.py)...
+   Running on module 95 (./lang/nb/tokenizer_exceptions.py)...
+   Running on module 96 (./lang/nb/tag_map.py)...
+   Running on module 97 (./lang/nb/syntax_iterators.py)...
+   Running on module 98 (./lang/nb/examples.py)...
+   Running on module 99 (./lang/nb/morph_rules.py)...
+   Running on module 100 (./lang/mr/stop_words.py)...
+   Running on module 101 (./lang/ja/stop_words.py)...
+   Running on module 102 (./lang/ja/tag_map.py)...
+   Running on module 103 (./lang/ja/examples.py)...
+   Running on module 104 (./lang/da/stop_words.py)...
+   Running on module 105 (./lang/da/punctuation.py)...
+   Running on module 106 (./lang/da/tokenizer_exceptions.py)...
+   Running on module 107 (./lang/da/examples.py)...
+   Running on module 108 (./lang/da/norm_exceptions.py)...
+   Running on module 109 (./lang/da/lex_attrs.py)...
+   Running on module 110 (./lang/da/morph_rules.py)...
+   Running on module 111 (./lang/ca/stop_words.py)...
+   Running on module 112 (./lang/ca/punctuation.py)...
+   Running on module 113 (./lang/ca/tokenizer_exceptions.py)...
+   Running on module 114 (./lang/ca/tag_map.py)...
+   Running on module 115 (./lang/ca/examples.py)...
+   Running on module 116 (./lang/ca/lex_attrs.py)...
+   Running on module 117 (./lang/af/stop_words.py)...
+   Running on module 118 (./lang/norm_exceptions.py)...
+   Running on module 119 (./lang/tl/stop_words.py)...
+   Running on module 120 (./lang/tl/tokenizer_exceptions.py)...
+   Running on module 121 (./lang/tl/lex_attrs.py)...
+   Running on module 122 (./lang/es/stop_words.py)...
+   Running on module 123 (./lang/es/tokenizer_exceptions.py)...
+   Running on module 124 (./lang/es/tag_map.py)...
+   Running on module 125 (./lang/es/syntax_iterators.py)...
+   Running on module 126 (./lang/es/examples.py)...
+   Running on module 127 (./lang/es/lex_attrs.py)...
+   Running on module 128 (./lang/th/stop_words.py)...
+   Running on module 129 (./lang/th/tokenizer_exceptions.py)...
+   Running on module 130 (./lang/th/tag_map.py)...
+   Running on module 131 (./lang/th/norm_exceptions.py)...
+   Running on module 132 (./lang/th/lex_attrs.py)...
+   Running on module 133 (./lang/de/stop_words.py)...
+   Running on module 134 (./lang/de/punctuation.py)...
+   Running on module 135 (./lang/de/tokenizer_exceptions.py)...
+   Running on module 136 (./lang/de/tag_map.py)...
+   Running on module 137 (./lang/de/syntax_iterators.py)...
+   Running on module 138 (./lang/de/examples.py)...
+   Running on module 139 (./lang/de/norm_exceptions.py)...
+   Running on module 140 (./lang/cs/stop_words.py)...
+   Running on module 141 (./lang/ga/irish_morphology_helpers.py)...
+   Running on module 142 (./lang/ga/stop_words.py)...
+   Running on module 143 (./lang/ga/tokenizer_exceptions.py)...
+   Running on module 144 (./lang/ga/tag_map.py)...
+   Running on module 145 (./lang/ta/stop_words.py)...
+   Running on module 146 (./lang/ta/examples.py)...
+   Running on module 147 (./lang/ta/norm_exceptions.py)...
+   Running on module 148 (./lang/ta/lex_attrs.py)...
+   Running on module 149 (./lang/pl/stop_words.py)...
+   Running on module 150 (./lang/pl/punctuation.py)...
+   Running on module 151 (./lang/pl/tokenizer_exceptions.py)...
+   Running on module 152 (./lang/pl/_tokenizer_exceptions_list.py)...
+   Running on module 153 (./lang/pl/tag_map.py)...
+   Running on module 154 (./lang/pl/examples.py)...
+   Running on module 155 (./lang/pl/lex_attrs.py)...
+   Running on module 156 (./lang/fa/stop_words.py)...
+   Running on module 157 (./lang/fa/punctuation.py)...
+   Running on module 158 (./lang/fa/tokenizer_exceptions.py)...
+   Running on module 159 (./lang/fa/tag_map.py)...
+   Running on module 160 (./lang/fa/syntax_iterators.py)...
+   Running on module 161 (./lang/fa/examples.py)...
+   Running on module 162 (./lang/fa/lex_attrs.py)...
+   Running on module 163 (./lang/fa/lemmatizer/generate_verbs_exc.py)...
+   Running on module 164 (./lang/uk/stop_words.py)...
+   Running on module 165 (./lang/uk/tokenizer_exceptions.py)...
+   Running on module 166 (./lang/uk/tag_map.py)...
+   Running on module 167 (./lang/uk/examples.py)...
+   Running on module 168 (./lang/uk/lemmatizer.py)...
+   Running on module 169 (./lang/uk/lex_attrs.py)...
+   Running on module 170 (./lang/sr/stop_words.py)...
+   Running on module 171 (./lang/sr/tokenizer_exceptions.py)...
+   Running on module 172 (./lang/sr/examples.py)...
+   Running on module 173 (./lang/sr/norm_exceptions.py)...
+   Running on module 174 (./lang/sr/lex_attrs.py)...
+   Running on module 175 (./lang/hi/stop_words.py)...
+   Running on module 176 (./lang/hi/examples.py)...
+   Running on module 177 (./lang/hi/lex_attrs.py)...
+   Running on module 178 (./lang/en/stop_words.py)...
+   Running on module 179 (./lang/en/tokenizer_exceptions.py)...
+   Running on module 180 (./lang/en/tag_map.py)...
+   Running on module 181 (./lang/en/syntax_iterators.py)...
+   Running on module 182 (./lang/en/examples.py)...
+   Running on module 183 (./lang/en/norm_exceptions.py)...
+   Running on module 184 (./lang/en/lex_attrs.py)...
+   Running on module 185 (./lang/en/morph_rules.py)...
+   Running on module 186 (./lang/ru/stop_words.py)...
+   Running on module 187 (./lang/ru/tokenizer_exceptions.py)...
+   Running on module 188 (./lang/ru/tag_map.py)...
+   Running on module 189 (./lang/ru/examples.py)...
+   Running on module 190 (./lang/ru/norm_exceptions.py)...
+   Running on module 191 (./lang/ru/lemmatizer.py)...
+   Running on module 192 (./lang/ru/lex_attrs.py)...
+   Running on module 193 (./lang/sv/stop_words.py)...
+   Running on module 194 (./lang/sv/tokenizer_exceptions.py)...
+   Running on module 195 (./lang/sv/tag_map.py)...
+   Running on module 196 (./lang/sv/examples.py)...
+   Running on module 197 (./lang/sv/morph_rules.py)...
+   Running on module 198 (./lang/tt/stop_words.py)...
+   Running on module 199 (./lang/tt/punctuation.py)...
+   Running on module 200 (./lang/tt/tokenizer_exceptions.py)...
+   Running on module 201 (./lang/tt/examples.py)...
+   Running on module 202 (./lang/tt/lex_attrs.py)...
+   Running on module 203 (./lang/te/stop_words.py)...
+   Running on module 204 (./lang/te/examples.py)...
+   Running on module 205 (./lang/te/lex_attrs.py)...
+   Running on module 206 (./lang/lex_attrs.py)...
+   Running on module 207 (./lang/zh/stop_words.py)...
+   Running on module 208 (./lang/zh/tag_map.py)...
+   Running on module 209 (./lang/zh/examples.py)...
+   Running on module 210 (./lang/zh/lex_attrs.py)...
+   Running on module 211 (./lang/sq/stop_words.py)...
+   Running on module 212 (./lang/sq/examples.py)...
+   Running on module 213 (./lang/ar/stop_words.py)...
+   Running on module 214 (./lang/ar/punctuation.py)...
+   Running on module 215 (./lang/ar/tokenizer_exceptions.py)...
+   Running on module 216 (./lang/ar/examples.py)...
+   Running on module 217 (./lang/ar/lex_attrs.py)...
+   Running on module 218 (./lang/et/stop_words.py)...
+   Running on module 219 (./lang/id/stop_words.py)...
+   Running on module 220 (./lang/id/punctuation.py)...
+   Running on module 221 (./lang/id/tokenizer_exceptions.py)...
+   Running on module 222 (./lang/id/_tokenizer_exceptions_list.py)...
+   Running on module 223 (./lang/id/tag_map.py)...
+   Running on module 224 (./lang/id/syntax_iterators.py)...
+   Running on module 225 (./lang/id/examples.py)...
+   Running on module 226 (./lang/id/norm_exceptions.py)...
+   Running on module 227 (./lang/id/lex_attrs.py)...
+   Running on module 228 (./lang/pt/stop_words.py)...
+   Running on module 229 (./lang/pt/punctuation.py)...
+   Running on module 230 (./lang/pt/tokenizer_exceptions.py)...
+   Running on module 231 (./lang/pt/tag_map.py)...
+   Running on module 232 (./lang/pt/examples.py)...
+   Running on module 233 (./lang/pt/norm_exceptions.py)...
+   Running on module 234 (./lang/pt/lex_attrs.py)...
+   Running on module 235 (./lang/fr/stop_words.py)...
+   Running on module 236 (./lang/fr/punctuation.py)...
+   Running on module 237 (./lang/fr/tokenizer_exceptions.py)...
+   Running on module 238 (./lang/fr/_tokenizer_exceptions_list.py)...
+   Running on module 239 (./lang/fr/tag_map.py)...
+   Running on module 240 (./lang/fr/syntax_iterators.py)...
+   Running on module 241 (./lang/fr/examples.py)...
+   Running on module 242 (./lang/fr/lex_attrs.py)...
+   Running on module 243 (./lang/vi/stop_words.py)...
+   Running on module 244 (./lang/vi/tag_map.py)...
+   Running on module 245 (./lang/vi/lex_attrs.py)...
+   Running on module 246 (./lang/char_classes.py)...
+   Running on module 247 (./lang/nl/stop_words.py)...
+   Running on module 248 (./lang/nl/punctuation.py)...
+   Running on module 249 (./lang/nl/tokenizer_exceptions.py)...
+   Running on module 250 (./lang/nl/tag_map.py)...
+   Running on module 251 (./lang/nl/examples.py)...
+   Running on module 252 (./lang/nl/lex_attrs.py)...
+   Running on module 253 (./util.py)...
+   Running on module 254 (./compat.py)...
+   Running on module 255 (./pipeline/functions.py)...
+   Running on module 256 (./pipeline/entityruler.py)...
+   Running on module 257 (./pipeline/hooks.py)...
+   Running on module 258 (./about.py)...
+   Running on module 259 (./lookups.py)...
+   Running on module 260 (./lemmatizer.py)...
+   Running on module 261 (./matcher/_schemas.py)...
+   Running on module 262 (./_ml.py)...
+   Running on module 263 (./scorer.py)...
+   Running on module 264 (./glossary.py)...

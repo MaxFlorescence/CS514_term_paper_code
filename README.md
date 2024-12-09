@@ -40,4 +40,3 @@ BugsInPy_repo Dataset” https://doi.org/10.1109/SCAM59687.2023.00036
 - [Summer2023Redistricting_repo/collect_results.sh](Summer2023Redistricting_repo/collect_results.sh)
 - [Summer2023Redistricting_repo/collect.sh](Summer2023Redistricting_repo/collect.sh)
 - [Summer2023Redistricting_repo/collect_results.sh](Summer2023Redistricting_repo/collect_results.sh)
-- [Summer2023Redistricting_repo/make_suite.sh](Summer2023Redistricting_repo/make_suite.sh)
